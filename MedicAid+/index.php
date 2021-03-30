@@ -60,24 +60,24 @@
       </ul>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="Image/Blood222.jpg" alt="Los Angeles" width="1100" height="500">
+          <img src="Image/blood11.jpg" alt="Los Angeles" width="1100" height="500">
           <div class="carousel-caption">
             <h1 class="text-white display-6 font-weight-bold">Blood Donation</h1>
-            <p class="text-body font-weight-bold">Anybody can give blood!</p>
+            <p class="text-white font-weight-bold">Anybody can give blood!</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="Image/Plasma11.jpg" alt="Chicago" width="1100" height="500">
+          <img src="Image/Plasma2.jpg" alt="Chicago" width="1100" height="500">
           <div class="carousel-caption">
             <h1 class="text-white display-6 font-weight-bold">Plasma Donation</h1>
-            <p>Thank you, Chicago!</p>
+            <p class="text-white font-weight-bold">Thank you, Chicago!</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="Image/Volunteer1.jpg" alt="New York" width="1100" height="500">
+          <img src="Image/vn1.jpg" alt="New York" width="1100" height="500">
           <div class="carousel-caption">
-            <h3>Platelets</h3>
-            <p>We love the Big Apple!</p>
+            <h1 class="text-white display-6 font-weight-bold">Volunteer</h1>
+            <p class="text-white font-weight-bold">We love the Big Apple!</p>
           </div>
         </div>
       </div>
@@ -89,9 +89,19 @@
       </a>
     </div>
     <section>
-      <div class="container_fluid">
+      <div class="container-fluid">
         <h1 class="text-center text-dark text-capitalize pt-5">About Us</h1>
-        <hr class="w-25">
+        <hr class="w-25 pt-5">
+        <div class="row mb-5">
+          <div class="col-lg-6 col-md-6 col-12">
+            <img src="Image/bloodn.jpg" class="img-fluid">
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <h1 class="text-dark">Ramisa</h1>
+            <p class="text-dark">Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked by lush greenery and many waterways. Its Padma (Ganges), Meghna and Jamuna rivers create fertile plains, and travel by boat is common. On the southern coast, the Sundarbans, an enormous mangrove forest shared with Eastern India, is home to the royal Bengal tiger.</p>
+            <button class="btn bg-primary text-white">More</button>
+      </div>
+      </div>
     </section>
   </body>
 </html>
