@@ -4,7 +4,7 @@
 
     <div class="col-sm-5">
       <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Dhaka, Bangladesh</p>
       <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
       <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
     </div>
@@ -27,7 +27,7 @@
         </div>
       </div>
 
-      <img src="map.jpg" style="width:100%">
+ <img src="map.jpg" style="width:100%">
     </div>
   </div>
 </div>
