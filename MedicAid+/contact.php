@@ -9,11 +9,11 @@
 					<form>
 
 					  <div class="form-group">
-						  <input type="name" class="form-control" id="exampleInputName" placeholder="Your Full Name...">
+						  <input type="name" class="form-control" id="exampleInputName" placeholder="Full Name...">
 					  </div>
 
             <div class="form-group">
-						  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email Address...">
+						  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address...">
 					  </div>
 
 					  <div class="form-group">
@@ -31,6 +31,7 @@
 					  <button type="submit" class="btn btn-warning btn-lg btn-block">Submit</button>
 					</form>
 			  </div>
+
 			  <div  class="col-md-6">
           <h5>Address: <small class="text-muted">Venkatadri IT Park, HP Avenue, Konnappana, Electronic city, Bengaluru, Karnataka 560069</small></h5>
           <h5>Email: <small class="text-muted">hire@luxurytaxicab.com</small></h5>
