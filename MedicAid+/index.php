@@ -14,7 +14,6 @@
   <body>
     <header>
       <?php include 'header.php';?>
-    
     </header>
     <div id="demo" class="carousel slide" data-ride="carousel">
       <ul class="carousel-indicators">
@@ -24,21 +23,21 @@
       </ul>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="Image/Blood2.jpg" alt="Los Angeles" width="1100" height="500">
+          <img src="Image/Blood22.jpg" alt="Los Angeles" width="1100" height="500">
           <div class="carousel-caption">
-            <h3>Blood Donation</h3>
-            <p>We had such a great time in LA!</p>
+            <h1 class="text-white display-3 font-weight-bold">Blood Donation</h1>
+            <p class="text-body font-weight-bold">Anybody can give blood!</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="Image/blood.jpg" alt="Chicago" width="1100" height="500">
+          <img src="Image/Plasma1.jpg" alt="Chicago" width="1100" height="500">
           <div class="carousel-caption">
-            <h3>Plasma Donation</h3>
+            <h1 class="text-white display-3 font-weight-bold">Plasma Donation</h1>
             <p>Thank you, Chicago!</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="Image/download.jpg" alt="New York" width="1100" height="500">
+          <img src="Image/Blood2.jpg" alt="New York" width="1100" height="500">
           <div class="carousel-caption">
             <h3>Platelets</h3>
             <p>We love the Big Apple!</p>
