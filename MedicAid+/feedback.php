@@ -26,6 +26,8 @@
           <button class="btn btn-default pull-right" type="submit">Send</button>
         </div>
       </div>
+
+      <img src="map.jpg" style="width:100%">
     </div>
   </div>
 </div>
