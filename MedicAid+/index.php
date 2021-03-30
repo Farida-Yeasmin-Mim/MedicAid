@@ -60,7 +60,7 @@
       </ul>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="Image/blood.jpg" alt="Los Angeles" width="1100" height="500">
+          <img src="Image/Blood2.jpg" alt="Los Angeles" width="1100" height="500">
           <div class="carousel-caption">
             <h3>Blood Donation</h3>
             <p>We had such a great time in LA!</p>
