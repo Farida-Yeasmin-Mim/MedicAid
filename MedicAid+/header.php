@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="CSS/header.css">
   </head>
   <body>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
   <a class="navbar-brand" href="#">
     <img src="Image/Main Logo.jpg" alt="Logo" style="width:153px"></a>
@@ -31,18 +32,10 @@
       <li class="nav-item">
         <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">About Us</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" style="font-size:23px; font-weight:bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          More
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Blood</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Plasma</a>
-          <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Platelets</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">More</a>
       </li>
+
 
     </ul>
     <form class="form-inline my-2 my-lg-0">
