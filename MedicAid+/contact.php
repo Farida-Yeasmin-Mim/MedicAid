@@ -7,19 +7,24 @@
 			<div class="row">
 				<div class="col-md-6">
 					<form>
+
 					  <div class="form-group">
 						  <input type="name" class="form-control" id="exampleInputName" placeholder="Your Full Name...">
 					  </div>
+
             <div class="form-group">
 						  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email Address...">
 					  </div>
+
 					  <div class="form-group">
-              <select class="form-control" id="exampleFormControlSelect1" placeholder="Select Services...">
-                <option>Corporate</option>
-                <option>Wedding</option>
-                <option>Pickup</option>
+              <select class="form-control" id="exampleFormControlSelect1" placeholder="Select Country...">
+                <option>Bangladesh</option>
+                <option>America</option>
+                <option>China</option>
+                <option>Singapore</option>
               </select>
 					  </div>
+
             <div class="form-group">
               <textarea class="form-control" aria-label="With textarea"></textarea>
             </div>
