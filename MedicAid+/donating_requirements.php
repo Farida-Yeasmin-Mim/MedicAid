@@ -9,6 +9,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+body {
+  background-image: url('Image/h.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
   </head>
   <body>
     <header>
@@ -53,11 +62,11 @@
     </header>
 <!-- Background Section-->
 <div class="container">
-  <div class="container-fluid">
-    <h1 class="text-center text-dark text-capitalize pt-5">Donating Criteria</h1>
+  <div class="container-fluid ">
+    <h1 class="text-center text-light text-capitalize pt-5">Donating Criteria</h1>
     <hr class="w-25 pt-5">
   </div>
-  <div class="btn-group-vertical w-100">
+  <div class="btn-group-vertical mb-5 w-100">
     <div class="btn-group">
       <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
       Age
@@ -148,58 +157,126 @@
 </div>
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
-    Cancer
+    Dental Procedures
   </button>
   <div class="dropdown-menu w-100">
-    <span class="dropdown-item-text"></span>
+    <span class="dropdown-item-text">Acceptable after dental procedures as long as there is no infection present. Wait until finishing antibiotics for a dental infection. Wait for 3 days after having oral surgery.</span>
   </div>
 </div>
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
-    Blood Transfusion
+    Diabetes
   </button>
   <div class="dropdown-menu w-100">
-    <span class="dropdown-item-text"></span>
+    <span class="dropdown-item-text">Diabetics who are well controlled on insulin or oral medications are eligible to donate.</span>
   </div>
 </div>
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
-    Cancer
+    Heart Disease
   </button>
   <div class="dropdown-menu w-100">
-    <span class="dropdown-item-text"></span>
+    <span class="dropdown-item-text">In general, acceptable as long as you have been medically evaluated and treated, have no current (within the last 6 months) heart related symptoms such as chest pain and have no limitations or restrictions on your normal daily activities.</span>
   </div>
 </div>
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
-    Blood Transfusion
+    Hepatitis, Jaundice
   </button>
   <div class="dropdown-menu w-100">
-    <span class="dropdown-item-text"></span>
+    <span class="dropdown-item-text">If you have signs or symptoms of hepatitis (inflammation of the liver) caused by a virus, or unexplained jaundice (yellow discoloration of the skin), you are not eligible to donate blood. If you ever tested positive for hepatitis B or hepatitis C, at any age, you are not eligible to donate, even if you were never sick or jaundiced from the infection.</span>
   </div>
 </div>
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
-    Cancer
+    HIV, AIDS
   </button>
   <div class="dropdown-menu w-100">
-    <span class="dropdown-item-text"></span>
+    <span class="dropdown-item-text">You should not give blood if you have AIDS or have ever had a positive HIV test, or if you have done something that puts you at risk for becoming infected with HIV.</span>
   </div>
 </div>
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
-    Blood Transfusion
+    Hormone Replacement Therapy (HRT)
   </button>
   <div class="dropdown-menu w-100">
-    <span class="dropdown-item-text"></span>
+    <span class="dropdown-item-text">Women on hormone replacement therapy for menopausal symptoms and prevention of osteoporosis are eligible to donate.</span>
   </div>
 </div>
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
-    Cancer
+    Infections
   </button>
   <div class="dropdown-menu w-100">
-    <span class="dropdown-item-text"></span>
+    <span class="dropdown-item-text">If you have a fever or an active infection, wait until the infection has resolved completely before donating blood.</span>
+  </div>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+    Insulin
+  </button>
+  <div class="dropdown-menu w-100">
+    <span class="dropdown-item-text">Donors with diabetes who take any kind if insulin are eligible to donate as long as their diabetes is well controlled.</span>
+  </div>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+    Malaria
+  </button>
+  <div class="dropdown-menu w-100">
+    <span class="dropdown-item-text">If you have traveled or lived in a malaria-risk country, we may require a waiting period before you can donate blood.
+
+Wait 3 years after completing treatment for malaria.
+Wait 3 months after returning from a trip to an area where malaria is found.
+Wait 3 years after living more than 5 years in a country or countries where malaria is found. </span>
+  </div>
+</div><div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+    Medications
+  </button>
+  <div class="dropdown-menu w-100">
+    <span class="dropdown-item-text">In almost all cases, medications will not disqualify you as a blood donor. Your eligibility will be based on the reason that the medication was prescribed. As long as the condition is under control and you are healthy, blood donation is usually permitted.</span>
+  </div>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+    Organ/Tissue Transplants
+  </button>
+  <div class="dropdown-menu w-100">
+    <span class="dropdown-item-text">Wait 3 months after receiving any type of organ transplant from another person. If you ever received a dura mater (brain covering) transplant, you are not eligible to donate. </span>
+  </div>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+    Pregnancy, Nursing
+  </button>
+  <div class="dropdown-menu w-100">
+    <span class="dropdown-item-text">Persons who are pregnant are not eligible to donate. Wait 6 weeks after giving birth.</span>
+  </div>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+    Skin Disease, Rash, Acne
+  </button>
+  <div class="dropdown-menu w-100">
+    <span class="dropdown-item-text">Acceptable as long as the skin over the vein to be used to collect blood is not affected. If the skin disease has become infected, wait until the infection has cleared before donating. Taking antibiotics to control acne does not disqualify you from donating.</span>
+  </div>
+</div>
+
+<div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+    Tattoo
+  </button>
+  <div class="dropdown-menu w-100">
+    <span class="dropdown-item-text">Wait 3 months after a tattoo if the tattoo was applied in a state that does not regulate tattoo facilities. </span>
+  </div>
+</div>
+<div class="btn-group">
+  <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+  Weight/Height
+  </button>
+  <div class="dropdown-menu w-100">
+    <span class="dropdown-item-text">You must weigh at least 110 lbs to be eligible for blood donation for your own safety. Students who donate at high school drives and donors 18 years of age or younger must also meet additional height and weight requirements for whole blood donation (applies to girls shorter than 5'6" and boys shorter than 5').</span>
   </div>
 </div>
 
