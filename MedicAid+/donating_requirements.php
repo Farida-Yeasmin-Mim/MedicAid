@@ -12,7 +12,7 @@
 
   <style>
 body {
-  background-image: url('Image/h.jpg');
+  background-image: url('Image/last.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -63,7 +63,7 @@ body {
 <!-- Background Section-->
 <div class="container">
   <div class="container-fluid ">
-    <h1 class="text-center text-light text-capitalize pt-5">Donating Criteria</h1>
+    <h1 class="text-center text-dark text-capitalize pt-5">Donating Criteria</h1>
     <hr class="w-25 pt-5">
   </div>
   <div class="btn-group-vertical mb-5 w-100">
