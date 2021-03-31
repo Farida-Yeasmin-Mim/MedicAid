@@ -27,20 +27,26 @@
           <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
+          <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Donation</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Ambulance</a>
+        </li>
+        <li class="nav-item active">
           <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Volunteer</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">About Us</a>
+          <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Log In</a>
         </li>
         <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" style="font-size:23px; font-weight:bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
+          More
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Sign Up</a>
+          <a class="dropdown-item" href="donating_requirements.php">Donating Criteria</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">Contact Us</a>
         </div>
       </li>
 
