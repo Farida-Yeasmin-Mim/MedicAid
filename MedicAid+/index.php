@@ -42,6 +42,7 @@
         <a class="nav-link dropdown-toggle" style="font-size:23px; font-weight:bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           More
         </a>
+
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Sign Up</a>
           <a class="dropdown-item" href="donating_requirements.php">Donating Criteria</a>
@@ -58,6 +59,7 @@
     </div>
   </nav>
     </header>
+
     <div id="demo" class="carousel slide" data-ride="carousel">
       <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>
