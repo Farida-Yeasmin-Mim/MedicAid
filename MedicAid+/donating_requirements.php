@@ -67,7 +67,7 @@ body {
     <h1 class="text-center text-dark text-capitalize pt-5">Donating Criteria</h1>
     <hr class="w-25 pt-5">
   </div>
-  
+
   <div class="w-25 mx-auto">
   <div class="btn-group-vertical mb-5">
     <div class="btn-group">
@@ -78,6 +78,7 @@ body {
         <span class="dropdown-item-text">You must be at least 18 years old to donate to the general blood supply. There is no upper age limit for blood donation as long as you are well with no restrictions or limitations to your activities.</span>
       </div>
     </div>
+
       <div class="btn-group">
       <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
         Allergy
@@ -86,6 +87,7 @@ body {
         <span class="dropdown-item-text">Acceptable as long as you feel well, have no fever, and have no problems breathing through your mouth.</span>
       </div>
     </div>
+
     <div class="btn-group">
       <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
         Antibiotics
@@ -94,6 +96,7 @@ body {
         <span class="dropdown-item-text">A donor with an acute infection should not donate. The reason for antibiotic use must be evaluated to determine if the donor has a bacterial infection that could be transmissible by blood. Acceptable after finishing oral antibiotics for an infection (bacterial or viral). May have taken last pill on the date of donation. Antibiotic by injection for an infection acceptable 10 days after last injection. Acceptable if you are taking antibiotics to prevent an infection for the following reasons: acne, chronic prostatitis, peptic ulcer disease, periodontal disease, pre-dental work, rosacea, ulcerative colitis, after a splenectomy or valvular heart disease. If you have a temperature above 99.5 F, you may not donate.</span>
       </div>
     </div>
+
     <div class="btn-group">
     <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
       Aspirin
@@ -102,6 +105,7 @@ body {
       <span class="dropdown-item-text">Aspirin, no waiting period for donating whole blood. However, you must wait 2 full days after taking aspirin or any medication containing aspirin before donating platelets by apheresis.</span>
     </div>
   </div>
+
   <div class="btn-group">
     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
       Asthma
@@ -110,6 +114,7 @@ body {
       <span class="dropdown-item-text">Acceptable as long as you do not have any limitations on daily activities and are not having difficulty breathing at the time of donation and you otherwise feel well. Medications for asthma do not disqualify you from donating.</span>
     </div>
   </div>
+
   <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     Birth Control
@@ -118,6 +123,7 @@ body {
     <span class="dropdown-item-text">Women on oral contraceptives or using other forms of birth control are eligible to donate.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
     Blood Pressure-High
@@ -126,6 +132,7 @@ body {
     <span class="dropdown-item-text">Acceptable as long as your blood pressure is below 180 systolic (first number) and below 100 diastolic (second number) at the time of donation. Medications for high blood pressure do not disqualify you from donating.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     Blood Pressure-Low
@@ -134,6 +141,7 @@ body {
     <span class="dropdown-item-text">Acceptable as long as you feel well when you come to donate, and your blood pressure is at least 90/50 (systolic/diastolic).</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
     Blood Transfusion
