@@ -66,7 +66,8 @@ body {
     <h1 class="text-center text-dark text-capitalize pt-5">Donating Criteria</h1>
     <hr class="w-25 pt-5">
   </div>
-  <div class="btn-group-vertical mb-5 w-100">
+  <div class="w-25 mx-auto">
+  <div class="btn-group-vertical mb-5">
     <div class="btn-group">
       <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
       Age
@@ -284,6 +285,7 @@ Wait 3 years after living more than 5 years in a country or countries where mala
 
     </div>
   </div>
+</div>
 </div>
 
   </body>
