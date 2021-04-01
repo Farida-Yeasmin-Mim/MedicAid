@@ -105,9 +105,9 @@
           <div class="col-lg-6 col-md-6 col-12">
             <img src="Image/bloodn.jpg" class="img-fluid">
         </div>
-        
+
         <div class="col-lg-6 col-md-6 col-12">
-          <h1 class="text-dark">Ramisa</h1>
+          <h1 class="text-dark">MedicAid+</h1>
             <p class="text-dark">Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked by lush greenery and many waterways. Its Padma (Ganges), Meghna and Jamuna rivers create fertile plains, and travel by boat is common. On the southern coast, the Sundarbans, an enormous mangrove forest shared with Eastern India, is home to the royal Bengal tiger.</p>
             <button class="btn bg-primary text-white">More</button>
       </div>
