@@ -13,6 +13,7 @@
   </head>
 
   <body>
+
     <footer class="text-center text-white" style="background-color: #caced1;">
   <!-- Grid container -->
   <div class="container p-4">
@@ -220,7 +221,7 @@
         <div class="row">
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
+            <h5 class="text-uppercase">About Us</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
@@ -241,7 +242,7 @@
 
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
+            <h5 class="text-uppercase">Contact</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
@@ -262,7 +263,7 @@
 
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
+            <h5 class="text-uppercase">Service</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
@@ -283,7 +284,7 @@
 
           <!--Grid column-->
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
+            <h5 class="text-uppercase">Activity</h5>
 
             <ul class="list-unstyled mb-0">
               <li>
@@ -312,7 +313,7 @@
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2021 Copyright :
-      <a class="text-white" href="https://mdbootstrap.com/">MedicAid+</a>
+      <a class="text-white" href="https://mdbootstrap.com/">MedicAid+, All Rights Reserved</a>
     </div>
     <!-- Copyright -->
   </footer>
