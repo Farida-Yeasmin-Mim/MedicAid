@@ -16,7 +16,7 @@
       <hr class="w-25 pt-4">
       <div class="w-25 mx-auto">
         <form action="/action_page.php">
-          
+
   <div class="form-group">
     <label for="email">Email address:</label>
     <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
