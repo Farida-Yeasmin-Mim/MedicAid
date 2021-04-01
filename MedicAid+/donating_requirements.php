@@ -150,6 +150,7 @@ body {
     <span class="dropdown-item-text">Wait for 3 months after receiving a blood transfusion from another person in the United States.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     Cancer
@@ -158,6 +159,7 @@ body {
     <span class="dropdown-item-text">Eligibility depends on the type of cancer and treatment history. If you had leukemia or lymphoma, including Hodgkin’s Disease and other cancers of the blood, you are not eligible to donate. Other types of cancer are acceptable if the cancer has been treated successfully and it has been more than 12 months since treatment was completed and there has been no cancer recurrence in this time.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
     Cold, Flu
@@ -166,6 +168,7 @@ body {
     <span class="dropdown-item-text">Wait if you have a fever or a productive cough (bringing up phlegm). Wait if you do not feel well on the day of donation. Wait until you have completed antibiotic treatment for sinus, throat or lung infection.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     Dental Procedures
@@ -174,6 +177,7 @@ body {
     <span class="dropdown-item-text">Acceptable after dental procedures as long as there is no infection present. Wait until finishing antibiotics for a dental infection. Wait for 3 days after having oral surgery.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
     Diabetes
@@ -182,6 +186,7 @@ body {
     <span class="dropdown-item-text">Diabetics who are well controlled on insulin or oral medications are eligible to donate.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     Heart Disease
@@ -190,6 +195,7 @@ body {
     <span class="dropdown-item-text">In general, acceptable as long as you have been medically evaluated and treated, have no current (within the last 6 months) heart related symptoms such as chest pain and have no limitations or restrictions on your normal daily activities.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
     Hepatitis, Jaundice
@@ -198,6 +204,7 @@ body {
     <span class="dropdown-item-text">If you have signs or symptoms of hepatitis (inflammation of the liver) caused by a virus, or unexplained jaundice (yellow discoloration of the skin), you are not eligible to donate blood. If you ever tested positive for hepatitis B or hepatitis C, at any age, you are not eligible to donate, even if you were never sick or jaundiced from the infection.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     HIV, AIDS
@@ -206,6 +213,7 @@ body {
     <span class="dropdown-item-text">You should not give blood if you have AIDS or have ever had a positive HIV test, or if you have done something that puts you at risk for becoming infected with HIV.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
     Hormone Replacement Therapy (HRT)
@@ -214,6 +222,7 @@ body {
     <span class="dropdown-item-text">Women on hormone replacement therapy for menopausal symptoms and prevention of osteoporosis are eligible to donate.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     Infections
@@ -222,6 +231,7 @@ body {
     <span class="dropdown-item-text">If you have a fever or an active infection, wait until the infection has resolved completely before donating blood.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
     Insulin
@@ -230,6 +240,7 @@ body {
     <span class="dropdown-item-text">Donors with diabetes who take any kind if insulin are eligible to donate as long as their diabetes is well controlled.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     Malaria
