@@ -44,6 +44,7 @@ body {
         <a class="nav-link dropdown-toggle" style="font-size:23px; font-weight:bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
         </a>
+
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Action</a>
           <a class="dropdown-item" href="#">Another action</a>
@@ -66,6 +67,7 @@ body {
     <h1 class="text-center text-dark text-capitalize pt-5">Donating Criteria</h1>
     <hr class="w-25 pt-5">
   </div>
+  
   <div class="w-25 mx-auto">
   <div class="btn-group-vertical mb-5">
     <div class="btn-group">
