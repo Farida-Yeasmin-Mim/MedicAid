@@ -23,8 +23,7 @@
         <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
           <div
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
-            data-ripple-color="light"
-          >
+            data-ripple-color="light">
             <img src="Image/footer1.jpg" class="w-100"/>
             <a href="#!">
               <div
@@ -67,7 +66,7 @@
           <div
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light">
-            <img src="Image/footer1.jpg" class="w-100"/>
+            <img src="Image/footer4.jpg" class="w-100"/>
             <a href="#!">
               <div
                 class="mask"
@@ -94,8 +93,7 @@
         <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
           <div
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
-            data-ripple-color="light"
-          >
+            data-ripple-color="light">
             <img src="Image/footer6.jpg" class="w-100"/>
             <a href="#!">
               <div
@@ -120,34 +118,28 @@
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-facebook-f"></i></a>
 
         <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-twitter"></i></a>
 
         <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-google"></i
-        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-google"></i></a>
 
         <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-instagram"></i></a>
 
         <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-linkedin-in"></i></a>
 
         <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+          <i class="fab fa-github"></i></a>
       </section>
       <!-- Section: Social media -->
 
