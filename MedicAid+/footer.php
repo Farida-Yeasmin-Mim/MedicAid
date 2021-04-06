@@ -25,10 +25,7 @@
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light"
           >
-            <img
-              src="https://mdbootstrap.com/img/new/fluid/city/113.jpg"
-              class="w-100"
-            />
+            <img src="Image/footer1.jpg" class="w-100"/>
             <a href="#!">
               <div
                 class="mask"
@@ -37,13 +34,12 @@
             </a>
           </div>
         </div>
+
         <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
           <div
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light">
-            <img
-              src="https://mdbootstrap.com/img/new/fluid/city/111.jpg"
-              class="w-100"/>
+            <img src="Image/footer3.jpg" class="w-100"/>
             <a href="#!">
               <div
                 class="mask"
@@ -52,13 +48,12 @@
             </a>
           </div>
         </div>
+
         <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
           <div
             class="bg-image hover-overlay ripple shadow-1-strong rounded"
             data-ripple-color="light">
-            <img
-              src="https://mdbootstrap.com/img/new/fluid/city/112.jpg"
-              class="w-100"/>
+            <img src="Image/footer3.jpg" class="w-100"/>
             <a href="#!">
               <div
                 class="mask"
