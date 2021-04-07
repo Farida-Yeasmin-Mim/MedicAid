@@ -1,5 +1,21 @@
+.background-image: {
+ 
+  background-image: url("blood222.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-font-size: 12px;
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
     position: relative;   
     z-index: 2;
 }
@@ -12,12 +28,10 @@ font-size: 12px;
     left: 0;
     z-index: 1;
 }
+.btn-google {
+    color: #545454;
+    background-color: #ffffff;
+    font-style: "Product Sans"
+    box-shadow: 0 1px 2px 1px #ddd
+}
 
-.btn-facebook {
-    background-color: #405D9D;
-    color: #fff;
-}
-.btn-twitter {
-    background-color: #42AEEC;
-    color: #fff;
-}
