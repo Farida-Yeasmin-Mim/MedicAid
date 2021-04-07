@@ -22,10 +22,11 @@
 
 <div class="card bg-light">
 <article class="card-body mx-auto" style="max-width: 400px;">
-	<h4 class="card-title mt-3 text-center">Sign-Up</h4>
+	<h4 class="card-title mt-3 text-center">SIGN-UP</h4>
 	<p class="text-center">Get started with your free account</p>
 	<p>
-		<a class="btn btn-lg btn-google btn-block btn-outline " href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> Sign in with Google</a>
+		<a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i>   Login via Twitter</a>
+		<a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>   Login via facebook</a>
 	</p>
 	<p class="divider-text">
         <span class="bg-light">OR</span>
@@ -55,7 +56,7 @@
     </div> <!-- form-group// -->
     <div class="form-group input-group">
     	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-medkit"></i> </span>
+		    <span class="input-group-text"> <i class="fa fa-building"></i> </span>
 		</div>
 		<select class="form-control">
 			<option selected=""> Select Blood Group</option>
@@ -95,7 +96,7 @@
 <br><br>
 <article class="bg-secondary mb-3">  
 <div class="card-body text-center">
-     <img src="Image/Main Logo.jpg" alt="Logo" style="width:149px"></a>
+    <h3 class="text-white mt-3">MedicAid+</h3>
 <p class="h5 text-white">Health Comes First </p>   <br>
 
 
