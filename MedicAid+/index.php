@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>MedicAid+</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -42,6 +42,7 @@
         <a class="nav-link dropdown-toggle" style="font-size:23px; font-weight:bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           More
         </a>
+
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Sign Up</a>
           <a class="dropdown-item" href="donating_requirements.php">Donating Criteria</a>
@@ -58,6 +59,7 @@
     </div>
   </nav>
     </header>
+
     <div id="demo" class="carousel slide" data-ride="carousel">
       <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -95,6 +97,7 @@
       </a>
     </div>
     <section>
+
       <div class="container-fluid">
         <h1 class="text-center text-dark text-capitalize pt-5">About Us</h1>
         <hr class="w-25 pt-5">
@@ -102,9 +105,12 @@
           <div class="col-lg-6 col-md-6 col-12">
             <img src="Image/bloodn.jpg" class="img-fluid">
         </div>
+
         <div class="col-lg-6 col-md-6 col-12">
-          <h1 class="text-dark">"A small act of kindness that does great and big wonders"</h1>
+
+          <h1 class="text-dark">MedicAid+</h1>
             <p class="text-dark">Thousands of people just like you provide compassionate care to those in need. We roll up our sleeves and donate time, money and blood. We teach life-saving skills so our communities can be better prepared when the need arises and we do this every day because Medicare is needed each and every day.</p>
+
             <button class="btn bg-primary text-white">More</button>
       </div>
       </div>

@@ -12,7 +12,7 @@
 
   <style>
 body {
-  background-image: url('Image/h.jpg');
+  background-image: url('Image/last.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -44,6 +44,7 @@ body {
         <a class="nav-link dropdown-toggle" style="font-size:23px; font-weight:bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
         </a>
+
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Action</a>
           <a class="dropdown-item" href="#">Another action</a>
@@ -63,10 +64,12 @@ body {
 <!-- Background Section-->
 <div class="container">
   <div class="container-fluid ">
-    <h1 class="text-center text-light text-capitalize pt-5">Donating Criteria</h1>
+    <h1 class="text-center text-dark text-capitalize pt-5">Donating Criteria</h1>
     <hr class="w-25 pt-5">
   </div>
-  <div class="btn-group-vertical mb-5 w-100">
+
+  <div class="w-25 mx-auto">
+  <div class="btn-group-vertical mb-5">
     <div class="btn-group">
       <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
       Age
@@ -75,6 +78,7 @@ body {
         <span class="dropdown-item-text">You must be at least 18 years old to donate to the general blood supply. There is no upper age limit for blood donation as long as you are well with no restrictions or limitations to your activities.</span>
       </div>
     </div>
+
       <div class="btn-group">
       <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
         Allergy
@@ -83,6 +87,7 @@ body {
         <span class="dropdown-item-text">Acceptable as long as you feel well, have no fever, and have no problems breathing through your mouth.</span>
       </div>
     </div>
+
     <div class="btn-group">
       <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
         Antibiotics
@@ -91,6 +96,7 @@ body {
         <span class="dropdown-item-text">A donor with an acute infection should not donate. The reason for antibiotic use must be evaluated to determine if the donor has a bacterial infection that could be transmissible by blood. Acceptable after finishing oral antibiotics for an infection (bacterial or viral). May have taken last pill on the date of donation. Antibiotic by injection for an infection acceptable 10 days after last injection. Acceptable if you are taking antibiotics to prevent an infection for the following reasons: acne, chronic prostatitis, peptic ulcer disease, periodontal disease, pre-dental work, rosacea, ulcerative colitis, after a splenectomy or valvular heart disease. If you have a temperature above 99.5 F, you may not donate.</span>
       </div>
     </div>
+
     <div class="btn-group">
     <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
       Aspirin
@@ -99,6 +105,7 @@ body {
       <span class="dropdown-item-text">Aspirin, no waiting period for donating whole blood. However, you must wait 2 full days after taking aspirin or any medication containing aspirin before donating platelets by apheresis.</span>
     </div>
   </div>
+
   <div class="btn-group">
     <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
       Asthma
@@ -107,6 +114,7 @@ body {
       <span class="dropdown-item-text">Acceptable as long as you do not have any limitations on daily activities and are not having difficulty breathing at the time of donation and you otherwise feel well. Medications for asthma do not disqualify you from donating.</span>
     </div>
   </div>
+
   <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     Birth Control
@@ -115,6 +123,7 @@ body {
     <span class="dropdown-item-text">Women on oral contraceptives or using other forms of birth control are eligible to donate.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
     Blood Pressure-High
@@ -123,6 +132,7 @@ body {
     <span class="dropdown-item-text">Acceptable as long as your blood pressure is below 180 systolic (first number) and below 100 diastolic (second number) at the time of donation. Medications for high blood pressure do not disqualify you from donating.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     Blood Pressure-Low
@@ -131,6 +141,7 @@ body {
     <span class="dropdown-item-text">Acceptable as long as you feel well when you come to donate, and your blood pressure is at least 90/50 (systolic/diastolic).</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
     Blood Transfusion
@@ -139,6 +150,7 @@ body {
     <span class="dropdown-item-text">Wait for 3 months after receiving a blood transfusion from another person in the United States.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     Cancer
@@ -147,6 +159,7 @@ body {
     <span class="dropdown-item-text">Eligibility depends on the type of cancer and treatment history. If you had leukemia or lymphoma, including Hodgkin’s Disease and other cancers of the blood, you are not eligible to donate. Other types of cancer are acceptable if the cancer has been treated successfully and it has been more than 12 months since treatment was completed and there has been no cancer recurrence in this time.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
     Cold, Flu
@@ -155,6 +168,7 @@ body {
     <span class="dropdown-item-text">Wait if you have a fever or a productive cough (bringing up phlegm). Wait if you do not feel well on the day of donation. Wait until you have completed antibiotic treatment for sinus, throat or lung infection.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     Dental Procedures
@@ -163,6 +177,7 @@ body {
     <span class="dropdown-item-text">Acceptable after dental procedures as long as there is no infection present. Wait until finishing antibiotics for a dental infection. Wait for 3 days after having oral surgery.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
     Diabetes
@@ -171,6 +186,7 @@ body {
     <span class="dropdown-item-text">Diabetics who are well controlled on insulin or oral medications are eligible to donate.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     Heart Disease
@@ -179,6 +195,7 @@ body {
     <span class="dropdown-item-text">In general, acceptable as long as you have been medically evaluated and treated, have no current (within the last 6 months) heart related symptoms such as chest pain and have no limitations or restrictions on your normal daily activities.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
     Hepatitis, Jaundice
@@ -187,6 +204,7 @@ body {
     <span class="dropdown-item-text">If you have signs or symptoms of hepatitis (inflammation of the liver) caused by a virus, or unexplained jaundice (yellow discoloration of the skin), you are not eligible to donate blood. If you ever tested positive for hepatitis B or hepatitis C, at any age, you are not eligible to donate, even if you were never sick or jaundiced from the infection.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     HIV, AIDS
@@ -195,6 +213,7 @@ body {
     <span class="dropdown-item-text">You should not give blood if you have AIDS or have ever had a positive HIV test, or if you have done something that puts you at risk for becoming infected with HIV.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
     Hormone Replacement Therapy (HRT)
@@ -203,6 +222,7 @@ body {
     <span class="dropdown-item-text">Women on hormone replacement therapy for menopausal symptoms and prevention of osteoporosis are eligible to donate.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     Infections
@@ -211,6 +231,7 @@ body {
     <span class="dropdown-item-text">If you have a fever or an active infection, wait until the infection has resolved completely before donating blood.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
     Insulin
@@ -219,6 +240,7 @@ body {
     <span class="dropdown-item-text">Donors with diabetes who take any kind if insulin are eligible to donate as long as their diabetes is well controlled.</span>
   </div>
 </div>
+
 <div class="btn-group">
   <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
     Malaria
@@ -284,6 +306,7 @@ Wait 3 years after living more than 5 years in a country or countries where mala
 
     </div>
   </div>
+</div>
 </div>
 
   </body>
