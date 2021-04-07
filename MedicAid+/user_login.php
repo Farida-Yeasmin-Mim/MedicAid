@@ -28,7 +28,10 @@
   </div>
 
   <div class="col-md-12 text-center">
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary w-50">Login</button>
+  <hr>
+  <button type="submit" class="btn btn-danger ">Sign Up</button>
+  <button type="submit" class="btn btn-danger">Login With Google</button>
 </div>
 
 </form>
