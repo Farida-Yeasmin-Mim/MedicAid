@@ -32,6 +32,6 @@ VALUES ('$dbfname','$dblname','$dbemail');";
       // execute query
       mysqli_query($conn, $sql);
 
-	header('Location: login_pass.php');
+	header("Location: login_pass.php?id=$dbemail");
 	exit();
 ?>
