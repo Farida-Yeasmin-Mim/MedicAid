@@ -19,18 +19,19 @@ include 'connection.php';
 
 	$_SESSION['id'] = $userData['id'];
 	$_SESSION['email'] = $userData['email'];
-	$_SESSION['gender'] = $userData['gender'];
-	$_SESSION['picture'] = $userData['picture'];
 	$_SESSION['familyName'] = $userData['familyName'];
 	$_SESSION['givenName'] = $userData['givenName'];
 
-	$dbname=$userData['email'];
 
-	$sql = "INSERT INTO user(email)
-VALUES ('$dbname');";
+	$dbfname = $userData['givenName'];
+	$dblname = $userData['familyName'];
+	$dbemail=$userData['email'];
+
+	$sql = "INSERT INTO user(first_name,last_name,email)
+VALUES ('$dbfname','$dblname','$dbemail');";
       // execute query
       mysqli_query($conn, $sql);
 
-	header('Location: in.php');
+	header('Location: login_pass.php');
 	exit();
 ?>
