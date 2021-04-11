@@ -16,8 +16,8 @@
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
    <link rel="stylesheet" href="CSS/signup.css">
    <body>
-
-   	<div class="container">
+   <div class="backgroung Image">
+          <img src="Image/blood11.jpg" alt="Los Angeles" width="1100" height="500">
 <div class="card bg-light">
 <article class="card-body mx-auto" style="max-width: 400px;">
 	<h4 class="card-title mt-3 text-center">Sign-Up</h4>
