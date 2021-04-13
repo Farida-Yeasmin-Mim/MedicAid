@@ -2,38 +2,20 @@
   // Create database connection
   include 'connection.php';
 
-$username =  $_GET['id'];
+$useremail =  $_GET['id'];
 
 
 if (isset($_POST['log_in'])) {
-    // Set variables to represent data from database
-    $dbUsname = strip_tags($_POST['username']);
-$dbEmail = strip_tags($_POST['email']);
+
 $dbpass = strip_tags($_POST['password']);
 
-
-    $sql = "SELECT User_Name, Email, Password FROM user";
-$result = mysqli_query($conn,$sql);
-
-if (mysqli_num_rows($result) > 0) {
-  // output data of each row
-  while($row = mysqli_fetch_assoc($result)) {
-    $UserName= $row["User_Name"];
-    $Email= $row["Email"] ;
-    $Pass= $row["Password"] ;
-    // Check if the username and the password they entered was correct
-    if ($UserName == $dbUsname && $Email == $dbEmail && $Pass == $dbpass) {
-  header("Location: user_profile.php?id=$UserName");
-    } else {
-    // Display the alert box
-    echo "<script>
-  alert('Invalid Input!');
-  window.location.href='user_login.php';
-  </script>";
-}
-
-  }
-}
+$sql = "UPDATE user
+SET password='$dbpass'
+WHERE email='$useremail' ";
+// execute query
+mysqli_query($conn, $sql);
+header('Location: user_login.php');
+exit();
 
 }
 
@@ -58,15 +40,15 @@ if (mysqli_num_rows($result) > 0) {
       <h1 class="text-center text-dark text-capitalize pt-5">Login</h1>
       <hr class="w-25 pt-4">
       <div class="w-25 mx-auto">
-        <form action="login_passs.php">
+        <form action="login_pass.php?id=<?php echo $useremail?>" id="loginform" method="POST">
 
   <div class="form-group">
     <label for="pwd">Set Password:</label>
-    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+    <input type="password" name="password" class="form-control" placeholder="Enter password" id="pwd">
   </div>
 
   <div class="col-md-12 text-center">
-  <button type="submit" class="btn btn-primary w-50">Login</button>
+  <button type="submit" name="log_in" form="loginform" class="btn btn-primary w-50">Login</button>
 </div>
 
 </form>
@@ -74,6 +56,6 @@ if (mysqli_num_rows($result) > 0) {
 
       </div>
     </div>
-<h1> Login Succcessfully <?php echo $username?></h1>
+<h1> Login Succcessfully <?php echo $useremail?></h1>
   </body>
 </html>
