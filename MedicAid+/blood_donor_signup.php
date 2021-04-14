@@ -35,7 +35,14 @@ window.location.href='blood_donor_signup.php';
  $sql="INSERT INTO blood_donor(full_name, email, contact_number, gender, age, blood_group, division, address, password)
 VALUES ('$dbfname','$dbemail','$dbcontact','$dbgender','$dbage','$dbbgroup','$dbdivision','$dbaddress','$dbpassword')";
 mysqli_query($conn, $sql);
-header("Location: user_login.php");
+
+$sql = "SELECT blood_donor_id
+FROM blood_donor
+WHERE email='$dbemail'";
+$result = mysqli_query($conn,$sql);
+$row = mysqli_fetch_assoc($result);
+$dbid= $row["blood_donor_id"];
+header("Location: user_profile.php?id=$dbid");
 
 }
 
