@@ -13,7 +13,6 @@ $dbdivision = mysqli_real_escape_string($conn, $_POST['division']);
 $dbaddress = mysqli_real_escape_string($conn, $_POST['address']);
 $dbpassword = mysqli_real_escape_string($conn, $_POST['password']);
 
-//INSERT INTO `user`( `User_Name`, `First_Name`, `Last_Name`, `Date_of_birth`, `Country`, `Contact_Number`, `Email`, `Password`, `Premium_ID`) VALUES ([value-1],[value-2],[value-3],[value-4],[value-5],[value-6],[value-7],[value-8],[value-9],[value-10])
 $sql = "SELECT email FROM blood_donor";
 $result = mysqli_query($conn,$sql);
 
@@ -25,7 +24,7 @@ $dbbemail= $row["email"];
 if ($dbbemail == $dbemail) {
   echo "<script>
 alert('Same User Name Exist! Try Another User Name');
-window.location.href='user_signup.php';
+window.location.href='blood_donor_signup.php';
 </script>";
   exit();
 
@@ -54,28 +53,30 @@ header("Location: user_login.php");
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <!--script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script-->
-
    </head>
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
    <link rel="stylesheet" href="CSS/signup.css">
    <body>
-
+     <div class="card bg-dark text-white">
+         <img class="card-img" src="Image/signup.jpg" alt="Card image">
+       <div class="card-img-overlay">
+     <article class="card-body mx-auto" style="max-width: 450px;">
 
 
 <div class="card bg-light">
 <article class="card-body mx-auto" style="max-width: 400px;">
   <div class="container-fluid">
     <h2 class="text-center text-dark text-capitalize pt-4">Blood Donor Sign Up</h2>
-	<p class="text-center">Get started with your free account</p>
+	<p class="text-center text-dark">Get started with your free account</p>
 	<p>
 
 	<a class="btn btn-lg btn-google btn-block btn-outline " href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> Sign in with Google</a>
 
 	</p>
-	<p class="divider-text">
+	<p class="divider-text text-dark">
         <span class="bg-light">OR</span>
     </p>
-	<form action="user_signup.php" id="signform" method="POST">
+	<form action="blood_donor_signup.php" id="signform" method="POST">
 	<div class="form-group input-group">
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
@@ -162,7 +163,7 @@ header("Location: user_login.php");
     <div class="form-group">
         <button type="submit" name="signup" form="signform" class="btn btn-primary btn-block"> Create Account  </button>
     </div>
-    <p class="text-center">Have an account? <a href="">Log In</a> </p>
+    <p class="text-center text-primary">Have an account? <a href="">Log In</a> </p>
 </form>
 </article>
 </div>
@@ -170,18 +171,7 @@ header("Location: user_login.php");
 </div>
 
 
-<br><br>
-<article class="bg-secondary mb-3">
-<div class="card-body text-center">
-    <img src="Image/Main Logo.jpg" alt="Logo" style="width:149px"></a>
-<p class="h5 text-white">"Health Comes First" </p>
 
-
-  <br>
-
-
-</div>
-<br><br>
 </article>
 </nav>
 </turna>
