@@ -1,10 +1,26 @@
 
 Project Goals and Objectives
 The goals and objectives of the Medicare+ are as follows:
-1. To provide a means to publicize and advertise blood donation
-programs.
-2. To allow the probable recipients to make search e volunteer donors, and
+1. To provide a means to get blood. Provide blood donation facilities.
+
+2. To allow the probable recipients to make search volunteer donors, and
 make request for the blood.
 3. To provide an efficient donor by recording the donor and blood details.
 4. To provide synchronized and centralized donor and blood stock database.
 6. To provide immediate storage and retrieval of data and information. 
+
+
+Functional Requirements
+1. Login/ Signup
+2. Donor profile/ registration
+3. Stock Management
+4.Donating Criteria
+5.Contact us
+6.Map
+
+Non functional Requirements
+1. Availability
+2. Security
+3. Performance
+4. Reliability
+
