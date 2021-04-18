@@ -53,7 +53,7 @@
     <section id="best-features" class="text-center">
 
         <!-- Heading -->
-        <h2 class="mb-5 font-weight-bold">Best Features</h2>
+        <h2 class="mb-5 font-weight-bold">Volunteering with the MedicAid: By the Numbers</h2>
 
         <!--Grid row-->
         <div class="row d-flex justify-content-center mb-4">
@@ -307,22 +307,23 @@
 
                 <!--Excerpt-->
                 <a href="" class="teal-text">
-                    <h6 class="pb-1"><i class="fa fa-heart"></i><strong> Lifestyle </strong></h6>
+                    <h6 class="pb-1"><i class="fa fa-heart"></i><strong> Major </strong></h6>
                 </a>
-                <h4 class="mb-3"><strong>This is title of the news</strong></h4>
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
-                    quod maxime
-                    placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut
-                    officiis
-                    debitis aut rerum.</p>
+                <h4 class="mb-3"><strong>Important Notice Regarding COVID-19</strong></h4>
+                <p>The MedicAid is closely monitoring the outbreak of coronavirus disease 2019 (COVID-19) and
+                  preparing to carry out our lifesaving mission in the event of any possible disruptions, as well as supporting
+                  public health agencies to help communities prepare.</p>
 
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id
-                    quod maxime
-                    placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut
-                    officiis
-                    debitis aut rerum.</p>
-                <p>by <a><strong>Jessica Clark</strong></a>, 26/08/2016</p>
-                <a class="btn btn-primary btn-md">Read more</a>
+                <p>Our need for volunteers is constant and continues to evolve as we navigate this health crisis.
+                Please rest assured that we are working with public health officials to help keep local communities and
+                our volunteer safe. Volunteer opportunities include supporting blood donations and delivering much-needed
+                services to your community. We even have a wide variety of remote (work-from-home) opportunities available. </p>
+
+                <p>MedicAid has an ongoing critical need for blood and platelet donations amidst coronavirus
+                  uncertainties.</p>
+
+                <p>by <a><strong>Jessica Clark</strong></a>, 18/04/2021</p>
+                <a class="btn btn-primary btn-md">Explore</a>
 
             </div>
             <!--Grid column-->
