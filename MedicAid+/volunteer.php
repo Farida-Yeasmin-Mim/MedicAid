@@ -16,13 +16,9 @@
 
 <!--Mask-->
 <div id="intro" class="view">
-
     <div class="mask rgba-black-strong">
-
         <div class="container-fluid d-flex align-items-center justify-content-center h-100">
-
             <div class="row d-flex justify-content-center text-center">
-
                 <div class="col-md-10">
 
                     <!-- Heading -->
@@ -33,13 +29,9 @@
                     <h4 class="text-white my-4">Your time and talent can make a real difference in people’s lives.</h4>
 
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </div>
 <!--/.Mask-->
 
@@ -243,18 +235,17 @@
 
     <hr class="my-5">
 
+
+
+
     <!--Section: Gallery-->
     <section id="gallery">
-
         <!-- Heading -->
         <h2 class="mb-5 font-weight-bold text-center">Gallery heading</h2>
-
         <!--Grid row-->
         <div class="row">
-
             <!--Grid column-->
             <div class="col-md-6 mb-4">
-
                 <!--Carousel Wrapper-->
                 <div id="carousel-example-1z" class="carousel slide carousel-fade carousel-fade" data-ride="carousel">
                     <!--Indicators-->
@@ -266,18 +257,21 @@
                     <!--/.Indicators-->
                     <!--Slides-->
                     <div class="carousel-inner z-depth-1-half" role="listbox">
+
                         <!--First slide-->
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
                                 alt="First slide">
                         </div>
                         <!--/First slide-->
+
                         <!--Second slide-->
                         <div class="carousel-item">
                             <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
                                 alt="Second slide">
                         </div>
                         <!--/Second slide-->
+
                         <!--Third slide-->
                         <div class="carousel-item">
                             <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
@@ -286,6 +280,7 @@
                         <!--/Third slide-->
                     </div>
                     <!--/.Slides-->
+
                     <!--Controls-->
                     <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -296,11 +291,14 @@
                         <span class="sr-only">Next</span>
                     </a>
                     <!--/.Controls-->
+
                 </div>
                 <!--/.Carousel Wrapper-->
-
             </div>
             <!--Grid column-->
+
+
+
 
             <!--Grid column-->
             <div class="col-md-6">
@@ -327,12 +325,13 @@
 
             </div>
             <!--Grid column-->
-
         </div>
         <!--Grid row-->
-
     </section>
     <!--Section: Gallery-->
+
+
+
 
     <hr class="my-5">
 
