@@ -25,29 +25,55 @@ body {
                 </header>
 
     <div class="container-fluid ">
-      <h1 class="text-center text-dark text-capitalize pt-5">Login</h1>
+      <div class="row mb-5">
+        <div class="col-lg-6 col-md-6 col-12">
+
+
+
+      <h1 class="text-center text-dark text-capitalize pt-5">Varification</h1>
       <hr class="w-25 pt-4">
-      <div class="w-25 mx-auto">
+
         <form action="/action_page.php">
 
   <div class="form-group">
     <label for="email">Enter you phone number: </label>
-    <input type="text" id="number" class="form-control" placeholder="+880__________" autocomplete="off">
+    <input type="text" id="number" class="form-control" placeholder="+880**********" autocomplete="off">
     <p>A code will send to this number</P>
   </div>
 <div id="recaptcha-container"></div>
 
-
+<br>
   <div class="col-md-12 text-center">
   <button type="button" onclick="phoneAuth();" class="btn btn-primary w-50">Send Varification Code</button>
-  <hr>
 </div>
 
 </form>
+</div>
+
+<div class="col-lg-6 col-md-6 col-12">
+<h1 class="text-center text-dark text-capitalize pt-5">Enter Varification Code</h1>
+<hr class="w-25 pt-4">
+<form action="/action_page.php">
+
+<div class="form-group">
+<label for="email">Enter your code: </label>
+<input type="text" id="verificationCode" class="form-control" placeholder="******" autocomplete="off">
+
+</div>
+
+<br>
+<div class="col-md-12 text-center">
+<button type="button" onclick="codeverify();" class="btn btn-primary w-50">Send Varification Code</button>
+</div>
+
+</form>
+</div>
+</div>
 
 
 
-      </div>
+
+
     </div>
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
