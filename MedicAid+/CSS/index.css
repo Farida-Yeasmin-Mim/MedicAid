@@ -1,11 +1,10 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");  /*for fb,insta etc logo*/
 
 .carousel-inner img {
     width: 100%;
     height: 100%;
   }
-  h1{
-    color: #ffff;
-  }
+  
   li a:hover:not(.active) {
     background-color: #bfbbbb;
 
