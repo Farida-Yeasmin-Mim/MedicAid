@@ -45,7 +45,7 @@
     <section id="best-features" class="text-center">
 
         <!-- Heading -->
-        <h2 class="mb-5 font-weight-bold">Volunteering with the MedicAid: By the Numbers</h2>
+        <h1 class="mb-5 font-weight-bold">Volunteering with the MedicAid: By the Numbers</h1>
 
         <!--Grid row-->
         <div class="row d-flex justify-content-center mb-4">
@@ -70,19 +70,24 @@
         <div class="row">
 
             <!--Grid column-->
-            <div class="col-md-4 mb-5">
-                <i class="fa fa-camera-retro fa-4x text-orange"></i>
+            <div class="col-md-2 mb-2">
+                <i class="fa fa-user-md fa-4x text-orange"></i>
                 <h4 class="my-4 font-weight-bold">Experience</h4>
-                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                    maiores nam,
-                    aperiam minima
-                    assumenda deleniti hic.</p>
+                <p class="grey-text">Volunteers help respond to an average of more than <strong>60,000</strong> disasters every year</p>
             </div>
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col-md-4 mb-1">
-                <i class="fa fa-heart fa-4x orange-text"></i>
+            <div class="col-md-2 mb-1">
+                <i class="fa fa-tint fa-4x orange-text" style="color:red"></i>
+                <h4 class="my-4 font-weight-bold">Happiness</h4>
+                <p class="grey-text">More than <strong><font color="blue"> 15,000</strong>  volunteers support MedicAid Blood service</p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-3 mb-1">
+                <i class="fa fa-stethoscope fa-4x orange-text"></i>
                 <h4 class="my-4 font-weight-bold">Happiness</h4>
                 <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
                     maiores nam,
@@ -92,9 +97,20 @@
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col-md-4 mb-1">
-                <i class="fa fa-bicycle fa-4x orange-text"></i>
-                <h4 class="my-4 font-weight-bold">Adventure</h4>
+            <div class="col-md-3 mb-1">
+                <i class="fa fa-ambulance fa-4x orange-text" style="color:red"></i>
+                <h4 class="my-4 font-weight-bold">Ambulance</h4>
+                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
+                    maiores nam,
+                    aperiam minima
+                    assumenda deleniti hic.</p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-2 mb-1">
+                <i class="fa fa-ambulance fa-4x orange-text"></i>
+                <h4 class="my-4 font-weight-bold">Ambulance</h4>
                 <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
                     maiores nam,
                     aperiam minima
