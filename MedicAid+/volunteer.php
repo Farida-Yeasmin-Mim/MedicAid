@@ -71,50 +71,41 @@
 
             <!--Grid column-->
             <div class="col-md-2 mb-2">
-                <i class="fa fa-user-md fa-4x text-orange"></i>
-                <h4 class="my-4 font-weight-bold">Experience</h4>
+                <i class="fa fa-user-md fa-5x text-orange"></i>
+                <h4 class="my-4 font-weight-bold">Respond</h4>
                 <p class="grey-text">Volunteers help respond to an average of more than <strong>60,000</strong> disasters every year</p>
             </div>
             <!--Grid column-->
 
             <!--Grid column-->
             <div class="col-md-2 mb-1">
-                <i class="fa fa-tint fa-4x orange-text" style="color:red"></i>
-                <h4 class="my-4 font-weight-bold">Happiness</h4>
-                <p class="grey-text">More than <strong><font color="blue"> 15,000</strong>  volunteers support MedicAid Blood service</p>
+                <i class="fa fa-tint fa-5x orange-text" style="color:red"></i>
+                <h4 class="my-4 font-weight-bold">Blood</h4>
+                <p class="grey-text">More than <strong>15,000</strong>  volunteers support MedicAid Blood service</p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-3 mb-2">
+                <i class="fa fa-stethoscope fa-5x orange-text"></i>
+                <h4 class="my-4 font-weight-bold">Nursing</h4>
+                <p class="grey-text">More than <strong>10,000</strong> nurses & nursing students volunteer</p>
             </div>
             <!--Grid column-->
 
             <!--Grid column-->
             <div class="col-md-3 mb-1">
-                <i class="fa fa-stethoscope fa-4x orange-text"></i>
-                <h4 class="my-4 font-weight-bold">Happiness</h4>
-                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                    maiores nam,
-                    aperiam minima
-                    assumenda deleniti hic.</p>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-3 mb-1">
-                <i class="fa fa-ambulance fa-4x orange-text" style="color:red"></i>
+                <i class="fa fa-ambulance fa-5x orange-text" style="color:red"></i>
                 <h4 class="my-4 font-weight-bold">Ambulance</h4>
-                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                    maiores nam,
-                    aperiam minima
-                    assumenda deleniti hic.</p>
+                <p class="grey-text">More than <strong>5,000</strong> Ambulance waites to hand over patients to the hospital</p>
             </div>
             <!--Grid column-->
 
             <!--Grid column-->
             <div class="col-md-2 mb-1">
-                <i class="fa fa-ambulance fa-4x orange-text"></i>
-                <h4 class="my-4 font-weight-bold">Ambulance</h4>
-                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                    maiores nam,
-                    aperiam minima
-                    assumenda deleniti hic.</p>
+                <i class="fa fa-male fa-5x orange-text"></i>
+                <h4 class="my-4 font-weight-bold">Volunteer</h4>
+                <p class="grey-text"><strong>25%</strong> of volunteers are aged 24 or younger</p>
             </div>
             <!--Grid column-->
 
@@ -329,14 +320,12 @@
                   public health agencies to help communities prepare.</p>
 
                 <p>Our need for volunteers is constant and continues to evolve as we navigate this health crisis.
-                Please rest assured that we are working with public health officials to help keep local communities and
-                our volunteer safe. Volunteer opportunities include supporting blood donations and delivering much-needed
-                services to your community. We even have a wide variety of remote (work-from-home) opportunities available. </p>
+                We even have a wide variety of remote (work-from-home) opportunities available. </p>
 
                 <p>MedicAid has an ongoing critical need for blood and platelet donations amidst coronavirus
                   uncertainties.</p>
 
-                <p>by <a><strong>Jessica Clark</strong></a>, 18/04/2021</p>
+                <p>by <a><strong>Farida Yeasmin</strong></a>, 18/04/2021</p>
                 <a class="btn btn-primary btn-md">Explore</a>
 
             </div>
