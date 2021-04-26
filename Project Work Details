@@ -1,1 +1,72 @@
+Kazi Ramisa Rifa (1911019642):
+
+-index.php/html/css  page: 
+medicaid+ logo design,
+header design,
+carousel design and picture editing,
+about us design
+header css adding
+carousel css adding
+
+-header.php/html/css page:
+header design and link adding
+
+-donating_requirements.php/html page:
+full page design
+
+-Google API:
+login with google API system
+
+-user_login.php/html page:
+full page design
+
+-login_pass.php/html page:
+full page design
+password setting
+
+-g-callback.php page:
+created for login with google API system
+
+-config.php page:
+created for login with google API system
+
+-database creation
+user table
+donor table
+volunteer table
+
+-connection.php page:
+connecting to database
+
+-user_profile.php/html page:
+information showing
+
+-Number Authentication:
+phone code sending system for login varification
+
+-blood_donor_signup.php/html:
+update design
+saving data to database
+
+-Survey questions:
+some survey question adding 
+
+-stakeholders:
+
+-testing:
+google api works
+
+-bug fixed:
+blood_donor_signup.php/html page 
+can't sign up without filling the form
+can't sign up with used email
+
+
+
+
+
+
+
+
+
 
