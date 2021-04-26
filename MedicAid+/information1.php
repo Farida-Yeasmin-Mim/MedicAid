@@ -80,7 +80,7 @@ For platelets, the apheresis machine will collect a small amount of blood, remov
 After donating blood, you’ll have a snack and something to drink in the refreshment area.<br>
 You’ll leave after 10-15 minutes and continue your normal routine.<br>
 Enjoy the feeling of accomplishment knowing you are helping to save lives.<br>
-Take a selfie, or simply share your good deed with friends. It may inspire them to become blood donors.
+Take a selfie, or simply share your good deed with friends. It may inspire them to become blood donors.<br>
   </p>
     </div>
 
