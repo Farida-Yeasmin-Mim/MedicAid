@@ -62,7 +62,7 @@
       <p> Whole Blood Donation:<br>
 Whole blood is the most flexible type of donation. It can be transfused in its original form, or used to help multiple people when separated into its specific components of red cells, plasma and platelets.<br>
 
-Who it helps: Whole blood is frequently given to trauma patients and people undergoing surgery.<br>
+Who it helps: Whole blood is frequently given to trauma patients and people undergoing surgeries.<br>
 
 Time it takes: About 1 hour<br>
 
