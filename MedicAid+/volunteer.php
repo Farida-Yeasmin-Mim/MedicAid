@@ -15,17 +15,14 @@
 
 
 <!--Mask-->
-<div id="intro" class="view">
+<div id="main" class="view">
     <div class="mask rgba-black-strong">
-        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+        <div class="container-fluid d-flex align-items-center justify-content-center h-80">
             <div class="row d-flex justify-content-center text-center">
                 <div class="col-md-10">
 
-                    <!-- Heading -->
                     <h2 class="display-4 font-weight-bold text-white pt-5 mb-2">Become a Volunteer</h2>
 
-
-                    <!-- Description -->
                     <h4 class="text-white my-4">Your time and talent can make a real difference in people’s lives.</h4>
 
                 </div>
@@ -247,8 +244,7 @@
 
     <!--Section: Gallery-->
     <section id="gallery">
-        <!-- Heading -->
-        <h2 class="mb-5 font-weight-bold text-center">Gallery heading</h2>
+
         <!--Grid row-->
         <div class="row">
             <!--Grid column-->
@@ -267,21 +263,21 @@
 
                         <!--First slide-->
                         <div class="carousel-item active">
-                            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
+                            <img class="d-block w-100" src="https://media-eng.dhakatribune.com/uploads/2020/03/bigstock-coronavirus-ncov-wuhan-350328775-1585308800936.jpg"
                                 alt="First slide">
                         </div>
                         <!--/First slide-->
 
                         <!--Second slide-->
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
+                            <img class="d-block w-100" src="https://www.unaids.org/sites/default/files/Screenshot-2021-02-02-100646_960_0.jpg"
                                 alt="Second slide">
                         </div>
                         <!--/Second slide-->
 
                         <!--Third slide-->
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+                            <img class="d-block w-100" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/52E3/production/_118091212_918f0058-6bf7-4933-8787-9138ca2c498a.jpg"
                                 alt="Third slide">
                         </div>
                         <!--/Third slide-->
@@ -317,9 +313,7 @@
                 <h4 class="mb-3"><strong>Important Notice Regarding COVID-19</strong></h4>
                 <p>The MedicAid is closely monitoring the outbreak of coronavirus disease 2019 (COVID-19) and
                   preparing to carry out our lifesaving mission in the event of any possible disruptions, as well as supporting
-                  public health agencies to help communities prepare.</p>
-
-                <p>Our need for volunteers is constant and continues to evolve as we navigate this health crisis.
+                  public health agencies to help communities prepare.Our need for volunteers is constant and continues to evolve as we navigate this health crisis.
                 We even have a wide variety of remote (work-from-home) opportunities available. </p>
 
                 <p>MedicAid has an ongoing critical need for blood and platelet donations amidst coronavirus
@@ -334,6 +328,22 @@
         <!--Grid row-->
     </section>
     <!--Section: Gallery-->
+
+
+
+<hr class="my-5">
+
+<section id="Apply">
+     <h1 class="mb-5 font-weight-bold text-center">90% of the MedicAid workforce are volunteers.</h1>
+
+
+</section>
+
+
+
+
+
+
 
 
 
