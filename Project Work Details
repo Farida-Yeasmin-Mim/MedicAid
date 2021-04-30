@@ -1,4 +1,5 @@
 Kazi Ramisa Rifa (1911019642):
+-----------------------------------------
 
 -index.php/html/css  page: 
 medicaid+ logo design,
@@ -64,6 +65,8 @@ can't sign up with used email
 
 
 Zarin Tasnim (ID- 1831423642)
+------------------------------------
+
 
 - signup.php/signup.css
 Full signup page design
@@ -93,6 +96,79 @@ advantages and disadvantages, features
 
 
 
+
+
+
+
+Farida Yeasmin Mim (1911653642):
+-------------------------------------------
+
+-index.php/html/css  page: 
+carousel design and picture adding/editing,
+about us design
+MedicAid mission work design
+
+
+-footer.php/html/css page:
+footer design and link adding
+picture adding/editing
+
+
+-contact.php/html page:
+full page design
+
+
+-volunteer.php/html page:
+full page design
+
+
+-volunteer_login.php/html page:
+full page design
+
+
+-volunteer_signup.php/html page:
+full page design
+
+
+-login_pass.php/html page:
+page design
+password setting
+
+
+-donating_requirements.php/html page:
+page design
+
+
+-database creation
+volunteer table
+
+-connection.php page:
+connecting to database
+
+-user_profile.php/html page:
+information showing
+
+
+-blood_donor_signup.php/html:
+update design
+saving data to database
+
+-Number Authentication:
+phone code sending system for login varification
+
+
+-Survey questions:
+Added some survey questions 
+
+-stakeholders:
+
+-testing:
+google api works
+
+-bug fixed:
+blood_donor_signup.php/html page 
+can't sign up without filling the form
+can't sign up with used email
 
 
 
