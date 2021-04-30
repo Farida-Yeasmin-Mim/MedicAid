@@ -70,9 +70,24 @@ Full signup page design
 
 -information.php/information.css
 full page design with cards.
-Each card with 3 seperate pages.
+
+
+-Each card in information page connected to 3 seperate pages.
 1. information1.php/information.css(First Card)
-2. information2.php/information.css(Second Card
+2. information2.php/information.css(Second Card)
+3. information3.php/information.css(Third Card)
+
+- Google Map
+custom google map added
+
+- covid19.php/covid19.css
+full page design
+
+- Survey Questions
+Donor, Recipient, user
+
+-Project Report
+Objectives,funtional and non-functional requirements
 
 
 
