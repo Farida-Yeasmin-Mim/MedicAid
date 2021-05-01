@@ -62,7 +62,7 @@
       <br>
       <br>
       <!--div class="fakeimg" style="height:200px;">Image</div-->
-      <!--img src="Image/information20.jpg" height="900"-->
+      <img src="Image/information31.jpg" height="900">
       <p> Try the Helpful Tips Below:<br>
 
       	<br>
@@ -129,7 +129,7 @@ Donation frequency: Every 28 days, up to 13 times/year<br>
       <h2>How Blood Donation help</h2>
       
       <!--div class="fakeimg" style="height:200px;">Image</div-->
-      <!--img src="Image/information21.jpg" height="900"-->
+      <img src="Image/information32.jpg" height="900">
       <p>If you’re donating whole blood, we’ll cleanse an area on your arm and insert a brand new sterile needle for the blood draw. (This feels like a quick pinch and is over in seconds.)<br>
 Other types of donations, such as platelets, are made using an apheresis machine which will be connected to both arms.<br>
 A whole blood donation takes about 8-10 minutes, during which you’ll be seated comfortably or lying down.<br>
