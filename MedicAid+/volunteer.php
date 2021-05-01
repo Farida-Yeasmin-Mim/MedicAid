@@ -354,7 +354,7 @@
     <section id="contact">
 
         <!-- Heading -->
-        <h2 class="mb-5 font-weight-bold text-center">Contact us</h2>
+        <h2 class="mb-5 font-weight-bold text-center">Send us your feedback!</h2>
 
         <!--Grid row-->
         <div class="row">
@@ -396,7 +396,7 @@
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-12 mb-3">
 
-                        <p><i class="fa fa-map fa-1x mr-2 grey-text"></i>New York, NY 10012</p>
+                        <p><i class="fa fa-map fa-1x mr-2 grey-text"></i>Bangladesh, DK 1216</p>
 
                     </div>
                     <!--Grid column-->
