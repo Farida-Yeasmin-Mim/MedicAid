@@ -32,27 +32,39 @@
         <li class="nav-item active">
           <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Ambulance</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Volunteer</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" style="font-size:23px; font-weight:bold" href="user_login.php">Login</a>
-        </li>
+
+        <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" style="font-size:23px; font-weight:bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Volunteer
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="signup.html">Sign In</a>
+          <a class="dropdown-item" href="donating_requirements.php">Volunteer Feedback</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="contactus.html">Covid-19 Information</a>
+
+        </div>
+      </li>
+
+
         <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" style="font-size:23px; font-weight:bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           More
         </a>
 
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="signup.html">Login</a>
           <a class="dropdown-item" href="signup.html">Sign Up</a>
           <a class="dropdown-item" href="donating_requirements.php">Donating Criteria</a>
           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="contactus.html">Feedback</a>
           <a class="dropdown-item" href="contactus.html">Contact Us</a>
         </div>
       </li>
- 
 
       </ul>
+
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
@@ -204,63 +216,6 @@
 
 
 
-            <!-- protect -->
-            <div class="protect">
-             <div class="container">
-                <div class="row">
-                   <div class="col-md-12">
-                      <div class="titlepage text_align_center">
-                         <h2>How to Protect Yourself</h2>
-                         <p>when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using
-                         </p>
-                      </div>
-                   </div>
-                </div>
-             </div>
-               <div class="protect_bg">
-             <div class="container">
-                 <div class="row">
-                   <div class="col-md-12">
-                      <!--  Demos -->
-                      <div class="owl-carousel owl-theme">
-                         <div class="item">
-                            <div class="protect_box text_align_center">
-                              <div class="desktop">
-                                 <i><img src="images/pro1.png" alt="#"/></i>
-                               <h3> Wear Mask</h3>
-                               <span> Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for</span>
-                              </div>
-                               <a class="read_more" href="protect.html">Read More</a>
-                            </div>
-                         </div>
-                         <div class="item">
-                              <div class="protect_box text_align_center">
-                              <div class="desktop">
-                                 <i><img src="images/pro2.png" alt="#"/></i>
-                               <h3> Wash Your Hands</h3>
-                               <span> Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for</span>
-                              </div>
-                               <a class="read_more" href="protect.html">Read More</a>
-                            </div>
-                         </div>
-                         <div class="item">
-                             <div class="protect_box text_align_center">
-                              <div class="desktop">
-                                 <i><img src="images/pro3.png" alt="#"/></i>
-                               <h3> Stay at Home</h3>
-                               <span> Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for</span>
-                              </div>
-                               <a class="read_more" href="protect.html">Read More</a>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
-              </div>
-            </div>
-             </div>
-            </div>
-            <!-- end protect -->
 
 
   </body>
