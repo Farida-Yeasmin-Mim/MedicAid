@@ -57,19 +57,24 @@
   <div class="leftcolumn">
     <div class="card">
       <h2>I Don't Like Needles</h2>
-      <h5>You’re not alone: fear of needles certainly prevents some people from donating blood. But if you’re willing to spend a few minutes facing your fears (donating really can be that fast) you may find that the satisfaction you feel makes it worth it.</h5> 
+      <h5>You’re not alone: fear of needles certainly prevents some people from donating blood. But if you’re willing to spend a few minutes facing your fears (donating really can be that fast) you may find that the satisfaction you feel makes it worth it.</h5> <br>
+      <br>
+      <br>
+      <br>
       <!--div class="fakeimg" style="height:200px;">Image</div-->
       <!--img src="Image/information20.jpg" height="900"-->
-      <p> Whole Blood Donation:<br>
-Whole blood is the most flexible type of donation. It can be transfused in its original form, or used to help multiple people when separated into its specific components of red cells, plasma and platelets.<br>
+      <p> Try the Helpful Tips Below:<br>
 
-Who it helps: Whole blood is frequently given to trauma patients and people undergoing surgery.<br>
+      	<br>
+      	1.Take Pride<br>
+Try to focus on the good you are doing - your blood donation may help save as many as 3 lives. <br>
+2.Be Prepared<br>
+Before your appointment, read up on the donation process so you know what to expect at every step.<br>
+Relax<br>
+Listen to music, read a book, talk to our staff, or simply close your eyes and rest for a few minutes.<br>
 
-Time it takes: About 1 hour<br>
+</p>
 
-Ideal blood types: All blood types<br>
-
-Donation frequency: Every 56 days</p>
 
 <br>
 <br>
