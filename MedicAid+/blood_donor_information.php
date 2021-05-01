@@ -25,6 +25,13 @@ $result = mysqli_query($conn, "SELECT * FROM blood_donor");
 <link rel="stylesheet" href="CSS/bootstrap-grid.css">
 
 
+<style>
+body {
+background-image: url('Image/blood_donor_information_bg.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
 </style>
 </head>
 <body>
