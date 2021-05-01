@@ -77,7 +77,9 @@ full page design with cards.
 
 -Each card in information page connected to 3 seperate pages.
 1. information1.php/information.css(First Card)
+
 2. information2.php/information.css(Second Card)
+
 3. information3.php/information.css(Third Card)
 
 - Google Map
@@ -91,7 +93,7 @@ Donor, Recipient, user
 
 -Project Report
 Goals and Objectives,funtional and non-functional requirements, 
-advantages and disadvantages, features
+advantages and disadvantages, features, front-end and back-end
 
 
 
