@@ -23,19 +23,19 @@
       <section class="mb-4">
         <!-- Facebook -->
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-          <i class="fab fa-facebook-f"></i></a>
+          <i class="fa fa-facebook"></i></a>
 
         <!-- Twitter -->
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-          <i class="fab fa-twitter"></i></a>
+          <i class="fa fa-twitter"></i></a>
 
         <!-- Google -->
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-          <i class="fab fa-google"></i></a>
+          <i class="fa fa-google"></i></a>
 
         <!-- Instagram -->
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-          <i class="fab fa-instagram"></i></a>
+          <i class="fa fa-instagram"></i></a>
 
         <!-- Linkedin -->
         <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
@@ -192,7 +192,7 @@
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2021 Copyright :
-      <a class="text-white" href="https://mdbootstrap.com/">MedicAid+, All Rights Reserved</a>
+      <a class="text-white" href="">MedicAid+, All Rights Reserved</a>
     </div>
     <!-- Copyright -->
   </footer>
