@@ -13,7 +13,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">
       <img src="Image/Main Logo.jpg" alt="Logo" style="width:153px"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,19 +34,22 @@
         </li>
 
         <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle" style="font-size:23px; font-weight:bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" style="font-size:23px; font-weight:bold" href="volunteer.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Volunteer
         </a>
 
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="signup.html">Sign In</a>
-          <a class="dropdown-item" href="donating_requirements.php">Volunteer Feedback</a>
+          <a class="dropdown-item" href="volunteer_signup.php">Sign In</a>
+          <a class="dropdown-item" href="volunteer.php">Volunteer Feedback</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="contactus.html">Covid-19 Information</a>
+          <a class="dropdown-item" href="volunteer.php">Covid-19 Information</a>
 
         </div>
       </li>
 
+      <li class="nav-item active">
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="appointment.php">Appointment</a>
+      </li>
 
         <li class="nav-item dropdown active">
         <a class="nav-link dropdown-toggle" style="font-size:23px; font-weight:bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -54,11 +57,11 @@
         </a>
 
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="signup.html">Login</a>
+          <a class="dropdown-item" href="login.php">Login</a>
           <a class="dropdown-item" href="signup.html">Sign Up</a>
           <a class="dropdown-item" href="donating_requirements.php">Donating Criteria</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="contactus.html">Feedback</a>
+          <a class="dropdown-item" href="feedback.php">Feedback</a>
           <a class="dropdown-item" href="contactus.html">Contact Us</a>
         </div>
       </li>
@@ -208,11 +211,6 @@
 
             </section>
             <!--Section: Best Features-->
-
-
-
-
-
 
 
 
