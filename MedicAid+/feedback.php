@@ -18,7 +18,7 @@
     <section id="contact">
 
         <!-- Heading -->
-        <h2 class="mb-5 font-weight-bold text-center">Send us your Feedback!</h2>
+        <h2 class="mb-5 font-weight-bold text-center">Send us your Feedback about MedicAid!</h2>
 
         <!--Grid row-->
         <div class="row">
