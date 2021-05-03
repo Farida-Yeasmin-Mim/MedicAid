@@ -123,7 +123,7 @@
           <div class="col-md-10 col-lg-9 pl-lg-5 py-md-5">
           <div class="col-md-10 heading-section text-center ftco-animate">
             <h2 class="mb-4"><strong>Explore our service opportunities</strong></h2>
-            <p>How does it feel to help save a life? This is your chance to find out! We need volunteers to help us with this life-saving mission. Find all Services volunteer opportunities in your area here.</p>
+            <p>How does it feel to help save a life? This is your chance to find out! We need volunteers to help us with this life-saving mission. Find all Services volunteer opportunities in your area .</p>
           </div>
           </div>
         </div>
