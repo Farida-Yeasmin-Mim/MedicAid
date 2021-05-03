@@ -166,9 +166,9 @@
 
 
 
-    <section class="ftco-section ftco-no-pt ftco-no-pb bg-white">
+    <section class="ftco-section bg-white">
       <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
+        <div class="row justify-content-center">
           <div class="col-md-10 col-lg-9 pl-lg-5 py-md-5">
           <div class="col-md-10 heading-section text-center ftco-animate">
             <h2 class="mb-4"><strong>Gets Every Single Updates Here</strong></h2>
@@ -239,7 +239,7 @@
         </div>
       </div>
     </section>
-
+<hr class="my-5">
 
     <Footer>
       <?php include 'footer2.php';?>
