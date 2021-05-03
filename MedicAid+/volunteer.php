@@ -13,6 +13,9 @@
   </head>
   <body>
 
+<header>
+    <?php include 'header.php';?>
+</header>
 
 <!--Mask-->
 <div id="main" class="view">
@@ -42,7 +45,7 @@
     <section id="best-features" class="text-center">
 
         <!-- Heading -->
-        <h1 class="mb-5 font-weight-bold">Volunteering with the MedicAid: By the Numbers</h1>
+        <h2 class="mb-5 font-weight-bold">Volunteering with the MedicAid: By the Numbers</h2>
 
         <!--Grid row-->
         <div class="row d-flex justify-content-center mb-4">
@@ -112,135 +115,142 @@
     </section>
     <!--Section: Best Features-->
 
-    <hr class="my-5">
 
-    <!--Section: Examples-->
-    <section id="examples" class="text-center">
 
-        <!-- Heading -->
-        <h2 class="mb-5 font-weight-bold">Stunning Examples</h2>
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10 col-lg-9 pl-lg-5 py-md-5">
+          <div class="col-md-10 heading-section text-center ftco-animate">
+            <h2 class="mb-4"><strong>Explore our service opportunities</strong></h2>
+            <p>How does it feel to help save a life? This is your chance to find out! We need volunteers to help us with this life-saving mission. Find all Services volunteer opportunities in your area here.</p>
+          </div>
+          </div>
+        </div>
 
-        <!--Grid row-->
-        <div class="row">
+        <div class="row d-flex">
 
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-4">
-
-                <div class="view overlay z-depth-1-half">
-                    <img src="https://mdbootstrap.com/img/Photos/Others/images/48.jpg" class="img-fluid" alt="">
-                    <div class="mask rgba-white-slight"></div>
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry">
+              <div class="view overlay z-depth-1-half">
+                  <img src="https://c0.wallpaperflare.com/preview/42/1/147/blue-camera-phone-charity-cheerful.jpg" class="img-fluid" alt="">
+                  <div class="mask rgba-white-slight"></div>
+              </div>
+              <div class="text d-block">
+                <div class="meta mb-3">
+                  <div><a href="#">November 1, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
-
-                <h4 class="my-4 font-weight-bold">Heading</h4>
-                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                    maiores nam,
-                    aperiam minima
-                    assumenda deleniti hic.</p>
-
+                <h3 class="heading"><a href="#">Learn About Volunteer Opportunities</a></h3>
+                <p>The vital work of the MedicAid is made possible by people like you who contribute their unique backgrounds, talents and skill levels.</p>
+                <p><a href="blog-single.html" class="btn btn-success py-2 px-3">Read more</a></p>
+              </div>
             </div>
-            <!--Grid column-->
+          </div>
 
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-                <div class="view overlay z-depth-1-half">
-                    <img src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg" class="img-fluid" alt="">
-                    <div class="mask rgba-white-slight"></div>
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry">
+              <div class="view overlay z-depth-1-half">
+                  <img src="https://www.washoeschools.net/cms/lib/NV01912265/Centricity/Domain/91/Images_Graphics/2013%20Stock%20Photography049.jpg" class="img-fluid" alt="">
+                  <div class="mask rgba-white-slight"></div>
+              </div>
+              <div class="text d-block">
+                <div class="meta mb-3">
+                  <div><a href="#">August 21, 2019</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
-
-                <h4 class="my-4 font-weight-bold">Heading</h4>
-                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                    maiores nam,
-                    aperiam minima
-                    assumenda deleniti hic.</p>
-
+                <h3 class="heading"><a href="volunteer_signup.php">Learn about Volunteer Connection</a></h3>
+                <p>Learn how we create and make the connection and also deliver the support programs around the world.</p>
+                <p><a href="blog-single.html" class="btn btn-success py-2 px-3">Read more</a></p>
+              </div>
             </div>
-            <!--Grid column-->
+          </div>
 
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-                <div class="view overlay z-depth-1-half">
-                    <img src="https://mdbootstrap.com/img/Photos/Others/images/29.jpg" class="img-fluid" alt="">
-                    <div class="mask rgba-white-slight"></div>
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry">
+              <div class="view overlay z-depth-1-half">
+                  <img src="https://media.istockphoto.com/photos/hurricane-michael-disaster-relief-picture-id1127203174?k=6&m=1127203174&s=612x612&w=0&h=KjZg0gSasgGatNPjbgrm-Xo1FsdnMoBP0Xasi8WAdHY=" class="img-fluid" alt="">
+                  <div class="mask rgba-white-slight"></div>
+              </div>
+              <div class="text d-block">
+                <div class="meta mb-3">
+                  <div><a href="#">June 3, 2021</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
-
-                <h4 class="my-4 font-weight-bold">Heading</h4>
-                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                    maiores nam,
-                    aperiam minima
-                    assumenda deleniti hic.</p>
-
+                <h3 class="heading"><a href="#">Volunteer on a Disaster Action Team</a></h3>
+                <p>Most of the 60,000 emergencies that the Red Cross responds to each year are local, personal disasters like home fires.</p>
+                <p><a href="blog-single.html" class="btn btn-success py-2 px-3">Read more</a></p>
+              </div>
             </div>
-            <!--Grid column-->
+          </div>
+
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry">
+              <div class="view overlay z-depth-1-half">
+                  <img src="https://exclusive.multibriefs.com/images/exclusive/0428nurse2.jpg" class="img-fluid" alt="">
+                  <div class="mask rgba-white-slight"></div>
+              </div>
+              <div class="text d-block">
+                <div class="meta mb-3">
+                  <div><a href="#">June 3, 2021</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading"><a href="volunteer_signup.php">Find Your Volunteer Opportunity</a></h3>
+                <p>Our need for volunteers is constant and continues to evolve as we navigate this Coronavirus health crisis. </p>
+                <p><a href="blog-single.html" class="btn btn-success py-2 px-3">Read more</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry">
+              <div class="view overlay z-depth-1-half">
+                  <img src="https://sheriff.deschutes.org/s/i8ej3eZwYkKRIqaDAH6dpw/EM-Volunteer-lg.jpg" class="img-fluid" alt="">
+                  <div class="mask rgba-white-slight"></div>
+              </div>
+              <div class="text d-block">
+                <div class="meta mb-3">
+                  <div><a href="#">June 3, 2021</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading"><a href="#">Become a Disaster Preparedness Volunteer</a></h3>
+                <p>Our Disaster Preparedness Volunteers teach people how to reduce the risk of disaster, prepare to respond and cope with disasters.</p>
+                <p><a href="blog-single.html" class="btn btn-success py-2 px-3">Read more</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 ftco-animate">
+            <div class="blog-entry">
+              <div class="view overlay z-depth-1-half">
+                  <img src="https://images.unsplash.com/photo-1526976668912-1a811878dd37?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHZvbHVudGVlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" class="img-fluid" alt="">
+                  <div class="mask rgba-white-slight"></div>
+              </div>
+              <div class="text d-block">
+                <div class="meta mb-3">
+                  <div><a href="#">June 3, 2021</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading"><a href="#">Volunteer to Sound the Alarm</a></h3>
+                <p>MedicAid is adapting Sound the Alarm activities to protect the people we serve and our volunteers. </p>
+                <p><a href="blog-single.html" class="btn btn-success py-2 px-3">Read more</a></p>
+              </div>
+            </div>
+          </div>
 
         </div>
-        <!--Grid row-->
-
-        <!--Grid row-->
-        <div class="row">
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-4">
-
-                <div class="view overlay z-depth-1-half">
-                    <img src="https://mdbootstrap.com/img/Photos/Others/images/10.jpg" class="img-fluid" alt="">
-                    <div class="mask rgba-white-slight"></div>
-                </div>
-
-                <h4 class="my-4 font-weight-bold">Heading</h4>
-                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                    maiores nam,
-                    aperiam minima
-                    assumenda deleniti hic.</p>
-
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-                <div class="view overlay z-depth-1-half">
-                    <img src="https://mdbootstrap.com/img/Photos/Others/images/11.jpg" class="img-fluid" alt="">
-                    <div class="mask rgba-white-slight"></div>
-                </div>
-
-                <h4 class="my-4 font-weight-bold">Heading</h4>
-                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                    maiores nam,
-                    aperiam minima
-                    assumenda deleniti hic.</p>
-
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
-
-                <div class="view overlay z-depth-1-half">
-                    <img src="https://mdbootstrap.com/img/Photos/Others/images/13.jpg" class="img-fluid" alt="">
-                    <div class="mask rgba-white-slight"></div>
-                </div>
-
-                <h4 class="my-4 font-weight-bold">Heading</h4>
-                <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                    maiores nam,
-                    aperiam minima
-                    assumenda deleniti hic.</p>
-
-            </div>
-            <!--Grid column-->
-
-        </div>
-        <!--Grid row-->
-
+      </div>
     </section>
-    <!--Section: Examples-->
+
+
 
     <hr class="my-5">
-
-
-
 
     <!--Section: Gallery-->
     <section id="gallery">
@@ -334,7 +344,7 @@
 <hr class="my-5">
 
 <section id="Apply">
-     <h1 class="mb-5 font-weight-bold text-center">90% of the MedicAid workforce are volunteers.</h1>
+     <h2 class="mb-5 font-weight-bold text-center">90% of the MedicAid workforce are volunteers.</h2>
 
 
 </section>
@@ -430,7 +440,9 @@
 </main>
 <!--Main layout-->
 
-
+<footer>
+    <?php include 'footer2.php';?>
+</footer>
 
   </body>
 </html>
