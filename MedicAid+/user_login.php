@@ -14,6 +14,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <link rel="stylesheet" href="CSS/user_login.css">
   <style>
 body {
   background-image: url('Image/logg.jpg');
@@ -48,7 +49,8 @@ body {
   <button type="submit" class="btn btn-primary w-50">Login</button>
   <hr>
   <button type="submit" class="btn btn-danger ">Sign Up</button>
-  <button type="button" onclick="window.location = '<?php echo $loginURL ?>';" class="btn btn-danger">Login With Google</button>
+  <button type="button" onclick="window.location = '<?php echo $loginURL ?>';" class="btn btn-danger"><i class="fa fa-google"></i>Login With Google</button>
+  
 </div>
 
 </form>
