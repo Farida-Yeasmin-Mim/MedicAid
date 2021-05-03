@@ -1,12 +1,19 @@
 <!<?php
 include 'connection.php';
 $dbid =  $_GET['id'];
-$sql = "SELECT user_id
+if($dbid==NULL)
+{
+  echo "<script>
+alert('Please Login First!');
+window.location.href='user_login.php';
+</script>";
+}
+$sql = "SELECT first_name
 FROM user
 WHERE user_id='$dbid'";
 $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_assoc($result);
-$dbid= $row["user_id"];
+$dbname= $row["first_name"];
 ?>>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -16,11 +23,11 @@ $dbid= $row["user_id"];
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+<link rel="stylesheet" href="CSS/user_profile.css">
   </head>
   <body>
 
@@ -28,141 +35,127 @@ $dbid= $row["user_id"];
       <?php include 'header.php';?>
 
                 </header>
+                <div class="container-fluid">
+                  <h1 class="text-center text-dark text-capitalize pt-5">Welcome <?php echo $dbname ?>!</h1>
+                  <hr class="w-25 pt-5">
 
-    <div class="container emp-profile">
-            <form method="post">
+            <div class="container profile-page">
                 <div class="row">
+                    <div class="col-xl-6 col-lg-7 col-md-12">
+                        <div class="card profile-header">
+                            <div class="body">
+                                <div class="row">
 
-                    <div class="col-md-6 mx-auto">
-                        <div class="profile-head">
-                          <br> <br>
-                                    <h5>
-                                        Kshiti Ghelani
-                                    </h5>
-                                    <h6>
-                                        Web Developer and Designer
-                                    </h6>
-                                    <p class="proile-rating">RANKINGS : <span>8/10</span></p>
-
-
-                            <ul class="nav nav-tabs " id="myTab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Timeline</a>
-                                </li>
-                            </ul>
+                                    <div class="col-lg-8 col-md-8 col-12">
+                                        <h4 class="m-t-0 m-b-0"><strong>Michael</strong> Deo</h4>
+                                        <span class="job_post">Ui UX Designer</span>
+                                        <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+                                        <div>
+                                            <button class="btn btn-primary btn-round">Follow</button>
+                                            <button class="btn btn-primary btn-round btn-simple">Message</button>
+                                        </div>
+                                        <p class="social-icon m-t-5 m-b-0">
+                                            <a title="Twitter" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+                                            <a title="Facebook" href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
+                                            <a title="Google-plus" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+                                            <a title="Behance" href="javascript:void(0);"><i class="fa fa-behance"></i></a>
+                                            <a title="Instagram" href="javascript:void(0);"><i class="fa fa-instagram "></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-2">
-                      <br><br>
-                        <button class="btn bg-primary text-white">Edit Profile</button>
 
-                    </div>
-                </div>
-                <div class="row ">
 
-                    <div class=" col-md-6  mx-auto">
-                        <div class="tab-content profile-tab" id="myTabContent">
-                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                              <br>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>User Id</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Kshiti123</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Name</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Kshiti Ghelani</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Email</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>kshitighelani@gmail.com</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Phone</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>123 456 7890</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Profession</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Web Developer and Designer</p>
-                                            </div>
-                                        </div>
-                            </div>
-                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                              <br>
-
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Experience</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Expert</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Hourly Rate</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>10$/hr</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Total Projects</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>230</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>English Level</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Expert</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Availability</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>6 months</p>
-                                            </div>
-                                        </div>
+                    <div class="col-xl-6 col-lg-7 col-md-12">
+                        <div class="card profile-header">
+                            <div class="body">
                                 <div class="row">
-                                    <div class="col-md-12">
-                                        <label>Your Bio</label><br/>
-                                        <p>Your detail description</p>
+                                    <div class="col-lg-4 col-md-4 col-12">
+                                        <div class="profile-image float-md-right"> <img src="Image/nnn.jpg" alt=""> </div>
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-12">
+                                        <h4 class="m-t-0 m-b-0"><strong>Michael</strong> Deo</h4>
+                                        <span class="job_post">Ui UX Designer</span>
+                                        <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+                                        <div>
+                                            <button class="btn btn-primary btn-round">Follow</button>
+                                            <button class="btn btn-primary btn-round btn-simple">Message</button>
+                                        </div>
+                                        <p class="social-icon m-t-5 m-b-0">
+                                            <a title="Twitter" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+                                            <a title="Facebook" href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
+                                            <a title="Google-plus" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+                                            <a title="Behance" href="javascript:void(0);"><i class="fa fa-behance"></i></a>
+                                            <a title="Instagram" href="javascript:void(0);"><i class="fa fa-instagram "></i></a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </form>
-        </div>
+
+                <div class="row">
+                    <div class="col-xl-6 col-lg-7 col-md-12">
+                        <div class="card profile-header">
+                            <div class="body">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4 col-12">
+                                        <div class="profile-image float-md-right"> <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt=""> </div>
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-12">
+                                        <h4 class="m-t-0 m-b-0"><strong>Michael</strong> Deo</h4>
+                                        <span class="job_post">Ui UX Designer</span>
+                                        <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+                                        <div>
+                                            <button class="btn btn-primary btn-round">Follow</button>
+                                            <button class="btn btn-primary btn-round btn-simple">Message</button>
+                                        </div>
+                                        <p class="social-icon m-t-5 m-b-0">
+                                            <a title="Twitter" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+                                            <a title="Facebook" href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
+                                            <a title="Google-plus" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+                                            <a title="Behance" href="javascript:void(0);"><i class="fa fa-behance"></i></a>
+                                            <a title="Instagram" href="javascript:void(0);"><i class="fa fa-instagram "></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-6 col-lg-7 col-md-12">
+                        <div class="card profile-header">
+                            <div class="body">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-4 col-12">
+                                        <div class="profile-image float-md-right"> <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt=""> </div>
+                                    </div>
+                                    <div class="col-lg-8 col-md-8 col-12">
+                                        <h4 class="m-t-0 m-b-0"><strong>Michael</strong> Deo</h4>
+                                        <span class="job_post">Ui UX Designer</span>
+                                        <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+                                        <div>
+                                            <button class="btn btn-primary btn-round">Follow</button>
+                                            <button class="btn btn-primary btn-round btn-simple">Message</button>
+                                        </div>
+                                        <p class="social-icon m-t-5 m-b-0">
+                                            <a title="Twitter" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+                                            <a title="Facebook" href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
+                                            <a title="Google-plus" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
+                                            <a title="Behance" href="javascript:void(0);"><i class="fa fa-behance"></i></a>
+                                            <a title="Instagram" href="javascript:void(0);"><i class="fa fa-instagram "></i></a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            	</div>
+            </div>
 
   </body>
 </html>
