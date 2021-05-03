@@ -41,7 +41,7 @@
                 </a>
                 <!--Instagram-->
                 <a class="ins-ic">
-                    <i class="fa fa-instagram fa-2x text-danger mr-lg-4"> </i>
+                    <i class="fa fa-instagram fa-2x text-blue mr-lg-4"> </i>
                 </a>
                 <!--Google +-->
                 <a class="gplus-ic">
@@ -112,16 +112,16 @@
                 <a href="#!">About</a>
             </p>
             <p>
-                <a href="#!">Volunteer</a>
-            </p>
-            <p>
-                <a href="#!">Appointment</a>
-            </p>
-            <p>
                 <a href="#!">Donation</a>
             </p>
             <p>
                 <a href="#!">Ambulance</a>
+            </p>
+            <p>
+                <a href="#!">Volunteer</a>
+            </p>
+            <p>
+                <a href="#!">Appointment</a>
             </p>
 
 
