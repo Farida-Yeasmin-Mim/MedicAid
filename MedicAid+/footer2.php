@@ -41,7 +41,7 @@
                 </a>
                 <!--Instagram-->
                 <a class="ins-ic">
-                    <i class="fa fa-instagram fa-2x text-blue mr-lg-4"> </i>
+                    <i class="fa fa-instagram fa-2x text-danger mr-lg-4"> </i>
                 </a>
                 <!--Google +-->
                 <a class="gplus-ic">
@@ -73,8 +73,8 @@
                 <strong>MedicAid+</strong>
             </h5>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit.</p>
+            <p>The leading source for trustworthy and timely health and medical news and information.
+              Providing credible health information, supportive community, and do volunteering in every circumstances.</p>
         </div>
         <!--/.First column-->
 
