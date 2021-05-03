@@ -6,23 +6,28 @@
 
   if (isset($_POST['log_in'])) {
       // Set variables to represent data from database
-      $dbUsname = strip_tags($_POST['username']);
+
   $dbEmail = strip_tags($_POST['email']);
   $dbpass = strip_tags($_POST['password']);
 
 
-      $sql = "SELECT User_Name, Email, Password FROM user";
+      $sql = "SELECT Email, Password FROM user";
   $result = mysqli_query($conn,$sql);
 
   if (mysqli_num_rows($result) > 0) {
     // output data of each row
     while($row = mysqli_fetch_assoc($result)) {
-      $UserName= $row["User_Name"];
       $Email= $row["Email"] ;
       $Pass= $row["Password"] ;
       // Check if the username and the password they entered was correct
-      if ($UserName == $dbUsname && $Email == $dbEmail && $Pass == $dbpass) {
-    header("Location: user_profile.php?id=$UserName");
+      if ( $Email == $dbEmail && $Pass == $dbpass) {
+        $sql = "SELECT user_id
+        FROM user
+        WHERE email='$dbEmail'";
+        $result = mysqli_query($conn,$sql);
+        $row = mysqli_fetch_assoc($result);
+        $dbid= $row["user_id"];
+        header("Location: user_profile.php?id=$dbid");
       } else {
       // Display the alert box
       echo "<script>
@@ -74,12 +79,12 @@ body {
 
   <div class="form-group">
     <label for="email">Email address:</label>
-    <input type="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off">
+    <input type="email" name="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off" required="">
   </div>
 
   <div class="form-group">
     <label for="pwd">Password:</label>
-    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+    <input type="password" name="password" class="form-control" placeholder="Enter password" id="pwd" required="">
   </div>
 
   <div class="col-md-12 text-center">
