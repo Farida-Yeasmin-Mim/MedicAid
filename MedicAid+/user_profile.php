@@ -1,7 +1,12 @@
 <!<?php
-//include 'connection.php';
-//$dbid =  $_GET['id'];
-
+include 'connection.php';
+$dbid =  $_GET['id'];
+$sql = "SELECT user_id
+FROM user
+WHERE user_id='$dbid'";
+$result = mysqli_query($conn,$sql);
+$row = mysqli_fetch_assoc($result);
+$dbid= $row["user_id"];
 ?>>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -53,6 +58,7 @@
                     <div class="col-md-2">
                       <br><br>
                         <button class="btn bg-primary text-white">Edit Profile</button>
+
                     </div>
                 </div>
                 <div class="row ">
