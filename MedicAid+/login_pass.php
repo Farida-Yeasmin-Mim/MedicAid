@@ -2,7 +2,7 @@
   // Create database connection
   include 'connection.php';
 
-$useremail =  $_GET['id'];
+$userid =  $_GET['id'];
 
 
 if (isset($_POST['log_in'])) {
@@ -11,10 +11,10 @@ $dbpass = strip_tags($_POST['password']);
 
 $sql = "UPDATE user
 SET password='$dbpass'
-WHERE email='$useremail' ";
+WHERE user_id='$userid' ";
 // execute query
 mysqli_query($conn, $sql);
-header('Location: user_login.php');
+header("Location: user_profile.php?id=$userid");
 exit();
 
 }
@@ -33,6 +33,7 @@ exit();
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://apis.google.com/js/platform.js" async defer></script>
+
     <title>About</title>
   </head>
   <body>
@@ -40,7 +41,7 @@ exit();
       <h1 class="text-center text-dark text-capitalize pt-5">Login</h1>
       <hr class="w-25 pt-4">
       <div class="w-25 mx-auto">
-        <form action="login_pass.php?id=<?php echo $useremail?>" id="loginform" method="POST">
+        <form action="login_pass.php?id=<?php echo $userid?>" id="loginform" method="POST">
 
   <div class="form-group">
     <label for="pwd">Set Password:</label>
@@ -48,7 +49,7 @@ exit();
   </div>
 
   <div class="col-md-12 text-center">
-  <button type="submit" name="log_in" form="loginform" class="btn btn-primary w-50">Login</button>
+  <button type="submit" name="log_in" form="loginform" class="btn btn-primary w-50">Set Password</button>
 </div>
 
 </form>
@@ -56,6 +57,6 @@ exit();
 
       </div>
     </div>
-<h1> Login Succcessfully <?php echo $useremail?></h1>
+<h1> Login Succcessfully <?php echo $userid?></h1>
   </body>
 </html>
