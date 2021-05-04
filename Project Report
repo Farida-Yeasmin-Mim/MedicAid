@@ -25,14 +25,17 @@ Non functional Requirements
 4. Reliability
 
 Advantages
+-----------
 Recipients can get blood easily.
 In case of emergency, if the blood group is rare, he/she can find for the certain blood group donor.
 Donors can also donate blood easily by signing up.
 
 Disadvantage:
+--------------
 Requires active internet connection
 
 Features:
+--------------
 Online transfer of blood from one blood bank to another.
 Provide a list of Donors who are eligible for donations on a particular date with a contact number.
 Inventory management in blood bank for storage and issuance of blood.
@@ -70,6 +73,11 @@ Database: Mysql(phpMyAdmin)
 user story
 -----------
 1. Sign up
+Use case diagram
+----------------
+
+Screenshot
+----------
 
 Testing
 -------
