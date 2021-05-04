@@ -149,30 +149,30 @@ $result = mysqli_query($conn, "SELECT * FROM donor WHERE donor_id='$dbid'");
 <body>
   <header>
     <?php include 'header2.php';?>
-    <style>
-h1 {
-  text-align: center;
-}</style>
-    <h1> Edit Profile </h1>
+
               </header>
-<div id="content">
+
+              <div class="container-fluid">
+                <h1 class="text-center text-dark text-capitalize pt-5">Edit Profile</h1>
+                <hr class="w-25 pt-5">
+<div id="content" class="row mb-5">
   <?php
     while ($row = mysqli_fetch_array($result)) {
       echo "<form method='POST' action='edit_donor_profile.php?id=$dbid' >";
         echo "<h5>Name: ".$row['full_name']."</h5>";
         echo "<input name='fname' class='form-control' placeholder='Enter New Name' type='text'>";
         echo "<br>";
-        echo "<button type='submit' name='name_edit' class='btn btn-primary'>Set Name</button>";
+        echo "<button type='submit' name='name_edit' class='btn btn-info'>Set Name</button>";
         echo "<br><br>";
         echo "<h5>Password: ".$row['password']." </h4>";
         echo "<input name='pass' class='form-control' placeholder='Enter New Password' type='password'>";
         echo "<br>";
-        echo "<button type='submit' name='pass_edit' class='btn btn-primary'>Set Password</button>";
+        echo "<button type='submit' name='pass_edit' class='btn btn-info'>Set Password</button>";
         echo "<br><br>";
         echo "<h5>Address: ".$row['address']." </h5>";
         echo "<input name='address' class='form-control' placeholder='Enter New Address' type='text'>";
         echo "<br>";
-        echo "<button type='submit' name='add_edit' class='btn btn-primary'>Set Address</button>";
+        echo "<button type='submit' name='add_edit' class='btn btn-info'>Set Address</button>";
         echo "<br><br>";
 
 
@@ -189,7 +189,7 @@ h1 {
         echo  "<option>Sylhet</option>";
         echo  "</select>";
             echo "<br>";
-        echo "<button type='submit' name='div_edit' class='btn btn-primary'>Set Division</button>";
+        echo "<button type='submit' name='div_edit' class='btn btn-info'>Set Division</button>";
         echo "<br><br>";
 
 
@@ -200,7 +200,7 @@ h1 {
         echo  "<option>Inactive</option>";
         echo  "</select>";
         echo "<br>";
-    echo "<button type='submit' name='bs_edit' class='btn btn-primary'>Set Blood Donation Status</button>";
+    echo "<button type='submit' name='bs_edit' class='btn btn-info'>Set Blood Donation Status</button>";
     echo "<br><br>";
 
     echo "<h5>Plasma Donation Status: ".$row['plasma_status']." </h5>";
@@ -210,7 +210,7 @@ h1 {
     echo  "<option>Inactive</option>";
     echo  "</select>";
     echo "<br>";
-    echo "<button type='submit' name='ps_edit' class='btn btn-primary'>Set Plasma Donation Status</button>";
+    echo "<button type='submit' name='ps_edit' class='btn btn-info'>Set Plasma Donation Status</button>";
     echo "<br><br>";
 
 echo "<h5>Platelet Donation Status: ".$row['platelet_status']." </h5>";
@@ -220,7 +220,7 @@ echo  "<option>Active</option>";
 echo  "<option>Inactive</option>";
 echo  "</select>";
 echo "<br>";
-echo "<button type='submit' name='pts_edit' class='btn btn-primary'>Set Platelet Donation Status</button>";
+echo "<button type='submit' name='pts_edit' class='btn btn-info'>Set Platelet Donation Status</button>";
 echo "<br><br>";
 echo "</form>";
 
