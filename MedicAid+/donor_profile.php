@@ -74,7 +74,7 @@ $dbpts= $row["platelet_status"];
                     </div>
                     <div class="col-md-2">
                       <br><br>
-                        <button class="btn bg-primary text-white">Edit Profile</button>
+                        <a class="btn btn-primary" href="edit_donor_profile.php?id=<?php echo $dbid ?>" role="button">Edit Profile</a>
 
                     </div>
                 </div>
