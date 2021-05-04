@@ -90,8 +90,9 @@ Additional weight requirements apply for donors age 18 or younger
 <br>
 <br>
 Is it Safe to Donate?: <br>
-Yes, donating blood is safe. You can’t get AIDS or any other infectious disease from giving blood because we always use new, sterile needles that are discarded after one use.
-You’ll even be given a mini-physical at your appointment, to ensure you are healthy enough to donate that day. We’ll check your temperature, blood pressure, pulse and hemoglobin.<br>
+Most donors feel fine after donating blood, but if you do feel faint or fatigued, simply lie down until you feel better.<br>
+It might help you to think about this: you have about 10 pints of blood in your body. Roughly 1 pint is given during a donation.<br>
+Your body can replenish that loss in a short time (a matter of hours for some components, a few weeks for others).<br>
 
 <br>
 <br>
