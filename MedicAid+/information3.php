@@ -79,7 +79,7 @@ Listen to music, read a book, talk to our staff, or simply close your eyes and r
 <br>
 <br>
 <br>
-Power Red Donation:<br>
+I'm Not Sure I'm Eligible:<br>
 During a Power Red donation, you give a concentrated dose of red cells, the part of your blood used every day for those needing transfusions as part of their care. This type of donation uses an automated process that separates your red blood cells from the other blood components, and then safely and comfortably returns your plasma and platelets to you. <br>
 
 With just a little extra time at your appointment, you can donate more red cells and increase your impact on patients in need. Learn more about Power Red donations.
