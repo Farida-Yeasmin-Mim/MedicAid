@@ -28,6 +28,15 @@ $dbname= $row["first_name"];
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="CSS/user_profile.css">
+
+<style>
+body {
+background-image: url('Image/up_bg.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+</style>
   </head>
   <body>
 
@@ -53,8 +62,7 @@ $dbname= $row["first_name"];
 
                                         <p>Searching for blood?</p>
                                         <div>
-                                            <button class="btn btn-primary btn-round">Get Blood Donor</button>
-                                            <button class="btn btn-primary btn-round">Visit Page</button>
+                                            <button class="btn btn-danger btn-round">Get Blood Donor</button>
 
                                         </div>
 
@@ -76,8 +84,8 @@ $dbname= $row["first_name"];
                                         <h4><strong>Plasma</strong></h4>
                                         <p>Not getting plasma donor?</p>
                                         <div>
-                                            <button class="btn btn-primary btn-round">Get Plasma Donor</button>
-                                            <button class="btn btn-primary btn-round">Visit Page</button>
+                                            <button class="btn btn-warning btn-round">Get Plasma Donor</button>
+
 
                                         </div>
 
@@ -101,8 +109,8 @@ $dbname= $row["first_name"];
 
                                         <p>Seeking for platelet donor?</p>
                                         <div>
-                                            <button class="btn btn-primary btn-round">Get Platelet Donor</button>
-                                            <button class="btn btn-primary btn-round">Visit Page</button>
+                                            <button class="btn btn-info btn-round">Get Platelet Donor</button>
+
                                         </div>
 
                                     </div>
@@ -125,7 +133,7 @@ $dbname= $row["first_name"];
                                         <p>Call your ambulance now!</p>
                                         <div>
                                             <button class="btn btn-primary btn-round">Get Ambulance </button>
-                                            <button class="btn btn-primary btn-round">Visit Page</button>
+                                          
                                         </div>
 
                                     </div>
