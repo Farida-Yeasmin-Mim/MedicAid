@@ -41,12 +41,18 @@ Donor Management- Donor Registration, Managing donor database, recording their p
 
 Front End
 ---------
-Sign-up
-Sign-in
+Main page
+Sign-in page
+Sign-up page
+
 
 
 Back End
 -------------
+1. Account Creating, Password Recover:
+a. Sign up form, verification by mobile or email.
+b. Login
+c. Forgot Password
 
 
 
