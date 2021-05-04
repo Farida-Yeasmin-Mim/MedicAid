@@ -43,6 +43,20 @@ if (isset($_POST['pass_edit']))
   header("Location: edit_donor_profile.php?id=$dbid");
 }
 
+if (isset($_POST['add_edit']))
+{
+  $dbadd = strip_tags($_POST['address']);
+  $sql = "UPDATE donor
+  SET address='$dbadd'
+  WHERE donor_id='$dbid' ";
+  // execute query
+  mysqli_query($conn, $sql);
+
+
+
+  header("Location: edit_donor_profile.php?id=$dbid");
+}
+
 if (isset($_POST['div_edit']))
 {
   $dbdiv = strip_tags($_POST['division']);
@@ -129,7 +143,7 @@ $result = mysqli_query($conn, "SELECT * FROM donor WHERE donor_id='$dbid'");
 <!DOCTYPE html>
 <html>
 <head>
-<title>Image Upload</title>
+<title>Edit Profile</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
