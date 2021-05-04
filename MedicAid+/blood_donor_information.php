@@ -4,7 +4,7 @@
 
 
 
-$result = mysqli_query($conn, "SELECT * FROM blood_donor");
+$result = mysqli_query($conn, "SELECT * FROM donor");
 ?>
 
 <!DOCTYPE html>
