@@ -1,12 +1,22 @@
 <!<?php
 include 'connection.php';
 $dbid =  $_GET['id'];
-$sql = "SELECT user_id
-FROM user
-WHERE user_id='$dbid'";
+$sql = "SELECT full_name,email,contact_number,gender,age,blood_group,division,address,blood_status,plasma_status,platelet_status
+FROM donor
+WHERE donor_id='$dbid'";
 $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_assoc($result);
-$dbid= $row["user_id"];
+$dbname= $row["full_name"];
+$dbemail= $row["email"];
+$dbcontact= $row["contact_number"];
+$dbgender= $row["gender"];
+$dbage= $row["age"];
+$dbbg= $row["blood_group"];
+$dbdivision= $row["division"];
+$dbaddress= $row["address"];
+$dbbs= $row["blood_status"];
+$dbps= $row["plasma_status"];
+$dbpts= $row["platelet_status"];
 ?>>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -21,6 +31,14 @@ $dbid= $row["user_id"];
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+  <style>
+  body {
+  background-image: url('Image/up_bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  </style>
   </head>
   <body>
 
@@ -36,14 +54,13 @@ $dbid= $row["user_id"];
                     <div class="col-md-6 mx-auto">
                         <div class="profile-head">
                           <br> <br>
+                                    <h2>
+                                        <?php echo $dbname ?>
+                                    </h2>
                                     <h5>
-                                        Kshiti Ghelani
+                                        Blood Group: <?php echo $dbbg ?>
                                     </h5>
-                                    <h6>
-                                        Web Developer and Designer
-                                    </h6>
-                                    <p class="proile-rating">RANKINGS : <span>8/10</span></p>
-
+                                    <br>
 
                             <ul class="nav nav-tabs " id="myTab" role="tablist">
                                 <li class="nav-item">
@@ -61,26 +78,19 @@ $dbid= $row["user_id"];
 
                     </div>
                 </div>
-                <div class="row ">
+                <div class="row mb-5">
 
                     <div class=" col-md-6  mx-auto">
                         <div class="tab-content profile-tab" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                               <br>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>User Id</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Kshiti123</p>
-                                            </div>
-                                        </div>
+
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <label>Name</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>Kshiti Ghelani</p>
+                                                <p><?php echo $dbname ?></p>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -88,7 +98,7 @@ $dbid= $row["user_id"];
                                                 <label>Email</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>kshitighelani@gmail.com</p>
+                                                <p><?php echo $dbemail ?></p>
                                             </div>
                                         </div>
                                         <div class="row">
@@ -96,67 +106,78 @@ $dbid= $row["user_id"];
                                                 <label>Phone</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>123 456 7890</p>
+                                                <p><?php echo $dbcontact ?></p>
                                             </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <label>Profession</label>
+                                                <label>Gender</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p>Web Developer and Designer</p>
+                                                <p><?php echo $dbgender ?></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Age</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p><?php echo $dbage ?></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Blood Group</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p><?php echo $dbbg ?></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Division</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p><?php echo $dbdivision ?></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Address</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p><?php echo $dbaddress ?></p>
                                             </div>
                                         </div>
                             </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                               <br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Blood Donor Status</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p><?php echo $dbbs ?></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Plasma Donor Status</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p><?php echo $dbps ?></p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Platelet Donor Status</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p><?php echo $dbpts ?></p>
+                                            </div>
+                                        </div>
 
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Experience</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Expert</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Hourly Rate</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>10$/hr</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Total Projects</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>230</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>English Level</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>Expert</p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Availability</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>6 months</p>
-                                            </div>
-                                        </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <label>Your Bio</label><br/>
-                                        <p>Your detail description</p>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
