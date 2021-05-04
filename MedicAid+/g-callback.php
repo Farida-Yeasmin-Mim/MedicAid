@@ -31,7 +31,13 @@ include 'connection.php';
 VALUES ('$dbfname','$dblname','$dbemail');";
       // execute query
       mysqli_query($conn, $sql);
+			$sql = "SELECT user_id
+			FROM user
+			WHERE email='$dbemail'";
+			$result = mysqli_query($conn,$sql);
+			$row = mysqli_fetch_assoc($result);
+			$dbid= $row["user_id"];
 
-	header("Location: login_pass.php?id=$dbemail");
+	header("Location: login_pass.php?id=$dbid");
 	exit();
 ?>
