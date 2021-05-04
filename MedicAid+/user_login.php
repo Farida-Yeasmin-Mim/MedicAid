@@ -11,7 +11,7 @@
   $dbpass = strip_tags($_POST['password']);
 
 
-      $sql = "SELECT Email, Password FROM user";
+      $sql = "SELECT email, password FROM user";
   $result = mysqli_query($conn,$sql);
 
   if (mysqli_num_rows($result) > 0) {
@@ -90,8 +90,7 @@ body {
   <div class="col-md-12 text-center">
   <button name="log_in" class="btn btn-primary w-50"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</button>
   <hr>
-  <button type="submit" class="btn btn-danger "><i class="fa fa-user-plus" aria-hidden="true"></i>
-Sign Up</button>
+  <button type="submit" class="btn btn-danger "><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</button>
   <button type="button" onclick="window.location = '<?php echo $loginURL ?>';" class="btn btn-danger"><i class="fa fa-google"></i> Login With Google</button>
 
 </div>
