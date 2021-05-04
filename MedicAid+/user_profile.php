@@ -45,22 +45,19 @@ $dbname= $row["first_name"];
                         <div class="card profile-header">
                             <div class="body">
                                 <div class="row">
-
+                                  <div class="col-lg-4 col-md-4 col-12">
+                                      <div class="profile-image float-md-right"> <img src="Image/up_blood.jpg" alt=""> </div>
+                                  </div>
                                     <div class="col-lg-8 col-md-8 col-12">
-                                        <h4 class="m-t-0 m-b-0"><strong>Michael</strong> Deo</h4>
-                                        <span class="job_post">Ui UX Designer</span>
-                                        <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+                                        <h4 ><strong>Blood</strong></h4>
+
+                                        <p>Searching for blood?</p>
                                         <div>
-                                            <button class="btn btn-primary btn-round">Follow</button>
-                                            <button class="btn btn-primary btn-round btn-simple">Message</button>
+                                            <button class="btn btn-primary btn-round">Get Blood Donor</button>
+                                            <button class="btn btn-primary btn-round">Visit Page</button>
+
                                         </div>
-                                        <p class="social-icon m-t-5 m-b-0">
-                                            <a title="Twitter" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-                                            <a title="Facebook" href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
-                                            <a title="Google-plus" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-                                            <a title="Behance" href="javascript:void(0);"><i class="fa fa-behance"></i></a>
-                                            <a title="Instagram" href="javascript:void(0);"><i class="fa fa-instagram "></i></a>
-                                        </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -73,23 +70,17 @@ $dbname= $row["first_name"];
                             <div class="body">
                                 <div class="row">
                                     <div class="col-lg-4 col-md-4 col-12">
-                                        <div class="profile-image float-md-right"> <img src="Image/nnn.jpg" alt=""> </div>
+                                        <div class="profile-image float-md-right"> <img src="Image/up_plasma.jpg" alt=""> </div>
                                     </div>
                                     <div class="col-lg-8 col-md-8 col-12">
-                                        <h4 class="m-t-0 m-b-0"><strong>Michael</strong> Deo</h4>
-                                        <span class="job_post">Ui UX Designer</span>
-                                        <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+                                        <h4><strong>Plasma</strong></h4>
+                                        <p>Not getting plasma donor?</p>
                                         <div>
-                                            <button class="btn btn-primary btn-round">Follow</button>
-                                            <button class="btn btn-primary btn-round btn-simple">Message</button>
+                                            <button class="btn btn-primary btn-round">Get Plasma Donor</button>
+                                            <button class="btn btn-primary btn-round">Visit Page</button>
+
                                         </div>
-                                        <p class="social-icon m-t-5 m-b-0">
-                                            <a title="Twitter" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-                                            <a title="Facebook" href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
-                                            <a title="Google-plus" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-                                            <a title="Behance" href="javascript:void(0);"><i class="fa fa-behance"></i></a>
-                                            <a title="Instagram" href="javascript:void(0);"><i class="fa fa-instagram "></i></a>
-                                        </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -103,23 +94,17 @@ $dbname= $row["first_name"];
                             <div class="body">
                                 <div class="row">
                                     <div class="col-lg-4 col-md-4 col-12">
-                                        <div class="profile-image float-md-right"> <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt=""> </div>
+                                        <div class="profile-image float-md-right"> <img src="Image/up_platelet.jpg" alt=""> </div>
                                     </div>
                                     <div class="col-lg-8 col-md-8 col-12">
-                                        <h4 class="m-t-0 m-b-0"><strong>Michael</strong> Deo</h4>
-                                        <span class="job_post">Ui UX Designer</span>
-                                        <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+                                        <h4 ><strong>Platelet</strong></h4>
+
+                                        <p>Seeking for platelet donor?</p>
                                         <div>
-                                            <button class="btn btn-primary btn-round">Follow</button>
-                                            <button class="btn btn-primary btn-round btn-simple">Message</button>
+                                            <button class="btn btn-primary btn-round">Get Platelet Donor</button>
+                                            <button class="btn btn-primary btn-round">Visit Page</button>
                                         </div>
-                                        <p class="social-icon m-t-5 m-b-0">
-                                            <a title="Twitter" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-                                            <a title="Facebook" href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
-                                            <a title="Google-plus" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-                                            <a title="Behance" href="javascript:void(0);"><i class="fa fa-behance"></i></a>
-                                            <a title="Instagram" href="javascript:void(0);"><i class="fa fa-instagram "></i></a>
-                                        </p>
+
                                     </div>
                                 </div>
                             </div>
@@ -132,29 +117,27 @@ $dbname= $row["first_name"];
                             <div class="body">
                                 <div class="row">
                                     <div class="col-lg-4 col-md-4 col-12">
-                                        <div class="profile-image float-md-right"> <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt=""> </div>
+                                        <div class="profile-image float-md-right"> <img src="Image/up_ambulance.jpg" alt=""> </div>
                                     </div>
                                     <div class="col-lg-8 col-md-8 col-12">
-                                        <h4 class="m-t-0 m-b-0"><strong>Michael</strong> Deo</h4>
-                                        <span class="job_post">Ui UX Designer</span>
-                                        <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+                                        <h4><strong>Ambulance</strong></h4>
+
+                                        <p>Call your ambulance now!</p>
                                         <div>
-                                            <button class="btn btn-primary btn-round">Follow</button>
-                                            <button class="btn btn-primary btn-round btn-simple">Message</button>
+                                            <button class="btn btn-primary btn-round">Get Ambulance </button>
+                                            <button class="btn btn-primary btn-round">Visit Page</button>
                                         </div>
-                                        <p class="social-icon m-t-5 m-b-0">
-                                            <a title="Twitter" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-                                            <a title="Facebook" href="javascript:void(0);"><i class="fa fa-facebook"></i></a>
-                                            <a title="Google-plus" href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-                                            <a title="Behance" href="javascript:void(0);"><i class="fa fa-behance"></i></a>
-                                            <a title="Instagram" href="javascript:void(0);"><i class="fa fa-instagram "></i></a>
-                                        </p>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
             	</div>
+
+
+
+
             </div>
 
   </body>
