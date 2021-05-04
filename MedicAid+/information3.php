@@ -89,7 +89,7 @@ Additional weight requirements apply for donors age 18 or younger
 <br>
 <br>
 <br>
-Platelet Donation: <br>
+Is it Safe to Donate?: <br>
 Platelets are tiny cells in your blood that form clots and stop bleeding. Platelets are most often used by cancer patients and others facing life-threatening illnesses and injuries.<br>
 
 In a platelet donation, an apheresis machine collects your platelets along with some plasma, returning your red cells and most of the plasma back to you. A single donation of platelets can yield several transfusable units, whereas it takes about five whole blood donations to make up a single transfusable unit of platelets.<br>
