@@ -73,11 +73,14 @@ Database: Mysql(phpMyAdmin)
 user story
 -----------
 1. Sign up
+
 Use case diagram
 ----------------
 
 Sequence diagram
 ------------------
+Class diagram
+--------------
 
 Screenshot
 ----------
