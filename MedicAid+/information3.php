@@ -80,16 +80,12 @@ Listen to music, read a book, talk to our staff, or simply close your eyes and r
 <br>
 <br>
 I'm Not Sure I'm Eligible:<br>
-During a Power Red donation, you give a concentrated dose of red cells, the part of your blood used every day for those needing transfusions as part of their care. This type of donation uses an automated process that separates your red blood cells from the other blood components, and then safely and comfortably returns your plasma and platelets to you. <br>
-
-With just a little extra time at your appointment, you can donate more red cells and increase your impact on patients in need. Learn more about Power Red donations.
-Who it helps: Red cells from a Power Red donation are typically given to trauma patients, newborns and emergency transfusions during birth, people with sickle cell anemia, and anyone suffering blood loss.<br>
-
-Time it takes: About 1.5 hours<br>
-
-Ideal blood types: O positive, O negative, A negative, and B negative<br>
-
-Donation frequency: Every 112 days, up to 3 times/year. <br>
+Approximately 38% of Americans are eligible to donate blood at any given time, so there’s a very good chance you meet the criteria.For most donations, these are the basic requirements:  1.Good Health: <br>
+You generally feel well, even if you're being treated for a chronic condition. <br>
+Age 17 <br>
+16 year olds may donate with parental permission in certain states if allowed by state law.<br>
+110 lbs<br>
+Additional weight requirements apply for donors age 18 or younger
 <br>
 <br>
 <br>
