@@ -90,17 +90,9 @@ Additional weight requirements apply for donors age 18 or younger
 <br>
 <br>
 Is it Safe to Donate?: <br>
-Platelets are tiny cells in your blood that form clots and stop bleeding. Platelets are most often used by cancer patients and others facing life-threatening illnesses and injuries.<br>
+Yes, donating blood is safe. You can’t get AIDS or any other infectious disease from giving blood because we always use new, sterile needles that are discarded after one use.
+You’ll even be given a mini-physical at your appointment, to ensure you are healthy enough to donate that day. We’ll check your temperature, blood pressure, pulse and hemoglobin.<br>
 
-In a platelet donation, an apheresis machine collects your platelets along with some plasma, returning your red cells and most of the plasma back to you. A single donation of platelets can yield several transfusable units, whereas it takes about five whole blood donations to make up a single transfusable unit of platelets.<br>
-
-Platelets are collected at Red Cross donation centers only, and are not collected at blood drives. Learn more about platelet donations.<br>
-Who it helps: Platelets are a vital element of cancer treatments and organ transplant procedures, as well as other surgical procedures.<br>
-Time it takes: About 2.5-3 hours<br>
-
-Ideal blood types: A positive, A negative, B positive, O positive, AB positive and AB negative<br>
-
-Donation frequency: Every 7 days, up to 24 times/year<br>
 <br>
 <br>
 <br>
