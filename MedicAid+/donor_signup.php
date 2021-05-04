@@ -45,8 +45,8 @@ window.location.href='donor_signup.php';
 
 }
 }
- $sql="INSERT INTO donor(full_name, email, contact_number, gender, age, blood_group, division, address, password)
-VALUES ('$dbfname','$dbemail','$dbcontact','$dbgender','$dbage','$dbbgroup','$dbdivision','$dbaddress','$dbpassword')";
+ $sql="INSERT INTO donor(full_name, email, contact_number, gender, age, blood_group, division, address, password,blood_status,plasma_status,platelet_status)
+VALUES ('$dbfname','$dbemail','$dbcontact','$dbgender','$dbage','$dbbgroup','$dbdivision','$dbaddress','$dbpassword','Yes','Yes','Yes')";
 mysqli_query($conn, $sql);
 
 $sql = "SELECT donor_id
@@ -55,7 +55,7 @@ WHERE email='$dbemail'";
 $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_assoc($result);
 $dbid= $row["donor_id"];
-header("Location: user_profile.php?id=$dbid");
+header("Location: donor_profile.php?id=$dbid");
 
 }
 
