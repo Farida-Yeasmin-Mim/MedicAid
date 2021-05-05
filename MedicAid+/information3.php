@@ -98,16 +98,9 @@ Your body can replenish that loss in a short time (a matter of hours for some co
 <br>
 <br>
 I'm Afraid I'll Faint:<br>
-During an AB Elite donation, you give plasma, a part of your blood used to treat patients in emergency situations. AB plasma can be given to anyone regardless of their blood type. Plasma is collected through an automated process that separates plasma from other blood components, then safely and comfortably returns your red blood cells and platelets to you. AB Elite maximizes your donation and takes just a few minutes longer than donating blood.<br>
-
-Plasma is collected at select Red Cross donation centers. Learn more about plasma donation.<br>
-Who it helps: AB Plasma is used in emergency and trauma situations to help stop bleeding. <br>
-
-Time it takes: About 1 hour and 15 minutes<br>
-
-Ideal blood types: AB positive, AB negative<br>
-
-Donation frequency: Every 28 days, up to 13 times/year<br>
+During an AB Elite donation, you give plasma, a part of your blood used to treat patients in emergency situations.<br>
+AB plasma can be given to anyone regardless of their blood type.<br>
+<br>
 <br>
 
 
