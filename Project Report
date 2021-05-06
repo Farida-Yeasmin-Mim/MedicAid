@@ -73,6 +73,7 @@ CSS
 Sublime Text/Atome
 Database: Mysql(phpMyAdmin)
 
+
 user story
 -----------
 1. Sign up
@@ -93,7 +94,7 @@ Test Cases
 
 Testing
 -------
-Selenium
+1. Validation Testing
 
 
 
