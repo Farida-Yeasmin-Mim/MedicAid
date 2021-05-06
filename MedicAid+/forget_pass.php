@@ -1,7 +1,7 @@
 <?php
 
   include 'connection.php';
-
+$dbid =  $_GET['id'];
   if (isset($_POST['set'])) {
       // Set variables to represent data from database
 
