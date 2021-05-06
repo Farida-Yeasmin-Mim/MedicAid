@@ -50,7 +50,7 @@
 
    <div class="form-group input-group">
         <div class="input-group-prepend">
-            <span class="input-group-text"    > <i class="fas fa-genderless"></i> </i> </span>
+            <span class="input-group-text"> <i class="fa fa-genderless"></i> </i> </span>
         </div>
         <select class="form-control" required="">
             <option selected=""> Select Gender</option>
@@ -120,8 +120,8 @@
     <div class="form-group">
         <button type="submit" class="btn btn-primary btn-block">CREATE MY MEDICAID ID</button>
     </div>
-    <p class="text-center text-dark "><a href="" >Under age 13? </a></p>
-    <p class="text-center text-white ">Already Have an account? <a href="" >Log In</a> </p>
+    <h5><p class="text-center danger-text "><a href="under_13.php" >Under age 13? </a></p></h5>
+    <h5><p class="text-center text-white ">Already Have an account? <a href="" >Log In</a> </p></h5>
 </form>
 
 </article>
