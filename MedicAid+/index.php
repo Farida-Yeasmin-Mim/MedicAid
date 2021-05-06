@@ -114,7 +114,7 @@
     </div>
 
     <section>
-      <div class="container-fluid">
+      <div class="container">
         <h1 class="text-center text-dark text-capitalize pt-5">About Us</h1>
         <hr class="w-25 pt-5">
         <div class="row mb-5">
