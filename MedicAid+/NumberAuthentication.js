@@ -16,16 +16,20 @@ function phoneAuth() {
         coderesult=confirmationResult;
         console.log(coderesult);
         alert("Message sent");
+
     }).catch(function (error) {
         alert(error.message);
     });
 }
 function codeverify() {
     var code=document.getElementById('verificationCode').value;
-    coderesult.confirm(code).then(function (result) {
+    coderesult.confirm(code).then(function (result)
+    {
         alert("Successfully registered");
+        window.location="forget_pass.php";
         var user=result.user;
         console.log(user);
+
     }).catch(function (error) {
         alert(error.message);
     });

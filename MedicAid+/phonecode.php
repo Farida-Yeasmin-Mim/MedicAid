@@ -30,10 +30,10 @@ body {
 
 
 
-      <h1 class="text-center text-dark text-capitalize pt-5">Varification</h1>
+      <h1 class="text-center text-dark text-capitalize pt-5">Verification</h1>
       <hr class="w-25 pt-4">
 
-        <form action="/action_page.php">
+        <form action="phonecode.php">
 
   <div class="form-group">
     <label for="email">Enter you phone number: </label>
@@ -44,7 +44,7 @@ body {
 
 <br>
   <div class="col-md-12 text-center">
-  <button type="button" onclick="phoneAuth();" class="btn btn-primary w-50">Send Varification Code</button>
+  <button type="button"  onclick="phoneAuth();" class="btn btn-primary w-50">Send Verification Code</button>
 </div>
 
 </form>
@@ -53,7 +53,7 @@ body {
 <div class="col-lg-6 col-md-6 col-12">
 <h1 class="text-center text-dark text-capitalize pt-5">Enter Varification Code</h1>
 <hr class="w-25 pt-4">
-<form action="/action_page.php">
+
 
 <div class="form-group">
 <label for="email">Enter your code: </label>
@@ -63,10 +63,10 @@ body {
 
 <br>
 <div class="col-md-12 text-center">
-<button type="button" onclick="codeverify();" class="btn btn-primary w-50">Send Varification Code</button>
+<button onclick="codeverify();" class="btn btn-primary w-50" >Send</button>
 </div>
 
-</form>
+
 </div>
 </div>
 
