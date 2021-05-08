@@ -68,7 +68,7 @@ print_r($coronadata);
   <div class="row w-100 h-100">
     <div class="col-lg-5 col-md-5 col-12 order-lg-1 order-2">
       <div class="leftside w-100 h-100 d-flex justify-content-center align-items-center">
-        <img src="Image/corona4.jpg" width="550" height="400">
+        <img src="Image/corona5.png" width="550" height="400">
     </div>
   </div>
 
