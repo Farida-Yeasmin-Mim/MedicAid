@@ -8,12 +8,8 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/information3.css">
-
-
 </head>
-<body>
-
-
+<body style="background-color:#F5F5DC #FFF0F5;">
   <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
   <a class="navbar-brand" href="#">
     <img src="Image/Main Logo.jpg" alt="Logo" style="width:153px"></a>
@@ -41,18 +37,13 @@
     </form>
   </div>
 </nav>
-
 <br>
 <br>
-
-
-
   <div class="header">
   <h2>Common Concerns</h2>
   <p></p>
   
 </div>
-
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
@@ -63,81 +54,73 @@
       <br>
       <!--div class="fakeimg" style="height:200px;">Image</div-->
       <img src="Image/information31.jpg" height="900">
-      <p> Try the Helpful Tips Below:<br>
-
-      	<br>
-      	1.Take Pride<br>
+      <p style="background:    #F5F5DC;"> Try the Helpful Tips Below:<br>
+        <br>
+        1.Take Pride<br>
 Try to focus on the good you are doing - your blood donation may help save as many as 3 lives. <br>
 2.Be Prepared<br>
 Before your appointment, read up on the donation process so you know what to expect at every step.<br>
 Relax<br>
 Listen to music, read a book, talk to our staff, or simply close your eyes and rest for a few minutes.<br>
-
 </p>
-
-
 <br>
 <br>
 <br>
-I'm Not Sure I'm Eligible:<br>
+<p style="background: #F5F5DC">I'm Not Sure I'm Eligible:<br>
 Approximately 38% of Americans are eligible to donate blood at any given time, so there’s a very good chance you meet the criteria.For most donations, these are the basic requirements:  1.Good Health: <br>
 You generally feel well, even if you're being treated for a chronic condition. <br>
 Age 17 <br>
 16 year olds may donate with parental permission in certain states if allowed by state law.<br>
 110 lbs<br>
 Additional weight requirements apply for donors age 18 or younger
+</p>
 <br>
 <br>
 <br>
-Is it Safe to Donate?: <br>
+<p style="background:    #F5F5DC">Is it Safe to Donate?: <br>
 Most donors feel fine after donating blood, but if you do feel faint or fatigued, simply lie down until you feel better.<br>
+<br>
 It might help you to think about this: you have about 10 pints of blood in your body. Roughly 1 pint is given during a donation.<br>
+<br>
 Your body can replenish that loss in a short time (a matter of hours for some components, a few weeks for others).<br>
-
+<br>
+</p>
 <br>
 <br>
 <br>
-I'm Afraid I'll Faint:<br>
+<p style="background:    #F5F5DC">I'm Afraid I'll Faint:<br>
 During an AB Elite donation, you give plasma, a part of your blood used to treat patients in emergency situations.<br>
 AB plasma can be given to anyone regardless of their blood type.<br>
+</p>
 <br>
 <br>
-
-
     </div>
-
-
     <div class="card">
-      <h2>How Blood Donation help</h2>
+      <h2>I Don't Have the Right Kind of Blood</h2>
       
       <!--div class="fakeimg" style="height:200px;">Image</div-->
       <img src="Image/information32.jpg" height="900">
-      <p>If you’re donating whole blood, we’ll cleanse an area on your arm and insert a brand new sterile needle for the blood draw. (This feels like a quick pinch and is over in seconds.)<br>
-Other types of donations, such as platelets, are made using an apheresis machine which will be connected to both arms.<br>
-A whole blood donation takes about 8-10 minutes, during which you’ll be seated comfortably or lying down.<br>
-When approximately a pint of whole blood has been collected, the donation is complete and a staff person will place a bandage on your arm.<br>
-For platelets, the apheresis machine will collect a small amount of blood, remove the platelets, and return the rest of the blood through your other arm; this cycle will be repeated several times over about 2 hours.<br>
+      <p style="background: #F5F5DC">Perhaps you’ve heard an appeal for donors that says we’re running low on certain blood types. That doesn’t mean other types aren’t valuable: there’s always a need and purpose for every type of blood. Here’s what we’re looking for today:<br>
+        <br>
+        All Types<br>
+        <br>
+Whether you’re A, B, AB or O – or unknown – all types of blood are valuable and can help save lives.<br>
 <br>
-After donating blood, you’ll have a snack and something to drink in the refreshment area.<br>
-You’ll leave after 10-15 minutes and continue your normal routine.<br>
-Enjoy the feeling of accomplishment knowing you are helping to save lives.<br>
-Take a selfie, or simply share your good deed with friends. It may inspire them to become blood donors.
+All Components<br>
+
+You can donate whole blood, or certain components such as red cells, platelets or plasma.<br>
+<br>
+
+Volunteer Donors<br>
+<br>#fefbd8
+The most important thing is that you are willing to make this generous, life-saving donation.<br>
+
   </p>
     </div>
-
   
-
 </div>
   
   </div>
 </div>
-
-
-
 </body>
 </html>
-
-
-
-
-
