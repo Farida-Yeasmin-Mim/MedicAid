@@ -83,7 +83,7 @@
           <div class="card-body">
             <h5 class="card-title text-primary">How to Donate</h5>
             <p class="card-text text-dark">To ensure safety, these are some of the requirements donors must meet to be eligible.To see a list of eligibility information,search donating requirements.</p>
-            <a href="#" class="btn btn-primary">Read more...</a>
+            <a href="information2.php" class="btn btn-primary">Read more...</a>
           </div>
         </div>
       </div>
