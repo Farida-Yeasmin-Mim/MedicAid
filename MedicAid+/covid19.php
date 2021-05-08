@@ -71,6 +71,21 @@ print_r($coronadata);
         <img src="Image/corona4.jpg" width="550" height="400">
     </div>
   </div>
+    
+    <section class="corona_update container-fluid">
+  <div class="mb-3">
+    <h3 class="text-center text-uppercase text-primary"> Covid-19 live updates</h3>
+  </div>
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped text-center" id="tbval">
+      <tr>
+        <th>Country</th>
+        <th>TotalConfirmed</th>
+        <th>TotalRecovered</th>
+        <th>TotalDeaths</th>
+        <th>NewConfirmed</th>
+        <th>NewRecovered</th>
+        <th>NewDeaths</th>
 
     <div class="col-lg-7 col-md-7 col-12 order-lg-2 order-1">
       <div class="rightside w-100 h-100 d-flex justify-content-center align-items-center">
