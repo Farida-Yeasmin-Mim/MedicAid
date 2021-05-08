@@ -93,7 +93,7 @@
           <div class="card-body">
             <h5 class="card-title text-primary">Common Concerns</h5>
             <p class="card-text">Many people are reluctant to make their first blood donation, but once they do, they find the donation process to be easy and gratifying.</p>
-            <a href="#" class="btn btn-primary">Read more...</a>
+            <a href="information3.php" class="btn btn-primary">Read more...</a>
           </div>
         </div>
       </div>
