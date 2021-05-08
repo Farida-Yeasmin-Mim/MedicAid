@@ -73,7 +73,7 @@
           <div class="card-body">
             <h5 class="card-title text-primary">Blood Donation Process</h5>
             <p class="card-text text-dark">The blood donation process from the time you arrive until the time you leave takes about an hour. The donation itself is only about 8-10 minutes on average.</p>
-            <a href="#" class="btn btn-primary">Read more...</a>
+            <a href="information1.php" class="btn btn-primary">Read more...</a>
           </div>
         </div>
       </div>
