@@ -226,6 +226,13 @@ function fetch(){
                  tbval.rows[i].cells[0].innerHTML=data['Countries'][i-1]['Country'];
                  tbval.rows[i].cells[0].style.background='#072a63';
                  tbval.rows[i].cells[0].style.color='#fff'
+              x.insertCell(1);
+                 tbval.rows[i].cells[1].innerHTML=data['Countries'][i-1]['TotalConfirmed'];
+                 tbval.rows[i].cells[1].style.background='#c9d4e8';
+
+                 x.insertCell(2);
+                 tbval.rows[i].cells[2].innerHTML=data['Countries'][i-1]['TotalRecovered'];
+                 tbval.rows[i].cells[2].style.background=' #ecb3ff';
 
 
     
