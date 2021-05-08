@@ -242,6 +242,13 @@ function fetch(){
                 x.insertCell(5);
                 tbval.rows[i].cells[5].innerHTML=data['Countries'][i-1]['NewRecovered'];
                 tbval.rows[i].cells[5].style.background='#b3e6ff';
+               x.insertCell(6);
+                tbval.rows[i].cells[6].innerHTML=data['Countries'][i-1]['NewDeaths'];
+                tbval.rows[i].cells[6].style.background=' #ff8080';
+            }
+        }
+       );
+       
 
 
     
