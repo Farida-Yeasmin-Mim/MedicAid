@@ -74,7 +74,7 @@ print_r($coronadata);
 
     <div class="col-lg-7 col-md-7 col-12 order-lg-2 order-1">
       <div class="rightside w-100 h-100 d-flex justify-content-center align-items-center">
-        <h1 style="color: #bf1408"> Covid-19 statistics tracking confirmed cases, recovered patients,and death toll <span class="corona"> <img src="Image/corona6.png"></span> </h1>
+        <h1 style="color: #18004d"> Covid-19 statistics tracking confirmed cases, recovered patients,and death toll <span class="corona"> <img src="Image/corona6.png"></span> </h1>
         
     </div>
   </div>
