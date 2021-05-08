@@ -13,30 +13,22 @@ print_r($coronadata);
 
 
 
-
-
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <html>
 <head>
   <meta charset="utf-8">
     <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-
-  
-     <link rel="stylesheet" href="CSS/covid19.css">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/covid19.css">
 
 
 </head>
 
-<body>
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
   <a class="navbar-brand" href="#">
     <img src="Image/Main Logo.jpg" alt="Logo" style="width:153px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,6 +57,11 @@ print_r($coronadata);
 </nav>
 
 
+<body onload="fetch()">
+
+
+  
+
 
 
 <div class="main_header">
@@ -74,8 +71,28 @@ print_r($coronadata);
         <img src="Image/corona4.jpg" width="550" height="400">
     </div>
   </div>
+
+    <div class="col-lg-7 col-md-7 col-12 order-lg-2 order-1">
+      <div class="rightside w-100 h-100 d-flex justify-content-center align-items-center">
+        <h1 style="color: #bf1408"> Covid-19 statistics tracking confirmed cases, recovered patients,and death toll <span class="corona"> <img src="Image/corona6.png"></span> </h1>
+        
+    </div>
+  </div>
+</div>
+</div>
+<br>
+<br>
+
+<br>
+<br>
+
     
-    <section class="corona_update container-fluid">
+
+
+
+
+
+<section class="corona_update container-fluid">
   <div class="mb-3">
     <h3 class="text-center text-uppercase text-primary"> Covid-19 live updates</h3>
   </div>
@@ -90,132 +107,26 @@ print_r($coronadata);
         <th>NewRecovered</th>
         <th>NewDeaths</th>
 
-    <div class="col-lg-7 col-md-7 col-12 order-lg-2 order-1">
-      <div class="rightside w-100 h-100 d-flex justify-content-center align-items-center">
-        <h1> What to know about Covid-19 and Blood Donation? <span class="corona"> <img src="Image/corona6.png"></span> </h1>
-    </div>
-  </div>
+
+
+        
+
+      </tr>
+
+
+    </table>
 </div>
+</section>
 <br>
 <br>
-<section id="maps">
-        <div class="text-center title maos">
-            <p>Statistics</p>
-            <h4>Corona Virus overview</h4>
-        </div>
-        <div class="container ">
-            <div class="row">
-                <div class="col-lg-6  col-md-12 col-12 map-img">
-                    <img src="Image/map.png" alt="">
-                </div>
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="Bangladesh">
-                        <h1>Bangladesh</h1>
-                        <hr>
-                        <div class="flex-card">
-                            <div class="con">
-                                <h1>Confirmed</h1>
-                                <h2 id="conin"></h2>
-                            </div>
-                            <div class="rev">
-                                <h1>Recovered</h1>
-                                <h2 id="revin"></h2>
-                            </div>
-                            <div class="dea">
-                                <h1>Deaths
-                                </h1>
-                                <h2 id="detin"></h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="world">
-                        <h1>Worldwide</h1>
-                        <hr>
-                        <div class="flex-card">
-                            <div class="con">
-                                <h1>Confirmed</h1>
-                                <h2 id="globco"></h2>
-                            </div>
-                            <div class="rev">
-                                <h1>Recovered</h1>
-                                <h2 id="globro"></h2>
-                            </div>
-                            <div class="dea">
-                                <h1>Deaths
-                                </h1>
-                                <h2 id="globdo"></h2>
-                            </div>
-                        </div>
-                        <br>
-                        <br>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-  <div class="container-fluid sub_section pt-5 pb-5" id="aboutid">
-    <div class="section header text-center mb-5 mt-4">
-      
-      <h1> Covid-19 Symptoms </h1>
-    </div>
-
-    <div class="row pt-5">
-      <div class="col-lg-5 col-md-6 col-12 ml-5">
-        <img src="Image/corona9.png" class="img-fluid">
-      </div>
-  </div>
-</div>
-</section>
-
-<section>
-
-
-  <div class="container-fluid sub_section pt-5 pb-5" id="aboutid">
-    <div class="section header text-center mb-5 mt-4">
-      
-      <h1> What to do? </h1>
-    </div>
-
-    <div class="row pt-5">
-      <div class="col-lg-5 col-md-6 col-12 ml-5">
-        <img src="Image/corona8.png" class="img-fluid">
-      </div>
-  </div>
-</div>
-</section>
-
-<section>
-
-
-  <div class="container-fluid sub_section pt-5 pb-5" id="aboutid">
-    <div class="section header text-center mb-5 mt-4">
-      
-      <h1> Prevention </h1>
-    </div>
-
-    <div class="row pt-5">
-      <div class="col-lg-5 col-md-6 col-12 ml-5 text-center align-items-center">
-        <img src="Image/corona2.jpg " class="img-fluid">
-
-        <p>Here are common sense steps we can all take to prevent the spread of any respiratory virus:
-
-Avoid close contact with people who are sick.
-Stay home when you are sick.
-Cover your nose and mouth with a tissue when coughing or sneezing and throw the tissue away after use. If a tissue isn’t available, cough or sneeze into your elbow, not your hands.
-Wash your hands often with soap and water for at least 20 seconds, especially after going to the bathroom; before eating; and after blowing your nose, coughing or sneezing. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol. Always wash hands with soap and water if hands are visibly dirty.
-Avoid touching your eyes, nose or mouth.
-Practice other good health habits. Get plenty of sleep, be physically active, manage your stress, drink plenty of fluids and eat nutritious food.
-Disinfect doorknobs, switches, handles, computers, telephones, bedside tables, bathroom sinks, toilets, counters, toys and other surfaces that are commonly touched around the home or workplace.</p>
-      </div>
-  </div>
-</div>
-</section>
-    
-    <script>
+<script>
 
   
 function fetch(){
@@ -228,15 +139,17 @@ function fetch(){
                  x.insertCell(0);
                  tbval.rows[i].cells[0].innerHTML=data['Countries'][i-1]['Country'];
                  tbval.rows[i].cells[0].style.background='#072a63';
-                 tbval.rows[i].cells[0].style.color='#fff'
-              x.insertCell(1);
+                 tbval.rows[i].cells[0].style.color='#fff';
+
+                 x.insertCell(1);
                  tbval.rows[i].cells[1].innerHTML=data['Countries'][i-1]['TotalConfirmed'];
                  tbval.rows[i].cells[1].style.background='#c9d4e8';
 
                  x.insertCell(2);
                  tbval.rows[i].cells[2].innerHTML=data['Countries'][i-1]['TotalRecovered'];
                  tbval.rows[i].cells[2].style.background=' #ecb3ff';
-              x.insertCell(3);
+
+                 x.insertCell(3);
                  tbval.rows[i].cells[3].innerHTML=data['Countries'][i-1]['TotalDeaths'];
                  tbval.rows[i].cells[3].style.background='#ff8566';
                 x.insertCell(4);
@@ -245,25 +158,104 @@ function fetch(){
                 x.insertCell(5);
                 tbval.rows[i].cells[5].innerHTML=data['Countries'][i-1]['NewRecovered'];
                 tbval.rows[i].cells[5].style.background='#b3e6ff';
-               x.insertCell(6);
+                x.insertCell(6);
                 tbval.rows[i].cells[6].innerHTML=data['Countries'][i-1]['NewDeaths'];
                 tbval.rows[i].cells[6].style.background=' #ff8080';
             }
         }
        );
        
+      }
 
 
     
+
+</script>
+
+
+
 </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="CSS/covid19.js"></script>
+</html>
+    
+
+
+
+
+
+
+<!--section>
+  <div class="container-fluid sub_section pt-5 pb-5">
+    <div class="section header text-center mb-5 mt-4">
+      
+      <h1> Covid-19 Symptoms </h1>
+    </div>
+
+    <div class="row pt-5">
+      <div class="col-lg-5 col-md-12 col-12 ml-auto">
+
+        <img src="Image/corona9.png">
+      </div>
   </div>
 </div>
+</section>
 
+
+
+
+<section>
+
+
+  <div class="container-fluid sub_section pt-5 pb-5">
+    <div class="section header text-center mb-5 mt-4">
+      
+      <h1> What to do? </h1>
+    </div>
+
+    <div class="row">
+    	<div class="col-lg-5 col-md-6 col-12 ml-5 ">
+      
+        <img src="Image/corona8.png" class="img-fluid">
+      </div>
+  </div>
+</div>
+</section>
+
+<section>
+
+
+  <div class="container-fluid sub_section pt-5 pb-5">
+    <div class="section header text-center mb-5 mt-4">
+      
+      <h1> Prevention </h1>
+    </div>
+
+
+    <div class="row pt-5">
+      <div class="col-lg-5 col-md-6 col-12 ml-auto ">
+      	<img src="Image/corona2.jpg" class="img-fluid">
+      	
+      	<div class="float-right">Total Cost</div>
+        
+    
+
+        
+      </div>
+  </div>
+</div>
+</section>
+
+
+</body>
 </html>
+
+
+
+
+
+
+
+
+<--/html>
+
+
 
