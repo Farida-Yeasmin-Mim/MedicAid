@@ -211,6 +211,21 @@ Disinfect doorknobs, switches, handles, computers, telephones, bedside tables, b
   </div>
 </div>
 </section>
+    
+    <script>
+
+  
+function fetch(){
+    $.get("https://api.covid19api.com/summary",
+        function(data){
+  //console.log(data['Countires'].length);
+            var tbval= document.getElementById('tbval');
+            for(var i=1; i<(data['Countries'].length); i++){
+                 var x= tbval.insertRow();
+                 x.insertCell(0);
+                 tbval.rows[i].cells[0].innerHTML=data['Countries'][i-1]['Country'];
+                 tbval.rows[i].cells[0].style.background='#072a63';
+                 tbval.rows[i].cells[0].style.color='#fff'
 
 
     
