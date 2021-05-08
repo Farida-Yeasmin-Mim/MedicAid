@@ -233,6 +233,15 @@ function fetch(){
                  x.insertCell(2);
                  tbval.rows[i].cells[2].innerHTML=data['Countries'][i-1]['TotalRecovered'];
                  tbval.rows[i].cells[2].style.background=' #ecb3ff';
+              x.insertCell(3);
+                 tbval.rows[i].cells[3].innerHTML=data['Countries'][i-1]['TotalDeaths'];
+                 tbval.rows[i].cells[3].style.background='#ff8566';
+                x.insertCell(4);
+                tbval.rows[i].cells[4].innerHTML=data['Countries'][i-1]['NewConfirmed'];
+                tbval.rows[i].cells[4].style.background='#eeccff';
+                x.insertCell(5);
+                tbval.rows[i].cells[5].innerHTML=data['Countries'][i-1]['NewRecovered'];
+                tbval.rows[i].cells[5].style.background='#b3e6ff';
 
 
     
