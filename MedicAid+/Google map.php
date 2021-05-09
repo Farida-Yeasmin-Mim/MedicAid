@@ -50,6 +50,12 @@
 	</div>
 
 </body>
+	<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwNNFGkb2kP2jLBMGNNIYJ3rivzI6KSY&callback=loadMap">
+</script>
+
+</html>
+
 
 
 
