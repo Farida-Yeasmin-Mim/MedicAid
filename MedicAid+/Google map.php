@@ -24,7 +24,7 @@
 
 
 
-<!DOCTYPE html>
+<!--DOCTYPE html>
 <html>
 <head>
 	<title></title>
@@ -42,7 +42,7 @@
 			border: 1px solid blue;
 		}
 	</style>
-	</head>
+</head>
 <body>
 	<div class="container">
 		<center><h1>Access Google Maps API </h1></center>
@@ -50,12 +50,11 @@
 	</div>
 
 </body>
-	<script async defer
+<script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwNNFGkb2kP2jLBMGNNIYJ3rivzI6KSY&callback=loadMap">
 </script>
 
-</html>
-
+<--/html>
 
 
 
