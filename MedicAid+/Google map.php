@@ -42,6 +42,14 @@
 			border: 1px solid blue;
 		}
 	</style>
+	</head>
+<body>
+	<div class="container">
+		<center><h1>Access Google Maps API </h1></center>
+		<div id="map"></div>
+	</div>
+
+</body>
 
 
 
