@@ -1,7 +1,31 @@
 <?php
+include 'connection.php';
 if (isset($_POST['search'])) {
 $dbsearch = strip_tags($_POST['srch']);
-header("Location: user_login.php?id=$dbsearch");
+if($dbsearch == NULL)
+{
+  echo "<script>
+alert('Invalid Search!');
+window.location.href='index.php';
+</script>";
+}
+$sql = "SELECT page_name FROM page WHERE page_name LIKE '%$dbsearch%'";
+$result = mysqli_query($conn,$sql);
+
+if($result == NULL)
+{
+  echo "<script>
+alert('Invalid Search!');
+window.location.href='index.php';
+</script>";
+}
+else
+{
+  $row = mysqli_fetch_assoc($result);
+  $page = $row["page_name"];
+  header("Location: $page");
+}
+
 
 }
 ?>
