@@ -1,3 +1,10 @@
+<?php
+if (isset($_POST['search'])) {
+$dbsearch = strip_tags($_POST['srch']);
+header("Location: user_login.php?id=$dbsearch");
+
+}
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -68,9 +75,9 @@
 
       </ul>
 
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+      <form id="searchform" method="POST" action="index.php" class="form-inline my-2 my-lg-0">
+        <input name="srch" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button name="search" class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
   </nav>
