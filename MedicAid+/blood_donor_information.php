@@ -1,10 +1,16 @@
 <?php
   // Create database connection
   include 'connection.php';
+  if (isset($_POST['search'])) {
+    $dbsearch = strip_tags($_POST['srch']);
+    $sql = "SELECT * FROM donor WHERE blood_group LIKE '%$dbsearch%'";
+  }
+    else
+    {
+      $sql = "SELECT * FROM donor";
+    }
 
-
-
-$result = mysqli_query($conn, "SELECT * FROM donor");
+$result = mysqli_query($conn, $sql);
 ?>
 
 <!DOCTYPE html>
@@ -44,9 +50,9 @@ background-size: cover;
                   <h1 class="text-center text-dark text-capitalize pt-5">Donor Information</h1>
                   <hr class="w-25 pt-5">
 
-              <form class="example" action="index.php">
-  <input type="text" placeholder="Search.." name="search">
-  <button type="submit"><i class="fa fa-search"></i></button>
+              <form class="example" method="POST" action="blood_donor_information.php">
+  <input name="srch" type="text" placeholder="Search.." name="search">
+  <button name="search" type="submit"><i class="fa fa-search"></i></button>
 </form>
 <div id="content">
   <?php
