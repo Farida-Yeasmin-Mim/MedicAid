@@ -129,7 +129,7 @@ else
           </div>
         </div>
         <div class="carousel-item">
-          <img src="Image/vn1.jpg" alt="New York" width="1100" height="500">
+          <img src="Image/volunteer11.jpg" alt="New York" width="1100" height="500">
           <div class="carousel-caption">
             <h1 class="text-white display-6 font-weight-bold">Volunteer</h1>
             <p class="text-white font-weight-bold">We love the Big Apple!</p>
@@ -145,23 +145,69 @@ else
     </div>
 
     <section>
-      <div class="container">
-        <h1 class="text-center text-dark text-capitalize pt-5">About Us</h1>
-        <hr class="w-25 pt-5">
-        <div class="row mb-5">
-          <div class="col-lg-6 col-md-6 col-12">
-            <img src="Image/bloodn.jpg" class="img-fluid">
+      <div class="blog">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="card-img">
+                  <img src="Image/bloodIndex.jpg" class="img-fluid">
+                </div>
+
+                <div class="card-body">
+                  <h4 class="card-title">Blood Donation</h4>
+                  <p class="card-text">
+
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <a href="" class="card-link">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="card-img">
+                  <img src="Image/ambulanceIndex.jpg" class="img-fluid">
+                </div>
+
+                <div class="card-body">
+                  <h4 class="card-title">Ambulance</h4>
+                  <p class="card-text">
+
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <a href="" class="card-link">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="card-img">
+                  <img src="Image/volunteerIndex.jpg" class="img-fluid">
+                </div>
+
+                <div class="card-body">
+                  <h4 class="card-title">Volunteer</h4>
+                  <p class="card-text">
+
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <a href="" class="card-link">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="col-lg-6 col-md-6 col-12">
-
-          <h1 class="text-dark">MedicAid+</h1>
-            <p class="text-dark">Thousands of people just like you provide compassionate care to those in need. We roll up our sleeves and donate time, money and blood. We teach life-saving skills so our communities can be better prepared when the need arises and we do this every day because Medicare is needed each and every day.</p>
-
-            <button class="btn bg-primary text-white">More</button>
       </div>
-      </div>
+
     </section>
+
 
 
 
@@ -170,11 +216,34 @@ else
     <main class="mt-5">
     <div class="container">
 
+
             <!--Section: Best Features-->
-            <section id="best-features" class="text-center">
+
+            <section>
+              <div class="container-fluid">
+                <h1 class="text-center font-weight-bold text-dark text-capitalize pt-5">Covid19 Information</h1>
+                <hr class="w-25 pt-5">
+                <div class="row mb-5">
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <img src="Image/plasmaIndex1.jpg" class="img-fluid">
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+
+                  <h1 class="text-dark">MedicAid+</h1>
+                    <p class="text-dark">Thousands of people just like you provide compassionate care to those in need. We roll up our sleeves and donate time, money and blood. We teach life-saving skills so our communities can be better prepared when the need arises and we do this every day because Medicare is needed each and every day.</p>
+
+                    <button class="btn bg-primary text-white">More</button>
+              </div>
+              </div>
+            </section>
+
+            <!--Section: Best Features-->
+            <section id="best-features" class="text-center" >
+              <br>
 
                 <!-- Heading -->
-                <h1 class="mb-6 font-weight-bold">The MedicAid Mission At Work</h1>
+                <h1 class="mb-6 font-weight-bold">The MedicAid+ Mission At Work</h1>
 
                 <!--Grid row-->
                 <div class="row d-flex justify-content-center mb-4">
@@ -241,75 +310,11 @@ else
                 <!--Grid row-->
 
             </section>
-            <!--Section: Best Features-->
 
-            <section>
-              <div class="container-fluid">
-                <h1 class="text-center text-dark text-capitalize pt-5">Features</h1>
-                <hr class="w-25 pt-5">
-              <div class="blog">
-                <div class="container">
-                  <div class="row mb-5">
-                    <div class="col-md-4 col-lg-4 col-sm-12">
-                      <div class="card">
-                        <div class="card-img">
-                          <img src="Image/image_1.jpg" class="img-fluid">
-                        </div>
 
-                        <div class="card-body">
-                          <h4 class="card-title">Post Title</h4>
-                          <p class="card-text">
 
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                          </p>
-                        </div>
-                        <div class="card-footer">
-                          <a href="" class="card-link">Read more</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-lg-4 col-sm-12">
-                      <div class="card">
-                        <div class="card-img">
-                          <img src="images/posts/images.jpg" class="img-fluid">
-                        </div>
 
-                        <div class="card-body">
-                          <h4 class="card-title">Post Title</h4>
-                          <p class="card-text">
-
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                          </p>
-                        </div>
-                        <div class="card-footer">
-                          <a href="" class="card-link">Read more</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-4 col-lg-4 col-sm-12">
-                      <div class="card">
-                        <div class="card-img">
-                          <img src="images/posts/imag2.jpg" class="img-fluid">
-                        </div>
-
-                        <div class="card-body">
-                          <h4 class="card-title">Post Title</h4>
-                          <p class="card-text">
-
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                          </p>
-                        </div>
-                        <div class="card-footer">
-                          <a href="" class="card-link">Read more</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </section>
-            <section>
+        <section>
               <!-- Contact form -->
 <div class="contact-form">
  <div class="container">
@@ -326,7 +331,7 @@ else
          <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
        </div>
        <div class="form-group">
-         <textarea class="form-control form-control-lg">
+         <textarea name="message" class="form-control form-control-lg" placeholder="Message" >
 
          </textarea>
        </div>
