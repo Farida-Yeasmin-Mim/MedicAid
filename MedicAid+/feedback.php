@@ -21,7 +21,7 @@
   </head>
   <body>
     <header>
-      <?php include 'header2.php';?>
+      <?php include 'header.php';?>
 
                 </header>
 
@@ -30,7 +30,7 @@
 
         <!-- Heading -->
         <div class="container-fluid">
-          <h2 class="text-center font-weight-bold text-dark text-capitalize pt-5">Send us your Feedback about MedicAid!</h2>
+          <h2 class="text-center font-weight-bold text-dark text-capitalize pt-5">Send us your Feedback about MedicAid+!</h2>
           <hr class="w-25">
 
 
@@ -51,7 +51,7 @@
 
                     </div>
                     <br>
-                    <div class="md-form form-sm"> Your message <i class="fa fa-pencil prefix"></i>
+                    <div class="md-form form-sm"> Your Message <i class="fa fa-pencil prefix"></i>
                         <textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="4"></textarea>
 
                     </div>
