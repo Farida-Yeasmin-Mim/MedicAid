@@ -227,15 +227,6 @@ $result = mysqli_query($conn, "SELECT * FROM donor WHERE donor_id='$dbid'");
     echo "<button type='submit' name='ps_edit' class='btn btn-info'>Set Plasma Donation Status</button>";
     echo "<br><br>";
 
-echo "<h5>Platelet Donation Status: ".$row['platelet_status']." </h5>";
-echo "<select name='pts' class='form-control' >";
-echo	"<option value='' disabled selected> Select Status</option>";
-echo  "<option>Active</option>";
-echo  "<option>Inactive</option>";
-echo  "</select>";
-echo "<br>";
-echo "<button type='submit' name='pts_edit' class='btn btn-info'>Set Platelet Donation Status</button>";
-echo "<br><br>";
 echo "</form>";
 
     }
