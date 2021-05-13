@@ -3,11 +3,11 @@
   include 'connection.php';
   if (isset($_POST['search'])) {
     $dbsearch = strip_tags($_POST['srch']);
-    $sql = "SELECT * FROM donor WHERE blood_group LIKE '%$dbsearch%'";
+    $sql = "SELECT * FROM donor WHERE blood_group LIKE '%$dbsearch%' AND blood_status='Active'";
   }
     else
     {
-      $sql = "SELECT * FROM donor";
+      $sql = "SELECT * FROM donor WHERE blood_status='Active'";
     }
 
 $result = mysqli_query($conn, $sql);
