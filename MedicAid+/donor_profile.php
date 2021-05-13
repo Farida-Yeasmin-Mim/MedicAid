@@ -1,7 +1,7 @@
 <!<?php
 include 'connection.php';
 $dbid =  $_GET['id'];
-$sql = "SELECT full_name,email,contact_number,gender,age,blood_group,division,address,blood_status,plasma_status,platelet_status
+$sql = "SELECT full_name,email,contact_number,gender,age,blood_group,division,address,blood_status,plasma_status
 FROM donor
 WHERE donor_id='$dbid'";
 $result = mysqli_query($conn,$sql);
@@ -16,7 +16,7 @@ $dbdivision= $row["division"];
 $dbaddress= $row["address"];
 $dbbs= $row["blood_status"];
 $dbps= $row["plasma_status"];
-$dbpts= $row["platelet_status"];
+
 ?>>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -168,14 +168,7 @@ $dbpts= $row["platelet_status"];
                                                 <p><?php echo $dbps ?></p>
                                             </div>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <label>Platelet Donor Status</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p><?php echo $dbpts ?></p>
-                                            </div>
-                                        </div>
+
 
 
                             </div>
