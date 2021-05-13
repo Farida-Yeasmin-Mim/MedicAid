@@ -65,7 +65,7 @@ else
         </li>
 
         <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle" style="font-size:23px; font-weight:bold" href="volunteer.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" style="font-size:23px; font-weight:bold" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Volunteer
         </a>
 
@@ -115,7 +115,7 @@ else
       </ul>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="Image/blood11.jpg" alt="Los Angeles" width="1100" height="500">
+          <img src="Image/bbbnew1.jpg" alt="Los Angeles" width="1100" height="500">
           <div class="carousel-caption">
             <h1 class="text-white display-6 font-weight-bold">Blood Donation</h1>
             <p class="text-white font-weight-bold">Anybody can give blood!</p>
