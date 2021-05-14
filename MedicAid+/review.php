@@ -2,7 +2,6 @@
   // Create database connection
   include 'connection.php';
 
-
       $sql = "SELECT name,message FROM feedback";
 
 $result = mysqli_query($conn, $sql);
