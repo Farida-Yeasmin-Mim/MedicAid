@@ -1,19 +1,19 @@
 <!<?php
 include 'connection.php';
-$dbid =  $_GET['id'];
-if($dbid==NULL)
-{
-  echo "<script>
-alert('Please Login First!');
-window.location.href='user_login.php';
-</script>";
+
+if ($_GET['id']==NULL){
+   header('location:please_login.php');
 }
-$sql = "SELECT first_name
-FROM user
-WHERE user_id='$dbid'";
-$result = mysqli_query($conn,$sql);
-$row = mysqli_fetch_assoc($result);
-$dbname= $row["first_name"];
+
+  $dbid =  $_GET['id'];
+  $sql = "SELECT first_name
+  FROM user
+  WHERE user_id='$dbid'";
+  $result = mysqli_query($conn,$sql);
+  $row = mysqli_fetch_assoc($result);
+  $dbname= $row["first_name"];
+
+
 ?>>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -133,7 +133,7 @@ background-size: cover;
                                         <p>Call your ambulance now!</p>
                                         <div>
                                             <button class="btn btn-primary btn-round">Get Ambulance </button>
-                                          
+
                                         </div>
 
                                     </div>
