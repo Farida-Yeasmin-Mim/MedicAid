@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--DOCTYPE html>
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,12 +19,12 @@
  	    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=11LMaX8AWCP2G-bhaWDCEUhnN3x1hSc_W" width="100%" height="740" ></iframe>
  </section>
 </body>
-</html>
+<--/html>
 
 
 
 
-<!--DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title></title>
@@ -54,7 +54,7 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwNNFGkb2kP2jLBMGNNIYJ3rivzI6KSY&callback=loadMap">
 </script>
 
-<--/html>
+</html>
 
 
 
