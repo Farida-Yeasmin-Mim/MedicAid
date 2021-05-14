@@ -24,6 +24,10 @@
 
 
 
+
+
+		
+	
 <!DOCTYPE html>
 <html>
 <head>
@@ -34,7 +38,7 @@
 	<style type="text/css">
 		
 		.container{
-			height: 450px;
+			height: 700px;
 		}
 		#map{
 			width: 100%;
@@ -43,9 +47,14 @@
 		}
 	</style>
 </head>
-<body>
+<body style="background-color:gray">
+	<header>
+		<?php include 'header.php';?>
+	</header>
+	<br>
+	<br>
 	<div class="container">
-		<center><h1>Access Google Maps API </h1></center>
+		
 		<div id="map"></div>
 	</div>
 
