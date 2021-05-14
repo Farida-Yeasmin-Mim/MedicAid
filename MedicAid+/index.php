@@ -27,6 +27,13 @@ else
 }
 
 
+if (isset($_POST['feedback'])) {
+  header("Location: donor_login.php");
+
+
+}
+
+
 }
 ?>
 <!DOCTYPE html>
@@ -115,7 +122,7 @@ else
       </ul>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="Image/bbbnew1.jpg" alt="Los Angeles" width="1100" height="500">
+          <img src="Image/bb.jpg" alt="Los Angeles" width="1100" height="500">
           <div class="carousel-caption">
             <h1 class="text-white display-6 font-weight-bold">Blood Donation</h1>
             <p class="text-white font-weight-bold">Anybody can give blood!</p>
@@ -207,10 +214,6 @@ else
       </div>
 
     </section>
-
-
-
-
 
     <!--Main layout-->
     <main class="mt-5">
@@ -314,11 +317,11 @@ else
 
 
 
-        <section>
-              <!-- Contact form -->
+      <!--  <section>
+              
 <div class="contact-form">
  <div class="container">
-  <form>
+  <form action="index.php" method="POST">
    <div class="row">
     <div class="col-lg-4 col-md-4 col-sm-12">
       <h1>Get in Touch</h1>
@@ -335,13 +338,14 @@ else
 
          </textarea>
        </div>
-       <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+       <button type="submit" name="feedback" class="btn btn-primary btn-block"> Create Account  </button>
+
     </div>
    </div>
   </form>
  </div>
 </div>
-            </section>
+</section> -->
 
             <footer>
               <?php include 'footer2.php';?>
