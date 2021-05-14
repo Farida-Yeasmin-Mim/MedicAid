@@ -1,14 +1,13 @@
 
-<!--?php
+<?php
 
 
 $data = file_get_contents('https://api.covid19api.com/summary');
 
 $coronadata= json_decode($data);
 
-echo"<pre>";
-print_r($coronadata);
-?-->
+
+?>
 
 
 
@@ -60,7 +59,7 @@ print_r($coronadata);
 <body onload="fetch()">
 
 
-  
+
 
 
 
@@ -75,7 +74,7 @@ print_r($coronadata);
     <div class="col-lg-7 col-md-7 col-12 order-lg-2 order-1">
       <div class="rightside w-100 h-100 d-flex justify-content-center align-items-center">
         <h1 style="color: #18004d"> Covid-19 statistics tracking confirmed cases, recovered patients,and death toll <span class="corona"> <img src="Image/corona6.png"></span> </h1>
-        
+
     </div>
   </div>
 </div>
@@ -86,7 +85,7 @@ print_r($coronadata);
 <br>
 <br>
 
-    
+
 
 
 
@@ -109,7 +108,7 @@ print_r($coronadata);
 
 
 
-        
+
 
       </tr>
 
@@ -128,7 +127,7 @@ print_r($coronadata);
 
 <script>
 
-  
+
 function fetch(){
     $.get("https://api.covid19api.com/summary",
         function(data){
@@ -164,11 +163,11 @@ function fetch(){
             }
         }
        );
-       
+
       }
 
 
-    
+
 
 </script>
 
@@ -176,7 +175,7 @@ function fetch(){
 
 </body>
 </html>
-    
+
 
 
 
@@ -186,7 +185,7 @@ function fetch(){
 <!--section>
   <div class="container-fluid sub_section pt-5 pb-5">
     <div class="section header text-center mb-5 mt-4">
-      
+
       <h1> Covid-19 Symptoms </h1>
     </div>
 
@@ -207,13 +206,13 @@ function fetch(){
 
   <div class="container-fluid sub_section pt-5 pb-5">
     <div class="section header text-center mb-5 mt-4">
-      
+
       <h1> What to do? </h1>
     </div>
 
     <div class="row">
     	<div class="col-lg-5 col-md-6 col-12 ml-5 ">
-      
+
         <img src="Image/corona8.png" class="img-fluid">
       </div>
   </div>
@@ -225,7 +224,7 @@ function fetch(){
 
   <div class="container-fluid sub_section pt-5 pb-5">
     <div class="section header text-center mb-5 mt-4">
-      
+
       <h1> Prevention </h1>
     </div>
 
@@ -233,12 +232,12 @@ function fetch(){
     <div class="row pt-5">
       <div class="col-lg-5 col-md-6 col-12 ml-auto ">
       	<img src="Image/corona2.jpg" class="img-fluid">
-      	
-      	<div class="float-right">Total Cost</div>
-        
-    
 
-        
+      	<div class="float-right">Total Cost</div>
+
+
+
+
       </div>
   </div>
 </div>
@@ -256,6 +255,3 @@ function fetch(){
 
 
 <--/html>
-
-
-
