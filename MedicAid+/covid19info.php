@@ -156,6 +156,14 @@ Here’s how you can help:<br>
       <br>
       
       <!--div class="fakeimg" style="height:200px;">Image</div-->
+      Alternatives to EPA-registered disinfectants include: <br>
+Diluted household bleach: Mix 5 tablespoons (1/3 cup) bleach per gallon of water, or 4 teaspoons bleach per quart of water. Make sure you have proper ventilation and that the bleach is not expired. <br>
+Alcohol solutions: Ensure your solution has at least 70% alcohol.<br>
+<br>
+  </p>
+    </div>
+<br>
+<br>
     
       
 <p style="color:grey">
