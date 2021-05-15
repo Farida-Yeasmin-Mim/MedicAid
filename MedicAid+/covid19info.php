@@ -24,3 +24,17 @@
   </header>
 
   <body>
+    <div class="card-body text-center text-danger ">
+
+
+
+
+
+
+    <h4 class="card-title mt-3 text-center text-info  ">Coronavirus Safety Tips</h4>
+    <p class="h5 text-info  ">(Staying Safe and Helping Others During COVID-19) </p> <b>
+    <p style="color: black">According to the CDC, COVID-19 symptoms include fever, coughing and shortness of breath, plus others. Symptoms may appear 2-14 days after exposure. Call your doctor for medical advice if you think you have been exposed to COVID-19 or develop symptoms.</p>
+    <p>
+<br>
+<br>
+<br>
