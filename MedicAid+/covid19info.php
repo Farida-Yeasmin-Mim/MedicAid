@@ -143,6 +143,23 @@ Here’s how you can help:<br>
 <i class="fas fa-exclamation"style="color:red"></i>New confusion<br>
 <i class="fas fa-exclamation"style="color:red"></i>Inability to wake or stay awake<br>
 <i class="fas fa-exclamation"style="color:red"></i>Bluish lips or face<br>
+        This list is not all inclusive. Please consult your medical provider for any other symptoms that are severe or concerning.<br>
+  </p>
+    </div>
+    <br>
+    <br>
+
+
+    <div class="card">
+      <h2 style="color: blue">How to Clean and Disinfect</h2>
+      <br>
+      <br>
+      
+      <!--div class="fakeimg" style="height:200px;">Image</div-->
+    
+      
+<p style="color:grey">
+        
  
 
  
