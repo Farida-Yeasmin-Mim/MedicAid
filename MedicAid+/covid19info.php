@@ -84,5 +84,13 @@
       <p style="color: grey">Community practices, such as social distancing , wearing face coverings, closures and canceling large gatherings can help slow the spread of this virus.<br>
         <br>
 
+Here’s how you can help:<br>
+<br>
 
+<i class="fas fa-check-circle" style="color:red"></i>Follow good hygiene practices. <br>
+<i class="fas fa-check-circle"style="color:red"></i>Listen to and follow the directions of your state and local authorities.<br>
+<i class="fas fa-check-circle"style="color:red"></i>Stay home if you can and avoid any non-essential travel. Avoid using any kind of public transportation, ridesharing or taxis, if possible.<br>
+<i class="fas fa-check-circle"style="color:red"></i>Wear a cloth face covering to cover your mouth and nose when around others. Learn more. <br>
+<i class="fas fa-check-circle"style="color:red"></i>Keep at least 6 feet between you and others if you must be in public. Also avoid:<br>
+<i class="fas fa-check-circle"style="color:red"></i>Close contact with people who do not share your home.<br>
  
