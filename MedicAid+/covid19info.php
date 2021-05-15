@@ -100,4 +100,17 @@ Here’s how you can help:<br>
 <i class="fas fa-check-circle"style="color:red"></i>If you or someone in your household becomes sick, call a health care provider for medical advice and follow it.<br>
   </p>
     </div>
+      
+      <br>
+
+    <div class="card">
+      <h2 style="color: blue">What to Do If You Are Sick</h2>
+      <br>
+      <br>
+      
+      <!--div class="fakeimg" style="height:200px;">Image</div-->
+    
+      <p style="color: grey">If you are sick or think you might have COVID-19, follow these tips from the CDC to care for yourself and help protect other people in your home and community. Keep in mind that most people have mild illness and are able to recover at home.<br>
+        <br>
+
  
