@@ -210,6 +210,14 @@ Have a 1-month supply of medications and a 2-week supply of food on hand.<br>
 Along with prescription medications, have a 1-month supply of over-the-counter medications like cough suppressants and fever reducing drugs. Ask your physician or local pharmacy if prescriptions can be delivered. Be sure to have a thermometer on hand in case you need to check for a fever.<br>
 <br>
 A 2-week supply of food als
+  
+  local grocery stores to see if they offer online ordering and home delivery. Find out if there are local nonprofit services to assist with food or meal delivery.<br>
+<br>
+Have a plan for if you get sick. Make a list of medications and medical contacts, and know where to find health care documents like advance directives (a living will). Determine who will care for you at home should you become ill, and tell them what sort of care you would want if you became too ill and unable to speak for yourself. <br>
+<br>
+Cancel all non-essential, in-person doctor’s appointments. Use telemedicine services, which enables you to communicate with your doctor over video, phone or email, rather than face-to-face. <br>
+<br>
+Beware of scams. Unfortunately, scammers are taking advantage of people’s fears and the Federal Trade Commission has tips to help protect you and others. There currently are no vaccines, pills, lotions or other prescription or over-the-counter products available to treat or cure COVID-19 online or in stores. Beware of “viral videos” suggesting potentially dangerous or toxic home preventatives, such as drinking excessive amounts of water or mouthwash<br>
  
 
 If you are at higher risk for serious illness from COVID-19, it is extra important for you to take actions to avoid getting sick.<br>
