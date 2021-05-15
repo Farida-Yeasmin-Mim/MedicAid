@@ -17,8 +17,8 @@
   if (mysqli_num_rows($result) > 0) {
     // output data of each row
     while($row = mysqli_fetch_assoc($result)) {
-      $Email= $row["Email"] ;
-      $Pass= $row["Password"] ;
+      $Email= $row["email"] ;
+      $Pass= $row["password"] ;
       // Check if the username and the password they entered was correct
       if ( $Email == $dbEmail && $Pass == $dbpass) {
         $sql = "SELECT user_id
