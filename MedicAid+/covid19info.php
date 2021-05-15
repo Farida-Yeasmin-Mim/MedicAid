@@ -179,6 +179,17 @@ Products with EPA-approved emerging viral pathogens claims are expected to be ef
       <br>
       
       <!--div class="fakeimg" style="height:200px;">Image</div-->
+   Stay home if possible.<br>
+Wash your hands often.<br>
+Take everyday precautions to keep space between yourself and others (stay 6 feet away, which is about two arm lengths).<br>
+Keep away from people who are sick.<br>
+Stock up on supplies.<br><br>
+Clean and disinfect frequently touched services.<br>
+Avoid all cruise travel and non-essential air travel.<br>
+Call your health care professional if you have concerns about COVID-19 and your underlying condition or if you are sick.<br>
+See additional healthy practices to protect yourself.<br>
+
+<br>
     
       
 <p style="color: grey">According to the CDC, early information shows that some people are at higher risk of getting very sick from COVID-19. This includes adults who are 65 and older, and people of any age who:<br>
