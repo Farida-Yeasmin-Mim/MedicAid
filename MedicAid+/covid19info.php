@@ -190,7 +190,13 @@ Call your health care professional if you have concerns about COVID-19 and your 
 See additional healthy practices to protect yourself.<br>
 
 <br>
-    
+    <br>
+<b> </style>Older Adults and COVID-19: What You Can Do<br></b>
+    <br>
+In addition to following the steps above, we recommend that you take these sensible precautions. <br>
+
+Create a personal support network of trusted individuals who can help set up your phone, computer or tablet and check in with you by phone or video calls, text or email to ensure your wellness. They can also help you with errands, groceries, online shopping and setting up telemedicine (i.e., medical appointments over the phone or by video). Share your important health and medical information with them and be sure they know how they can help you.<br>
+<br>
       
 <p style="color: grey">According to the CDC, early information shows that some people are at higher risk of getting very sick from COVID-19. This includes adults who are 65 and older, and people of any age who:<br>
         <br>
@@ -200,4 +206,11 @@ Have a weakened immune system, including those undergoing cancer treatment, smok
  
 
 If you are at higher risk for serious illness from COVID-19, it is extra important for you to take actions to avoid getting sick.<br>
+<br>
+  <br>
+<b> </style>Older Adults and COVID-19: What You Can Do<br></b>
+    <br>
+In addition to following the steps above, we recommend that you take these sensible precautions. <br>
+
+Create a personal support network of trusted individuals who can help set up your phone, computer or tablet and check in with you by phone or video calls, text or email to ensure your wellness. They can also help you with errands, groceries, online shopping and setting up telemedicine (i.e., medical appointments over the phone or by video). Share your important health and medical information with them and be sure they know how they can help you.<br>
 <br>
