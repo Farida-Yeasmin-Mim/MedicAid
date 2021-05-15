@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="en" dir="ltr">
 <html>
 
@@ -11,39 +11,21 @@
 
 
 </head>
+<header>
+     
+   <?php include 'header.php';?>
+
+  </header>
 <body>
 
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-  <a class="navbar-brand" href="#">
-    <img src="Image/Main Logo.jpg" alt="Logo" style="width:153px"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Donation</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Volunteer</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Ambulance</a>
-      </li>
-    </ul>
-    <form class="form-inline  my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+  
 
-<br>
-<br>
+
+
+
+
+
 
 
 
@@ -58,7 +40,7 @@
       <h5>Registration and Health History</h5> 
       <!--div class="fakeimg" style="height:200px;">Image</div-->
       <img src="Image/5266696.jpg" height="900">
-      <p> 1. We’ll sign you in and you will go over Blood Donation eligibility.<br>
+      <p style="background:    #F5F5DC;"> 1. We’ll sign you in and you will go over Blood Donation eligibility.<br>
         2. You’ll read some information about donating blood.<br>
         3.You’ll answer a few questions about your health history and places you’ve traveled, during a private and confidential interview.<br>
         4.You’ll tell us about any prescription and/or over the counter medications that may be in your system.<br>
@@ -95,6 +77,11 @@ Take a selfie, or simply share your good deed with friends. It may inspire them 
 
 </body>
 </html>
+
+
+
+
+
 
 
 
