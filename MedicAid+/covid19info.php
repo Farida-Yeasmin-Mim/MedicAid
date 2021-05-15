@@ -114,5 +114,7 @@ Here’s how you can help:<br>
         <br>
         <i class="fas fa-check"style="color:blue"></i>If You Are Mildly ill, Stay Home and Call a Health Care Provider<br>
 <br>
+        <i class="fas fa-check"style="color:blue"></i>Stay home and call your doctor for medical advice before vising a medical office. Older adults and people of any age with serious underlying medical conditions should call a health care provider as soon as symptoms start.<br>
+<i class="fas fa-check"style="color:blue"></i>Avoid public transportation, ridesharing and taxis.<br>
 
  
