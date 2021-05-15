@@ -61,7 +61,7 @@ background-size: cover;
                       <h1 class="text-dark">Reviews</h1>
                         <p class="text-dark">User reviews aren’t just important, they are critical to users’ purchasing decisions. View all reviews and you can also report review if it is irrelevant.</p>
 
-                        <button class="btn bg-primary text-white">View Reviews</button>
+                        <button class="btn bg-primary text-white" onclick="window.location ='report_review.php?id=<?php echo $dbid ?>'">View Reviews</button>
                   </div>
                   </div>
                   <div class="container-fluid">
