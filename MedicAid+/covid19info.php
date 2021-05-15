@@ -184,4 +184,9 @@ Products with EPA-approved emerging viral pathogens claims are expected to be ef
 <p style="color: grey">According to the CDC, early information shows that some people are at higher risk of getting very sick from COVID-19. This includes adults who are 65 and older, and people of any age who:<br>
         <br>
 
+ Have serious underlying medical conditions, particularly if not well controlled, such as heart, lung or liver disease; diabetes; moderate to severe asthma; severe obesity; and chronic kidney disease requiring dialysis. <br>
+Have a weakened immune system, including those undergoing cancer treatment, smoking or having other immunocompromised conditions.<br>
  
+
+If you are at higher risk for serious illness from COVID-19, it is extra important for you to take actions to avoid getting sick.<br>
+<br>
