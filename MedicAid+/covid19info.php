@@ -126,5 +126,23 @@ Here’s how you can help:<br>
     </div>
     <br>
     <br>
+      <div class="card">
+      <h2 style="color: blue">If your symptoms are severe, call to get medical attention immediately.</h2>
+      <br>
+      <br>
+      
+      <!--div class="fakeimg" style="height:200px;">Image</div-->
+    
+      <p style="color: black">Emergency warning signs include:<br>
+        <br>
+
+
+
+<i class="fas fa-exclamation"style="color:red"></i>Trouble breathing<br>
+<i class="fas fa-exclamation"style="color:red"></i>Persistent pain or pressure in the chest<br>
+<i class="fas fa-exclamation"style="color:red"></i>New confusion<br>
+<i class="fas fa-exclamation"style="color:red"></i>Inability to wake or stay awake<br>
+<i class="fas fa-exclamation"style="color:red"></i>Bluish lips or face<br>
+ 
 
  
