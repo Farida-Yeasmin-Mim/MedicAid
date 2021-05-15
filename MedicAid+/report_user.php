@@ -64,15 +64,17 @@ background-size: cover;
     <?php include 'header2.php';?>
 
               </header>
+              <br>
+              <button class="btn bg-primary text-white" onclick="window.location ='admin_profile.php?id=<?php echo $dbid ?>'">Back To Profile</button>
 
                 <div class="container-fluid">
                   <h1 class="text-center text-dark text-capitalize pt-5">Donor Information</h1>
                   <hr class="w-25 pt-5">
-
               <form class="example" method="POST" action="blood_donor_information.php">
   <input name="srch" type="text" placeholder="Search By Name.." name="search">
   <button name="search" type="submit"><i class="fa fa-search"></i></button>
 </form>
+
 <div id="content">
   <?php
     while ($row = mysqli_fetch_array($result)) {
