@@ -1,13 +1,13 @@
-
-<?php
+<!--?php
 
 
 $data = file_get_contents('https://api.covid19api.com/summary');
 
 $coronadata= json_decode($data);
 
-
-?>
+echo"<pre>";
+print_r($coronadata);
+?-->
 
 
 
@@ -27,39 +27,18 @@ $coronadata= json_decode($data);
 
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-  <a class="navbar-brand" href="#">
-    <img src="Image/Main Logo.jpg" alt="Logo" style="width:153px"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Donation</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Volunteer</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Ambulance</a>
-      </li>
-    </ul>
-    <form class="form-inline  my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+<header>
+	
+   <?php include 'header.php';?>
+
+</header>
+
+
 
 
 <body onload="fetch()">
-
-
-
+	
+  
 
 
 
@@ -73,8 +52,8 @@ $coronadata= json_decode($data);
 
     <div class="col-lg-7 col-md-7 col-12 order-lg-2 order-1">
       <div class="rightside w-100 h-100 d-flex justify-content-center align-items-center">
-        <h1 style="color: #18004d"> Covid-19 statistics tracking confirmed cases, recovered patients,and death toll <span class="corona"> <img src="Image/corona6.png"></span> </h1>
-
+        <h1 style="color: #18004d"> Covid-19 World Statistics <span class="corona"> <img src="Image/corona6.png"></span> </h1>
+        
     </div>
   </div>
 </div>
@@ -85,7 +64,7 @@ $coronadata= json_decode($data);
 <br>
 <br>
 
-
+    
 
 
 
@@ -108,7 +87,7 @@ $coronadata= json_decode($data);
 
 
 
-
+        
 
       </tr>
 
@@ -127,7 +106,7 @@ $coronadata= json_decode($data);
 
 <script>
 
-
+  
 function fetch(){
     $.get("https://api.covid19api.com/summary",
         function(data){
@@ -163,11 +142,11 @@ function fetch(){
             }
         }
        );
-
+       
       }
 
 
-
+    
 
 </script>
 
@@ -175,7 +154,7 @@ function fetch(){
 
 </body>
 </html>
-
+    
 
 
 
@@ -185,7 +164,7 @@ function fetch(){
 <!--section>
   <div class="container-fluid sub_section pt-5 pb-5">
     <div class="section header text-center mb-5 mt-4">
-
+      
       <h1> Covid-19 Symptoms </h1>
     </div>
 
@@ -206,13 +185,13 @@ function fetch(){
 
   <div class="container-fluid sub_section pt-5 pb-5">
     <div class="section header text-center mb-5 mt-4">
-
+      
       <h1> What to do? </h1>
     </div>
 
     <div class="row">
     	<div class="col-lg-5 col-md-6 col-12 ml-5 ">
-
+      
         <img src="Image/corona8.png" class="img-fluid">
       </div>
   </div>
@@ -224,7 +203,7 @@ function fetch(){
 
   <div class="container-fluid sub_section pt-5 pb-5">
     <div class="section header text-center mb-5 mt-4">
-
+      
       <h1> Prevention </h1>
     </div>
 
@@ -232,12 +211,12 @@ function fetch(){
     <div class="row pt-5">
       <div class="col-lg-5 col-md-6 col-12 ml-auto ">
       	<img src="Image/corona2.jpg" class="img-fluid">
-
+      	
       	<div class="float-right">Total Cost</div>
+        
+    
 
-
-
-
+        
       </div>
   </div>
 </div>
@@ -255,3 +234,6 @@ function fetch(){
 
 
 <--/html>
+
+
+
