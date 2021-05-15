@@ -52,4 +52,9 @@
   <i class="fas fa-circle fa-stack-2x"></i>
   <i class="fas fa-hands-wash fa-stack-1x fa-inverse"></i>
 </span>
+      <p>2.Wash your hands often with soap and water for at least 20 seconds.</p>
+<span class="fa-stack fa-4x">
+  <i class="fas fa-square fa-stack-2x"></i>
+  <i class="fas fa-pump-medical fa-stack-1x fa-inverse"></i>
+</span>
  
