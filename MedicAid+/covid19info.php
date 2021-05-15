@@ -159,6 +159,11 @@ Here’s how you can help:<br>
     
       
 <p style="color:grey">
+  Wear disposable gloves to clean and disinfect. <br>
+Prior to disinfecting, use detergent, or soap and water, to clean dirty surfaces. <br>
+Most common EPA-registered household disinfectants will work. Use disinfectants appropriate for the surface.  <br>
+Follow the manufacturer’s instructions for all cleaning and disinfectant products (e.g., concentration, application method and contact time, etc.). <br>
+Products with EPA-approved emerging viral pathogens claims are expected to be effective against COVID-19, based on data for harder-to-kill viruses. <br>
         
  
 
