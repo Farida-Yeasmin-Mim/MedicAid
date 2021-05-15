@@ -47,4 +47,9 @@
 </span>  
       <p> 1.Sneeze or cough?  Cover your nose and mouth with a tissue or use your elbow. </p>
 <br>
+      <br>
+<span class="fa-stack fa-4x">
+  <i class="fas fa-circle fa-stack-2x"></i>
+  <i class="fas fa-hands-wash fa-stack-1x fa-inverse"></i>
+</span>
  
