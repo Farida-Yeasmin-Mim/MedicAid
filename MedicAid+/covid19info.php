@@ -38,3 +38,11 @@
 <br>
 <br>
 <br>
+      <p style="color: blue" >Follow these five easy steps to help prevent the spread of COVID-19</p></b>
+
+<span class="fa-stack fa-4x">
+  <i class="fas fa-circle fa-stack-2x"></i>
+  <i class="fas fa-box-tissue fa-stack-1x fa-inverse"></i>
+  
+</span>  
+ 
