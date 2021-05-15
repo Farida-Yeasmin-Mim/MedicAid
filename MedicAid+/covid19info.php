@@ -74,5 +74,15 @@
 <br>
 <br>
 <br>
+  div class="card">
+      <h2 style="color: blue"> Help Slow the Spread of COVID-19</h2>
+      <br>
+      <br>
+      
+      <!--div class="fakeimg" style="height:200px;">Image</div-->
+    
+      <p style="color: grey">Community practices, such as social distancing , wearing face coverings, closures and canceling large gatherings can help slow the spread of this virus.<br>
+        <br>
+
 
  
