@@ -112,5 +112,7 @@ Here’s how you can help:<br>
     
       <p style="color: grey">If you are sick or think you might have COVID-19, follow these tips from the CDC to care for yourself and help protect other people in your home and community. Keep in mind that most people have mild illness and are able to recover at home.<br>
         <br>
+        <i class="fas fa-check"style="color:blue"></i>If You Are Mildly ill, Stay Home and Call a Health Care Provider<br>
+<br>
 
  
