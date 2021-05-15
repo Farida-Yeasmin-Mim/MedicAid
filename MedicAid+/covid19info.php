@@ -57,4 +57,9 @@
   <i class="fas fa-square fa-stack-2x"></i>
   <i class="fas fa-pump-medical fa-stack-1x fa-inverse"></i>
 </span>
+      <p>3.Clean and disinfect surfaces around your home and work frequently.</p>
+<span class="fa-stack fa-4x">
+  <i class="fas fa-square fa-stack-2x"></i>
+  <i class="fas fa-people-arrows fa-stack-1x fa-inverse"></i>
+
  
