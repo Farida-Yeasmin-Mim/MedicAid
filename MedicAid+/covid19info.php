@@ -203,6 +203,13 @@ Create a personal support network of trusted individuals who can help set up you
 
  Have serious underlying medical conditions, particularly if not well controlled, such as heart, lung or liver disease; diabetes; moderate to severe asthma; severe obesity; and chronic kidney disease requiring dialysis. <br>
 Have a weakened immune system, including those undergoing cancer treatment, smoking or having other immunocompromised conditions.<br>
+  Limit visits with family members, especially young children. While you may need family members to help run errands, keep about 6 feet away from them. Have visitors leave food or grocery items at the door rather than entering the home. Avoid inviting young children into your home.<br>
+<br>
+Have a 1-month supply of medications and a 2-week supply of food on hand.<br>
+<br>
+Along with prescription medications, have a 1-month supply of over-the-counter medications like cough suppressants and fever reducing drugs. Ask your physician or local pharmacy if prescriptions can be delivered. Be sure to have a thermometer on hand in case you need to check for a fever.<br>
+<br>
+A 2-week supply of food als
  
 
 If you are at higher risk for serious illness from COVID-19, it is extra important for you to take actions to avoid getting sick.<br>
