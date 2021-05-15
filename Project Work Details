@@ -86,12 +86,16 @@ Full page design
 3. information3.php/information.css(Third Card)
 Full page design
 
-- Google Map
-custom google map added
+- Google Map using API key
+added google map
 
 - covid19.php/covid19.css
 full page design
 Live Covid-19 statistics using API
+
+-Bangladesh_covid_info.php/Bangladesh_covid_info.css
+full page design
+Live covid-19 updates
 
 
 
