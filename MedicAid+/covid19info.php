@@ -231,6 +231,48 @@ Create a personal support network of trusted individuals who can help set up you
 <br>
   <br>
   </p>
+  <p style="color: grey">
+        
+
+
+
+For many of us, COVID-19 has disrupted our routines and made everyday activities, such as work and caring for loved ones, challenging. <br>
+
+These changes, on top of the general uncertainty around this pandemic, can create feelings of stress, fear and nervousness. These feelings are normal, and people typically bounce back after difficult times.<br>
+
+Children and teens may respond more strongly to the stress and anxiety caused by COVID-19, and become frightened that they or their loved ones will get sick. Take time to talk calmly and reassure children about what is happening in a way that they can understand.<br>
+
+The following information can help you cope with stress and support others during this emergency.<br>
+
+It’s normal for people to have these types of feelings right now:<br>
+<i class="fas fa-circle"style="color:red"></i>Fear about running out of essential supplies.<br>
+<i class="fas fa-circle"style="color:red"></i>Anxiety, particularly about being separated from loved ones.<br>
+<i class="fas fa-circle"style="color:red"></i>Uncertainty about how long you will need to shelter at home.<br>
+<i class="fas fa-circle"style="color:red"></i>Fear of getting sick.<br>
+<i class="fas fa-circle"style="color:red"></i>Guilt about not being able to fulfill responsibilities, such as work, parenting or caring for dependents.<br>
+<i class="fas fa-circle"style="color:red"></i>Boredom or isolation.<br>
+<i class="fas fa-circle"style="color:red"></i>Thoughts of blame, worry or fear.<br>
+<i class="fas fa-circle"style="color:red"></i>Worry about loss of income.<br>
+<i class="fas fa-circle"style="color:red"></i>Fear of being stigmatized or labeled if you become sick.<br>
+ 
+
+Coping Tips:<br>
+<br>
+<i class="fas fa-check"style="color:blue"></i>People’s reactions appear in different ways, not only in the way someone feels, but in the way they think and what they think about — their sleeping habits, how they go about daily living and the way they interact and get along with others. Here are a few steps to help people cope:<br>
+
+<i class="fas fa-check"style="color:blue"></i>Connect with loved ones through video calls, phone calls, texts or social media. 
+Stay informed with accurate, reliable information from trusted sources. Avoid social media accounts and news outlets that promote fear or rumors.<br>
+<i class="fas fa-check"style="color:blue"></i>Take care of yourself and monitor the physical health needs of your loved ones. Eat healthy, drink plenty of water and get enough rest.<br>
+<i class="fas fa-check"style="color:blue"></i>Unless you are showing signs of illness or have tested positive for COVID-19, going outside to exercise and walk pets is okay. But don’t forget to practice social distancing by keeping at least 6 feet away from others and wearing a cloth face covering when in public.<br>
+ 
+
+<i class="fas fa-check"style="color:blue"></i>Be patient with yourself and others. It’s common to have any number of temporary stress reactions, such as fear, anger, frustration and anxiety. Hold an image in your mind of the best possible outcome. Make a list of your personal strengths and use these to help both yourself and others stay emotionally strong. <br>
+
+<i class="fas fa-check"style="color:blue"></i>Relax your body often by doing things that work for you - take deep breaths, stretch or meditate, or engage in activities you enjoy.<br>
+If you are religious or spiritual, follow practices at home that provide you with comfort and emotional strength.
+ <br>
+
+Helping Others:<br>
     </div>
 <br>
 <br>
