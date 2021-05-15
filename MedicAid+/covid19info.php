@@ -116,5 +116,7 @@ Here’s how you can help:<br>
 <br>
         <i class="fas fa-check"style="color:blue"></i>Stay home and call your doctor for medical advice before vising a medical office. Older adults and people of any age with serious underlying medical conditions should call a health care provider as soon as symptoms start.<br>
 <i class="fas fa-check"style="color:blue"></i>Avoid public transportation, ridesharing and taxis.<br>
+        <i class="fas fa-check"style="color:bluen"></i>Separate yourself from other people in your home. As much as possible, stay in a specific room away from other people and pets. Use a separate bathroom, if available. Learn more about if you have pets.<br>
+<i class="fas fa-check"style="color:blue"></i>Wear a cloth face covering if you are around other people (e.g., sharing a room or vehicle) and before you enter a health care provider’s office. See CDC guidelines.<br>
 
  
