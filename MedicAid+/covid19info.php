@@ -45,4 +45,6 @@
   <i class="fas fa-box-tissue fa-stack-1x fa-inverse"></i>
   
 </span>  
+      <p> 1.Sneeze or cough?  Cover your nose and mouth with a tissue or use your elbow. </p>
+<br>
  
