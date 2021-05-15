@@ -1,6 +1,10 @@
 <?php
+
   // Create database connection
   include 'connection.php';
+
+  $dbid =  $_GET['id'];
+
   if (isset($_POST['search'])) {
     $dbsearch = strip_tags($_POST['srch']);
     $sql = "SELECT * FROM donor WHERE full_name LIKE '%$dbsearch%'";
@@ -11,8 +15,12 @@
     }
 
     if (isset($_POST['block'])) {
-      $dbid = $_GET['id'];
-      header("location:please_login.php?id=$dbid");
+      $dbp = $_GET['p'];
+      $dbid =  $_GET['id'];
+      $sql = "DELETE FROM donor
+      WHERE donor_id = $dbp";
+      mysqli_query($conn, $sql);
+      header("location:report_user.php?id=$dbid");
     }
 
 $result = mysqli_query($conn, $sql);
@@ -22,7 +30,7 @@ $result = mysqli_query($conn, $sql);
 <html>
 <head>
   <meta charset="utf-8">
-<title>Blood Donor Information</title>
+<title>Donor Details</title>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -77,7 +85,7 @@ background-size: cover;
         echo "<h6>Blood Group: ".$row['blood_group']." </h6>";
         echo "<h6>Division: ".$row['division']." </h6>";
         echo "<h6>Address: ".$row['address']." </h6>";
-        echo "<form method='POST' action='report_user.php?id=".$row['donor_id']."' >";
+        echo "<form method='POST' action='report_user.php?id=$dbid&p=".$row['donor_id']."' >";
         echo "<button type='submit' class='btn btn-danger btn-block' name='block'>Block This User</button>";
         echo "</form>";
 
