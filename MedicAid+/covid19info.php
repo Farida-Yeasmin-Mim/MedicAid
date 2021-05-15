@@ -61,5 +61,12 @@
 <span class="fa-stack fa-4x">
   <i class="fas fa-square fa-stack-2x"></i>
   <i class="fas fa-people-arrows fa-stack-1x fa-inverse"></i>
+  
+  /span>
+<p>4.Keep at least 6 feet between yourself and others if you must be in public.</p>
+
+<span class="fa-stack fa-4x">
+  <i class="fas fa-square fa-stack-2x"></i>
+  <i class="fas fa-head-side-mask fa-stack-1x fa-inverse"></i>
 
  
