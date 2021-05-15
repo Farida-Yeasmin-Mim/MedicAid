@@ -173,6 +173,15 @@ Most common EPA-registered household disinfectants will work. Use disinfectants 
 Follow the manufacturer’s instructions for all cleaning and disinfectant products (e.g., concentration, application method and contact time, etc.). <br>
 Products with EPA-approved emerging viral pathogens claims are expected to be effective against COVID-19, based on data for harder-to-kill viruses. <br>
         
- 
+ <div class="card">
+      <h2 style="color: blue">Precautions for People at Higher Risk</h2>
+      <br>
+      <br>
+      
+      <!--div class="fakeimg" style="height:200px;">Image</div-->
+    
+      
+<p style="color: grey">According to the CDC, early information shows that some people are at higher risk of getting very sick from COVID-19. This includes adults who are 65 and older, and people of any age who:<br>
+        <br>
 
  
