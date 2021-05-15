@@ -118,5 +118,13 @@ Here’s how you can help:<br>
 <i class="fas fa-check"style="color:blue"></i>Avoid public transportation, ridesharing and taxis.<br>
         <i class="fas fa-check"style="color:bluen"></i>Separate yourself from other people in your home. As much as possible, stay in a specific room away from other people and pets. Use a separate bathroom, if available. Learn more about if you have pets.<br>
 <i class="fas fa-check"style="color:blue"></i>Wear a cloth face covering if you are around other people (e.g., sharing a room or vehicle) and before you enter a health care provider’s office. See CDC guidelines.<br>
+<i class="fas fa-check"style="color:blue"></i>Continue to follow good hygiene practices. <br>
+<i class="fas fa-check"style="color:blue"></i>Avoid sharing personal household items, such as dishes, drinking glasses, cups, eating utensils, towels or bedding. Wash items thoroughly after using them with soap and water or put them in the dishwasher. <br>
+<i class="fas fa-check"style="color:bluen"></i>In your designated room and bathroom: On your own, clean and disinfect high-touch surfaces daily; wear disposable gloves. High-touch surfaces include phones, remote controls, counters, tabletops, doorknobs, bathroom fixtures, toilets, keyboards, tablets, and bedside tables. Learn more.<br>
+<i class="fas fa-check"style="color:blue"></i>In the rest of the house: Have a healthy household member clean and disinfect all other surfaces daily. <br>
+  </p>
+    </div>
+    <br>
+    <br>
 
  
