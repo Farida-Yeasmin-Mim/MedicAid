@@ -93,4 +93,11 @@ Here’s how you can help:<br>
 <i class="fas fa-check-circle"style="color:red"></i>Wear a cloth face covering to cover your mouth and nose when around others. Learn more. <br>
 <i class="fas fa-check-circle"style="color:red"></i>Keep at least 6 feet between you and others if you must be in public. Also avoid:<br>
 <i class="fas fa-check-circle"style="color:red"></i>Close contact with people who do not share your home.<br>
+        <i class="fas fa-check-circle"style="color:red"></i>Group settings, crowded places and mass gatherings. <br>
+<i class="fas fa-check-circle"style="color:red"></i>Order food and other items online for home delivery or curbside pickup (if possible).<br>
+<i class="fas fa-check-circle"style="color:red"></i>Connect with loved ones through video calls, phone calls, texts and social media.<br>
+<i class="fas fa-check-circle"style="color:red"></i>Take precautions if you are at higher risk for severe illness.<br>
+<i class="fas fa-check-circle"style="color:red"></i>If you or someone in your household becomes sick, call a health care provider for medical advice and follow it.<br>
+  </p>
+    </div>
  
