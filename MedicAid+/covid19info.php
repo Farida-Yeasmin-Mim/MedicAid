@@ -229,3 +229,15 @@ In addition to following the steps above, we recommend that you take these sensi
 
 Create a personal support network of trusted individuals who can help set up your phone, computer or tablet and check in with you by phone or video calls, text or email to ensure your wellness. They can also help you with errands, groceries, online shopping and setting up telemedicine (i.e., medical appointments over the phone or by video). Share your important health and medical information with them and be sure they know how they can help you.<br>
 <br>
+  <br>
+  </p>
+    </div>
+<br>
+<br>
+
+
+<div class="card">
+      <h2 style="color: blue">Coping With Stress During COVID-19</h2>
+      <br>
+      <br>
+      
