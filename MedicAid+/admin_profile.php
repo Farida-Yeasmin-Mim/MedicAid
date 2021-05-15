@@ -1,19 +1,18 @@
 <!<?php
 include 'connection.php';
-$dbid =  $_GET['id'];
-if($dbid==NULL)
-{
-  echo "<script>
-alert('Please Login First!');
-window.location.href='admin_login.php';
-</script>";
+
+
+if ($_GET['id']==NULL){
+   header('location:please_login_admin.php');
 }
-$sql = "SELECT first_name
-FROM user
-WHERE user_id='$dbid'";
+
+$dbid =  $_GET['id'];
+$sql = "SELECT name
+FROM admin
+WHERE admin_id='$dbid'";
 $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_assoc($result);
-$dbname= $row["first_name"];
+$dbname= $row["name"];
 ?>>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -44,109 +43,47 @@ background-size: cover;
       <?php include 'header.php';?>
 
                 </header>
-                <div class="container-fluid">
-                  <h1 class="text-center text-dark text-capitalize pt-5">Welcome <?php echo $dbname ?>!</h1>
-                  <hr class="w-25 pt-5">
+                <!--Main layout-->
+                <main class="mt-5">
+                <div class="container">
 
-            <div class="container profile-page">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-7 col-md-12">
-                        <div class="card profile-header">
-                            <div class="body">
-                                <div class="row">
-                                  <div class="col-lg-4 col-md-4 col-12">
-                                      <div class="profile-image float-md-right"> <img src="Image/up_blood.jpg" alt=""> </div>
-                                  </div>
-                                    <div class="col-lg-8 col-md-8 col-12">
-                                        <h4 ><strong>Blood</strong></h4>
+                  <div class="container-fluid">
+                    <h1 class="text-center font-weight-bold text-dark text-capitalize">Welcome <?php echo $dbname ?>!</h1>
+                    <hr class="w-25 pt-5">
+                    <div class="row mb-5">
+                      <div class="col-lg-6 col-md-6 col-12">
+                        <img src="Image/admin_feedback.jpg" class="img-fluid">
+                    </div>
 
-                                        <p>Searching for blood?</p>
-                                        <div>
-                                            <button class="btn btn-danger btn-round">Get Blood Donor</button>
+                    <div class="col-lg-6 col-md-6 col-12">
+                      <br>
 
-                                        </div>
+                      <h1 class="text-dark">Reviews</h1>
+                        <p class="text-dark">User reviews aren’t just important, they are critical to users’ purchasing decisions. View all reviews and you can also report review if it is irrelevant.</p>
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <button class="btn bg-primary text-white">View Reviews</button>
+                  </div>
+                  </div>
+                  <div class="container-fluid">
+
+                  <hr>
+
+                    <div class="row mb-5">
+                      <div class="col-lg-6 col-md-6 col-12">
+                        <br>
+
+                        <h1 class="text-dark">Donor Details</h1>
+                          <p class="text-dark">Donation is a practice when people donate to others to help them with their critical conditions. View their details and you can also block user if they are not useful. </p>
+
+                          <button class="btn bg-primary text-white" onclick="window.location ='report_user.php?id=<?php echo $dbid ?>'">View Donor Details</button>
+                    </div>
+                      <div class="col-lg-6 col-md-6 col-12">
+                        <img src="Image/admin_user.jpg" class="img-fluid">
                     </div>
 
 
-                    <div class="col-xl-6 col-lg-7 col-md-12">
-                        <div class="card profile-header">
-                            <div class="body">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-12">
-                                        <div class="profile-image float-md-right"> <img src="Image/up_plasma.jpg" alt=""> </div>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-12">
-                                        <h4><strong>Plasma</strong></h4>
-                                        <p>Not getting plasma donor?</p>
-                                        <div>
-                                            <button class="btn btn-warning btn-round">Get Plasma Donor</button>
+                  </div>
 
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xl-6 col-lg-7 col-md-12">
-                        <div class="card profile-header">
-                            <div class="body">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-12">
-                                        <div class="profile-image float-md-right"> <img src="Image/up_platelet.jpg" alt=""> </div>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-12">
-                                        <h4 ><strong>Platelet</strong></h4>
-
-                                        <p>Seeking for platelet donor?</p>
-                                        <div>
-                                            <button class="btn btn-info btn-round">Get Platelet Donor</button>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-xl-6 col-lg-7 col-md-12">
-                        <div class="card profile-header">
-                            <div class="body">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-12">
-                                        <div class="profile-image float-md-right"> <img src="Image/up_ambulance.jpg" alt=""> </div>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-12">
-                                        <h4><strong>Ambulance</strong></h4>
-
-                                        <p>Call your ambulance now!</p>
-                                        <div>
-                                            <button class="btn btn-primary btn-round">Get Ambulance </button>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            	</div>
-
-
-
-
-            </div>
 
   </body>
 </html>
