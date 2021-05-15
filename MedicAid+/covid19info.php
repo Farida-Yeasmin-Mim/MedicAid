@@ -68,5 +68,11 @@
 <span class="fa-stack fa-4x">
   <i class="fas fa-square fa-stack-2x"></i>
   <i class="fas fa-head-side-mask fa-stack-1x fa-inverse"></i>
+  </span>
+<p>5.Wear a cloth face covering over your mouth and nose when around others. </p>
+
+<br>
+<br>
+<br>
 
  
