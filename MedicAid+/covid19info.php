@@ -282,4 +282,14 @@ Helping Others:<br>
       <h2 style="color: blue">Coping With Stress During COVID-19</h2>
       <br>
       <br>
+  <br>
+<i class="fas fa-check"style="color:blue"></i>Reach out to older adults or people with chronic health conditions and offer to help. For example, offer to pick up groceries, medications and other essential supplies. Check in with them regularly but practice social distancing by keeping at least six feet away when you deliver essential items and wearing a cloth face cover.<br>
+<i class="fas fa-check"style="color:blue"></i>Talk to your children and explain why this is happening and how long it might last. Use language that is normal and consistent with how you usually communicate. Be creative and think of fun activities that will occupy their time. Keep a schedule, set appropriate limits and maintain usual rules when possible.<br>
+<i class="fas fa-check"style="color:blue"></i>Take care of your pets, which can be an essential part of your support system. Like people, pets react to changes in their environment and routine, so their behaviors may change, as well. Keep track of their well-being and take care of their needs as best you can.<br>
+<i class="fas fa-check"style="color:blue"></i>Show kindness to people who may not have a support system or are isolated. There may be limits to what you can do in reaching out, but a little kindness may be just what someone needs.<br>
+  </p>
+    </div>
+<br>
+<br>
+
       
