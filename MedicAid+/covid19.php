@@ -53,7 +53,10 @@ print_r($coronadata);
     <div class="col-lg-7 col-md-7 col-12 order-lg-2 order-1">
       <div class="rightside w-100 h-100 d-flex justify-content-center align-items-center">
         <h1 style="color: #18004d"> Covid-19 World Statistics <span class="corona"> <img src="Image/corona6.png"></span> </h1>
+
+        <p style="color: blue">-Covid-19 live updates<br>-Cumulative confirmed Covid-19 cases <br>- People Fully Vaccinated by Country </p>
         
+      
     </div>
   </div>
 </div>
@@ -63,6 +66,7 @@ print_r($coronadata);
 
 <br>
 <br>
+
 
     
 
@@ -149,6 +153,17 @@ function fetch(){
     
 
 </script>
+<div class="card-body text-center text-center ">
+
+<iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="100%" height="600px"></iframe>
+    </div>
+      <div class="card-body text-center text-center ">
+      <iframe src="https://public.domo.com/cards/31O7r" width="900" height="600" marginheight="0" marginwidth="0" frameborder="0" center></iframe>
+    </div>
+
+
+
+
 
 
 
@@ -161,79 +176,6 @@ function fetch(){
 
 
 
-<!--section>
-  <div class="container-fluid sub_section pt-5 pb-5">
-    <div class="section header text-center mb-5 mt-4">
-      
-      <h1> Covid-19 Symptoms </h1>
-    </div>
-
-    <div class="row pt-5">
-      <div class="col-lg-5 col-md-12 col-12 ml-auto">
-
-        <img src="Image/corona9.png">
-      </div>
-  </div>
-</div>
-</section>
-
-
-
-
-<section>
-
-
-  <div class="container-fluid sub_section pt-5 pb-5">
-    <div class="section header text-center mb-5 mt-4">
-      
-      <h1> What to do? </h1>
-    </div>
-
-    <div class="row">
-    	<div class="col-lg-5 col-md-6 col-12 ml-5 ">
-      
-        <img src="Image/corona8.png" class="img-fluid">
-      </div>
-  </div>
-</div>
-</section>
-
-<section>
-
-
-  <div class="container-fluid sub_section pt-5 pb-5">
-    <div class="section header text-center mb-5 mt-4">
-      
-      <h1> Prevention </h1>
-    </div>
-
-
-    <div class="row pt-5">
-      <div class="col-lg-5 col-md-6 col-12 ml-auto ">
-      	<img src="Image/corona2.jpg" class="img-fluid">
-      	
-      	<div class="float-right">Total Cost</div>
-        
-    
-
-        
-      </div>
-  </div>
-</div>
-</section>
-
-
-</body>
-</html>
-
-
-
-
-
-
-
-
-<--/html>
 
 
 
