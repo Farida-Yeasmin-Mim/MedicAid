@@ -12,32 +12,80 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
   <body>
+    <header>
+      <?php include 'header.php';?>
+
+                </header>
     <main class="mt-5">
     <div class="container">
-
-      <div class="container-fluid">
-        <h1 class="text-center font-weight-bold text-dark text-capitalize">Welcome <?php echo $dbname ?>!</h1>
-        <hr class="w-25 pt-5">
         <div class="row mb-5">
           <div class="col-lg-6 col-md-6 col-12">
-            <img src="Image/admin_feedback.jpg" class="img-fluid">
+            <img src="Image/blood00.jpg" class="img-fluid">
         </div>
 
         <div class="col-lg-6 col-md-6 col-12">
           <br>
 
-          <h1 class="text-dark">Reviews</h1>
+          <h1 class="text-dark">Blood Donation</h1>
             <p class="text-dark">User reviews aren’t just important, they are critical to users’ purchasing decisions. View all reviews and you can also report review if it is irrelevant.</p>
 
             <button class="btn bg-primary text-white" onclick="window.location ='report_review.php?id=<?php echo $dbid ?>'">View Reviews</button>
       </div>
       </div>
+
+      <section>
+        <div class="blog">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                <div class="card">
+                  <div class="card-img">
+                    <img src="Image/bloodpage.jpg" class="img-fluid">
+                  </div>
+
+                  <div class="card-body">
+                    <h4 class="card-title">Blood Donation</h4>
+                    <p class="card-text">
+
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <a href="" class="card-link">Read more</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-12">
+                <div class="card">
+                  <div class="card-img">
+                    <img src="Image/bloodpage.jpg" class="img-fluid">
+                  </div>
+
+                  <div class="card-body">
+                    <h4 class="card-title">Ambulance</h4>
+                    <p class="card-text">
+
+                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <a href="" class="card-link">Read more</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
       <div class="container-fluid">
 
       <hr>
 
         <div class="row mb-5">
           <div class="col-lg-6 col-md-6 col-12">
+            <br>
             <br>
 
             <h1 class="text-dark">Donor Details</h1>
@@ -46,7 +94,7 @@
               <button class="btn bg-primary text-white" onclick="window.location ='report_user.php?id=<?php echo $dbid ?>'">View Donor Details</button>
         </div>
           <div class="col-lg-6 col-md-6 col-12">
-            <img src="Image/admin_user.jpg" class="img-fluid">
+            <img src="Image/bloodreq.jpg" class="img-fluid">
         </div>
 
 
