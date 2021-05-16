@@ -91,7 +91,7 @@ added google map
 
 - covid19.php/covid19.css
 full page design
-Live Covid-19 statistics using API
+Live Covid-19 world statistics using API
 
 -Bangladesh_covid_info.php/Bangladesh_covid_info.css
 full page design
@@ -107,7 +107,7 @@ Donor, Recipient, user
 
 -Project Report
 Goals and Objectives,funtional and non-functional requirements, 
-advantages and disadvantages, features, front-end and back-end
+advantages and disadvantages, features, front-end and back-end, sequence diagram,
 
 
 
