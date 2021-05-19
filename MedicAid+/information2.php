@@ -119,10 +119,18 @@ Who it helps: AB Plasma is used in emergency and trauma situations to help stop 
 
 
     <div class="card">
-      <h2 style="color: blue;">How Blood Donation help</h2>
+        <h2 style="color: blue;">How Blood Donation help</h2>
+      <div class="img-container"> <!-- Block parent element -->
+    <img src="Image/information21.jpg" width="700"height="500">
+     <style>
+      .img-container {
+        text-align: center;
+      }
+  </style>
+    
       
       <!--div class="fakeimg" style="height:200px;">Image</div-->
-      <img src="Image/information21.jpg" height="900">
+      
       <p style="color: blue">Cancer Patients<br></p>
 <p>Ideal Donation Type:<br>
   Platelets donation, because certain cancers and cancer treatments prevent patients from producing their own.<br>
@@ -136,7 +144,7 @@ A positive, A negative, B positive, O positive, AB positive and AB negative</p>
 
 Power Red, because red cells carry oxygen throughout the body and are frequently given to trauma and surgery patients. <br>
 
-AB Elite plasma donation, because AB plasma is needed to help stop bleeding. Call 1-800-RED CROSS to make an AB Elite appointment.<br>
+AB Elite plasma donation, because AB plasma is needed to help stop bleeding.<br>
 
 Ideal Blood Type<br>
 
@@ -145,11 +153,11 @@ For AB Elite: AB positive, AB negative</p><br>
 <p style="color: blue">Sickle Cell Patients<br></p>
 Ideal Donation Type<br>
 
-Whole blood, especially from African-American donors, because sickle cell patients require multiple transfusions and must be very closely matched to the donor’s blood type, usually from the same racial and ethnic group.<br>
+Whole blood, because sickle cell patients require multiple transfusions and must be very closely matched to the donor’s blood type, usually from the same racial and ethnic group.<br>
 
 Ideal Blood Type<br>
 
-O negative<br>
+O negative
 <p style="color: blue">Burn Patients<br></p>
 
 
@@ -158,7 +166,7 @@ Ideal Donation Type: AB Elite, because plasma helps maintain blood pressure and 
 Ideal Blood Type: AB positive, AB negative. Type AB, the universal plasma donor's blood can be given to any patient needing plasma. Make an even greater impact for patients in need by giving an AB Elite plasma donation. <br>
 Give Plasma: Call to make an AB Elite appointment<br>
 <p style="color: blue">Patients with Chronic Diseases<br></p>
-Patients with Chronic Diseases<br>
+
 Ideal Donation Type: A single whole blood donation can help more than one person. <br>   
 
 Ideal Blood Type: All blood types are needed<br>
@@ -180,6 +188,7 @@ Ideal Blood Type: All blood types are needed<br>
 
 </body>
 </html>
+
 
 
 
