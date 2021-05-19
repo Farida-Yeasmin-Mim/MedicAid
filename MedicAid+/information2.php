@@ -20,7 +20,7 @@
 
   </header>
   <br>
-<body style="background-color: #404040;">
+<body style="background-color:#262626;">
 
 
   
@@ -39,13 +39,13 @@
   <span style="font-size:1.2em;vertical-align:middle;" class="cursor" data-cursorDisplay="|" data-owner="some-id"></span>
 </h1>
   
-  <p>You have to sign-up in our website in order to donate</p>
+  <p><b>(You have to sign-up in our website in order to donate)</b></p>
 </div>
 
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h5 style="color: blue;">Registration and Health History</h5> 
+      <b><h5 style="color: blue;">Registration and Health History</h5> </b>
       <br>
       <div class="img-container"> <!-- Block parent element -->
     <img src="Image/information20.jpg" width="700"height="500">
@@ -55,7 +55,8 @@
       }
   </style>
       
-      <p> <b>Whole Blood Donation:<br>
+      <p style="color: red"> <b>Whole Blood Donation:<br></p>
+        <p>
 <i class="fas fa-check"style="color:blue"></i>Whole blood is the most flexible type of donation. It can be transfused in its original form, or used to help multiple people when separated into its specific components of red cells, plasma and platelets.<br>
 
 <i class="fas fa-check"style="color:blue"></i>Who it helps: Whole blood is frequently given to trauma patients and people undergoing surgeries.<br>
@@ -69,7 +70,8 @@
 <br>
 <br>
 <br>
-Power Red Donation:<br>
+<p style="color:red;">Power Red Donation:<br></p>
+
 <i class="fas fa-check"style="color:blue"></i>During a Power Red donation, you give a concentrated dose of red cells, the part of your blood used every day for those needing transfusions as part of their care. This type of donation uses an automated process that separates your red blood cells from the other blood components, and then safely and comfortably returns your plasma and platelets to you. <br>
 
 <i class="fas fa-check"style="color:blue"></i>With just a little extra time at your appointment, you can donate more red cells and increase your impact on patients in need. Learn more about Power Red donations.<br>
@@ -83,7 +85,8 @@ Power Red Donation:<br>
 <br>
 <br>
 <br>
-Platelet Donation: <br>
+<p style="color: red;">Platelet Donation: <br></p>
+<p>
 <i class="fas fa-check"style="color:blue"></i>Platelets are tiny cells in your blood that form clots and stop bleeding. Platelets are most often used by cancer patients and others facing life-threatening illnesses and injuries.<br>
 
 <i class="fas fa-check"style="color:blue"></i>In a platelet donation, an apheresis machine collects your platelets along with some plasma, returning your red cells and most of the plasma back to you. A single donation of platelets can yield several transfusable units, whereas it takes about five whole blood donations to make up a single transfusable unit of platelets.<br>
@@ -98,8 +101,8 @@ Platelet Donation: <br>
 <br>
 <br>
 <br>
-Plasma Donation:<br>
-<i class="fas fa-check"style="color:blue"></i>During an AB Elite donation, you give plasma, a part of your blood used to treat patients in emergency situations. AB plasma can be given to anyone regardless of their blood type. Plasma is collected through an automated process that separates plasma from other blood components, then safely and comfortably returns your red blood cells and platelets to you. AB Elite maximizes your donation and takes just a few minutes longer than donating blood.<br>
+<p style="color:red;">Plasma Donation:<br></p>
+<p><i class="fas fa-check"style="color:blue"></i>During an AB Elite donation, you give plasma, a part of your blood used to treat patients in emergency situations. AB plasma can be given to anyone regardless of their blood type. Plasma is collected through an automated process that separates plasma from other blood components, then safely and comfortably returns your red blood cells and platelets to you. AB Elite maximizes your donation and takes just a few minutes longer than donating blood.<br>
 
 <i class="fas fa-check"style="color:blue"></i>Plasma is collected at select Red Cross donation centers. Learn more about plasma donation.<br>
 Who it helps: AB Plasma is used in emergency and trauma situations to help stop bleeding. <br>
@@ -116,21 +119,54 @@ Who it helps: AB Plasma is used in emergency and trauma situations to help stop 
 
 
     <div class="card">
-      <h2>How Blood Donation help</h2>
+      <h2 style="color: blue;">How Blood Donation help</h2>
       
       <!--div class="fakeimg" style="height:200px;">Image</div-->
       <img src="Image/information21.jpg" height="900">
-      <p>If you’re donating whole blood, we’ll cleanse an area on your arm and insert a brand new sterile needle for the blood draw. (This feels like a quick pinch and is over in seconds.)<br>
-Other types of donations, such as platelets, are made using an apheresis machine which will be connected to both arms.<br>
-A whole blood donation takes about 8-10 minutes, during which you’ll be seated comfortably or lying down.<br>
-When approximately a pint of whole blood has been collected, the donation is complete and a staff person will place a bandage on your arm.<br>
-For platelets, the apheresis machine will collect a small amount of blood, remove the platelets, and return the rest of the blood through your other arm; this cycle will be repeated several times over about 2 hours.<br>
+      <p style="color: blue">Cancer Patients<br></p>
+<p>Ideal Donation Type:<br>
+  Platelets donation, because certain cancers and cancer treatments prevent patients from producing their own.<br>
+
+Ideal Blood Type:<br>
+
+A positive, A negative, B positive, O positive, AB positive and AB negative</p>
 <br>
-<i class="fas fa-check"style="color:blue"></i>After donating blood, you’ll have a snack and something to drink in the refreshment area.<br>
-<i class="fas fa-check"style="color:blue"></i>You’ll leave after 10-15 minutes and continue your normal routine.<br>
-<i class="fas fa-check"style="color:blue"></i>Enjoy the feeling of accomplishment knowing you are helping to save lives.<br>
-<i class="fas fa-check"style="color:blue"></i>Take a selfie, or simply share your good deed with friends. It may inspire them to become blood donors.
-  </p>
+<p style="color: blue">Trauma Patients<br></p>
+<p>Ideal Donation Type<br>
+
+Power Red, because red cells carry oxygen throughout the body and are frequently given to trauma and surgery patients. <br>
+
+AB Elite plasma donation, because AB plasma is needed to help stop bleeding. Call 1-800-RED CROSS to make an AB Elite appointment.<br>
+
+Ideal Blood Type<br>
+
+For Power Red: O positive, O negative, B negative, A negative<br>
+For AB Elite: AB positive, AB negative</p><br>
+<p style="color: blue">Sickle Cell Patients<br></p>
+Ideal Donation Type<br>
+
+Whole blood, especially from African-American donors, because sickle cell patients require multiple transfusions and must be very closely matched to the donor’s blood type, usually from the same racial and ethnic group.<br>
+
+Ideal Blood Type<br>
+
+O negative<br>
+<p style="color: blue">Burn Patients<br></p>
+
+
+Ideal Donation Type: AB Elite, because plasma helps maintain blood pressure and other vital functions.<br>
+
+Ideal Blood Type: AB positive, AB negative. Type AB, the universal plasma donor's blood can be given to any patient needing plasma. Make an even greater impact for patients in need by giving an AB Elite plasma donation. <br>
+Give Plasma: Call to make an AB Elite appointment<br>
+<p style="color: blue">Patients with Chronic Diseases<br></p>
+Patients with Chronic Diseases<br>
+Ideal Donation Type: A single whole blood donation can help more than one person. <br>   
+
+Ideal Blood Type: All blood types are needed<br>
+
+ 
+
+
+ 
     </div>
 
   
@@ -144,7 +180,6 @@ For platelets, the apheresis machine will collect a small amount of blood, remov
 
 </body>
 </html>
-
 
 
 
