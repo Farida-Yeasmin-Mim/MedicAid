@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/information3.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
-
+   
 </head>
 <header>
      
@@ -23,12 +22,7 @@
   
   <div class="header">
   
-  <span class="typer" id="main" data-words="COMMON, CONCERNS." data-delay="90" data-deleteDelay="999" data-colors="#b74033"></span>
-  <span class="cursor" data-owner="main"></span>
-</h1>
-
-</div>
-  
+  Common Concerns
 </div>
 <div class="row">
   <div class="leftcolumn">
@@ -129,5 +123,4 @@ The most important thing is that you are willing to make this generous, life-sav
 </div>
 </body>
 </html>
-
 
