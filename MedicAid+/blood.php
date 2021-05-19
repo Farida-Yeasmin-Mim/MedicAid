@@ -27,7 +27,7 @@
           <br>
 
           <h1 class="text-dark">Blood Donation</h1>
-            <p class="text-dark">User reviews aren’t just important, they are critical to users’ purchasing decisions. View all reviews and you can also report review if it is irrelevant.</p>
+            <p class="text-dark">Health benefits of donating blood include good health and reduced risk of cancer and hemochromatosis. It helps in reducing the risk of damage to liver and pancreas. Donating blood may help in improving cardiovascular health and reducing obesity.</p>
 
             <button class="btn bg-primary text-white" onclick="window.location ='report_review.php?id=<?php echo $dbid ?>'">View Reviews</button>
       </div>
