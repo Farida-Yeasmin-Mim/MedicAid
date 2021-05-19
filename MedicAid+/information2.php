@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/information1.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
     
 
 
@@ -18,25 +19,43 @@
    <?php include 'header.php';?>
 
   </header>
-<body>
+  <br>
+<body style="background-color: #404040;">
 
 
   
 
 
   <div class="header">
-  <h2>How to Donate</h2>
-  <p>You have sign-up in our website in order to donate</p>
+
+    HOW TO<b></b><h1>
+  How to <span
+    class="typer"
+    id="some-id"
+    data-words="DONATE."
+    data-delay="100"
+    data-colors="#cc0000">
+  </span>
+  <span style="font-size:1.2em;vertical-align:middle;" class="cursor" data-cursorDisplay="|" data-owner="some-id"></span>
+</h1>
+  
+  <p>You have to sign-up in our website in order to donate</p>
 </div>
 
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-      <h2>Types of Blood Donations</h2>
-      <h5>Giving the "right" type of blood donation - based on your blood type and patient needs - helps ensure the best use of your valuable contribution. Here are some things to consider when determining how you can have the most impact.</h5> 
-      <!--div class="fakeimg" style="height:200px;">Image</div-->
-      <img src="Image/information20.jpg" height="900">
-      <p> Whole Blood Donation:<br>
+      <h5 style="color: blue;">Registration and Health History</h5> 
+      <br>
+      <div class="img-container"> <!-- Block parent element -->
+    <img src="Image/information20.jpg" width="700"height="500">
+     <style>
+      .img-container {
+        text-align: center;
+      }
+  </style>
+      
+      <p> <b>Whole Blood Donation:<br>
 <i class="fas fa-check"style="color:blue"></i>Whole blood is the most flexible type of donation. It can be transfused in its original form, or used to help multiple people when separated into its specific components of red cells, plasma and platelets.<br>
 
 <i class="fas fa-check"style="color:blue"></i>Who it helps: Whole blood is frequently given to trauma patients and people undergoing surgeries.<br>
@@ -53,7 +72,7 @@
 Power Red Donation:<br>
 <i class="fas fa-check"style="color:blue"></i>During a Power Red donation, you give a concentrated dose of red cells, the part of your blood used every day for those needing transfusions as part of their care. This type of donation uses an automated process that separates your red blood cells from the other blood components, and then safely and comfortably returns your plasma and platelets to you. <br>
 
-<i class="fas fa-check"style="color:blue"></i>With just a little extra time at your appointment, you can donate more red cells and increase your impact on patients in need. Learn more about Power Red donations.
+<i class="fas fa-check"style="color:blue"></i>With just a little extra time at your appointment, you can donate more red cells and increase your impact on patients in need. Learn more about Power Red donations.<br>
 <i class="fas fa-check"style="color:blue"></i>Who it helps: Red cells from a Power Red donation are typically given to trauma patients, newborns and emergency transfusions during birth, people with sickle cell anemia, and anyone suffering blood loss.<br>
 
 <i class="fas fa-check"style="color:blue"></i>Time it takes: About 1.5 hours<br>
@@ -125,5 +144,7 @@ For platelets, the apheresis machine will collect a small amount of blood, remov
 
 </body>
 </html>
+
+
 
 
