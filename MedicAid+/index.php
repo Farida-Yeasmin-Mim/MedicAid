@@ -224,7 +224,7 @@ if (isset($_POST['feedback'])) {
 
             <section>
               <div class="container-fluid">
-                <h1 class="text-center font-weight-bold text-dark text-capitalize pt-5">Covid19 Information</h1>
+                <h1 class="text-center font-weight-bold text-dark text-capitalize pt-5">About MedicAid+</h1>
                 <hr class="w-25 pt-5">
                 <div class="row mb-5">
                   <div class="col-lg-6 col-md-6 col-12">
@@ -318,7 +318,7 @@ if (isset($_POST['feedback'])) {
 
 
       <!--  <section>
-              
+
 <div class="contact-form">
  <div class="container">
   <form action="index.php" method="POST">
@@ -347,10 +347,6 @@ if (isset($_POST['feedback'])) {
 </div>
 </section> -->
 
-            <footer>
-              <?php include 'footer2.php';?>
-
-            </footer>
 
 
 
