@@ -166,11 +166,11 @@
 
 
 
-    <section class="ftco-section bg-white">
+    <section class="ftco-section bg-secondary">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-10 col-lg-9 pl-lg-5 py-md-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
+          <div class="col-md-10 heading-section text-center ftco-animate text-white">
             <h2 class="mb-4"><strong>Gets Every Single Updates Here</strong></h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
           </div>
@@ -185,8 +185,8 @@
                   <img src="https://mb.com.ph/wp-content/uploads/2020/07/07072020_EU-DONATES-BLOOD_02_BALMORES-scaled.jpg" class="img-fluid" alt="">
                   <div class="mask rgba-white-slight"></div>
               </div>
-              <div class="text d-block">
-              	<div class="meta mb-3">
+              <div class="text d-block text-center bg-light">
+              	<div class="meta mb-3 ">
                   <div><a href="#">November 1, 2018</a></div>
                   <div><a href="#">Admin</a></div>
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
@@ -204,7 +204,7 @@
                   <img src="https://www.asianhospital.com/assets/images/gallery/6uPT5FbECz_20200114075536.jpg" class="img-fluid" alt="">
                   <div class="mask rgba-white-slight"></div>
               </div>
-              <div class="text d-block">
+              <div class="text d-block text-center bg-light">
               	<div class="meta mb-3">
                   <div><a href="#">August 21, 2019</a></div>
                   <div><a href="#">Admin</a></div>
@@ -223,7 +223,7 @@
                   <img src="https://exclusive.multibriefs.com/images/exclusive/0428nurse2.jpg" class="img-fluid" alt="">
                   <div class="mask rgba-white-slight"></div>
               </div>
-              <div class="text d-block">
+              <div class="text d-block text-center bg-light">
               	<div class="meta mb-3">
                   <div><a href="#">June 3, 2021</a></div>
                   <div><a href="#">Admin</a></div>
@@ -239,8 +239,8 @@
         </div>
       </div>
     </section>
-<hr class="my-5">
 
+<hr class="my-2">
     <Footer>
       <?php include 'footer2.php';?>
     </Footer>
