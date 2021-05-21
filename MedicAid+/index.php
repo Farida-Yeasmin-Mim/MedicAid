@@ -348,7 +348,9 @@ if (isset($_POST['feedback'])) {
 </section> -->
 
 
-
+<footer>
+    <?php include 'footer2.php';?>
+</footer>
 
 
 
