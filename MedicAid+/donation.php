@@ -177,7 +177,7 @@
   		</div>
   	</section>
 
-    <section class=" bg-info ">
+    <section class=" bg-light ">
       <div class="blog">
         <div class="container">
           <div class="row mb-5">
@@ -187,14 +187,14 @@
                 <div class="card-img">
                   <img src="Image/services-2.jpg" class="img-fluid">
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">Quick Fundraising</h4>
-                  <p class="card-text">
+                <div class="card-body bg-primary">
+                  <h4 class="card-title text-white">Quick Fundraising</h4>
+                  <p class="card-text text-white">
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                 </div>
-                <div class="card-footer">
-                  <a href="" class="card-link">Read more</a>
+                <div class="card-footer bg-primary">
+                  <p><a href="blog-single.html" class="btn btn-warning py-2 px-3">Read more</a></p>
                 </div>
               </div>
             </div>
@@ -204,40 +204,40 @@
                 <div class="card-img">
                   <img src="Image/services-3.jpg" class="img-fluid">
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">Start donating</h4>
-                  <p class="card-text">
+                <div class="card-body bg-success">
+                  <h4 class="card-title text-white">Start donating</h4>
+                  <p class="card-text text-white">
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                 </div>
-                <div class="card-footer">
-                  <a href="" class="card-link">Read more</a>
+                <div class="card-footer bg-success">
+                <p><a href="blog-single.html" class="btn btn-warning py-2 px-3">Read more</a></p>
                 </div>
               </div>
             </div>
+
             <div class="col-md-4 col-lg-4 col-sm-12">
               <div class="card">
                 <div class="card-img">
                   <img src="Image/services-1.jpg" class="img-fluid">
                 </div>
-
-                <div class="card-body">
-                  <h4 class="card-title">Get involved</h4>
-                  <p class="card-text">
-
+                <div class="card-body bg-info">
+                  <h4 class="card-title text-white">Get involved</h4>
+                  <p class="card-text text-white">
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                 </div>
-                <div class="card-footer">
-                  <a href="" class="card-link">Read more</a>
+                <div class="card-footer bg-info ">
+                  <p><a href="blog-single.html" class="btn btn-warning py-2 px-3">Read more</a></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-
     </section>
+
+
 
   	<section class="ftco-section ftco-no-pb">
   		<div class="container">
