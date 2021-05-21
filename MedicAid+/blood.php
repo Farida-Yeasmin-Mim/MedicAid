@@ -35,9 +35,9 @@
           <br>
 
           <h1 class="text-dark">Blood Donation</h1>
-            <p class="text-dark">Health benefits of donating blood include good health and reduced risk of cancer and hemochromatosis. It helps in reducing the risk of damage to liver and pancreas. Donating blood may help in improving cardiovascular health and reducing obesity.</p>
+            <p class="text-dark">A specific injury or sickness can cause lost blood in the influenced, along these lines, representing the danger of death if the blood level isn’t taken back to the ordinary. Blood is an essential flood that moves oxygen to other indispensable body parts. With the loss of blood from the body doesn’t get vital oxygen bringing about death. In such a case emerges the requirement for deliberate blood gift from another person, regardless of whether known or obscure to the person.</p>
 
-            <button class="btn bg-primary text-white" onclick="window.location ='report_review.php?id=<?php echo $dbid ?>'">View Reviews</button>
+            <button class="btn bg-primary text-white" onclick="window.location ='blood_donor_information.php'">View Donor List</button>
       </div>
       </div>
 
@@ -80,7 +80,7 @@
                     </p>
                   </div>
                   <div class="card-footer">
-                    <a href="" class="card-link">Read more</a>
+                    <a href="information.php" class="card-link">Read more to get information</a>
                   </div>
                 </div>
               </div>
