@@ -95,16 +95,15 @@ if (isset($_POST['feedback'])) {
       <div class="blog">
         <div class="container">
           <div class="row mb-5">
+
             <div class="col-md-4 col-lg-4 col-sm-12">
               <div class="card">
                 <div class="card-img">
                   <img src="Image/bloodIndex.jpg" class="img-fluid">
                 </div>
-
                 <div class="card-body">
-                  <h4 class="card-title">Blood Donation</h4>
+                  <h4 class="card-title">Donation</h4>
                   <p class="card-text">
-
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                 </div>
@@ -113,16 +112,15 @@ if (isset($_POST['feedback'])) {
                 </div>
               </div>
             </div>
+
             <div class="col-md-4 col-lg-4 col-sm-12">
               <div class="card">
                 <div class="card-img">
                   <img src="Image/ambulanceIndex.jpg" class="img-fluid">
                 </div>
-
                 <div class="card-body">
                   <h4 class="card-title">Ambulance</h4>
                   <p class="card-text">
-
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                 </div>
@@ -131,16 +129,15 @@ if (isset($_POST['feedback'])) {
                 </div>
               </div>
             </div>
+
             <div class="col-md-4 col-lg-4 col-sm-12">
               <div class="card">
                 <div class="card-img">
                   <img src="Image/volunteerIndex.jpg" class="img-fluid">
                 </div>
-
                 <div class="card-body">
                   <h4 class="card-title">Volunteer</h4>
                   <p class="card-text">
-
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                 </div>
@@ -149,6 +146,24 @@ if (isset($_POST['feedback'])) {
                 </div>
               </div>
             </div>
+
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="card-img">
+                  <img src="http://www.crmsoftwareapp.com/blog/blog-image/lumin-header.png" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Appointment</h4>
+                  <p class="card-text">
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <a href="" class="card-link">Read more</a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
