@@ -13,7 +13,7 @@
 
 </head>
 <header>
-     
+
    <?php include 'header.php';?>
 
   </header>
@@ -30,7 +30,7 @@
 
 
   <div class="header">
-    
+
     <h1>Typer.js is
   <span class="typer" id="main" data-words="Blood ,Donation,Process" data-delay="90" data-deleteDelay="999" data-colors="#b74033"></span>
   <span class="cursor" data-owner="main"></span>
@@ -43,8 +43,8 @@
     <div class="card">
 
       <h2 style="color: blue;">Donation Process Overview</h2>
-      
-      <i class="fas fa-user-plus"></i><h5>Registration and Health History</h5> 
+
+      <i class="fas fa-user-plus"></i><h5>Registration and Health History</h5>
       <div class="img-container"> <!-- Block parent element -->
     <img src="Image/5266696.jpg" width="700"height="500">
      <style>
@@ -53,7 +53,7 @@
       }
   </style>
       <!--div class="fakeimg" style="height:200px;">Image</div-->
-      
+
       <p style="background:    #F5F5DC;"> <i class="fas fa-hand-point-right"></i> 1. We’ll sign you in and you will go over Blood Donation eligibility.<br>
         <i class="fas fa-hand-point-right"></i>2. You’ll read some information about donating blood.<br>
         <i class="fas fa-hand-point-right"></i>3.You’ll answer a few questions about your health history and places you’ve traveled, during a private and confidential interview.<br>
@@ -73,9 +73,9 @@
       }
   </style>
     </div>
-      
+
       <!--div class="fakeimg" style="height:200px;">Image</div-->
-      
+
       <p><i class="fas fa-hand-point-right"></i>If you’re donating whole blood, we’ll cleanse an area on your arm and insert a brand new sterile needle for the blood draw. (This feels like a quick pinch and is over in seconds.)<br>
 <i class="fas fa-hand-point-right"></i>Other types of donations, such as platelets, are made using an apheresis machine which will be connected to both arms.<br>
 <i class="fas fa-hand-point-right"></i>A whole blood donation takes about 8-10 minutes, during which you’ll be seated comfortably or lying down.<br>
@@ -93,10 +93,10 @@
   </p>
     </div>
 
-  
+
 
 </div>
-  
+
   </div>
 </div>
 
@@ -104,15 +104,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
