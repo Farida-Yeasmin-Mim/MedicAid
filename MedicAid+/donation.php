@@ -10,83 +10,56 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="CSS/volunteer.css">
+  <link rel="stylesheet" href="CSS/index.css">
   </head>
   <body>
 
 
-  	<section class="hero-wrap js-fullheight">
-  		<div class="home-slider js-fullheight owl-carousel">
-  			<div class="slider-item js-fullheight" style="background-image:url(Image/about.jpg);">
-  				<div class="overlay-1"></div><div class="overlay-2"></div><div class="overlay-3"></div><div class="overlay-4"></div>
-  				<div class="container">
-  					<div class="row no-gutters slider-text js-fullheight align-items-center">
-  						<div class="col-md-10 col-lg-7 ftco-animate">
-  							<div class="text w-100">
-  								<h2>Help the poor in need</h2>
-  								<h1 class="mb-3">Lend the helping hand get involved</h1>
-  								<div class="d-flex meta">
-  									<div class=""><p class="mb-0"><a href="#" class="btn btn-secondary py-3 px-2 px-md-4">Become A Volunteer</a></p></div>
-  									<a href="#" class="d-flex align-items-center button-link">
-  										<div class="button-video d-flex align-items-center justify-content-center">
-  											<span class="fa fa-play"></span>
-  										</div>
-  										<span>Watch our video</span>
-  									</a>
-  								</div>
-  							</div>
-  						</div>
-  					</div>
-  				</div>
-  			</div>
+  <header>
+      <?php include 'header.php';?>
+  </header>
 
-  			<div class="slider-item js-fullheight" style="background-image:url(images/bg_2.jpg);">
-  				<div class="overlay-1"></div><div class="overlay-2"></div><div class="overlay-3"></div><div class="overlay-4"></div>
-  				<div class="container">
-  					<div class="row no-gutters slider-text js-fullheight align-items-center">
-  						<div class="col-md-10 col-lg-7 ftco-animate">
-  							<div class="text w-100">
-  								<h2>Raising Hope</h2>
-  								<h1 class="mb-3">Discover Non-Profit Charity Platform</h1>
-  								<div class="d-flex meta">
-  									<div class=""><p class="mb-0"><a href="#" class="btn btn-secondary py-3 px-2 px-md-4">Become A Volunteer</a></p></div>
-  									<a href="#" class="d-flex align-items-center button-link">
-  										<div class="button-video d-flex align-items-center justify-content-center">
-  											<span class="fa fa-play"></span>
-  										</div>
-  										<span>Watch our video</span>
-  									</a>
-  								</div>
-  							</div>
-  						</div>
-  					</div>
-  				</div>
-  			</div>
+<section>
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Image/bg_1.jpg" alt="Los Angeles" width="1100" height="500">
 
-  			<div class="slider-item js-fullheight" style="background-image:url(images/bg_3.jpg);">
-  				<div class="overlay-1"></div><div class="overlay-2"></div><div class="overlay-3"></div><div class="overlay-4"></div>
-  				<div class="container">
-  					<div class="row no-gutters slider-text js-fullheight align-items-center">
-  						<div class="col-md-10 col-lg-7 ftco-animate">
-  							<div class="text w-100">
-  								<h2>Raising Hope</h2>
-  								<h1 class="mb-3">Giving Hope to the Homeless People</h1>
-  								<div class="d-flex meta">
-  									<div class=""><p class="mb-0"><a href="#" class="btn btn-secondary py-3 px-2 px-md-4">Become A Volunteer</a></p></div>
-  									<a href="#" class="d-flex align-items-center button-link">
-  										<div class="button-video d-flex align-items-center justify-content-center">
-  											<span class="fa fa-play"></span>
-  										</div>
-  										<span>Watch our video</span>
-  									</a>
-  								</div>
-  							</div>
-  						</div>
-  					</div>
-  				</div>
-  			</div>
-  		</div>
-  	</section>
+        <div class="carousel-caption">
+          <h1 class="text-white display-15 font-weight-bold">Lend the helping hand get involved</h1>
+          <p class="text-white font-weight-bold">Help the poor in need</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Image/footer5.jpg" alt="Chicago" width="1100" height="500">
+        <div class="carousel-caption">
+          <h1 class="text-white display-6 font-weight-bold">Blood and Plasma Donation</h1>
+          <p class="text-white font-weight-bold">Help the people</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Image/bg_2.jpg" alt="New York" width="1100" height="500">
+        <div class="carousel-caption">
+          <h1 class="text-white display-6 font-weight-bold">Discover Non-Profit Charity Platform</h1>
+          <p class="text-white font-weight-bold">Raising Hope</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+</section>
+
 
   	<section class="ftco-appointment ftco-section ftco-no-pt ftco-no-pb img">
   		<div class="overlay"></div>
