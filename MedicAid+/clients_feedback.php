@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Donation</title>
+    <title>Experts Feedback</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -46,8 +46,9 @@
                   <span class="fa fa-star"></span>
                   <span class="fa fa-star"></span>
                 </p>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-                <p class="name">Racky Henderson</p>
+                <p>Accurate and trustworthy news is essential to a healthy democracy. It’s our mission to produce this type of journalism — and as a not-for-profit newsroom we can only do so with the support of readers like you. Please donate to The Conversation today. Every dollar counts.
+</p>
+                <p class="name">Misha Ketchell</p>
                 <span class="position">Father</span>
               </div>
             </div>
