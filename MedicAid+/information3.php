@@ -4,24 +4,24 @@
 
 <head>
    <meta charset="utf-8">
-  <title></title>
+  <title>Information 3</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/information3.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-   
+
 </head>
 <header>
-     
+
    <?php include 'header.php';?>
 
   </header>
 
 <body style="background-color:#262626;">
   <br>
-  
+
   <div class="header">
-  
+
   Common Concerns
 </div>
 <div class="row">
@@ -36,12 +36,12 @@
         text-align: center;
       }
   </style>
-      
+
       <br>
       <br>
       <br>
       <!--div class="fakeimg" style="height:200px;">Image</div-->
-      
+
       <b><p style="color: blue;"> Try the Helpful Tips Below:<br></p>
         <p>
         <br>
@@ -96,7 +96,7 @@ Additional weight requirements apply for donors age 18 or younger.
         text-align: center;
       }
   </style>
-      
+
       <br>
       <p>Perhaps you’ve heard an appeal for donors that says we’re running low on certain blood types. That doesn’t mean other types aren’t valuable: there’s always a need and purpose for every type of blood. Here’s what we’re looking for today:<br>
         <br>
@@ -116,11 +116,10 @@ The most important thing is that you are willing to make this generous, life-sav
 
   </p>
     </div>
-  
+
 </div>
-  
+
   </div>
 </div>
 </body>
 </html>
-
