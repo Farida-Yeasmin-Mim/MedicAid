@@ -342,14 +342,32 @@
 
 
 <hr class="my-5">
+<!--Section: Contact-->
+<section id="contact">
 
-<section id="Apply">
-     <h2 class="mb-5 font-weight-bold text-center">90% of the MedicAid workforce are volunteers.</h2>
+    <!-- Heading -->
+    <div class="container-fluid">
+      <h2 class="text-center font-weight-bold text-dark text-capitalize pt-5 mt-5">90% of the MedicAid workforce are volunteers.</h2>
+    <!--Grid row-->
+    <div class="row" >
+        <!--Grid column-->
+        <div class="col-lg-5 col-md-12 mx-auto">
+            <!-- Form contact -->
 
+                <div class="text-center mt-4">
+                  <button class="btn btn-info" type="button" onclick="window.location ='volunteer_login.php'"> <i class="fa fa-sign-in" aria-hidden="true"></i>Volunteer Login</a>
+                  </button>
 
+                  <button class="btn btn-primary" type="button" onclick="window.location ='volunteer_signup.php'"> <i class="fa fa-user-plus" aria-hidden="true"></i>Volunteer Sign Up For Free</a>
+                  </button>
+                </div>
+        </div>
+        <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
 </section>
-
-
+<!--Section: Contact-->
 
 
     <hr class="my-5">
@@ -424,8 +442,6 @@
                 </div>
                 <!--Grid row-->
 
-                <!--Google map-->
-                <div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px"></div>
 
             </div>
             <!--Grid column-->
