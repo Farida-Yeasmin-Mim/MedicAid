@@ -27,7 +27,7 @@
         <a class="nav-link" style="font-size:23px; font-weight:bold" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="blood.php">Donation</a>
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="donation.php">Donation</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" style="font-size:23px; font-weight:bold" href="volunteer.php">Volunteer</a>
