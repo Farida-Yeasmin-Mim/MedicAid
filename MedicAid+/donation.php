@@ -553,22 +553,16 @@
   		</div>
   	</section>
 
-    <section class="ftco-hireme bg-primary">
-  
+    <section class="ftco-hireme bg-danger">
   		<div class="container">
-  				<div class="col-md-8 col-lg-8 d-flex align-items-center">
-  					<div class="w-200">
-  						<h2>Best Way to Make a Difference in the Lives of Others</h2>
-  					</div>
+  				<div class="text-center col-md-8 col-lg-8 d-flex align-items-center ">
+  					<h2 class="text-center font-weight-bold text-white pt-4 mt-4">90% of the MedicAid workforce are volunteers.</h2>
   				</div>
-
-  				<div class="col-md-10 col-lg-10 d-flex align-items-center justify-content-end">
-  					<p class="mb-0"><a href="#" class="btn btn-warning py-3 px-4">Become A Volunteer</a></p>
-            	<p class="mb-0"><a href="#" class="btn btn-warning py-3 px-4">Become A Volunteer</a></p>
-  				</div>
+          <div class="col-lg-5 col-md-12 pl-lg-4 py-md-4 mx-auto">
+            <p class="mb-0"><a href="#" class="btn btn-warning py-3 px-4">Become A Volunteer</a></p>
+          </div>
   		</div>
   	</section>
-
 
 
     <footer>
