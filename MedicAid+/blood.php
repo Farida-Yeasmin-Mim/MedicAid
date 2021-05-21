@@ -58,7 +58,7 @@
                     <h4 class="card-title">Sign Up As A Donor</h4>
                     <p class="card-text">
 
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      Signing up on your state registry means that someday you could save lives as a donor—by leaving behind the gift of life. When you register and you can update your status at any time.
                     </p>
                   </div>
                   <div class="card-footer">
@@ -76,11 +76,11 @@
                     <h4 class="card-title">Information</h4>
                     <p class="card-text">
 
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                      The blood donation process from the time you arrive until the time you leave takes about an hour. The donation itself is only about 8-10 minutes on average.
                     </p>
                   </div>
                   <div class="card-footer">
-                    <a href="information.php" class="card-link">Read more to get information</a>
+                    <a href="information.php" class="card-link">Read More To Get Information!</a>
                   </div>
                 </div>
               </div>
@@ -100,9 +100,9 @@
             <br>
 
             <h1 class="text-dark">Are you  eligible to donate blood?</h1>
-              <p class="text-dark">Donation is a practice when people donate to others to help them with their critical conditions. View their details and you can also block user if they are not useful. </p>
+              <p class="text-dark">Donation is a practice when people donate to others to help them with their critical conditions. To ensure safety, these are some of the requirements donors must meet to be eligible.To see a list of eligibility information,search donating requirements. </p>
 
-              <button class="btn bg-primary text-white" onclick="window.location ='report_user.php?id=<?php echo $dbid ?>'">Eligibility Criteria</button>
+              <button class="btn bg-primary text-white" onclick="window.location ='donating_requirements.php'">Eligibility Criteria</button>
         </div>
           <div class="col-lg-6 col-md-6 col-12">
             <img src="Image/bloodreq.jpg" class="img-fluid">
@@ -110,6 +110,10 @@
 
 
       </div>
+      <?php include 'footer2.php';?>
+
+                </header>
+
 
   </body>
 </html>
