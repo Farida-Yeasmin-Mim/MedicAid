@@ -4,18 +4,18 @@
 
 <head>
    <meta charset="utf-8">
-  <title></title>
+  <title>Information 2</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/information1.css">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
-    
+
 
 
 </head>
 <header>
-     
+
    <?php include 'header.php';?>
 
   </header>
@@ -23,7 +23,7 @@
 <body style="background-color:#262626;">
 
 
-  
+
 
 
   <div class="header">
@@ -38,7 +38,7 @@
   </span>
   <span style="font-size:1.2em;vertical-align:middle;" class="cursor" data-cursorDisplay="|" data-owner="some-id"></span>
 </h1>
-  
+
   <p><b>(You have to sign-up in our website in order to donate)</b></p>
 </div>
 
@@ -54,7 +54,7 @@
         text-align: center;
       }
   </style>
-      
+
       <p style="color: red"> <b>Whole Blood Donation:<br></p>
         <p>
 <i class="fas fa-check"style="color:blue"></i>Whole blood is the most flexible type of donation. It can be transfused in its original form, or used to help multiple people when separated into its specific components of red cells, plasma and platelets.<br>
@@ -127,10 +127,10 @@ Who it helps: AB Plasma is used in emergency and trauma situations to help stop 
         text-align: center;
       }
   </style>
-    
-      
+
+
       <!--div class="fakeimg" style="height:200px;">Image</div-->
-      
+
       <p style="color: blue">Cancer Patients<br></p>
 <p>Ideal Donation Type:<br>
   Platelets donation, because certain cancers and cancer treatments prevent patients from producing their own.<br>
@@ -167,20 +167,20 @@ Ideal Blood Type: AB positive, AB negative. Type AB, the universal plasma donor'
 Give Plasma: Call to make an AB Elite appointment<br>
 <p style="color: blue">Patients with Chronic Diseases<br></p>
 
-Ideal Donation Type: A single whole blood donation can help more than one person. <br>   
+Ideal Donation Type: A single whole blood donation can help more than one person. <br>
 
 Ideal Blood Type: All blood types are needed<br>
 
- 
 
 
- 
+
+
     </div>
 
-  
+
 
 </div>
-  
+
   </div>
 </div>
 
@@ -188,7 +188,3 @@ Ideal Blood Type: All blood types are needed<br>
 
 </body>
 </html>
-
-
-
-
