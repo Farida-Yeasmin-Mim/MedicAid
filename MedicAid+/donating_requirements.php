@@ -62,7 +62,7 @@ body {
     </nav>
     </header>
 <!-- Background Section-->
-<div class="container">
+
   <div class="container-fluid ">
     <h1 class="text-center text-dark text-capitalize pt-5">Donating Criteria</h1>
     <hr class="w-25 pt-5">
