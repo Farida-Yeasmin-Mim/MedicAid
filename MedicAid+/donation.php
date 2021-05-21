@@ -185,16 +185,16 @@
             <div class="col-md-4 col-lg-4 col-sm-12">
               <div class="card">
                 <div class="card-img">
-                  <img src="Image/services-2.jpg" class="img-fluid">
+                  <img src="https://lh3.googleusercontent.com/proxy/uHfhYd8tftpblE88ZKFz0POj-4IC89QlxcPtiuQ_Ljn5ECIogzuaAOtWDPMYA4Ja6oYy6DaWo65EiHZuAEZeH5KYnp6CIUO2Z7rEQOKQACRcr8ooMtuUjYq00PmVYsHnCg" class="img-fluid">
                 </div>
                 <div class="card-body bg-primary">
-                  <h4 class="card-title text-white">Quick Fundraising</h4>
+                  <h4 class="card-title text-white">Blood Donation</h4>
                   <p class="card-text text-white">
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                 </div>
                 <div class="card-footer bg-primary">
-                  <p><a href="blog-single.html" class="btn btn-warning py-2 px-3">Read more</a></p>
+                  <p><a href="blood.php" class="btn btn-warning py-2 px-3">Read more</a></p>
                 </div>
               </div>
             </div>
