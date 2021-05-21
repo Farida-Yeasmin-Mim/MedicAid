@@ -177,64 +177,67 @@
   		</div>
   	</section>
 
-  	<section class="ftco-section ftco-no-pt ftco-no-pb">
-  		<div class="container">
-  			<div class="row no-gutters">
-  				<div class="col-md-3 d-flex align-items-stretch">
-  					<div class="services">
-  						<div class="text text-center bg-secondary">
-  							<h3>Become a <br>Volunteer</h3>
-  							<p>But nothing the copy said could convince her and so it didn’t take long until a few</p>
-  						</div>
-  						<div class="img border-2" style="background-image: url(images/services-1.jpg);">
-  							<div class="icon d-flex align-items-center justify-content-center">
-  								<span class="flaticon-volunteer"></span>
-  							</div>
-  						</div>
-  					</div>
-  				</div>
-  				<div class="col-md-3 d-flex align-items-stretch">
-  					<div class="services">
-  						<div class="text text-center bg-tertiary">
-  							<h3>Quick <br>Fundraising</h3>
-  							<p>But nothing the copy said could convince her and so it didn’t take long until a few</p>
-  						</div>
-  						<div class="img border-3" style="background-image: url(images/services-2.jpg);">
-  							<div class="icon d-flex align-items-center justify-content-center">
-  								<span class="flaticon-piggy-bank"></span>
-  							</div>
-  						</div>
-  					</div>
-  				</div>
-  				<div class="col-md-3 d-flex align-items-stretch">
-  					<div class="services">
-  						<div class="text text-center bg-primary">
-  							<h3>Start <br>Donating</h3>
-  							<p>But nothing the copy said could convince her and so it didn’t take long until a few</p>
-  						</div>
-  						<div class="img border-1" style="background-image: url(images/services-3.jpg);">
-  							<div class="icon d-flex align-items-center justify-content-center">
-  								<span class="flaticon-donation"></span>
-  							</div>
-  						</div>
-  					</div>
-  				</div>
-  				<div class="col-md-3 d-flex align-items-stretch">
-  					<div class="services">
-  						<div class="text text-center bg-quarternary">
-  							<h3>Get <br>Involved</h3>
-  							<p>But nothing the copy said could convince her and so it didn’t take long until a few</p>
-  						</div>
-  						<div class="img border-4" style="background-image: url(images/services-4.jpg);">
-  							<div class="icon d-flex align-items-center justify-content-center">
-  								<span class="flaticon-ecological"></span>
-  							</div>
-  						</div>
-  					</div>
-  				</div>
-  			</div>
-  		</div>
-  	</section>
+    <section class=" bg-info ">
+      <div class="blog">
+        <div class="container">
+          <div class="row mb-5">
+
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="card-img">
+                  <img src="Image/services-2.jpg" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Quick Fundraising</h4>
+                  <p class="card-text">
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <a href="" class="card-link">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="card-img">
+                  <img src="Image/services-3.jpg" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Start donating</h4>
+                  <p class="card-text">
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <a href="" class="card-link">Read more</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-12">
+              <div class="card">
+                <div class="card-img">
+                  <img src="Image/services-1.jpg" class="img-fluid">
+                </div>
+
+                <div class="card-body">
+                  <h4 class="card-title">Get involved</h4>
+                  <p class="card-text">
+
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <a href="" class="card-link">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
 
   	<section class="ftco-section ftco-no-pb">
   		<div class="container">
