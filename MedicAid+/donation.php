@@ -247,83 +247,99 @@
   					<strong><h1 class="text-danger">Donate to charity causes around the world</h1></strong>
   				</div>
   			</div>
-  			<div class="row">
+
+        <div class="row">
+
   				<div class="col-md-6 col-lg-3">
   					<div class="causes causes-2 text-center ftco-animate">
-  						<a href="#" class="img w-100" style="background-image: url(images/causes-1.jpg);"></a>
+              <div class="card-img bg-light">
+                <img src="Image/footer2.jpg" class="img-fluid">
+              </div>
   						<div class="text p-3">
-  							<h2><a href="#">Save the poor children from hunger</a></h2>
+  							<h3 class="text-white"><a href="#">Save the poor people by donate blood</a></h3>
   							<p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-  							<div class="goal mb-4">
-  								<p><span>$3,800</span> to go</p>
+
+              	<div class="goal mb-4">
+  								<p><strong class="text-danger">$5,800</strong> to go</p>
   								<div class="progress" style="height:20px">
-  									<div class="progress-bar progress-bar-striped" style="width:70%; height:20px">70%</div>
+  									<div class="progress-bar progress-bar-striped bg-success" style="width:50%; height:20px">50%</div>
   								</div>
   							</div>
-  							<p><a href="#" class="btn btn-light w-100">Donate Now</a></p>
+  							<p><a href="#" class="btn btn-primary">Donate Now</a></p>
   						</div>
   					</div>
   				</div>
+
+
   				<div class="col-md-6 col-lg-3">
   					<div class="causes causes-2 text-center ftco-animate">
-  						<a href="#" class="img w-100" style="background-image: url(images/causes-2.jpg);"></a>
+              <div class="card-img bg-light">
+                <img src="https://static.standard.co.uk/2021/04/28/15/urnpublicidap.org12158a1f4f314157a56ea296360f19e7.jpg?width=968&auto=webp&quality=75&crop=968%3A645%2Csmart" class="img-fluid">
+              </div>
   						<div class="text p-3">
-  							<h2><a href="#">Save the poor children from hunger</a></h2>
+  							<h3 class="text-black"><a href="#">Save the poor covid-19 patients from death</a></h3>
   							<p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-  							<div class="goal mb-4">
-  								<p><span>$3,800</span> to go</p>
+                <div class="goal mb-4">
+  								<p><strong class="text-danger">$4,500</strong> to go</p>
   								<div class="progress" style="height:20px">
-  									<div class="progress-bar progress-bar-striped" style="width:82%; height:20px">82%</div>
+  									<div class="progress-bar progress-bar-striped bg-success" style="width:82%; height:20px">82%</div>
   								</div>
   							</div>
-  							<p><a href="#" class="btn btn-light w-100">Donate Now</a></p>
+  							<p><a href="#" class="btn btn-primary">Donate Now</a></p>
   						</div>
   					</div>
   				</div>
+
   				<div class="col-md-6 col-lg-3">
   					<div class="causes causes-2 text-center ftco-animate">
-  						<a href="#" class="img w-100" style="background-image: url(images/causes-3.jpg);"></a>
+              <div class="card-img bg-light">
+                <img src="Image/causes-3.jpg" class="img-fluid">
+              </div>
   						<div class="text p-3">
-  							<h2><a href="#">Save the poor children from hunger</a></h2>
+  							<h3><a href="#">Save the people affected by natural disasters</a></h3>
   							<p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-  							<div class="goal mb-4">
-  								<p><span>$3,800</span> to go</p>
+                <div class="goal mb-4">
+  								<p><strong class="text-danger">$3,800</strong> to go</p>
   								<div class="progress" style="height:20px">
-  									<div class="progress-bar progress-bar-striped" style="width:95%; height:20px">95%</div>
+  									<div class="progress-bar progress-bar-striped bg-success" style="width:95%; height:20px">95%</div>
   								</div>
   							</div>
-  							<p><a href="#" class="btn btn-light w-100">Donate Now</a></p>
+  							<p><a href="#" class="btn btn-primary">Donate Now</a></p>
   						</div>
   					</div>
   				</div>
+
   				<div class="col-md-6 col-lg-3">
   					<div class="causes causes-2 text-center ftco-animate">
-  						<a href="#" class="img w-100" style="background-image: url(images/causes-4.jpg);"></a>
+              <div class="card-img bg-light">
+                <img src="https://images.outlookindia.com/public/uploads/articles/2019/3/8/Global_Hunger_Index.jpg" class="img-fluid">
+              </div>
   						<div class="text p-3">
-  							<h2><a href="#">Save the poor children from hunger</a></h2>
+  							<h3><a href="#">Save the poor children from hunger</a></h3>
   							<p>Far far away, behind the word mountains, far from the countries Vokalia</p>
-  							<div class="goal mb-4">
-  								<p><span>$3,800</span> to go</p>
-  								<div class="progress" style="height:20px">
-  									<div class="progress-bar progress-bar-striped" style="width:75%; height:20px">75%</div>
-  								</div>
-  							</div>
-  							<p><a href="#" class="btn btn-light w-100">Donate Now</a></p>
+                <div class="goal mb-4">
+                  <p><strong class="text-danger">$4,000</strong> to go</p>
+                  <div class="progress" style="height:20px">
+                    <div class="progress-bar progress-bar-striped bg-success" style="width:75%; height:20px">75%</div>
+                  </div>
+                </div>
+                <p><a href="#" class="btn btn-primary">Donate Now</a></p>
   						</div>
   					</div>
   				</div>
+
   			</div>
   		</div>
   	</section>
 
-  
+
     <section class="ftco-hireme bg-danger">
   		<div class="container">
-  				<div class="text-center col-md-8 col-lg-8 d-flex align-items-center ">
+  				<div class="col-lg-8 col-md-12 mx-auto text-center">
   					<h2 class="text-center font-weight-bold text-white pt-4 mt-4">90% of the MedicAid workforce are volunteers.</h2>
   				</div>
-          <div class="col-lg-5 col-md-12 pl-lg-4 py-md-4 mx-auto">
-            <p class="mb-0"><a href="#" class="btn btn-warning py-3 px-4">Become A Volunteer</a></p>
+          <div class="col-lg-5 col-md-12 pl-lg-4 py-md-4 mx-auto text-center">
+            <p class="mb-0"><a href="volunteer.php" class="btn btn-warning py-3 px-4">Become A Volunteer</a></p>
           </div>
   		</div>
   	</section>
