@@ -553,6 +553,24 @@
   		</div>
   	</section>
 
+    <section class="ftco-hireme bg-secondary">
+  		<div class="container">
+  			<div class="row justify-content-between">
+  				<div class="col-md-8 col-lg-8 d-flex align-items-center">
+  					<div class="w-100">
+  						<h2>Best Way to Make a Difference in the Lives of Others</h2>
+  					</div>
+  				</div>
+  				<div class="col-md-4 col-lg-4 d-flex align-items-center justify-content-end">
+  					<p class="mb-0"><a href="#" class="btn btn-primary py-3 px-4">Become A Volunteer</a></p>
+  				</div>
+  			</div>
+  		</div>
+  	</section>
+
+    <footer>
+        <?php include 'footer2.php';?>
+    </footer>
 
 
   	</body>
