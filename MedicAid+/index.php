@@ -102,7 +102,7 @@ if (isset($_POST['feedback'])) {
                   <img src="Image/bloodIndex.jpg" class="img-fluid">
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">Donation</h4>
+                  <h4 class="card-title">Blood Donation</h4>
                   <p class="card-text">
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                   </p>
@@ -166,15 +166,21 @@ if (isset($_POST['feedback'])) {
                 <hr class="w-25 pt-5">
                 <div class="row mb-5">
                   <div class="col-lg-6 col-md-6 col-12">
-                    <img src="Image/plasmaIndex1.jpg" class="img-fluid">
+                    <img src="Image/covidaware.jpg" class="img-fluid">
                 </div>
 
                 <div class="col-lg-6 col-md-6 col-12">
 
-                  <h1 class="text-dark">MedicAid+</h1>
+                  <h1 class="text-dark">Corona Update</h1>
                     <p class="text-dark">Thousands of people just like you provide compassionate care to those in need. We roll up our sleeves and donate time, money and blood. We teach life-saving skills so our communities can be better prepared when the need arises and we do this every day because Medicare is needed each and every day.</p>
 
-                    <button class="btn bg-primary text-white">More</button>
+                    <button class="btn bg-info text-white">See Update</button>
+                    <div class="text-right">
+                    <h1 class="text-dark">Plasma Donation</h1>
+                      <p class="text-dark">Thousands of people just like you provide compassionate care to those in need. We roll up our sleeves and donate time, money and blood. We teach life-saving skills so our communities can be better prepared when the need arises and we do this every day because Medicare is needed each and every day.</p>
+
+                      <button class="btn bg-info text-white">See Donor List</button>
+                    </div>
               </div>
               </div>
             </section>
@@ -225,7 +231,7 @@ if (isset($_POST['feedback'])) {
                         </div>
                         <div class="card-footer">
                           <div class="text-right">
-                          <button class="btn bg-info text-white text-left">Get Appointment</button>
+                          <button class="btn bg-primary text-white text-left">Get Appointment</button>
                           </div>
                         </div>
                       </div>
