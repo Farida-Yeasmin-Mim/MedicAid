@@ -147,23 +147,6 @@ if (isset($_POST['feedback'])) {
               </div>
             </div>
 
-            <div class="col-md-4 col-lg-4 col-sm-12">
-              <div class="card">
-                <div class="card-img">
-                  <img src="http://www.crmsoftwareapp.com/blog/blog-image/lumin-header.png" class="img-fluid">
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Appointment</h4>
-                  <p class="card-text">
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <a href="" class="card-link">Read more</a>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
@@ -195,6 +178,87 @@ if (isset($_POST['feedback'])) {
               </div>
               </div>
             </section>
+
+
+            <section>
+              <div class="container-fluid">
+
+                <hr class="w-100 ">
+              <div class="blog">
+                <div class="container">
+                  <div class="row mb-5">
+
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+                      <div class="card">
+                        <div class="card-img">
+                          <img src="Image/donationindex.jpg" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                          <h4 class="card-title">Donations</h4>
+                          <p class="card-text">
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <div class="text-center">
+                          <button class="btn bg-danger text-white text-left">Get More Information!</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                      <br>
+                      <div class="card">
+                        <div class="card-img">
+                          <img src="http://www.crmsoftwareapp.com/blog/blog-image/lumin-header.png" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                          <h4 class="card-title">Appointment</h4>
+                          <p class="card-text">
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <div class="text-right">
+                          <button class="btn bg-info text-white text-left">Get Appointment</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                      <br>
+                      <div class="card">
+                        <div class="card-img">
+                          <img src="Image/feedbackindex.jpg" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                          <h4 class="card-title">Feedback</h4>
+                          <p class="card-text">
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <div class="text-right">
+                          <button class="btn bg-warning text-white text-left">Send Feedback</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+            </section>
+
+
+
 
             <!--Section: Best Features-->
             <section id="best-features" class="text-center" >
@@ -268,6 +332,10 @@ if (isset($_POST['feedback'])) {
                 <!--Grid row-->
 
             </section>
+
+
+
+
 
 
 
