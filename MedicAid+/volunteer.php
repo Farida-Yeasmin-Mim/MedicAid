@@ -1,20 +1,3 @@
-<?php
-include 'connection.php';
-
-if (isset($_POST['volunteering feedback'])) {
-  // Set variables to represent data from database
-  $dbUsname = strip_tags($_POST['name']);
-$dbEmail = strip_tags($_POST['email']);
-$dbmess = strip_tags($_POST['message']);
-$sql = "INSERT INTO feedback (name, email, message)
-VALUES ('$dbUsname', '$dbEmail', '$dbmess');";
-mysqli_query($conn, $sql);
-echo "<script>
-alert('Thank you For Your Response!');
-window.location.href='index.php';
-</script>";
-}
-?>
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
