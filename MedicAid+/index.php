@@ -162,7 +162,7 @@ if (isset($_POST['feedback'])) {
 
             <section>
               <div class="container-fluid">
-                <h1 class="text-center font-weight-bold text-dark text-capitalize pt-5">About MedicAid+</h1>
+                <h1 class="text-center font-weight-bold text-dark text-capitalize ">Covid19 Information</h1>
                 <hr class="w-25 pt-5">
                 <div class="row mb-5">
                   <div class="col-lg-6 col-md-6 col-12">
@@ -181,8 +181,11 @@ if (isset($_POST['feedback'])) {
 
 
             <section>
-              <div class="container-fluid">
 
+
+
+              <div class="container-fluid">
+                <h1 class="text-center font-weight-bold text-dark text-capitalize pt-5">Donation Campaign Are Running!</h1>
                 <hr class="w-100 ">
               <div class="blog">
                 <div class="container">
@@ -194,7 +197,7 @@ if (isset($_POST['feedback'])) {
                           <img src="Image/donationindex.jpg" class="img-fluid">
                         </div>
                         <div class="card-body">
-                          <h4 class="card-title">Donations</h4>
+                          <h4 class="card-title text-danger">Donations</h4>
                           <p class="card-text">
                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                           </p>
