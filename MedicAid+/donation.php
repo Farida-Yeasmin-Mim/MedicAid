@@ -185,7 +185,7 @@
             <div class="col-md-4 col-lg-4 col-sm-12">
               <div class="card">
                 <div class="card-img">
-                  <img src="https://lh3.googleusercontent.com/proxy/uHfhYd8tftpblE88ZKFz0POj-4IC89QlxcPtiuQ_Ljn5ECIogzuaAOtWDPMYA4Ja6oYy6DaWo65EiHZuAEZeH5KYnp6CIUO2Z7rEQOKQACRcr8ooMtuUjYq00PmVYsHnCg" class="img-fluid">
+                  <img src="Image/services-2.jpg" class="img-fluid">
                 </div>
                 <div class="card-body bg-primary">
                   <h4 class="card-title text-white">Blood Donation</h4>
