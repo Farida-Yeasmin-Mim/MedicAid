@@ -85,10 +85,10 @@
             </h5>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>
-                <a href="#!">MDBootstrap</a>
+                <a href="blood.php">Blood Donation</a>
             </p>
             <p>
-                <a href="#!">MDWordPress</a>
+                <a href="#!">Plasma Donation</a>
             </p>
             <p>
                 <a href="#!">BrandFlow</a>
@@ -115,10 +115,10 @@
                 <a href="#!">Donation</a>
             </p>
             <p>
-                <a href="#!">Ambulance</a>
+                <a href="#!">Volunteer</a>
             </p>
             <p>
-                <a href="#!">Volunteer</a>
+                <a href="#!">Ambulance</a>
             </p>
             <p>
                 <a href="#!">Appointment</a>
