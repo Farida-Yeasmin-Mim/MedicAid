@@ -32,7 +32,7 @@
                 <p>Developer</p>
                 <div class="social-links">
                   <a href="https://www.facebook.com/yeasminmim"><span class="fa fa-facebook"></span></a>
-                  <a href=""><span class="fa fa-instagram"></span></a>
+                  <a href=""><strong class="fa fa-instagram"></strong></a>
                   <a href=""><span class="fa fa-twitter"></span></a>
                   <a href=""><span class="fa fa-linkedin"></span></a>
                 </div>
