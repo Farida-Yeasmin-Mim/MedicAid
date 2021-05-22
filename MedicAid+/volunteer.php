@@ -133,9 +133,8 @@
 
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <div class="view overlay z-depth-1-half">
-                  <img src="https://c0.wallpaperflare.com/preview/42/1/147/blue-camera-phone-charity-cheerful.jpg" class="img-fluid" alt="">
-                  <div class="mask rgba-white-slight"></div>
+              <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UYpcahrjXww" allowfullscreen></iframe>
               </div>
               <div class="text d-block">
                 <div class="meta mb-3">
