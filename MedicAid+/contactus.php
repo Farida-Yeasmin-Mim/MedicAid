@@ -25,11 +25,11 @@
         <div class="team-members">
 
           <div class="member">
-            <img src="Image/member2.jpg">
+            <img src="Image/mim.jpg">
             <div class="inner">
               <div class="info">
-                <h5>Farida Yeasmin Mim</h5>
-                <p>Developer</p>
+                <h4 class="text-white">Farida Yeasmin Mim</h4>
+                <h5><p>Developer</p></h5>
                 <div class="social-links">
                   <a href="https://www.facebook.com/yeasminmim"><span class="fa fa-facebook"></span></a>
                   <a href=""><strong class="fa fa-instagram"></strong></a>
@@ -44,8 +44,8 @@
             <img src="Image/member1.jpg">
             <div class="inner">
               <div class="info">
-                <h5>Kazi Ramisa Rifa</h5>
-                <p>Developer</p>
+                <h4 class="text-white">Kazi Ramisa Rifa</h4>
+                <h5><p>Developer</p></h5>
                 <div class="social-links">
                   <a href="https://www.facebook.com/ramisa.rifa01/"><span class="fa fa-facebook"></span></a>
                   <a href=""><span class="fa fa-instagram"></span></a>
@@ -60,8 +60,8 @@
             <img src="Image/member03.jpg">
             <div class="inner">
               <div class="info">
-                <h5>Zarin Tasnim</h5>
-                <p>Developer</p>
+                <h4 class="text-white">Zarin Tasnim</h4>
+                <h5><p>Developer</p></h5>
                 <div class="social-links">
                   <a href="https://www.facebook.com/abidfahim.bd"><span class="fa fa-facebook"></span></a>
                   <a href=""><span class="fa fa-instagram"></span></a>
@@ -78,6 +78,6 @@
 
     </div>
     </div>
-    <footer><?php include 'footer.php';?></footer>
+    <footer><?php include 'footer2.php';?></footer>
   </body>
 </html>
