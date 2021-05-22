@@ -15,6 +15,7 @@
   <body>
 
 
+
   <!-- Footer -->
   <footer class="bg-dark text-center text-white">
     <!-- Grid container -->
@@ -22,28 +23,28 @@
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+        <a class="btn btn-outline-light btn-floating m-1 bg-primary" href="#!" role="button">
           <i class="fa fa-facebook"></i></a>
 
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-          <i class="fa fa-twitter"></i></a>
-
         <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+        <a class="btn btn-outline-light btn-floating m-1 bg-info" href="#!" role="button">
           <i class="fa fa-google"></i></a>
 
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1 bg-primary" href="#!" role="button">
+            <i class="fa fa-twitter"></i></a>
+
         <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+        <a class="btn btn-outline-light btn-floating m-1 bg-info" href="#!" role="button">
           <i class="fa fa-instagram"></i></a>
 
         <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-          <i class="fab fa-linkedin-in"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1 bg-primary" href="#!" role="button">
+          <i class="fa fa-linkedin"></i></a>
 
         <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-          <i class="fab fa-github"></i></a>
+        <a class="btn btn-outline-light btn-floating m-1 bg-info" href="#!" role="button">
+          <i class="fa fa-github"></i></a>
       </section>
       <!-- Section: Social media -->
 
@@ -73,9 +74,10 @@
             <!--Grid column-->
             <div class="col-auto">
               <!-- Submit button -->
-              <button type="submit" class="btn btn-outline-light mb-4">
+              <button type="submit" class="btn btn-outline-light mb-4 bg-danger">
                 Subscribe
               </button>
+
             </div>
             <!--Grid column-->
           </div>
@@ -125,16 +127,16 @@
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">Link 1</a>
+                <a href="#!" class="text-white">Bangladesh, Dhaka 1216</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 2</a>
+                <a href="#!" class="text-white">info@example.com</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 3</a>
+                <a href="#!" class="text-white">+ 01 234 567 88</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 4</a>
+                <a href="#!" class="text-white">+ 01 234 567 89</a>
               </li>
             </ul>
           </div>
@@ -146,16 +148,16 @@
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">Link 1</a>
+                <a href="donation.php" class="text-white">Donation</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 2</a>
+                <a href="volunteer.php" class="text-white">Volunteer</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 3</a>
+                <a href="ambulance.php" class="text-white">Ambulance</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 4</a>
+                <a href="appointment" class="text-white">Appointment</a>
               </li>
             </ul>
           </div>
@@ -167,13 +169,13 @@
 
             <ul class="list-unstyled mb-0">
               <li>
-                <a href="#!" class="text-white">Link 1</a>
+                <a href="feedback.php" class="text-white">Feedback</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 2</a>
+                <a href="covid19.php" class="text-white">Covid-19</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 3</a>
+                <a href="information.php" class="text-white">Information</a>
               </li>
               <li>
                 <a href="#!" class="text-white">Link 4</a>
@@ -190,7 +192,8 @@
 
 
     <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <!--<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> -->
+    <div class="text-center p-3 bg-danger" ;>
       © 2021 Copyright :
       <a class="text-white" href="">MedicAid+, All Rights Reserved</a>
     </div>
