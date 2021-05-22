@@ -282,7 +282,7 @@ if (isset($_POST['feedback'])) {
                               <button class="btn btn-danger" type="button" onclick="window.location ='volunteer_login.php'"> <i class="fa fa-sign-in" aria-hidden="true"></i>Volunteer Login</a>
                               </button>
 
-                              <button class="btn btn-danger" type="button" onclick="window.location ='volunteer_signup.php'"> <i class="fa fa-user-plus" aria-hidden="true"></i>Volunteer Sign Up For Free</a>
+                              <button class="btn btn-danger" type="button" onclick="window.location ='volunteer_signup.php'"> <i class="fa fa-user-plus" aria-hidden="true"></i>Covid-19 world statistics></a>
                               </button>
                             </div>
                     </div>
