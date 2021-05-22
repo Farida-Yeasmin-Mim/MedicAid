@@ -74,9 +74,7 @@
             <!--Grid column-->
             <div class="col-auto">
               <!-- Submit button -->
-              <button type="submit" class="btn btn-outline-light mb-4 bg-danger">
-                Subscribe
-              </button>
+              <button class="btn btn-danger" type="button" onclick="window.location ='covid19.php'"> </i>Subscribe</a>
 
             </div>
             <!--Grid column-->
@@ -104,20 +102,8 @@
           <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 class="text-uppercase">About Us</h5>
 
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
+            <p>The leading source for trustworthy and timely health and medical news and information.
+              </p>
           </div>
           <!--Grid column-->
 
@@ -172,13 +158,13 @@
                 <a href="feedback.php" class="text-white">Feedback</a>
               </li>
               <li>
-                <a href="covid19.php" class="text-white">Covid-19</a>
+                <a href="covid19.php" class="text-white">Covid-19 info</a>
               </li>
               <li>
-                <a href="information.php" class="text-white">Information</a>
+                <a href="covid19.php" class="text-white">World covid-19 Update</a>
               </li>
               <li>
-                <a href="#!" class="text-white">Link 4</a>
+                <a href="Bangladesh_covid_info.php" class="text-white">Bangladesh covid-19 update</a>
               </li>
             </ul>
           </div>
