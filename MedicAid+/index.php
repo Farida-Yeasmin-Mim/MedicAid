@@ -162,7 +162,7 @@ if (isset($_POST['feedback'])) {
 
             <section>
               <div class="container-fluid">
-                <h1 class="text-center font-weight-bold text-dark text-capitalize ">Covid19 Information</h1>
+                <h1 class="text-center font-weight-bold text-danger text-capitalize ">Covid-19 Information</h1>
                 <hr class="w-25 pt-5">
                 <div class="row mb-5">
                   <div class="col-lg-6 col-md-6 col-12">
