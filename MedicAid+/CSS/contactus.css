@@ -2,7 +2,7 @@
 
 .Developed__By{
 padding: 70px 15px;
-background-color:#d99cf0;
+background-color:#cbf5b0;
 min-height: 100vh;
 
 }
@@ -93,13 +93,13 @@ transform: translateY(-20px);
 
 .social-links a{
   display: inline-block;
-  height: 32px;
-  width: 32px;
+  height: 40px;
+  width: 40px;
   background-color: #fff;
   color: #4d26a3;
   border-radius: 50px;
   margin: 0 2px;
   text-align: center;
-  line-height: 32px;
-  font-size: 16px;
+  line-height: 37px;
+  font-size: 20px;
 }
