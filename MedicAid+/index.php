@@ -267,7 +267,30 @@ if (isset($_POST['feedback'])) {
             </section>
 
 
+            <!--Section: Contact-->
+            <section class="ftco-hireme bg-info">
 
+                <!-- Heading -->
+                <div class="container">
+                  <h2 class="text-center font-weight-bold text-white text-capitalize pt-5 mt-5">90% of the MedicAid workforce are volunteers.</h2>
+
+                  <h4 class="text-center font-weight-bold text-white text-capitalize">Become a volunteer NOW !!</h4>
+                <!--Grid row-->
+                <div class="row" >
+                    <div class="col-lg-5 col-md-12 pl-lg-5 py-md-5 mx-auto">
+                            <div class="text-center mt-4">
+                              <button class="btn btn-danger" type="button" onclick="window.location ='volunteer_login.php'"> <i class="fa fa-sign-in" aria-hidden="true"></i>Volunteer Login</a>
+                              </button>
+
+                              <button class="btn btn-danger" type="button" onclick="window.location ='volunteer_signup.php'"> <i class="fa fa-user-plus" aria-hidden="true"></i>Volunteer Sign Up For Free</a>
+                              </button>
+                            </div>
+                    </div>
+                </div>
+              </div>
+                <!--Grid row-->
+            </section>
+            <!--Section: Contact-->
 
             <!--Section: Best Features-->
             <section id="best-features" class="text-center" >
