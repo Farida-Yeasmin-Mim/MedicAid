@@ -11,7 +11,7 @@ $dbage = mysqli_real_escape_string($conn, $_POST['age']);
 $dbbgroup = mysqli_real_escape_string($conn, $_POST['bgroup']);
 $dbdivision = mysqli_real_escape_string($conn, $_POST['division']);
 $dbaddress = mysqli_real_escape_string($conn, $_POST['address']);
-$dbpassword = mysqli_real_escape_string($conn, $_POST['password']);
+
 
 $sql = "SELECT email,contact_number FROM plasma";
 $result = mysqli_query($conn,$sql);
@@ -25,7 +25,7 @@ $dbbcontact= $row["contact_number"];
 if ($dbbemail == $dbemail) {
   echo "<script>
 alert('Same User Name Exist! Try Another User Name!');
-window.location.href='donor_signup.php';
+window.location.href='plasma_form.php';
 </script>";
   exit();
 
@@ -34,7 +34,7 @@ window.location.href='donor_signup.php';
   {
     echo "<script>
   alert('Same Contact Number Exist! Try Another Contact Number!');
-  window.location.href='donor_signup.php';
+  window.location.href='plasma_form.php';
   </script>";
     exit();
 
@@ -45,17 +45,17 @@ window.location.href='donor_signup.php';
 
 }
 }
- $sql="INSERT INTO plasma(full_name, email, contact_number, gender, age, blood_group, division, address, password)
-VALUES ('$dbfname','$dbemail','$dbcontact','$dbgender','$dbage','$dbbgroup','$dbdivision','$dbaddress','$dbpassword')";
+ $sql="INSERT INTO plasma(full_name, email, contact_number, gender, age, blood_group, division, address)
+VALUES ('$dbfname','$dbemail','$dbcontact','$dbgender','$dbage','$dbbgroup','$dbdivision','$dbaddress')";
 mysqli_query($conn, $sql);
 
 $sql = "SELECT plasma_id
-FROM donor
+FROM plasma
 WHERE email='$dbemail'";
 $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_assoc($result);
-$dbid= $row["donor_id"];
-header("Location: donor_profile.php?id=$dbid");
+$dbid= $row["plasma_id"];
+header("Location: thankyou.php?id=$dbid");
 
 }
 
@@ -167,12 +167,7 @@ header("Location: donor_profile.php?id=$dbid");
   </div>
       <input name="address" class="form-control" placeholder="Address" type="text" required="">
   </div>
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-		</div>
-        <input name="password"class="form-control" placeholder="Create password" type="password" required=" ">
-    </div>
+
 
     <div class="form-group">
         <button type="submit" name="signup" form="signform" class="btn btn-primary btn-block"> Register  </button>
