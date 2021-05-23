@@ -489,7 +489,7 @@
 <!--Main layout-->
 
 <footer>
-    <?php include 'footer2.php';?>
+    <?php include 'footer.php';?>
 </footer>
 
   </body>
