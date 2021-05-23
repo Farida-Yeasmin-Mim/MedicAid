@@ -1,4 +1,4 @@
-<!<?php
+<?php
 include 'connection.php';
 
 if (!empty($_GET['id'])){
