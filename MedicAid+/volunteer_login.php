@@ -1,3 +1,45 @@
+<?php
+
+  include 'connection.php';
+
+  if (isset($_POST['log_in'])) {
+      // Set variables to represent data from database
+
+  $dbEmail = strip_tags($_POST['email']);
+  $dbpass = strip_tags($_POST['password']);
+
+
+  $sql = "SELECT email, password FROM volunteer";
+  $result = mysqli_query($conn,$sql);
+
+  if (mysqli_num_rows($result) > 0) {
+    // output data of each row
+    while($row = mysqli_fetch_assoc($result)) {
+      $Email= $row["email"] ;
+      $Pass= $row["password"] ;
+      // Check if the username and the password they entered was correct
+      if ( $Email == $dbEmail && $Pass == $dbpass) {
+        $sql = "SELECT volunteer_id
+        FROM volunteer
+        WHERE email='$dbEmail'";
+        $result = mysqli_query($conn,$sql);
+        $row = mysqli_fetch_assoc($result);
+        $dbid= $row["volunteer_id"];
+        header("Location: volunteer_profile.php?id=$dbid");
+      } else {
+      // Display the alert box
+      echo "<script>
+    alert('Invalid Input!');
+    window.location.href='volunteer_login.php';
+    </script>";
+  }
+
+    }
+  }
+
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -32,11 +74,11 @@ body {
       <h1 class="text-center text-dark text-capitalize pt-5">Volunteer Login</h1>
       <hr class="w-25 pt-4">
       <div class="w-25 mx-auto">
-        <form id="loginform" method="POST" action="user_login.php">
+        <form id="loginform" method="POST" action="volunteer_login.php">
 
   <div class="form-group">
     <label for="email">Email address:</label>
-    <input type="email" name="email" class="form-control" placeholder="Enter email" id="email" autocomplete="off" required="">
+    <input type="text" name="number" class="form-control" placeholder="Enter number" id="email" autocomplete="off" required="">
   </div>
 
   <div class="form-group">
@@ -48,7 +90,7 @@ body {
   <button name="log_in" class="btn btn-primary w-50"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</button>
   <hr>
   <button type="submit" class="btn btn-danger "><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</button>
-  <button type="button" onclick="window.location = '<?php echo $loginURL ?>';" class="btn btn-danger"><i class="fa fa-google"></i> Login With Google</button>
+
 
 </div>
 
