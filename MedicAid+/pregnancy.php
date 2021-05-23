@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Disaster</title>
+    <title>James and Kimberly</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -24,43 +24,47 @@
 
   <div class="wrap-about text-center ">
     <div class="heading-section pr-md-5 pt-md-5 ">
-    <h1 class="mb-4 text-dark">When disasters happen, MedicAid volunteers spring into action</h1>
+    <h1 class="mb-4 text-dark">James and Kimberly Van Der Beek urge Americans to donate blood following pregnancy losses
+</h1>
 
     <div class="row justify-content-center">
-    <iframe width="500" height="300" src="https://www.youtube.com/embed/-yamNDUbsn0" allowfullscreen></iframe>
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/owg9IIO_Vms" allowfullscreen></iframe>
     </div>
 <br>
-      <p style="color: grey">When disaster strikes, people’s lives change in an instant. Often, they lose everything they hold dear —
-        their home, family photos, clothes, furniture — everything. When the worst happens, American Red Cross volunteers are there to help.<br>
+      <p style="color: grey">Actor and writer James Van Der Beek and wife, Kimberly Van Der Beek, are calling on Americans to give
+        the gift of life this summer by donating blood with the American Red Cross in the wake of a difficult and emotional health crisis.<br>
+
+In the past year, the Van Der Beek family suffered back-to-back pregnancy losses that each time required blood transfusions to save
+Kimberly’s life. Though donating blood is something James has always done, it was during his wife’s time of need that he thought of
+all the blood drives he had missed and how he and too many others take for granted that blood will be available when it’s needed.<br>
+
+“I never realized how important blood donations were until the woman I love most was in a situation where blood made the difference
+between life and death,” said Van Der Beek. “Every second to get that bag of blood is a big second. I’m just super grateful that
+blood she needed was available because people had donated.”
+
+
+“You never know when an emergency that requires lifesaving blood transfusions might happen. While most people associate blood transfusions with accidents and other traumas, the reality is that blood is needed every two seconds to support all types of patients in the U.S.,” said Dr. Pampee Young, chief medical officer for the Red Cross. “We are grateful to the Van Der Beeks and their courage to give comfort to others who have experienced similar losses and highlight the importance of blood donation.”
 <br>
 
 
-<h5 style="color: black">1881 MICHIGAN FOREST FIRE</h5>
-<p style="color: grey">Months after Clara Barton founded the American Red Cross, the organization launched its first disaster response —
-  donating money, clothes and furniture to victims of the devastating forest fires in Michigan. The fire claimed almost 300 lives and
-  left thousands homeless. Red Cross chapters collected food and supplies, which were shipped to Michigan to help assist the 14,000 people
-  in need.</p>
+<h5 style="color: black">HEALTH INSIGHTS FOR DONORS </h5>
+<p style="color: grey">The Red Cross continues to test all routine blood donations for COVID-19 antibodies. In addition to indicating if an individual has been exposed to the virus, it may also show if the body has generated antibodies as a result of a recent COVID-19 vaccine.
+
+The Red Cross is not testing donors to diagnose illness, referred to as a diagnostic test. To protect the health and safety of Red Cross staff and donors, it is important that individuals who do not feel well or believe they may be ill with COVID-19 postpone donation.
+
+At a time when health information has never been more important, the Red Cross is also screening all blood, platelet and plasma donations from self-identified African American donors for the sickle cell trait. This additional screening will provide Black donors with an additional health insight and help the Red Cross identify compatible blood types more quickly to help patients with sickle cell disease. Blood transfusion is an essential treatment for those with sickle cell disease, and blood donations from individuals of the same race, ethnicity and blood type have a unique ability to help patients fighting sickle cell disease.  </p>
 
 <br>
 
-<h5 style="color: black">1889 JOHNSTOWN FLOOD In 1889</h5>
-<p style="color: grey">a dam collapsed near Johnstown, Pennsylvania, sending millions of gallons of water toward the town of 30,000 people. More than 2,000 people died, hundreds were missing and tens of thousands were left homeless. To help, Clara Barton and a team of doctors, nurses and relief workers set up hospital tents, feeding stations and our first sheltering operation with “Red Cross hotels” to house the people whose homes were destroyed. Clara Barton and her team of 50 volunteers remained in Johnstown for months, helping the survivors get back on their feet.</p>
+<h5 style="color: black">BLOOD DRIVE SAFETY </h5>
+<p style="color: grey">Each Red Cross blood drive and donation center follows the highest standards of safety and infection control. Additional COVID-19 safety precautions – including temperature checks, social distancing and face masks for donors and staff – have been implemented to help protect the health of all those in attendance. Donors are asked to schedule an appointment prior to arriving at the drive and are required to wear a face mask while at the drive, in alignment with Centers for Disease Control and Prevention public guidance.</p>
 <br>
 
-<h5 style="color: black">1889 JOHNSTOWN FLOOD In 1889</h5>
-<p style="color: grey">SC Before hurricanes were named, the Red Cross launched its first major hurricane response when a powerful storm struck the Sea Islands in South Carolina in August 1893, claiming the lives of thousands of residents. As bad as the damage was, starvation was a chief concern. Red Cross volunteers, led by President Clara Barton, helped feed thousands of people until the next year’s spring crops were harvested. She set up a warehouse to stock clothing and food to support those in need. For nearly a year, the Red Cross stood with survivors who lost everything, helping them rebuild their homes and livelihoods
-  by providing seeds for new crops and creating local sewing groups for people to create and sell clothes.<p>
+<h5 style="color: black">ABOUT BLOOD DONATION </h5>
+<p style="color: grey">All blood types are needed to ensure a reliable supply for patients. A blood donor card or driver’s license or two other forms of identification are required at check-in. Individuals who are 17 years of age in most states (16 with parental consent where allowed by state law), weigh at least 110 pounds and are in generally good health may be eligible to donate blood. High school students and other donors 18 years of age and younger also have to meet certain height and weight requirements.<p>
 <br>
 
-<h5 style="color: black">1927 MISSISSIPPI RIVER FLOOD</h5>
- <p style="color: grey">The Red Cross was called into action along the Mississippi River during the Great Flood of 1927,
-   which covered about 16 million acres in Louisiana, Mississippi, Arkansas, Tennessee, Missouri, Illinois and Kentucky.
-   The Red Cross helped with transportation, sheltering, feeding and clothing, as well as furnishing nursing and medical care.<p>
 
-<br>
-
-<h5 style="color: black">1969 HURRICANE CAMILLE</h5>
- <p style="color: grey">On August 17, 1969, Hurricane Camille made landfall on the Gulf Coast of Louisiana, Mississippi and Alabama as a deadly Category 5 storm, causing extensive damage and unprecedented flash flooding. At the time, it was the most damaging storm on record in the U.S. During the height of the response, the Red Cross fed and sheltered nearly 260,000 disaster victims and relief workers. In coordination with federal and state authorities, the Red Cross assisted families with their long-term recovery and returning to their daily lives.</p>
     </div>
 
   </div>
