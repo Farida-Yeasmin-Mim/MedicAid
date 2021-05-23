@@ -321,7 +321,7 @@ if (isset($_POST['feedback'])) {
                     <!--Grid column-->
                     <div class="col-md-3 mb-2">
                         <i class="fa fa-ambulance fa-4x "></i>
-                        <h5><a href="orientation.php">When disasters happen, Red Cross volunteers spring into action>></a></h5>
+                        <h5><a href="disaster.php">When disasters happen, Red Cross volunteers spring into action>></a></h5>
                     </div>
                     <!--Grid column-->
 
