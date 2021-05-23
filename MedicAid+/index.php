@@ -328,7 +328,7 @@ if (isset($_POST['feedback'])) {
                     <!--Grid column-->
                     <div class="col-md-3 mb-1">
                         <i class="fa fa-tint fa-4x" style="color:red"></i>
-                        <h5><a href="orientation.php">James and Kimberly Van Der Beek urge Americans to donate blood following pregnancy losses>></a></h5>
+                        <h5><a href="pregnancy.php">James and Kimberly Van Der Beek urge Americans to donate blood following pregnancy losses>></a></h5>
 
                     </div>
                     <!--Grid column-->
