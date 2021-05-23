@@ -1,3 +1,11 @@
+<!<?php
+include 'connection.php';
+
+if (!empty($_GET['id'])){
+   $dbid =  $_GET['id'];
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -38,6 +46,7 @@
                 <p class="text-dark">Donation is a practice when people donate to others to help them with their critical conditions. To ensure safety, these are some of the requirements donors must meet to be eligible.To see a list of eligibility information,search donating requirements. </p>
 
                 <button class="btn bg-primary text-white" onclick="window.location ='donating_requirements.php'">Covid19 Update</button>
+
           </div>
             <div class="col-lg-6 col-md-6 col-12">
               <img src="Image/covid19news.jpg" class="img-fluid">
@@ -73,25 +82,27 @@
               <div class="col-md-6 col-lg-6 col-sm-12">
                 <div class="card">
                   <div class="card-img">
-                    <img src="Image/creatacc1.jpg" class="img-fluid">
+                    <img src="Image/signplasma.jpg" class="img-fluid">
                   </div>
 
                   <div class="card-body">
-                    <h4 class="card-title">Sign Up As A Donor</h4>
+                    <h4 class="card-title">Are You A Corona Recovery Patient?</h4>
                     <p class="card-text">
 
                       Signing up on your state registry means that someday you could save lives as a donor—by leaving behind the gift of life. When you register and you can update your status at any time.
                     </p>
                   </div>
                   <div class="card-footer">
-                    <a href="" class="card-link">Sign Up For Free Now!</a>
+                    <div class="text-center">
+                    <button class="btn bg-primary text-white text-left"type="button" onclick="window.location =''">Register To Become A Plasma Donor</button>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 col-lg-6 col-sm-12">
                 <div class="card">
                   <div class="card-img">
-                    <img src="Image/bloodpi.jpg" class="img-fluid">
+                    <img src="Image/covid19pi.png" class="img-fluid">
                   </div>
 
                   <div class="card-body">
@@ -102,7 +113,10 @@
                     </p>
                   </div>
                   <div class="card-footer">
-                    <a href="information.php" class="card-link">Read More To Get Information!</a>
+                    <div class="text-center">
+                    <button class="btn bg-primary text-white text-left"type="button" onclick="window.location =''">Read More To Get Information</button>
+                    </div>
+
                   </div>
                 </div>
               </div>
