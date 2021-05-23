@@ -37,10 +37,12 @@ if (!empty($_GET['id'])){
         <div class="container-fluid">
           <br>
           <br>
-          <h1 class="text-center font-weight-bold text-dark text-capitalize ">Registration Completed! <br> Thank You!</h1>
+          <h1 class="text-center font-weight-bold text-dark text-capitalize ">Registration Completed!</h1>
+          <h2 class="text-center font-weight-bold text-danger text-capitalize ">Remember Your Token Number: <?php echo $dbid ?></h2>
+          <p class="text-center"> This token number will help you to update your status! </p>
           <hr class="w-25 ">
             <div class="text-center">
-          <button class="btn bg-info text-white text-left"type="button" onclick="window.location ='index.php'">See Plasma Donor List</button>
+          <button class="btn bg-info text-white text-left"type="button" onclick="window.location ='plasma_donor_information.php'">See Plasma Donor List</button>
         </div>
 
 
