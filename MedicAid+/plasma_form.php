@@ -3,7 +3,7 @@ include 'connection.php';
 
 if (!empty($_GET['id'])){
    $dbid =  $_GET['id'];
-   $sql = "SELECT full_name, email, contact_number, gender, age, blood_group, division, address FROM donor";
+   $sql = "SELECT full_name, email, contact_number, gender, age, blood_group, division, address FROM donor WHERE donor_id=$dbid";
    $result = mysqli_query($conn,$sql);
    $row = mysqli_fetch_assoc($result);
    $name= $row["full_name"] ;
@@ -14,15 +14,23 @@ if (!empty($_GET['id'])){
    $blood_group= $row["blood_group"] ;
    $division= $row["division"] ;
    $address= $row["address"] ;
+
    $sql="INSERT INTO plasma(full_name, email, contact_number, gender, age, blood_group, division, address)
-  VALUES ('$name','$email','$contact','$gender','$dbage','$blood_group','$division','$address')";
+  VALUES ('$name','$email','$contact','$gender','$age','$blood_group','$division','$address')";
   mysqli_query($conn, $sql);
+
   $sql = "UPDATE donor
   SET plasma_status='Active'
   WHERE donor_id='$dbid' ";
   // execute query
   mysqli_query($conn, $sql);
-  header("Location: thankyou.php?id=$dbid");
+
+  $sql = "SELECT plasma_id FROM plasma WHERE contact_number='$contact' ";
+  $result = mysqli_query($conn,$sql);
+  $row = mysqli_fetch_assoc($result);
+  $dbp= $row["plasma_id"] ;
+
+  header("Location: thankyou2.php?id=$dbid&p=$dbp");
 
 }
 
