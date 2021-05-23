@@ -24,7 +24,7 @@
 
   <div class="wrap-about text-center ">
     <div class="heading-section pr-md-5 pt-md-5 ">
-    <h1 class="mb-4 text-dark">When disasters happen, Red Cross volunteers spring into action</h1>
+    <h1 class="mb-4 text-dark">When disasters happen, MedicAid volunteers spring into action</h1>
 
     <div class="row justify-content-center">
     <iframe width="500" height="300" src="https://www.youtube.com/embed/-yamNDUbsn0" allowfullscreen></iframe>
