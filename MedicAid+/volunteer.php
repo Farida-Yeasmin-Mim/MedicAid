@@ -228,16 +228,16 @@
 <section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb">
   <div class="container">
     <div class="row d-flex">
-      <div class="col-md-7 col-lg-5 d-flex">
+      <div class="col-md-4 col-lg-4 d-flex">
         <div class="view overlay z-depth-1-half">
             <img src="https://www.pngitem.com/pimgs/m/515-5158817_telemedicine-doctor-hd-png-download.png" class="img-fluid" alt="">
             <div class="mask rgba-white-slight"></div>
         </div>
       </div>
-      <div class="col-md-6 col-lg-7 pl-lg-5 py-md-5">
+      <div class="col-md-6 col-lg-7 pl-lg-3 py-md-3">
         <div class="py-md-5"
           <div class="row justify-content-start">
-            <div class="col-md-15 heading-section ftco-animate p-4 p-lg-5">
+            <div class="col-md-15 heading-section ftco-animate">
               <h2 class="mb-4">New Volunteer Applicants</h1>
               <p>Take an in-depth look at MedicAid history, mission, vision and values in this self-guided module. You’ll also learn about our key service areas and organizational structure.</p>
               <p>Viewing Time: 45 minutes</p>
