@@ -52,7 +52,7 @@ background-size: cover;
                   <hr class="w-25 pt-5">
 
               <form class="example" method="POST" action="plasma_donor_information.php">
-  <input name="srch" type="text" placeholder="Search.." name="search">
+  <input name="srch" type="text" placeholder="Search By Blood Group or Division..." name="search">
   <button name="search" type="submit"><i class="fa fa-search"></i></button>
 </form>
 <div id="content">
