@@ -68,7 +68,7 @@
   				<div class="col-md-5 order-md-last d-flex align-items-stretch">
   					<div class="donation-wrap">
 
-  						<div class="total-donate align-items-center bg-danger pt-4 mt-4">
+  						<div class="total-donate align-items-center bg-danger p-2 p-lg-2">
   							<h4 class="text-white text-center">Donation Campaign are running</h4>
   						</div>
 
@@ -141,15 +141,7 @@
   													</label>
   												</div>
   											</div>
-  											<div class="form-radio">
-  												<div class="radio">
-  													<label>
-  														<input type="radio" name="radio-input">
-  														<span class="checkmark"></span>
-  														<span class="fill-control-description">Payoneer</span>
-  													</label>
-  												</div>
-  											</div>
+
   										</div>
   									</div>
   								</div>
@@ -170,7 +162,7 @@
   						<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
   					</div>
   					<div class="row my-md-5">
-              	<p><a href="volunteer_signup.php" class="btn btn-danger btn-outline-light">Become A Volunteer</a></p>
+              	<p><a href="volunteer.php" class="btn btn-danger btn-outline-light">Become A Volunteer</a></p>
   					</div>
   				</div>
   			</div>
@@ -211,7 +203,7 @@
                   </p>
                 </div>
                 <div class="card-footer bg-success">
-                <p><a href="blog-single.html" class="btn btn-warning py-2 px-3">Read more</a></p>
+                <p><a href="donation.php" class="btn btn-warning py-2 px-3">Read more</a></p>
                 </div>
               </div>
             </div>
@@ -228,7 +220,7 @@
                   </p>
                 </div>
                 <div class="card-footer bg-info ">
-                  <p><a href="blog-single.html" class="btn btn-warning py-2 px-3">Read more</a></p>
+                  <p><a href="volunteer.php" class="btn btn-warning py-2 px-3">Read more</a></p>
                 </div>
               </div>
             </div>
