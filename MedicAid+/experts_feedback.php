@@ -11,6 +11,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="CSS/index.css">
+
+  <style>
+  body {
+  background-image: url('Image/fd1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+  </style>
+
   </head>
   <body>
 
@@ -19,13 +29,14 @@
       <?php include 'header.php';?>
   </header>
 
+
 <section class="ftco-section testimony-section">
   <div class="overlay"></div>
   <div class="container">
     <div class="row justify-content-center pb-5">
       <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
         <span class="subheading">Testimony</span>
-        <h2>Happy Clients &amp; Feedbacks</h2>
+        <h2>Our Experts & Feedbacks</h2>
       </div>
     </div>
     <div class="row ftco-animate">
