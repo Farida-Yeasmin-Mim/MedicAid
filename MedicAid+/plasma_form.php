@@ -1,6 +1,37 @@
 <?php
 include 'connection.php';
 
+if (!empty($_GET['id'])){
+   $dbid =  $_GET['id'];
+   $sql = "SELECT full_name, email, contact_number, gender, age, blood_group, division, address FROM donor";
+   $result = mysqli_query($conn,$sql);
+   $row = mysqli_fetch_assoc($result);
+   $name= $row["full_name"] ;
+   $email= $row["email"] ;
+   $contact= $row["contact_number"] ;
+   $gender= $row["gender"] ;
+   $age= $row["age"] ;
+   $blood_group= $row["blood_group"] ;
+   $division= $row["division"] ;
+   $address= $row["address"] ;
+   $sql="INSERT INTO plasma(full_name, email, contact_number, gender, age, blood_group, division, address)
+  VALUES ('$name','$email','$contact','$gender','$dbage','$blood_group','$division','$address')";
+  mysqli_query($conn, $sql);
+
+  header("Location: thankyou.php?id=$dbid");
+  $sql = "SELECT plasma_id
+  FROM plasma
+  WHERE email='$dbemail'";
+  $result = mysqli_query($conn,$sql);
+  $row = mysqli_fetch_assoc($result);
+  $dbbid= $row["plasma_id"];
+  header("Location: thankyou.php?id=$dbid&p=$dbbid");
+
+
+
+}
+
+
 if(isset($_POST['signup'])){
 
 $dbfname = mysqli_real_escape_string($conn, $_POST['fullname']);
