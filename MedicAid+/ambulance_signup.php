@@ -3,45 +3,45 @@ include 'connection.php';
 
 if(isset($_POST['signup'])){
 
-$dbfname = mysqli_real_escape_string($conn, $_POST['fullname']);
-$dbcontact = mysqli_real_escape_string($conn, $_POST['contact']);
-$dbdivision = mysqli_real_escape_string($conn, $_POST['division']);
-$dbaddress = mysqli_real_escape_string($conn, $_POST['vehicle_no']);
-$dbpassword = mysqli_real_escape_string($conn, $_POST['password']);
-
-$sql = "SELECT contact_number FROM ambulance";
-$result = mysqli_query($conn,$sql);
-
-if (mysqli_num_rows($result) > 0) {
-// output data of each row
-while($row = mysqli_fetch_assoc($result)) {
-$dbbcontact= $row["contact_number"];
-// Check if the username they entered was correct
-  if($dbbcontact == $dbcontact)
-  {
-    echo "<script>
-  alert('Same Contact Number Exist! Try Another Contact Number!');
-  window.location.href='ambulance_signup.php';
-  </script>";
-    exit();
-
-  }
-
-
-
-
-}
-}
- $sql="INSERT INTO ambulance(owner_name, contact_number, division, ambulance_number, password,status)
-VALUES ('$dbfname','$dbcontact','$dbdivision','$dbaddress','$dbpassword','Active')";
-mysqli_query($conn, $sql);
-
-$sql = "SELECT ambulance_id
-FROM ambulance
-WHERE contact_number='$dbcontact'";
-$result = mysqli_query($conn,$sql);
-$row = mysqli_fetch_assoc($result);
-$dbid= $row["ambulance_id"];
+// $dbfname = mysqli_real_escape_string($conn, $_POST['fullname']);
+// $dbcontact = mysqli_real_escape_string($conn, $_POST['contact']);
+// $dbdivision = mysqli_real_escape_string($conn, $_POST['division']);
+// $dbaddress = mysqli_real_escape_string($conn, $_POST['vehicle_no']);
+// $dbpassword = mysqli_real_escape_string($conn, $_POST['password']);
+//
+// $sql = "SELECT contact_number FROM ambulance";
+// $result = mysqli_query($conn,$sql);
+//
+// if (mysqli_num_rows($result) > 0) {
+// // output data of each row
+// while($row = mysqli_fetch_assoc($result)) {
+// $dbbcontact= $row["contact_number"];
+// // Check if the username they entered was correct
+//   if($dbbcontact == $dbcontact)
+//   {
+//     echo "<script>
+//   alert('Same Contact Number Exist! Try Another Contact Number!');
+//   window.location.href='ambulance_signup.php';
+//   </script>";
+//     exit();
+//
+//   }
+//
+//
+//
+//
+// }
+// }
+//  $sql="INSERT INTO ambulance(owner_name, contact_number, division, ambulance_number, password,status)
+// VALUES ('$dbfname','$dbcontact','$dbdivision','$dbaddress','$dbpassword','Active')";
+// mysqli_query($conn, $sql);
+//
+// $sql = "SELECT ambulance_id
+// FROM ambulance
+// WHERE contact_number='$dbcontact'";
+// $result = mysqli_query($conn,$sql);
+// $row = mysqli_fetch_assoc($result);
+// $dbid= $row["ambulance_id"];
 header("Location: ambulance_profile.php?id=$dbid");
 
 }
