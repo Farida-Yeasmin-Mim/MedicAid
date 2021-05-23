@@ -1,9 +1,12 @@
 <?php
 include 'connection.php';
 
-if (!empty($_GET['id'])){
    $dbid =  $_GET['id'];
-}
+   $dbp =  $_GET['p'];
+
+
+
+
 
 ?>
 <!DOCTYPE html>
@@ -38,7 +41,7 @@ if (!empty($_GET['id'])){
           <br>
           <br>
           <h1 class="text-center font-weight-bold text-dark text-capitalize ">Registration Completed!</h1>
-          <h2 class="text-center font-weight-bold text-danger text-capitalize ">Remember Your Token Number: <?php echo $dbid ?></h2>
+          <h2 class="text-center font-weight-bold text-danger text-capitalize ">Remember Your Token Number: <?php echo $dbp ?></h2>
           <p class="text-center"> This token number will help you to update your status! </p>
           <hr class="w-25 ">
             <div class="text-center">
