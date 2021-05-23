@@ -3,11 +3,6 @@ include 'connection.php';
 
    $dbid =  $_GET['id'];
    $dbp =  $_GET['p'];
-
-
-
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
