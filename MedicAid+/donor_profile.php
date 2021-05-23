@@ -177,6 +177,17 @@ $dbps= $row["plasma_status"];
                 </div>
             </form>
         </div>
+        <?php
+
+        $sql = "SELECT plasma_status
+        FROM donor
+        WHERE donor_id='$dbid'";
+        $result = mysqli_query($conn,$sql);
+        $row = mysqli_fetch_assoc($result);
+        $plasma= $row["plasma_status"];
+        if($plasma=='Active')
+        {
+            ?>
         <section>
           <div class="container">
           <div class="container-fluid">
@@ -200,6 +211,7 @@ $dbps= $row["plasma_status"];
           </div>
           <hr>
         </section>
+        <?php } ?>
 
   </body>
 </html>
