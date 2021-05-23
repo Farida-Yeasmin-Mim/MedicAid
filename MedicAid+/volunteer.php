@@ -122,8 +122,8 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-10 col-lg-9 pl-lg-5 py-md-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-            <h2 class="mb-4"><strong>Explore our service opportunities</strong></h2>
+          <div class="col-md-15 heading-section text-center ftco-animate">
+            <h1 class="mb-4 text-dark"><strong>Explore our service opportunities</strong></h1>
             <p>How does it feel to help save a life? This is your chance to find out! We need volunteers to help us with this life-saving mission. Find all Services volunteer opportunities in your area .</p>
           </div>
           </div>
@@ -140,7 +140,9 @@
                 <div class="meta mb-3">
                   <div><a href="#">November 1, 2018</a></div>
                   <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                  <div>
+                    <a href="https://www.facebook.com/yeasminmim"><span class="fa fa-comment"></span> 3</a>
+                  </div>
                 </div>
                 <h3 class="heading"><a href="#">Learn About Volunteer Opportunities</a></h3>
                 <p>The vital work of the MedicAid is made possible by people like you who contribute their unique backgrounds, talents and skill levels.</p>
@@ -151,15 +153,17 @@
 
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <div class="view overlay z-depth-1-half">
-                  <img src="https://www.washoeschools.net/cms/lib/NV01912265/Centricity/Domain/91/Images_Graphics/2013%20Stock%20Photography049.jpg" class="img-fluid" alt="">
-                  <div class="mask rgba-white-slight"></div>
+
+              <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lfaz15C_OuY" allowfullscreen></iframe>
               </div>
               <div class="text d-block">
                 <div class="meta mb-3">
                   <div><a href="#">August 21, 2019</a></div>
                   <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                  <div>
+                    <a href="https://www.facebook.com/yeasminmim"><span class="fa fa-comment"></span> 3</a>
+                  </div>
                 </div>
                 <h3 class="heading"><a href="volunteer_signup.php">Learn about Volunteer Connection</a></h3>
                 <p>Learn how we create and make the connection and also deliver the support programs around the world.</p>
@@ -170,15 +174,17 @@
 
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <div class="view overlay z-depth-1-half">
-                  <img src="https://media.istockphoto.com/photos/hurricane-michael-disaster-relief-picture-id1127203174?k=6&m=1127203174&s=612x612&w=0&h=KjZg0gSasgGatNPjbgrm-Xo1FsdnMoBP0Xasi8WAdHY=" class="img-fluid" alt="">
-                  <div class="mask rgba-white-slight"></div>
+
+              <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-yamNDUbsn0" allowfullscreen></iframe>
               </div>
               <div class="text d-block">
                 <div class="meta mb-3">
                   <div><a href="#">June 3, 2021</a></div>
                   <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                  <div>
+                    <a href="https://www.facebook.com/yeasminmim"><span class="fa fa-comment"></span> 3</a>
+                  </div>
                 </div>
                 <h3 class="heading"><a href="#">Volunteer on a Disaster Action Team</a></h3>
                 <p>Most of the 60,000 emergencies that the Red Cross responds to each year are local, personal disasters like home fires.</p>
@@ -186,67 +192,122 @@
               </div>
             </div>
           </div>
+    </div>
+</section>
 
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry">
-              <div class="view overlay z-depth-1-half">
-                  <img src="https://exclusive.multibriefs.com/images/exclusive/0428nurse2.jpg" class="img-fluid" alt="">
-                  <div class="mask rgba-white-slight"></div>
-              </div>
-              <div class="text d-block">
-                <div class="meta mb-3">
-                  <div><a href="#">June 3, 2021</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+
+<!--Section: Contact-->
+  <hr class="my-5">
+<section class="ftco-hireme bg-light">
+<h1 class="text-center font-weight-bold text-dark text-capitalize pt-3 mt-3">90% of the MedicAid workforce are volunteers.</h1>
+<div class=" bg-dark">
+    <!-- Heading -->
+    <div class="container">
+
+      <h3 class="text-center font-weight-bold text-danger text-capitalize pt-5 mt-5">Our work is possible because of people like you.</h3>
+      <p class="text-white text-center">Discover the role that's right for you and join us today!</p>
+    <!--Grid row-->
+    <div class="row" >
+        <div class="col-lg-5 col-md-12 pl-lg-5 py-md-5 mx-auto">
+                <div class="text-center mt-4">
+                  <button class="btn btn-danger" type="button" onclick="window.location ='volunteer_login.php'"> <i class="fa fa-sign-in" aria-hidden="true"></i>Volunteer Login</a>
+                  </button>
+
+                  <button class="btn btn-danger" type="button" onclick="window.location ='volunteer_signup.php'"> <i class="fa fa-user-plus" aria-hidden="true"></i>Volunteer Sign Up For Free</a>
+                  </button>
                 </div>
-                <h3 class="heading"><a href="volunteer_signup.php">Find Your Volunteer Opportunity</a></h3>
-                <p>Our need for volunteers is constant and continues to evolve as we navigate this Coronavirus health crisis. </p>
-                <p><a href="blog-single.html" class="btn btn-success py-2 px-3">Read more</a></p>
-              </div>
-            </div>
-          </div>
+        </div>
+    </div>
+  </div>
+    <!--Grid row-->
+</div>
+</section>
+<!--Section: Contact-->
 
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry">
-              <div class="view overlay z-depth-1-half">
-                  <img src="https://sheriff.deschutes.org/s/i8ej3eZwYkKRIqaDAH6dpw/EM-Volunteer-lg.jpg" class="img-fluid" alt="">
-                  <div class="mask rgba-white-slight"></div>
-              </div>
-              <div class="text d-block">
-                <div class="meta mb-3">
-                  <div><a href="#">June 3, 2021</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading"><a href="#">Become a Disaster Preparedness Volunteer</a></h3>
-                <p>Our Disaster Preparedness Volunteers teach people how to reduce the risk of disaster, prepare to respond and cope with disasters.</p>
-                <p><a href="blog-single.html" class="btn btn-success py-2 px-3">Read more</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry">
-              <div class="view overlay z-depth-1-half">
-                  <img src="https://images.unsplash.com/photo-1526976668912-1a811878dd37?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHZvbHVudGVlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" class="img-fluid" alt="">
-                  <div class="mask rgba-white-slight"></div>
-              </div>
-              <div class="text d-block">
-                <div class="meta mb-3">
-                  <div><a href="#">June 3, 2021</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading"><a href="#">Volunteer to Sound the Alarm</a></h3>
-                <p>MedicAid is adapting Sound the Alarm activities to protect the people we serve and our volunteers. </p>
-                <p><a href="blog-single.html" class="btn btn-success py-2 px-3">Read more</a></p>
-              </div>
-            </div>
-          </div>
-
+<hr class="my-4">
+<section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb">
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-md-7 col-lg-5 d-flex">
+        <div class="view overlay z-depth-1-half">
+            <img src="https://www.pngitem.com/pimgs/m/515-5158817_telemedicine-doctor-hd-png-download.png" class="img-fluid" alt="">
+            <div class="mask rgba-white-slight"></div>
         </div>
       </div>
-    </section>
+      <div class="col-md-6 col-lg-7 pl-lg-5 py-md-5">
+        <div class="py-md-5"
+          <div class="row justify-content-start">
+            <div class="col-md-15 heading-section ftco-animate p-4 p-lg-5">
+              <h2 class="mb-4">New Volunteer Applicants</h1>
+              <p>Take an in-depth look at MedicAid history, mission, vision and values in this self-guided module. You’ll also learn about our key service areas and organizational structure.</p>
+              <p>Viewing Time: 45 minutes</p>
+              <h5><a href="introduction.php">Take the Orientation >></a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <hr class="my-2">
+<section class="ftco-section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-10 col-lg-9 pl-lg-5 py-md-5">
+      <div class="col-md-10 heading-section text-center ftco-animate">
+        <h2><strong>More Related Links</strong></h2>
+      </div>
+      </div>
+    </div>
+
+    <div class="row d-flex">
+
+      <div class="col-md-4 ftco-animate">
+        <div class="blog-entry">
+          <div class="view overlay z-depth-1-half">
+              <img src="https://exclusive.multibriefs.com/images/exclusive/0428nurse2.jpg" class="img-fluid" alt="">
+              <div class="mask rgba-white-slight"></div>
+          </div>
+          <div class="text d-block">
+            <h3 class="heading"><a href="#">Find Your Volunteer Opportunity</a></h3>
+            <p>Our need for volunteers is constant and continues to evolve as we navigate this Coronavirus health crisis. </p>
+            <p><a href="blog-single.html" class="btn btn-danger py-2 px-3">Read more</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 ftco-animate">
+        <div class="blog-entry">
+          <div class="view overlay z-depth-1-half">
+              <img src="https://sheriff.deschutes.org/s/i8ej3eZwYkKRIqaDAH6dpw/EM-Volunteer-lg.jpg" class="img-fluid" alt="">
+              <div class="mask rgba-white-slight"></div>
+          </div>
+          <div class="text d-block">
+            <h3 class="heading"><a href="#">Become a Disaster Preparedness Volunteer</a></h3>
+            <p>Our Disaster Preparedness Volunteers teach people how to reduce the risk of disaster, prepare to respond and cope with disasters.</p>
+            <p><a href="blog-single.html" class="btn btn-danger py-2 px-3">Read more</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 ftco-animate">
+        <div class="blog-entry">
+          <div class="view overlay z-depth-1-half">
+              <img src="https://images.unsplash.com/photo-1526976668912-1a811878dd37?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHZvbHVudGVlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" class="img-fluid" alt="">
+              <div class="mask rgba-white-slight"></div>
+          </div>
+          <div class="text d-block">
+            <h3 class="heading"><a href="#">Volunteer to Sound the Alarm</a></h3>
+            <p>MedicAid is adapting Sound the Alarm activities to protect the people we serve and our volunteers. </p>
+            <p><a href="blog-single.html" class="btn btn-danger py-2 px-3">Read more</a></p>
+          </div>
+        </div>
+      </div>
+</div>
+</section>
+
 
 
 
@@ -340,33 +401,9 @@
     <!--Section: Gallery-->
 
 
-<!--Section: Contact-->
-<section class="ftco-hireme bg-dark">
-
-    <!-- Heading -->
-    <div class="container">
-      <h2 class="text-center font-weight-bold text-white text-capitalize pt-5 mt-5">90% of the MedicAid workforce are volunteers.</h2>
-
-      <h4 class="text-center font-weight-bold text-white text-capitalize">Become a volunteer NOW !!</h4>
-    <!--Grid row-->
-    <div class="row" >
-        <div class="col-lg-5 col-md-12 pl-lg-5 py-md-5 mx-auto">
-                <div class="text-center mt-4">
-                  <button class="btn btn-danger" type="button" onclick="window.location ='volunteer_login.php'"> <i class="fa fa-sign-in" aria-hidden="true"></i>Volunteer Login</a>
-                  </button>
-
-                  <button class="btn btn-danger" type="button" onclick="window.location ='volunteer_signup.php'"> <i class="fa fa-user-plus" aria-hidden="true"></i>Volunteer Sign Up For Free</a>
-                  </button>
-                </div>
-        </div>
-    </div>
-  </div>
-    <!--Grid row-->
-</section>
-<!--Section: Contact-->
 
 
-    <hr class="my-3">
+    <hr class="my-4">
 
     <!--Section: Contact-->
     <section id="contact">
