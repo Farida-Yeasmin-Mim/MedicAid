@@ -17,17 +17,12 @@ if (!empty($_GET['id'])){
    $sql="INSERT INTO plasma(full_name, email, contact_number, gender, age, blood_group, division, address)
   VALUES ('$name','$email','$contact','$gender','$dbage','$blood_group','$division','$address')";
   mysqli_query($conn, $sql);
-
+  $sql = "UPDATE donor
+  SET plasma_status='Active'
+  WHERE donor_id='$dbid' ";
+  // execute query
+  mysqli_query($conn, $sql);
   header("Location: thankyou.php?id=$dbid");
-  $sql = "SELECT plasma_id
-  FROM plasma
-  WHERE email='$dbemail'";
-  $result = mysqli_query($conn,$sql);
-  $row = mysqli_fetch_assoc($result);
-  $dbbid= $row["plasma_id"];
-  header("Location: thankyou.php?id=$dbid&p=$dbbid");
-
-
 
 }
 
