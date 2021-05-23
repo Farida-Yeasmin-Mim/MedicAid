@@ -1,3 +1,54 @@
+<?php
+include 'connection.php';
+
+if(isset($_POST['signup'])){
+
+$dbfname = mysqli_real_escape_string($conn, $_POST['name']);
+$dbemail = mysqli_real_escape_string($conn, $_POST['email']);
+$dbcontact = mysqli_real_escape_string($conn, $_POST['contact']);
+$dbgender = mysqli_real_escape_string($conn, $_POST['gender']);
+$dbdivision = mysqli_real_escape_string($conn, $_POST['division']);
+$dbpassword = mysqli_real_escape_string($conn, $_POST['password']);
+
+$sql = "SELECT contact_number FROM volunteer";
+$result = mysqli_query($conn,$sql);
+
+if (mysqli_num_rows($result) > 0) {
+// output data of each row
+while($row = mysqli_fetch_assoc($result)) {
+$dbbcontact= $row["contact_number"];
+// Check if the username they entered was correct
+  if($dbbcontact == $dbcontact)
+  {
+    echo "<script>
+  alert('Same Contact Number Exist! Try Another Contact Number!');
+  window.location.href='volunteer_signup.php';
+  </script>";
+    exit();
+
+  }
+
+
+
+
+}
+}
+ $sql="INSERT INTO volunteer(name, email, contact_number, gender,division, password)
+VALUES ('$dbfname','$dbemail','$dbcontact','$dbgender','$dbdivision',$dbpassword')";
+mysqli_query($conn, $sql);
+
+$sql = "SELECT volunteer_id
+FROM volunteer
+WHERE contact_number='$dbcontact'";
+$result = mysqli_query($conn,$sql);
+$row = mysqli_fetch_assoc($result);
+$dbid= $row["volunteer_id"];
+header("Location: volunteer_profile.php?id=$dbid");
+
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
@@ -6,15 +57,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="CSS/signup.css">
 
-</head>
 
-<body>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!--script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script-->
+   </head>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+   <link rel="stylesheet" href="CSS/signup.css">
+   <body>
   <header>
     <?php include 'header.php';?>
               </header>
@@ -33,7 +84,8 @@
         <span class=""></span>
     </p>
 
-    <form>
+
+	<form action="volunteer_signup.php" id="signform" method="POST">
     <div class="form-group input-group">
         <div class="input-group-prepend">
             <span class="input-group-text"> <i class="fa fa-user"></i> </span>
@@ -48,6 +100,17 @@
         <input name="" class="form-control" placeholder="Email address" type="email" required="">
     </div>
 
+    <div class="form-group input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text"> <i class="fa fa-phone">  </i> </span>
+        </div>
+        <select class="custom-select" style="max-width: 120px;" required="" >
+            <option selected="">+880</option>
+
+        </select>
+        <input name="" class="form-control" placeholder="Phone number" type="text"  required="">
+    </div>
+
    <div class="form-group input-group">
         <div class="input-group-prepend">
             <span class="input-group-text"> <i class="fa fa-genderless"></i> </i> </span>
@@ -60,45 +123,23 @@
         </select>
     </div>
 
-    <div class="form-group input-group">
-        <div class="input-group-prepend">
-            <span class="input-group-text"> <i class="fa fa-phone">  </i> </span>
-        </div>
-        <select class="custom-select" style="max-width: 120px;" required="" >
-            <option selected="">+880</option>
 
-        </select>
-        <input name="" class="form-control" placeholder="Phone number" type="text"  required="">
-    </div>
 
-    <div class="form-group input-group">
-        <div class="input-group-prepend">
-            <span class="input-group-text"    >  <i class="fa fa-medkit"></i> </span>
-        </div>
-        <select class="form-control" required="">
-            <option selected=""> Select Blood Group</option>
-            <option> A+</option>
-            <option> A-</option>
-            <option> B+</option>
-            <option> B-</option>
-            <option> AB+</option>
-            <option> AB-</option>
-            <option> O+</option>
-            <option> O-</option>
-
-        </select>
-    </div>
 
     <div class="form-group input-group">
         <div class="input-group-prepend">
             <span class="input-group-text">  <i class="fa fa-flag"></i> </span>
         </div>
         <select class="form-control" required="">
-            <option selected="">Select Country</option>
-            <option> Bangladesh</option>
-            <option> India</option>
-            <option> China</option>
-
+          <option value="" disabled selected>Select Division</option>
+          <option>Barishal</option>
+          <option>Chittagong</option>
+          <option>Dhaka</option>ss
+          <option>Mymensingh</option>
+          <option>Khulna</option>
+          <option>Rajshahi</option>
+          <option>Rangpur</option>
+          <option>Sylhet</option>
         </select>
     </div>
 
@@ -107,14 +148,7 @@
         <div class="input-group-prepend">
             <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
         </div>
-        <input class="form-control" placeholder="Create password" type="password" required=" ">
-    </div>
-
-    <div class="form-group input-group">
-        <div class="input-group-prepend">
-            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-        </div>
-        <input class="form-control" placeholder="Confirm password" type="password">
+        <input name="password" class="form-control" placeholder="Create password" type="password" required=" ">
     </div>
 
     <div class="form-group">
