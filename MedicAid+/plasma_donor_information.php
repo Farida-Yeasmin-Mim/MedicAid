@@ -3,7 +3,7 @@
   include 'connection.php';
   if (isset($_POST['search'])) {
     $dbsearch = strip_tags($_POST['srch']);
-    $sql = "SELECT * FROM plasma WHERE blood_group LIKE '%$dbsearch%'";
+    $sql = "SELECT * FROM plasma WHERE blood_group LIKE '%$dbsearch%' OR division LIKE '%$dbsearch%'";
   }
     else
     {
@@ -47,7 +47,8 @@ background-size: cover;
               </header>
 
                 <div class="container-fluid">
-                  <h1 class="text-center text-dark text-capitalize pt-5">Donor Information</h1>
+                  <h1 class="text-center text-dark text-capitalize pt-5">Plasma Donor Information</h1>
+                  <h3 class="text-center">Corona Recovery Patients List</h3>
                   <hr class="w-25 pt-5">
 
               <form class="example" method="POST" action="plasma_donor_information.php">
