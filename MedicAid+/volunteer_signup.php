@@ -108,7 +108,7 @@ header("Location: volunteer_profile.php?id=$dbid");
 
    <div class="form-group input-group">
         <div class="input-group-prepend">
-            <span class="input-group-text"> <i class="fa fa-genderless"> </i> </span>
+            <span class="input-group-text"> <i class="fa fa-genderless"></i> </i> </span>
         </div>
         <select name="gender" class="form-control" required="">
             <option selected=""> Select Gender</option>
