@@ -28,9 +28,6 @@ $dbbcontact= $row["contact_number"];
 
   }
 
-
-
-
 }
 }
  $sql="INSERT INTO volunteer(name, email, contact_number, gender,division, password)
@@ -46,6 +43,8 @@ $dbid= $row["volunteer_id"];
 header("Location: volunteer_profile.php?id=$dbid");
 
 }
+
+
 
 ?>
 
@@ -90,32 +89,28 @@ header("Location: volunteer_profile.php?id=$dbid");
         <div class="input-group-prepend">
             <span class="input-group-text"> <i class="fa fa-user"></i> </span>
          </div>
-        <input name="" class="form-control" placeholder="Full name" type="text" required="">
+        <input name="name" class="form-control" placeholder="Full name" type="text" required="">
     </div>
 
     <div class="form-group input-group">
         <div class="input-group-prepend">
             <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
          </div>
-        <input name="" class="form-control" placeholder="Email address" type="email" required="">
+        <input name="email" class="form-control" placeholder="Email address" type="email" required="">
     </div>
 
     <div class="form-group input-group">
         <div class="input-group-prepend">
             <span class="input-group-text"> <i class="fa fa-phone">  </i> </span>
         </div>
-        <select class="custom-select" style="max-width: 120px;" required="" >
-            <option selected="">+880</option>
-
-        </select>
-        <input name="" class="form-control" placeholder="Phone number" type="text"  required="">
+        <input name="contact" class="form-control" placeholder="Phone number" type="text"  required="">
     </div>
 
    <div class="form-group input-group">
         <div class="input-group-prepend">
-            <span class="input-group-text"> <i class="fa fa-genderless"></i> </i> </span>
+            <span class="input-group-text"> <i class="fa fa-genderless"> </i> </span>
         </div>
-        <select class="form-control" required="">
+        <select name="gender" class="form-control" required="">
             <option selected=""> Select Gender</option>
             <option> Male</option>
             <option> Female</option>
@@ -130,7 +125,7 @@ header("Location: volunteer_profile.php?id=$dbid");
         <div class="input-group-prepend">
             <span class="input-group-text">  <i class="fa fa-flag"></i> </span>
         </div>
-        <select class="form-control" required="">
+        <select name="division" class="form-control" required="">
           <option value="" disabled selected>Select Division</option>
           <option>Barishal</option>
           <option>Chittagong</option>
@@ -152,7 +147,7 @@ header("Location: volunteer_profile.php?id=$dbid");
     </div>
 
     <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-block">CREATE MY MEDICAID ID</button>
+        <button type="submit" name="signup" form="signform" class="btn btn-primary btn-block">CREATE MY MEDICAID ID</button>
     </div>
     <h5><p class="text-center danger-text "><a href="under_13.php" >Under age 13? </a></p></h5>
     <h5><p class="text-center text-white ">Already Have an account? <a href="volunteer_login.php" >Log In</a> </p></h5>
