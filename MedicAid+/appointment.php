@@ -28,13 +28,13 @@
                 <div class="mask rgba-white-slight"></div>
             </div>
     			</div>
-    			<div class="col-md-6 col-lg-7 pl-lg-5 py-md-5">
+    			<div class="col-md-6 col-lg-7">
     				<div class="py-md-5"
 	    				<div class="row justify-content-start pb-3">
 			          <div class="col-md-15 heading-section ftco-animate p-4 p-lg-5">
 			            <h2 class="mb-4">We Are <span>MedicAid</span> A Medical Clinic</h1>
 			            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-			            <p><a href="#" class="btn btn-primary py-3 px-4">Make an appointment</a> <a href="feedback.php" class="btn btn-danger py-3 px-4">Contact us</a></p>
+			            <p><a href="appointment.php" class="btn btn-primary py-3 px-4">Make an appointment</a> <a href="feedback.php" class="btn btn-danger py-3 px-4">Contact us</a></p>
 			          </div>
 			        </div>
 		        </div>
@@ -189,7 +189,9 @@
               	<div class="meta mb-3 ">
                   <div><a href="#">November 1, 2018</a></div>
                   <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                  <div>
+                    <a href="review.php"><span class="fa fa-comment"></span> 3</a>
+                  </div>
                 </div>
                 <h3 class="heading"><a href="#">Lifesaving Blood</a></h3>
                 <p>Learn about our blood donation processes, requirements, hosting opportunities and more..</p>
@@ -208,7 +210,9 @@
               	<div class="meta mb-3">
                   <div><a href="#">August 21, 2019</a></div>
                   <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                  <div>
+                    <a href="https://www.facebook.com/yeasminmim"><span class="fa fa-comment"></span> 3</a>
+                  </div>
                 </div>
                 <h3 class="heading"><a href="#">International Services</a></h3>
                 <p>Learn how we deliver aid and support programs around the world.</p>
@@ -227,7 +231,9 @@
               	<div class="meta mb-3">
                   <div><a href="#">June 3, 2021</a></div>
                   <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                  <div>
+                    <a href="https://www.facebook.com/yeasminmim"><span class="fa fa-comment"></span> 3</a>
+                  </div>
                 </div>
                 <h3 class="heading"><a href="#">Nursing & Health</a></h3>
                 <p>Learn how nurses and other health professionals are vital to the work of the MedicAid</p>
