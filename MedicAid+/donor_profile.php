@@ -22,7 +22,7 @@ $dbps= $row["plasma_status"];
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>MedicAid+</title>
+    <title>Profile</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -177,6 +177,29 @@ $dbps= $row["plasma_status"];
                 </div>
             </form>
         </div>
+        <section>
+          <div class="container">
+          <div class="container-fluid">
+
+            <div class="row mb-5">
+              <div class="col-lg-6 col-md-6 col-12">
+                <br>
+                <br>
+
+                <h1 class="text-dark">Are you a corona recovery patient?</h1>
+                  <p class="text-dark">Donation is a practice when people donate to others to help them with their critical conditions. To ensure safety, these are some of the requirements donors must meet to be eligible.To see a list of eligibility information,search donating requirements. </p>
+
+                  <button class="btn bg-primary text-white" onclick="window.location ='plasma_form.php?id=<?php echo $dbid ?>'">Register To Become A Plasma Donor</button>
+
+            </div>
+              <div class="col-lg-6 col-md-6 col-12">
+                <img src="Image/plasmaindex.jpg" class="img-fluid">
+            </div>
+
+
+          </div>
+          <hr>
+        </section>
 
   </body>
 </html>
