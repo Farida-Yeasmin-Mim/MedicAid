@@ -293,13 +293,13 @@ if (isset($_POST['feedback'])) {
             <!--Section: Contact-->
 
 
-
+<hr class="my-3">
             <!--Section: Best Features-->
-            <section id="best-features" class="text-center" >
+            <section class="text-center bg-light" >
               <br>
 
                 <!-- Heading -->
-                <h1 class="mb-6 font-weight-bold">The MedicAid+ Mission At Work</h1>
+                <h1 class="mb-6 font-weight-bold text-dark">The MedicAid Mission At Work</h1>
 
                 <!--Grid row-->
                 <div class="row d-flex justify-content-center mb-4">
@@ -320,45 +320,30 @@ if (isset($_POST['feedback'])) {
 
                     <!--Grid column-->
                     <div class="col-md-3 mb-2">
-                        <i class="fa fa-user-md fa-5x "></i>
-                        <h4 class="my-4 font-weight-bold">Experience</h4>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                            maiores nam,
-                            aperiam minima
-                            assumenda deleniti hic.</p>
+                        <i class="fa fa-ambulance fa-4x "></i>
+                        <h5><a href="orientation.php">When disasters happen, Red Cross volunteers spring into action>></a></h5>
                     </div>
                     <!--Grid column-->
 
                     <!--Grid column-->
                     <div class="col-md-3 mb-1">
-                        <i class="fa fa-tint fa-5x "></i>
-                        <h4 class="my-4 font-weight-bold">Happiness</h4>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                            maiores nam,
-                            aperiam minima
-                            assumenda deleniti hic.</p>
+                        <i class="fa fa-tint fa-4x" style="color:red"></i>
+                        <h5><a href="orientation.php">James and Kimberly Van Der Beek urge Americans to donate blood following pregnancy losses>></a></h5>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-3 mb-5">
+                        <i class="fa fa-bell fa-4x"></i>
+                        <h5><a href="orientation.php">Experts Predict Busy 2021 Hurricane Season, Get Ready Now>></a></h5>
                     </div>
                     <!--Grid column-->
 
                     <!--Grid column-->
                     <div class="col-md-3 mb-1">
-                        <i class="fa fa-medkit fa-5x"></i>
-                        <h4 class="my-4 font-weight-bold">Happiness</h4>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                            maiores nam,
-                            aperiam minima
-                            assumenda deleniti hic.</p>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-md-3 mb-1">
-                        <i class="fa fa-fire fa-5x "></i>
-                        <h4 class="my-4 font-weight-bold">Adventure</h4>
-                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                            maiores nam,
-                            aperiam minima
-                            assumenda deleniti hic.</p>
+                        <i class="fa fa-medkit fa-4x " style="color:red"></i>
+                        <h5><a href="orientation.php">Battlefield Lessons Lead to New Education Initiatives>></a></h5>
                     </div>
                     <!--Grid column-->
 
@@ -403,7 +388,7 @@ if (isset($_POST['feedback'])) {
  </div>
 </div>
 </section> -->
-
+<hr class="my-3">
 
 <footer>
     <?php include 'footer2.php';?>
