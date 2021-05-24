@@ -24,6 +24,9 @@ body {
   </head>
 <body>
 
+  <header>
+    <?php include 'header2.php';?>
+    </header>
 
     <section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb">
     	<div class="container">
@@ -31,7 +34,7 @@ body {
     			<div class=" col-md-4 col-lg-5 pl-lg-5 py-md-2">
 	    				<div class="row justify-content-start pb-3">
 			          <div class="col-md-20 heading-section ftco-animate p-4 p-lg-5">
-			            <h1 class="mb-5 text-center"><strong>Children's Online Privacy Protection</strong></h1>
+			            <h1 class="mb-5 text-center text-dark"><strong>Children's Online Privacy Protection</strong></h1>
 			            <h5><p class="text-center text-danger">In accordance with the Children's Online Privacy Protection Act of 1998,
                     youth under the age of 13 cannot be registered on MedicAid websites nor
                     have personal information stored online by any MedicAid unit, but can still support the organization and
