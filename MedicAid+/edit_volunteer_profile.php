@@ -133,8 +133,7 @@ $result = mysqli_query($conn, "SELECT * FROM volunteer WHERE volunteer_id='$dbid
 <body>
   <header>
     <?php include 'header2.php';?>
-
-              </header>
+    </header>
 
               <div class="container-fluid">
                 <h1 class="text-center text-dark text-capitalize pt-5">Edit Your Profile</h1>
