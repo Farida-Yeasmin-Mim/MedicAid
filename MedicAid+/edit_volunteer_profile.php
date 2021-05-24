@@ -7,9 +7,9 @@ if (isset($_POST['name_edit']))
 {
   $dbname = strip_tags($_POST['fname']);
 
-$sql = "UPDATE ambulance
-SET owner_name='$dbname'
-WHERE ambulance_id='$dbid' ";
+$sql = "UPDATE volunteer
+SET name='$dbname'
+WHERE volunteer_id='$dbid' ";
 // execute query
 mysqli_query($conn, $sql);
 
@@ -26,61 +26,61 @@ mysqli_query($conn, $sql);
 DEMIMITER;";
     mysqli_query($conn, $sql);*/
 
-header("Location: edit_ambulance_profile.php?id=$dbid ");
+header("Location: edit_volunteer_profile.php?id=$dbid ");
 }
 
 if (isset($_POST['pass_edit']))
 {
   $dbpass = strip_tags($_POST['pass']);
-  $sql = "UPDATE ambulance
+  $sql = "UPDATE volunteer
   SET password='$dbpass'
-  WHERE ambulance_id='$dbid' ";
+  WHERE volunteer_id='$dbid' ";
   // execute query
   mysqli_query($conn, $sql);
 
-  header("Location: edit_ambulance_profile.php?id=$dbid");
+  header("Location: edit_volunteer_profile.php?id=$dbid");
 }
 
 if (isset($_POST['add_edit']))
 {
   $dbadd = strip_tags($_POST['address']);
-  $sql = "UPDATE ambulance
-  SET ambulance_number='$dbadd'
-  WHERE ambulance_id='$dbid' ";
+  $sql = "UPDATE volunteer
+  SET email='$dbEmail'
+  WHERE volunteer_id='$dbid' ";
   // execute query
   mysqli_query($conn, $sql);
 
 
 
-  header("Location: edit_ambulance_profile.php?id=$dbid");
+  header("Location: edit_volunteer_profile.php?id=$dbid");
 }
 
 if (isset($_POST['div_edit']))
 {
   $dbdiv = strip_tags($_POST['division']);
-  $sql = "UPDATE ambulance
+  $sql = "UPDATE volunteer
   SET division='$dbdiv'
-  WHERE ambulance_id='$dbid' ";
+  WHERE volunteer_id='$dbid' ";
   // execute query
   mysqli_query($conn, $sql);
 
 
 
-  header("Location: edit_ambulance_profile.php?id=$dbid");
+  header("Location: edit_volunteer_profile.php?id=$dbid");
 }
 
 if (isset($_POST['bs_edit']))
 {
   $dbs = strip_tags($_POST['bs']);
-  $sql = "UPDATE ambulance
-  SET status='$dbs'
-  WHERE ambulance_id='$dbid' ";
+  $sql = "UPDATE volunteer
+  SET gender='$dbgender'
+  WHERE volunteer_id='$dbid' ";
   // execute query
   mysqli_query($conn, $sql);
 
 
 
-  header("Location: edit_ambulance_profile.php?id=$dbid");
+  header("Location: edit_volunteer_profile.php?id=$dbid");
 }
 
 
@@ -107,7 +107,7 @@ if (isset($_POST['delete_user']))
 }
 
 
-$result = mysqli_query($conn, "SELECT * FROM ambulance WHERE ambulance_id='$dbid'");
+$result = mysqli_query($conn, "SELECT * FROM volunteer WHERE volunteer_id='$dbid'");
 ?>
 
 <!DOCTYPE html>
@@ -142,8 +142,8 @@ $result = mysqli_query($conn, "SELECT * FROM ambulance WHERE ambulance_id='$dbid
 <div id="content" class="row mb-5">
   <?php
     while ($row = mysqli_fetch_array($result)) {
-      echo "<form method='POST' action='edit_ambulance_profile.php?id=$dbid' >";
-        echo "<h5>Name: ".$row['owner_name']."</h5>";
+      echo "<form method='POST' action='edit_volunteer_profile.php?id=$dbid' >";
+        echo "<h5>Name: ".$row['name']."</h5>";
         echo "<input name='fname' class='form-control' placeholder='Enter New Name' type='text'>";
         echo "<br>";
         echo "<button type='submit' name='name_edit' class='btn btn-info'>Set Name</button>";
@@ -153,8 +153,8 @@ $result = mysqli_query($conn, "SELECT * FROM ambulance WHERE ambulance_id='$dbid
         echo "<br>";
         echo "<button type='submit' name='pass_edit' class='btn btn-info'>Set Password</button>";
         echo "<br><br>";
-        echo "<h5>Vehicle Number: ".$row['ambulance_number']." </h5>";
-        echo "<input name='address' class='form-control' placeholder='Enter New Vehicle Number' type='text'>";
+        echo "<h5>Email Address: ".$row['email']." </h5>";
+        echo "<input name='email' class='form-control' placeholder='Enter New Email Address' type='text'>";
         echo "<br>";
         echo "<button type='submit' name='add_edit' class='btn btn-info'>Set Number</button>";
         echo "<br><br>";
@@ -177,14 +177,15 @@ $result = mysqli_query($conn, "SELECT * FROM ambulance WHERE ambulance_id='$dbid
         echo "<br><br>";
 
 
-        echo "<h5>Status: ".$row['status']." </h5>";
-        echo "<select name='bs' class='form-control' >";
-    		echo	"<option value='' disabled selected> Select Status</option>";
-        echo  "<option>Active</option>";
-        echo  "<option>Inactive</option>";
+        echo "<h5>Gender: ".$row['gender']." </h5>";
+        echo "<select name='gender' class='form-control' >";
+    		echo	"<option value='' disabled selected> Select Gender</option>";
+        echo  "<option>Male</option>";
+        echo  "<option>Femail</option>";
+        echo  "<option>Other</option>";
         echo  "</select>";
         echo "<br>";
-    echo "<button type='submit' name='bs_edit' class='btn btn-info'>Set Status</button>";
+    echo "<button type='submit' name='gender_edit' class='btn btn-info'>Set Gender</button>";
     echo "<br><br>";
 
 echo "</form>";
