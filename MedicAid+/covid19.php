@@ -17,7 +17,7 @@ print_r($coronadata);
 <html>
 <head>
   <meta charset="utf-8">
-    <title></title>
+    <title>Covid-19 world Statistics</title>
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -28,7 +28,7 @@ print_r($coronadata);
 </head>
 
 <header>
-	
+
    <?php include 'header.php';?>
 
 </header>
@@ -37,8 +37,8 @@ print_r($coronadata);
 
 
 <body onload="fetch()">
-	
-  
+
+
 
 
 
@@ -55,8 +55,8 @@ print_r($coronadata);
         <h1 style="color: #18004d"> Covid-19 World Statistics <span class="corona"> <img src="Image/corona6.png"></span> </h1>
 
         <p style="color: blue">-Covid-19 live updates<br>-Cumulative confirmed Covid-19 cases <br>- People Fully Vaccinated by Country </p>
-        
-      
+
+
     </div>
   </div>
 </div>
@@ -68,7 +68,7 @@ print_r($coronadata);
 <br>
 
 
-    
+
 
 
 
@@ -91,7 +91,7 @@ print_r($coronadata);
 
 
 
-        
+
 
       </tr>
 
@@ -110,7 +110,7 @@ print_r($coronadata);
 
 <script>
 
-  
+
 function fetch(){
     $.get("https://api.covid19api.com/summary",
         function(data){
@@ -146,11 +146,11 @@ function fetch(){
             }
         }
        );
-       
+
       }
 
 
-    
+
 
 </script>
 <div class="card-body text-center text-center ">
@@ -169,13 +169,3 @@ function fetch(){
 
 </body>
 </html>
-    
-
-
-
-
-
-
-
-
-
