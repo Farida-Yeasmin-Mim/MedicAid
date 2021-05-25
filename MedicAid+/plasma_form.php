@@ -98,7 +98,7 @@ header("Location: thankyou.php?id=$dbid");
 <html lang="en" dir="ltr">
   <head>
 
-    <title></title>
+    <title>Plasma Form</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
