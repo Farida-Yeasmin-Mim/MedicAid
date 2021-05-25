@@ -26,10 +26,6 @@ $dbbcontact= $row["contact_number"];
     exit();
 
   }
-
-
-
-
 }
 }
  $sql="INSERT INTO ambulance(owner_name, contact_number, division, ambulance_number, password,status)
