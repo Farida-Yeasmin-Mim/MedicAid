@@ -3,41 +3,27 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <title>Covid-19 Information</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <!-- Font Awesome CSS -->
-  
-   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    
-     
 
-    
+   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
   </head>
   <header>
-     
-   <?php include 'header.php';?>
-
-  </header>
+     <?php include 'header.php';?>
+   </header>
 
   <body>
 
-   
-    
-  
-
-    
-      
 
 
 <div class="card-body text-center text-danger ">
-
-
-
-
-
 
     <h4 class="card-title mt-3 text-center text-info  ">Coronavirus Safety Tips</h4>
     <p class="h5 text-info  ">(Staying Safe and Helping Others During COVID-19) </p> <b>
@@ -46,9 +32,9 @@
 <br>
 <br>
 <br>
-    
 
-    
+
+
 
 
 
@@ -58,10 +44,10 @@
 <span class="fa-stack fa-4x">
   <i class="fas fa-circle fa-stack-2x"></i>
   <i class="fas fa-box-tissue fa-stack-1x fa-inverse"></i>
-  
-</span>  
- 
-   
+
+</span>
+
+
 
 <p> 1.Sneeze or cough?  Cover your nose and mouth with a tissue or use your elbow. </p>
 <br>
@@ -87,7 +73,7 @@
 <span class="fa-stack fa-4x">
   <i class="fas fa-square fa-stack-2x"></i>
   <i class="fas fa-head-side-mask fa-stack-1x fa-inverse"></i>
- 
+
 </span>
 <p>5.Wear a cloth face covering over your mouth and nose when around others. </p>
 
@@ -101,9 +87,9 @@
       <h2 style="color: blue"> Help Slow the Spread of COVID-19</h2>
       <br>
       <br>
-      
+
       <!--div class="fakeimg" style="height:200px;">Image</div-->
-    
+
       <p style="color: grey">Community practices, such as social distancing , wearing face coverings, closures and canceling large gatherings can help slow the spread of this virus.<br>
         <br>
 
@@ -130,9 +116,9 @@ Here’s how you can help:<br>
       <h2 style="color: blue">What to Do If You Are Sick</h2>
       <br>
       <br>
-      
+
       <!--div class="fakeimg" style="height:200px;">Image</div-->
-    
+
       <p style="color: grey">If you are sick or think you might have COVID-19, follow these tips from the CDC to care for yourself and help protect other people in your home and community. Keep in mind that most people have mild illness and are able to recover at home.<br>
         <br>
 
@@ -156,9 +142,9 @@ Here’s how you can help:<br>
       <h2 style="color: blue">If your symptoms are severe, call to get medical attention immediately.</h2>
       <br>
       <br>
-      
+
       <!--div class="fakeimg" style="height:200px;">Image</div-->
-    
+
       <p style="color: black">Emergency warning signs include:<br>
         <br>
 
@@ -169,7 +155,7 @@ Here’s how you can help:<br>
 <i class="fas fa-exclamation"style="color:red"></i>New confusion<br>
 <i class="fas fa-exclamation"style="color:red"></i>Inability to wake or stay awake<br>
 <i class="fas fa-exclamation"style="color:red"></i>Bluish lips or face<br>
- 
+
 
 This list is not all inclusive. Please consult your medical provider for any other symptoms that are severe or concerning.<br>
   </p>
@@ -182,12 +168,12 @@ This list is not all inclusive. Please consult your medical provider for any oth
       <h2 style="color: blue">How to Clean and Disinfect</h2>
       <br>
       <br>
-      
+
       <!--div class="fakeimg" style="height:200px;">Image</div-->
-    
-      
+
+
 <p style="color:grey">
-        
+
 
 
 
@@ -210,10 +196,10 @@ Alcohol solutions: Ensure your solution has at least 70% alcohol.<br>
       <h2 style="color: blue">Precautions for People at Higher Risk</h2>
       <br>
       <br>
-      
+
       <!--div class="fakeimg" style="height:200px;">Image</div-->
-    
-      
+
+
 <p style="color: grey">According to the CDC, early information shows that some people are at higher risk of getting very sick from COVID-19. This includes adults who are 65 and older, and people of any age who:<br>
         <br>
 
@@ -221,7 +207,7 @@ Alcohol solutions: Ensure your solution has at least 70% alcohol.<br>
 
 Have serious underlying medical conditions, particularly if not well controlled, such as heart, lung or liver disease; diabetes; moderate to severe asthma; severe obesity; and chronic kidney disease requiring dialysis. <br>
 Have a weakened immune system, including those undergoing cancer treatment, smoking or having other immunocompromised conditions.<br>
- 
+
 
 If you are at higher risk for serious illness from COVID-19, it is extra important for you to take actions to avoid getting sick.<br>
 <br>
@@ -268,12 +254,12 @@ Beware of scams. Unfortunately, scammers are taking advantage of people’s fear
       <h2 style="color: blue">Coping With Stress During COVID-19</h2>
       <br>
       <br>
-      
+
       <!--div class="fakeimg" style="height:200px;">Image</div-->
-    
-      
+
+
 <p style="color: grey">
-        
+
 
 
 
@@ -295,17 +281,17 @@ It’s normal for people to have these types of feelings right now:<br>
 <i class="fas fa-circle"style="color:red"></i>Thoughts of blame, worry or fear.<br>
 <i class="fas fa-circle"style="color:red"></i>Worry about loss of income.<br>
 <i class="fas fa-circle"style="color:red"></i>Fear of being stigmatized or labeled if you become sick.<br>
- 
+
 
 Coping Tips:<br>
 <br>
 <i class="fas fa-check"style="color:blue"></i>People’s reactions appear in different ways, not only in the way someone feels, but in the way they think and what they think about — their sleeping habits, how they go about daily living and the way they interact and get along with others. Here are a few steps to help people cope:<br>
 
-<i class="fas fa-check"style="color:blue"></i>Connect with loved ones through video calls, phone calls, texts or social media. 
+<i class="fas fa-check"style="color:blue"></i>Connect with loved ones through video calls, phone calls, texts or social media.
 Stay informed with accurate, reliable information from trusted sources. Avoid social media accounts and news outlets that promote fear or rumors.<br>
 <i class="fas fa-check"style="color:blue"></i>Take care of yourself and monitor the physical health needs of your loved ones. Eat healthy, drink plenty of water and get enough rest.<br>
 <i class="fas fa-check"style="color:blue"></i>Unless you are showing signs of illness or have tested positive for COVID-19, going outside to exercise and walk pets is okay. But don’t forget to practice social distancing by keeping at least 6 feet away from others and wearing a cloth face covering when in public.<br>
- 
+
 
 <i class="fas fa-check"style="color:blue"></i>Be patient with yourself and others. It’s common to have any number of temporary stress reactions, such as fear, anger, frustration and anxiety. Hold an image in your mind of the best possible outcome. Make a list of your personal strengths and use these to help both yourself and others stay emotionally strong. <br>
 
@@ -335,7 +321,7 @@ Helping Others:<br>
 
 
 
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
