@@ -14,6 +14,7 @@ $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_assoc($result);
 $dbname= $row["name"];
 ?>>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
