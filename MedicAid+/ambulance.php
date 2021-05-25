@@ -20,10 +20,11 @@
   </style>
   </head>
   <body>
+
     <header>
       <?php include 'header.php';?>
-
-                </header>
+    </header>
+    
     <main class="mt-5">
     <div class="container">
         <div class="row mb-5">
