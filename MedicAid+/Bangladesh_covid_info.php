@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <html>
 <head>
   <meta charset="utf-8">
-    <title></title>
+    <title>Bangladesh Covid-19 Info</title>
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -23,7 +22,7 @@
 
 
 
-  
+
 
 
 
@@ -38,7 +37,7 @@
     <div class="col-lg-7 col-md-7 col-12 order-lg-2 order-1">
       <div class="rightside w-100 h-100 d-flex justify-content-center align-items-center">
         <h1 style="color: white"> Bangladesh Covid-19 statistics  <span class="corona"> <img src="Image/covid.png"></span> </h1>
-        
+
     </div>
   </div>
 </div>
@@ -49,7 +48,7 @@
 <br>
 <br>
 
-    
+
 
 
 
@@ -59,9 +58,9 @@
   <div class="my-5">
     <h3 class="text-center text-uppercase text-primary"> Bangladesh Covid-19 live updates</h3>
   </div>
-  
 
-  <iframe src="https://covid-19.dataflowkit.com/assets/widget/c19-widget-dark.html" 
+
+  <iframe src="https://covid-19.dataflowkit.com/assets/widget/c19-widget-dark.html"
 frameborder="0" scrolling="no"
 width="100%" height="950">
 </iframe>
@@ -75,9 +74,9 @@ width="100%" height="950">
 </section>
 
 
-            
 
-    
+
+
 
 
 
