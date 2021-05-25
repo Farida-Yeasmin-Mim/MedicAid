@@ -121,7 +121,6 @@
 	                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
 	                      <select name="" id="" class="form-control">
 	                      	<option value="">Select Your Services</option>
-	                        <option value="">Neurology</option>
 	                        <option value="">Cardiology</option>
 	                        <option value="">Dental</option>
 	                        <option value="">Ophthalmology</option>
