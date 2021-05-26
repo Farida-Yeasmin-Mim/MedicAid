@@ -1,4 +1,4 @@
-<!<?php
+<?php
 include 'connection.php';
 
 if ($_GET['id']==NULL){
@@ -14,7 +14,7 @@ if ($_GET['id']==NULL){
   $dbname= $row["first_name"];
 
 
-?>>
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -45,7 +45,7 @@ background-size: cover;
 
                 </header>
                 <div class="container-fluid">
-                  <h1 class="text-center text-dark text-capitalize pt-5">Welcome <?php echo $dbname ?>!</h1>
+                  <h1 class="text-center text-dark text-capitalize pt-5">Welcome!</h1>
                   <hr class="w-25 pt-5">
 
 
@@ -61,7 +61,7 @@ background-size: cover;
                         <h1 class="text-dark">Blood Donation</h1>
                           <p class="text-dark">A specific injury or sickness can cause lost blood in the influenced, along these lines, representing the danger of death if the blood level isn’t taken back to the ordinary. Blood is an essential flood that moves oxygen to other indispensable body parts. With the loss of blood from the body doesn’t get vital oxygen bringing about death. In such a case emerges the requirement for deliberate blood gift from another person, regardless of whether known or obscure to the person.</p>
 
-                          <button class="btn bg-primary text-white" onclick="window.location ='blood_donor_information.php'">View Donor List</button>
+                          <button class="btn bg-primary text-white" onclick="window.location ='blood.php?id=<?php echo $dbid?>'">View Donor List</button>
                     </div>
                     </div>
 
@@ -108,7 +108,7 @@ background-size: cover;
                                 </div>
                                 <div class="card-footer">
                                   <div class="text-center">
-                                  <button class="btn bg-primary text-white text-left"type="button" onclick="window.location =''">View Available Ambulance List</button>
+                                  <button class="btn bg-primary text-white text-left"type="button" onclick="window.location ='ambulance_information.php'">View Available Ambulance List</button>
                                   </div>
                                 </div>
                               </div>
