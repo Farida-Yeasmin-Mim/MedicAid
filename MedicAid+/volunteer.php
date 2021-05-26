@@ -399,8 +399,25 @@
     </section>
     <!--Section: Gallery-->
 
-
-
+<hr class="my-4">
+<section>
+  <div class="container-fluid">
+    <div class="row mb-5">
+      <div class="col-lg-6 col-md-6 col-12">
+        <br>
+        <br>
+        <br>
+        <h1 class="text-dark">See our Expert Volunteer</h1>
+          <p class="text-dark">We are on a mission to mobilize the world's talent for good. Our expert security and medical teams are continually reviewing our ability to implement our projects safely.</p>
+          <br>
+          <button class="btn bg-primary text-white" onclick="window.location ='expert_volunteer.php'">Explore</button>
+    </div>
+      <div class="col-lg-5 col-md-6 col-12">
+        <img src="Image/services-1.jpg" class="img-fluid">
+    </div>
+  </div>
+    </div>
+</section>
 
     <hr class="my-4">
 
