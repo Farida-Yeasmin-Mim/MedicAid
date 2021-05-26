@@ -157,11 +157,13 @@ if (isset($_POST['feedback'])) {
                 <div class="card-body">
                   <h4 class="card-title">Blood Donation</h4>
                   <p class="card-text">
-                    Blood donation refers to a practice where people donate their blood to people so it helps them with their health problems. 
+                    Blood donation refers to a practice where people donate their blood to people so it helps them with their health problems.
                   </p>
                 </div>
                 <div class="card-footer">
-                  <a href="" class="card-link">Read more</a>
+                  <div class="text-center">
+                  <button class="btn bg-primary text-white text-left">Blood Donation</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -174,11 +176,13 @@ if (isset($_POST['feedback'])) {
                 <div class="card-body">
                   <h4 class="card-title">Ambulance</h4>
                   <p class="card-text">
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Ambulance services are one of the reliable ambulance services in Bangladesh. It is very important media for any patients.
                   </p>
                 </div>
                 <div class="card-footer">
-                  <a href="" class="card-link">Read more</a>
+                  <div class="text-center">
+                  <button class="btn bg-primary text-white text-left">Ambulance</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -191,11 +195,13 @@ if (isset($_POST['feedback'])) {
                 <div class="card-body">
                   <h4 class="card-title">Volunteer</h4>
                   <p class="card-text">
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Volunteering gives you an opportunity to change people's lives, including your own. Now a days it is a very important role.
                   </p>
                 </div>
                 <div class="card-footer">
-                  <a href="" class="card-link">Read more</a>
+                  <div class="text-center">
+                  <button class="btn bg-primary text-white text-left">Volunteer</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -225,12 +231,12 @@ if (isset($_POST['feedback'])) {
                 <div class="col-lg-6 col-md-6 col-12">
 
                   <h1 class="text-dark">Corona Update</h1>
-                    <p class="text-dark">Thousands of people just like you provide compassionate care to those in need. We roll up our sleeves and donate time, money and blood. We teach life-saving skills so our communities can be better prepared when the need arises and we do this every day because Medicare is needed each and every day.</p>
+                    <p class="text-dark">The COVID-19 pandemic in Bangladesh is part of the worldwide pandemic of coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The virus was confirmed to have spread to Bangladesh in March 2020. Since then, the pandemic has spread day by day over the whole nation and the number of affected people has been increasing.</p>
 
                     <button class="btn bg-info text-white">See Update</button>
                     <div class="text-right">
                     <h1 class="text-dark">Plasma Donation</h1>
-                      <p class="text-dark">Thousands of people just like you provide compassionate care to those in need. We roll up our sleeves and donate time, money and blood. We teach life-saving skills so our communities can be better prepared when the need arises and we do this every day because Medicare is needed each and every day.</p>
+                      <p class="text-dark">If you have fully recovered from COVID-19, you may be able to help patients currently fighting the infection by donating your plasma. Because you fought the infection, your plasma now contains COVID-19 antibodies. These antibodies provided one way for your immune system to fight the virus when you were sick, so your plasma may be able to be used to help others fight off the disease.</p>
 
                       <button class="btn bg-info text-white">See Donor List</button>
                     </div>
