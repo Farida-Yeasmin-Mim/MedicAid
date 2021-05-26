@@ -54,6 +54,8 @@ if (isset($_POST['feedback'])) {
       <?php include 'header.php';?>
                 </header>
 
+
+  <!--Section - Carousel-->
     <div id="demo" class="carousel slide" data-ride="carousel">
       <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -91,7 +93,7 @@ if (isset($_POST['feedback'])) {
       </a>
     </div>
 
-
+<!--Section - About Us-->
   <section>
       <div class="container-fluid pt-5 bg-light">
         <h1 class="text-center font-weight-bold text-dark text-capitalize ">About Us</h1>
@@ -139,7 +141,7 @@ if (isset($_POST['feedback'])) {
 
 
 
-
+<!--Section - Features Option(Blood Donation, Ambulance, Volunteer)-->
     <section>
       <div class="blog">
         <div class="container">
@@ -209,7 +211,7 @@ if (isset($_POST['feedback'])) {
     <div class="container">
 
 
-            <!--Section: Best Features-->
+            <!--Section: Covid19 Imformation-->
 
             <section>
               <div class="container-fluid">
@@ -237,10 +239,10 @@ if (isset($_POST['feedback'])) {
             </section>
 
 
+
+
+            <!--Section - More Features Option(Donation, Feedback, Appointment)-->
             <section>
-
-
-
               <div class="container-fluid">
                 <h1 class="text-center font-weight-bold text-dark text-capitalize pt-5">Donation Campaign Are Running!</h1>
                 <hr class="w-100 ">
