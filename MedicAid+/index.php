@@ -102,7 +102,8 @@ if (isset($_POST['feedback'])) {
         </div>
         <div class="col-lg-6 col-md-6 col-12">
             <p class="text-dark">Thousands of people just like you provide compassionate care to those in need. We roll up our sleeves and donate time, money and blood. We teach life-saving skills so our communities can be better prepared when the need arises and we do this every day because Medicare is needed each and every day.</p>
-            <button class="btn bg-info text-white">See More</button>
+            <button class="btn btn-info" type="button" onclick="window.location ='about.php'"></i>See More</a>
+            </button>
         </div>
       </div>
     </div>
