@@ -12,109 +12,116 @@
   <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/expert_volunteer.css">
 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
+    <style>
+  body {
+    background-image: url('Image/review.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  </style>
 </head>
 <body>
 
-
+  <header>
+    <?php include 'header2.php';?>
+    </header>
 
 
 <section class="ftco-section">
  <div class="container">
   <div class="row justify-content-center pb-5 mb-3">
     <div class="col-md-7 heading-section text-center ftco-animate">
-     <span class="subheading">Volunteer</span>
-     <h2>Our Expert Volunteer</h2>
+     <strong><span class="subheading">Volunteer</span></strong>
+     <strong><h1 class="text-danger">Our Expert Volunteer</h1></strong>
    </div>
  </div>
 
 
  <div class="row">
     <div class="member">
-       <img src="Image/image_1.jpg">
+       <img src="Image/team-1.jpg">
        <div class="inner">
          <div class="info">
-           <h4 class="text-white">Farida Yeasmin Mim</h4>
-           <h5><p>Developer</p></h5>
+           <h4 class="text-white">Alex Martin</h4>
+           <h5>Volunteer</h5>
          </div>
        </div>
   </div>
 
 
-<div class="col-md-6 col-lg-3">
-  <div class="member">
-   <div class="img" style="background-image: url(images/team-2.jpg);"></div>
-   <div class="text text-2">
-    <h3>Cedrick Brown</h3>
-    <span>Volunteer</span>
-  </div>
-</div>
-</div>
-<div class="col-md-6 col-lg-3">
-  <div class="member">
-   <div class="img" style="background-image: url(images/team-3.jpg);"></div>
-   <div class="text text-3">
-    <h3>John Wick</h3>
-    <span>Volunteer</span>
-  </div>
-</div>
-</div>
-<div class="col-md-6 col-lg-3">
-  <div class="member">
-   <div class="img" style="background-image: url(images/team-4.jpg);"></div>
-   <div class="text text-4">
-    <h3>Max Love</h3>
-    <span>Volunteer</span>
-  </div>
-</div>
-</div>
+     <div class="member">
+        <img src="Image/team-2.jpg">
+        <div class="inner">
+          <div class="info">
+            <h4 class="text-white">Cedrick Brown</h4>
+            <h5>Volunteer</h5>
+          </div>
+        </div>
+   </div>
 
-<div class="col-md-6 col-lg-3">
-  <div class="member">
-   <div class="img" style="background-image: url(images/team-5.jpg);"></div>
-   <div class="text text-4">
-    <h3>Alex Martin</h3>
-    <span>Volunteer</span>
-  </div>
-</div>
-</div>
-<div class="col-md-6 col-lg-3">
-  <div class="member">
-   <div class="img" style="background-image: url(images/team-6.jpg);"></div>
-   <div class="text text-1">
-    <h3>Cedrick Brown</h3>
-    <span>Volunteer</span>
-  </div>
-</div>
-</div>
-<div class="col-md-6 col-lg-3">
-  <div class="member">
-   <div class="img" style="background-image: url(images/team-7.jpg);"></div>
-   <div class="text text-2">
-    <h3>John Wick</h3>
-    <span>Volunteer</span>
-  </div>
-</div>
-</div>
-<div class="col-md-6 col-lg-3">
-  <div class="member">
-   <div class="img" style="background-image: url(images/team-8.jpg);"></div>
-   <div class="text text-3">
-    <h3>Max Love</h3>
-    <span>Volunteer</span>
-  </div>
-</div>
-</div>
+
+      <div class="member">
+         <img src="Image/team-3.jpg">
+         <div class="inner">
+           <div class="info">
+             <h4 class="text-white">John Wick</h4>
+             <h5>Volunteer</h5>
+           </div>
+         </div>
+    </div>
+
+       <div class="member">
+          <img src="Image/team-4.jpg">
+          <div class="inner">
+            <div class="info">
+              <h4 class="text-white">Max Love</h4>
+              <h5>Volunteer</h5>
+            </div>
+          </div>
+     </div>
+
+
+        <div class="member">
+           <img src="Image/team-5.jpg">
+           <div class="inner">
+             <div class="info">
+               <h4 class="text-white">Cedrick Brown</h4>
+               <h5>Volunteer</h5>
+             </div>
+           </div>
+      </div>
+
+         <div class="member">
+            <img src="Image/team-6.jpg">
+            <div class="inner">
+              <div class="info">
+                <h4 class="text-white">John Wick</h4>
+                <h5>Volunteer</h5>
+              </div>
+            </div>
+       </div>
+
 </div>
 </div>
 </section>
 
 
+<section class="ftco-hireme bg-primary">
+  <div class="container">
+      <div class="col-lg-8 col-md-12 mx-auto text-center">
+        <h2 class="text-center font-weight-bold text-white pt-4 mt-4">90% of the MedicAid workforce are volunteers.</h2>
+      </div>
+      <div class="col-lg-5 col-md-12 pl-lg-4 py-md-4 mx-auto text-center">
+        <p class="mb-0"><a href="volunteer.php" class="btn btn-danger py-3 px-4">Become A Volunteer</a></p>
+      </div>
+  </div>
+</section>
 
+
+<footer>
+    <?php include 'footer.php';?>
+</footer>
 
 </body>
 </html>
