@@ -85,17 +85,21 @@
             </h5>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>
+                <a href="volunteer.php">Volunteer</a>
+            </p>
+            <p>
+                <a href="ambulance.php">Ambulance</a>
+            </p>
+            <p>
+                <a href="appointment.php">Appointment</a>
+            </p>
+            <p>
                 <a href="blood.php">Blood Donation</a>
             </p>
             <p>
-                <a href="#!">Plasma Donation</a>
+                <a href="plasma.php">Plasma Donation</a>
             </p>
-            <p>
-                <a href="#!">BrandFlow</a>
-            </p>
-            <p>
-                <a href="#!">Bootstrap Angular</a>
-            </p>
+
         </div>
         <!--/.Second column-->
 
@@ -106,22 +110,22 @@
             </h5>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>
-                <a href="#!">Home</a>
+                <a href="index.php">Home</a>
             </p>
             <p>
-                <a href="#!">About</a>
+                <a href="about.php">About</a>
             </p>
             <p>
-                <a href="#!">Donation</a>
+                <a href="expert_volunteer.php">Experts</a>
             </p>
             <p>
-                <a href="#!">Volunteer</a>
+                <a href="covid19.php"> Covid-19</a>
             </p>
             <p>
-                <a href="#!">Ambulance</a>
+                <a href="feedback.php">Feedback</a>
             </p>
             <p>
-                <a href="#!">Appointment</a>
+                <a href="contactus.php">Contact Us</a>
             </p>
 
 
