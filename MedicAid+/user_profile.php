@@ -19,7 +19,7 @@ if ($_GET['id']==NULL){
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>MedicAid+</title>
+    <title>Profile | User</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -48,105 +48,43 @@ background-size: cover;
                   <h1 class="text-center text-dark text-capitalize pt-5">Welcome <?php echo $dbname ?>!</h1>
                   <hr class="w-25 pt-5">
 
-            <div class="container profile-page">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-7 col-md-12">
-                        <div class="card profile-header">
-                            <div class="body">
-                                <div class="row">
-                                  <div class="col-lg-4 col-md-4 col-12">
-                                      <div class="profile-image float-md-right"> <img src="Image/up_blood.jpg" alt=""> </div>
-                                  </div>
-                                    <div class="col-lg-8 col-md-8 col-12">
-                                        <h4 ><strong>Blood</strong></h4>
 
-                                        <p>Searching for blood?</p>
-                                        <div>
-                                            <button class="btn btn-danger btn-round">Get Blood Donor</button>
+                  <div class="container">
+                      <div class="row mb-5">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <img src="Image/blood00.jpg" class="img-fluid">
+                      </div>
 
-                                        </div>
+                      <div class="col-lg-6 col-md-6 col-12">
+                        <br>
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <h1 class="text-dark">Blood Donation</h1>
+                          <p class="text-dark">A specific injury or sickness can cause lost blood in the influenced, along these lines, representing the danger of death if the blood level isn’t taken back to the ordinary. Blood is an essential flood that moves oxygen to other indispensable body parts. With the loss of blood from the body doesn’t get vital oxygen bringing about death. In such a case emerges the requirement for deliberate blood gift from another person, regardless of whether known or obscure to the person.</p>
+
+                          <button class="btn bg-primary text-white" onclick="window.location ='blood_donor_information.php'">View Donor List</button>
+                    </div>
                     </div>
 
 
-                    <div class="col-xl-6 col-lg-7 col-md-12">
-                        <div class="card profile-header">
-                            <div class="body">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-12">
-                                        <div class="profile-image float-md-right"> <img src="Image/up_plasma.jpg" alt=""> </div>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-12">
-                                        <h4><strong>Plasma</strong></h4>
-                                        <p>Not getting plasma donor?</p>
-                                        <div>
-                                            <button class="btn btn-warning btn-round">Get Plasma Donor</button>
+                    <div class="container-fluid">
+
+                    <hr>
+
+                      <div class="row mb-5">
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <br>
+                          <br>
+
+                          <h1 class="text-dark">Covid19 Recovery Patients Plasma</h1>
+                            <p class="text-dark">Donation is a practice when people donate to others to help them with their critical conditions. To ensure safety, these are some of the requirements donors must meet to be eligible.To see a list of eligibility information,search donating requirements. </p>
+
+                            <button class="btn bg-primary text-white" onclick="window.location ='plasma_donor_information.php'">Plasma Donor List</button>
+                      </div>
+                        <div class="col-lg-6 col-md-6 col-12">
+                          <img src="Image/information21.jpg" class="img-fluid">
+                      </div>
 
 
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-xl-6 col-lg-7 col-md-12">
-                        <div class="card profile-header">
-                            <div class="body">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-12">
-                                        <div class="profile-image float-md-right"> <img src="Image/up_platelet.jpg" alt=""> </div>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-12">
-                                        <h4 ><strong>Platelet</strong></h4>
-
-                                        <p>Seeking for platelet donor?</p>
-                                        <div>
-                                            <button class="btn btn-info btn-round">Get Platelet Donor</button>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-xl-6 col-lg-7 col-md-12">
-                        <div class="card profile-header">
-                            <div class="body">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-12">
-                                        <div class="profile-image float-md-right"> <img src="Image/up_ambulance.jpg" alt=""> </div>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8 col-12">
-                                        <h4><strong>Ambulance</strong></h4>
-
-                                        <p>Call your ambulance now!</p>
-                                        <div>
-                                            <button class="btn btn-primary btn-round">Get Ambulance </button>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            	</div>
-
-
-
-
-            </div>
-
   </body>
 </html>
