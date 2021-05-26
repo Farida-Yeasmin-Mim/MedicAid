@@ -419,87 +419,18 @@
     </div>
 </section>
 
-    <hr class="my-4">
-
-    <!--Section: Contact-->
-    <section id="contact">
-
-        <!-- Heading -->
-        <h2 class="mb-5 font-weight-bold text-center">Send us your feedback!</h2>
-
-        <!--Grid row-->
-        <div class="row">
-
-            <!--Grid column-->
-            <div class="col-lg-5 col-md-12">
-                <!-- Form contact -->
-                <form class="p-5 grey-text">
-                    <div class="md-form form-sm"> <i class="fa fa-user prefix"></i>
-                        <input type="text" id="form3" class="form-control form-control-sm">
-                        <label for="form3">Your name</label>
-                    </div>
-                    <div class="md-form form-sm"> <i class="fa fa-envelope prefix"></i>
-                        <input type="text" id="form2" class="form-control form-control-sm">
-                        <label for="form2">Your email</label>
-                    </div>
-                    <div class="md-form form-sm"> <i class="fa fa-tag prefix"></i>
-                        <input type="text" id="form32" class="form-control form-control-sm">
-                        <label for="form34">Subject</label>
-                    </div>
-                    <div class="md-form form-sm"> <i class="fa fa-pencil prefix"></i>
-                        <textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="4"></textarea>
-                        <label for="form8">Your message</label>
-                    </div>
-                    <div class="text-center mt-4">
-                        <button class="btn btn-primary">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
-                    </div>
-                </form>
-                <!-- Form contact -->
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-7 col-md-12">
-
-                <!--Grid row-->
-                <div class="row text-center">
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-12 mb-3">
-
-                        <p><i class="fa fa-map fa-1x mr-2 grey-text"></i>Bangladesh, DK 1216</p>
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-6 mb-3">
-
-                        <p><i class="fa fa-building fa-1x mr-2 grey-text"></i>Mon - Fri, 8:00-22:00</p>
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-4 col-md-6 mb-3">
-
-                        <p><i class="fa fa-phone fa-1x mr-2 grey-text"></i>+ 01 234 567 89</p>
-
-                    </div>
-                    <!--Grid column-->
-
-                </div>
-                <!--Grid row-->
 
 
-            </div>
-            <!--Grid column-->
-
-        </div>
-        <!--Grid row-->
-
+    <section class="ftco-hireme bg-danger">
+      <div class="container">
+          <div class="col-lg-8 col-md-12 mx-auto text-center">
+            <h2 class="text-center font-weight-bold text-white pt-4 mt-4">Send us your Feedback about MedicAid :)</h2>
+          </div>
+          <div class="col-lg-5 col-md-12 pl-lg-4 py-md-4 mx-auto text-center">
+            <p class="mb-0"><a href="feedback.php" class="btn btn-warning py-3 px-4">Send Feedback</a></p>
+          </div>
+      </div>
     </section>
-    <!--Section: Contact-->
 
 </div>
 </main>
