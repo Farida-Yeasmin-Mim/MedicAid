@@ -1,3 +1,8 @@
+Introduction:
+
+
+
+
 
 Project Goals and Objectives
 The goals and objectives of the Medicare+ are as follows:
@@ -9,7 +14,24 @@ make request for the blood.
 6. To provide immediate storage and retrieval of data and information. 
 
 
-Stakeholders
+
+Features of the project:
+1) Creating & Changing Issues at ease
+2) User Accounts to control the access and maintain security
+3) Attachments & Additional Comments for more information
+4) It contains better storage capacity.
+5) Easy & fast retrieval of information.
+6) Decrease the load of the person involve in existing manual system.
+7) Access of any information individually.
+8) Work becomes very speedy.
+9) Easy to update information
+
+
+
+
+
+
+
 Stakeholders:
 Owners
 Employee
@@ -114,8 +136,12 @@ Back End
 -------------
 1. Account Creating, Password Recover:
 a. Sign up form, verification by mobile or email.
-b. Login
-c. Forgot Password
+b. Login form: user, admin, volunteer, donor, ambulance
+c. Delete profile
+d. Edit profile
+e. Forgot Password
+f. Appointment form
+g. Donation form
 
 
 
