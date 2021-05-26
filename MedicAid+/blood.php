@@ -59,11 +59,11 @@
                     <h4 class="card-title">Sign Up As A Donor</h4>
                     <p class="card-text">
 
-                      Signing up on your state registry means that someday you could save lives as a donor—by leaving behind the gift of life. When you register and you can update your status at any time.
+                      Signing up on your state registry means that someday you could save lives as a donor by leaving behind the gift of life. When you register and you can update your status at any time.
                     </p>
                   </div>
                   <div class="card-footer">
-                    <a href="" class="card-link">Sign Up For Free Now!</a>
+                    <a href="donor_signup.php" class="card-link">Sign Up For Free Now!</a>
                   </div>
                 </div>
               </div>
@@ -111,9 +111,11 @@
 
 
       </div>
+      <footer>
       <?php include 'footer2.php';?>
+    </footer>
 
-                </header>
+
 
 
   </body>
