@@ -91,9 +91,31 @@ if (isset($_POST['feedback'])) {
       </a>
     </div>
 
+
+    <section>
+      <div class="container-fluid pt-5">
+        <h1 class="text-center font-weight-bold text-dark text-capitalize ">About Us</h1>
+        <hr class="w-25 pt-3">
+        <div class="row mb-5">
+        <div class="col-lg-3 col-md-3 col-12">
+            <img src="Image/image_1.jpg" class="img-fluid">
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+            <p class="text-dark">Thousands of people just like you provide compassionate care to those in need. We roll up our sleeves and donate time, money and blood. We teach life-saving skills so our communities can be better prepared when the need arises and we do this every day because Medicare is needed each and every day.</p>
+            <button class="btn bg-info text-white">See More</button>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+
+
     <section>
       <div class="blog">
         <div class="container">
+          <h1 class="text-center font-weight-bold text-dark text-capitalize ">Check Out Our Services</h1>
+          <hr class="w-25 pt-4">
           <div class="row mb-5">
 
             <div class="col-md-4 col-lg-4 col-sm-12">
