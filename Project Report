@@ -61,7 +61,8 @@ Front End
 Main page
 About page
 User Sign-in page 
-User Log-in page 
+User Log-in page
+User profile page 
 Admin log-in page
 Admin profile
 Donation page
@@ -70,6 +71,7 @@ Volunteer sign-up page
 Volunteer log-in page
 Volunteer orientation
 Volunteer profile page
+Expert volunteers
 Under age 13 page
 Ambulance page
 Ambulance information page
@@ -78,7 +80,7 @@ Ambulance log-in page
 Ambulance profile page
 Appointment page
 Donation page
-Donation in card page
+Donation form page
 Bangladesh covid-19 info page
 Blood donor information
 Contact us page
@@ -86,6 +88,19 @@ Covid-19 page
 Disaster page
 Pregnancy page
 Donating requirements page
+Donor login
+Donor signup
+Donor profile
+Feedback page
+Footer & footer2 pages
+Header & header2 pages
+Information, information 1,2,3 pages
+Plasma donor information page
+Thank you pages
+
+
+
+
 
 
 
@@ -112,7 +127,7 @@ Bootstrap 4
 PHP
 HTML
 CSS
-Sublime Text/Atome
+Sublime Text/Atom
 Database: phpMyAdmin
 Selenium
 
