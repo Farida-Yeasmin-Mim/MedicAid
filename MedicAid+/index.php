@@ -1,40 +1,5 @@
 <?php
 include 'connection.php';
-if (isset($_POST['search'])) {
-$dbsearch = strip_tags($_POST['srch']);
-if($dbsearch == NULL)
-{
-  echo "<script>
-alert('Invalid Search!');
-window.location.href='index.php';
-</script>";
-}
-$sql = "SELECT page_name FROM page WHERE page_name LIKE '%$dbsearch%'";
-$result = mysqli_query($conn,$sql);
-
-if($result == NULL)
-{
-  echo "<script>
-alert('Invalid Search!');
-window.location.href='index.php';
-</script>";
-}
-else
-{
-  $row = mysqli_fetch_assoc($result);
-  $page = $row["page_name"];
-  header("Location: $page");
-}
-
-
-if (isset($_POST['feedback'])) {
-  header("Location: donor_login.php");
-
-
-}
-
-
-}
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -162,7 +127,7 @@ if (isset($_POST['feedback'])) {
                 </div>
                 <div class="card-footer">
                   <div class="text-center">
-                  <button class="btn bg-primary text-white text-left">Blood Donation</button>
+                  <button class="btn bg-primary text-white text-left" onclick="window.location ='blood.php'">Blood Donation</button>
                   </div>
                 </div>
               </div>
@@ -181,7 +146,7 @@ if (isset($_POST['feedback'])) {
                 </div>
                 <div class="card-footer">
                   <div class="text-center">
-                  <button class="btn bg-primary text-white text-left">Ambulance</button>
+                  <button class="btn bg-primary text-white text-left" onclick="window.location ='ambulance.php'">Ambulance</button>
                   </div>
                 </div>
               </div>
