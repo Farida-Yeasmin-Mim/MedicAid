@@ -96,12 +96,13 @@ if (isset($_POST['feedback'])) {
       <div class="container-fluid pt-5 bg-light">
         <h1 class="text-center font-weight-bold text-dark text-capitalize ">About Us</h1>
         <hr class="w-25 pt-3">
-        <div class="row mb-7">
+        <div class="row mb-5">
         <div class="col-lg-3 col-md-3 col-12">
             <img src="Image/image_1.jpg" class="img-fluid">
         </div>
         <div class="col-lg-7 col-md-6 col-12">
             <p class="text-dark ">Thousands of people just like you provide compassionate care to those in need. We roll up our sleeves and donate time, money and blood. We teach life-saving skills so our communities can be better prepared when the need arises and we do this every day because Medicare is needed each and every day.</p>
+<br>
             <button class="btn btn-primary" type="button" onclick="window.location ='about.php'"></i>See More</a>
             </button>
         </div>
