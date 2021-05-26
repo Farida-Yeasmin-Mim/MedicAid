@@ -45,7 +45,8 @@ if (!empty($_GET['id'])){
               <h1 class="text-dark">Bangladesh Covid19 Update</h1>
                 <p class="text-dark">Donation is a practice when people donate to others to help them with their critical conditions. To ensure safety, these are some of the requirements donors must meet to be eligible.To see a list of eligibility information,search donating requirements. </p>
 
-                <button class="btn bg-primary text-white" onclick="window.location ='donating_requirements.php'">Covid19 Update</button>
+                <button class="btn bg-primary text-white" onclick="window.location ='bangladesh_covid_info.php'">Bangladesh Covid19 Update</button>
+                <button class="btn bg-primary text-white" onclick="window.location ='covid19.php'">Worldwide Update</button>
 
           </div>
             <div class="col-lg-6 col-md-6 col-12">
@@ -68,7 +69,7 @@ if (!empty($_GET['id'])){
           <h1 class="text-dark">Plasma Donation</h1>
             <p class="text-dark">A specific injury or sickness can cause lost blood in the influenced, along these lines, representing the danger of death if the blood level isn’t taken back to the ordinary. Blood is an essential flood that moves oxygen to other indispensable body parts. With the loss of blood from the body doesn’t get vital oxygen bringing about death. In such a case emerges the requirement for deliberate blood gift from another person, regardless of whether known or obscure to the person.</p>
 
-            <button class="btn bg-primary text-white" onclick="window.location ='blood_donor_information.php'">View Donor List</button>
+            <button class="btn bg-primary text-white" onclick="window.location ='plasma_donor_information.php'">View Donor List</button>
       </div>
       </div>
 
@@ -82,19 +83,19 @@ if (!empty($_GET['id'])){
               <div class="col-md-6 col-lg-6 col-sm-12">
                 <div class="card">
                   <div class="card-img">
-                    <img src="Image/signplasma.jpg" class="img-fluid">
+                    <img src="Image/covid_regi.jpg" class="img-fluid">
                   </div>
 
                   <div class="card-body">
                     <h4 class="card-title">Are You A Corona Recovery Patient?</h4>
                     <p class="card-text">
 
-                      Signing up on your state registry means that someday you could save lives as a donor—by leaving behind the gift of life. When you register and you can update your status at any time.
+                      If you have fully recovered from COVID-19, you may be able to help patients currently fighting the infection by donating your plasma.
                     </p>
                   </div>
                   <div class="card-footer">
                     <div class="text-center">
-                    <button class="btn bg-primary text-white text-left"type="button" onclick="window.location =''">Register To Become A Plasma Donor</button>
+                    <button class="btn bg-primary text-white text-left"type="button" onclick="window.location ='plasma_form.php'">Register To Become A Plasma Donor</button>
                     </div>
                   </div>
                 </div>
@@ -114,7 +115,7 @@ if (!empty($_GET['id'])){
                   </div>
                   <div class="card-footer">
                     <div class="text-center">
-                    <button class="btn bg-primary text-white text-left"type="button" onclick="window.location =''">Read More To Get Information</button>
+                    <button class="btn bg-primary text-white text-left"type="button" onclick="window.location ='covid19info.php'">Read More To Get Information</button>
                     </div>
 
                   </div>
@@ -127,9 +128,11 @@ if (!empty($_GET['id'])){
 
       </section>
 
+      <footer>
       <?php include 'footer2.php';?>
+    </footer>
 
-                </header>
+
 
 
   </body>
