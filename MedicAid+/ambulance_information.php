@@ -58,10 +58,11 @@ background-size: cover;
   <?php
     while ($row = mysqli_fetch_array($result)) {
       echo "<div id='img_div'>";
-        echo "<h6>Name: ".$row['owner_name']." </h6>";
-        echo "<h6>Contact No: ".$row['contact_number']." </h6>";
-        echo "<h6>Division: ".$row['division']." </h6>";
-        echo "<h6>Vehicle No: ".$row['ambulance_number']." </h6>";
+        echo "<h6><strong>Name: </strong>".$row['owner_name']." </h6>";
+        echo "<h6><strong>Contact No: </strong>".$row['contact_number']." </h6>";
+        echo "<h6><strong>Division: </strong>".$row['division']." </h6>";
+        echo "<h6><strong>Ambulance Type: </strong>".$row['type']." </h6>";
+        echo "<h6><strong>Vehicle No: </strong>".$row['ambulance_number']." </h6>";
 
 
       echo "</div>";
