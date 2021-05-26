@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Blood Donation</title>
+    <title>Blood</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -24,7 +24,7 @@
     <header>
       <?php include 'header.php';?>
     </header>
-    
+
     <main class="mt-5">
     <div class="container">
         <div class="row mb-5">
