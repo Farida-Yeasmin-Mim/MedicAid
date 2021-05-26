@@ -68,8 +68,8 @@
   				<div class="col-md-5 order-md-last d-flex align-items-stretch">
   					<div class="donation-wrap">
 
-  						<div class="total-donate align-items-center bg-danger p-2 p-lg-2">
-  							<h4 class="text-white text-center">Donation Campaign are running</h4>
+  						<div class="align-items-center bg-danger p-3 p-lg-3">
+  							<h4 class="text-white text-center"> Donation Campaign are running </h4>
   						</div>
 
   						<form action="#" class="appointment">
@@ -158,7 +158,7 @@
 
   				<div class="col-md-7 wrap-about py-5">
   					<div class="heading-section pr-md-5 pt-md-5">
-  						<strong><h2 class="mb-4 text-danger">We are here to help everyone in need</h2></strong>
+  						<strong><h1 class="mb-4 text-danger">We are here to help everyone in need</h1></strong>
   						<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
   					</div>
   					<div class="row my-md-5">
