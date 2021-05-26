@@ -57,6 +57,6 @@ exit();
 
       </div>
     </div>
-<h1> Login Succcessfully <?php echo $userid?></h1>
+
   </body>
 </html>
