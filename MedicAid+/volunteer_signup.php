@@ -3,22 +3,34 @@ include 'connection.php';
 
 if(isset($_POST['signup'])){
 
-$dbfname = mysqli_real_escape_string($conn, $_POST['name']);
+$dbfname = mysqli_real_escape_string($conn, $_POST['fullname']);
 $dbemail = mysqli_real_escape_string($conn, $_POST['email']);
 $dbcontact = mysqli_real_escape_string($conn, $_POST['contact']);
 $dbgender = mysqli_real_escape_string($conn, $_POST['gender']);
+$dbage = mysqli_real_escape_string($conn, $_POST['age']);
+$dbbgroup = mysqli_real_escape_string($conn, $_POST['bgroup']);
 $dbdivision = mysqli_real_escape_string($conn, $_POST['division']);
+$dbaddress = mysqli_real_escape_string($conn, $_POST['address']);
 $dbpassword = mysqli_real_escape_string($conn, $_POST['password']);
 
-$sql = "SELECT contact_number FROM volunteer";
+$sql = "SELECT email,contact_number FROM volunteer";
 $result = mysqli_query($conn,$sql);
 
 if (mysqli_num_rows($result) > 0) {
 // output data of each row
 while($row = mysqli_fetch_assoc($result)) {
+$dbbemail= $row["email"];
 $dbbcontact= $row["contact_number"];
 // Check if the username they entered was correct
-  if($dbbcontact == $dbcontact)
+if ($dbbemail == $dbemail) {
+  echo "<script>
+alert('Same User Name Exist! Try Another User Name!');
+window.location.href='volunteer_signup.php';
+</script>";
+  exit();
+
+  }
+  else if($dbbcontact == $dbcontact)
   {
     echo "<script>
   alert('Same Contact Number Exist! Try Another Contact Number!');
@@ -28,15 +40,18 @@ $dbbcontact= $row["contact_number"];
 
   }
 
+
+
+
 }
 }
- $sql="INSERT INTO volunteer(name, email, contact_number, gender,division, password)
-VALUES ('$dbfname','$dbemail','$dbcontact','$dbgender','$dbdivision',$dbpassword')";
+ $sql="INSERT INTO donor(full_name, email, contact_number, gender, age, blood_group, division, address, password,blood_status,plasma_status,platelet_status)
+VALUES ('$dbfname','$dbemail','$dbcontact','$dbgender','$dbage','$dbbgroup','$dbdivision','$dbaddress','$dbpassword','Yes','Yes','Yes')";
 mysqli_query($conn, $sql);
 
 $sql = "SELECT volunteer_id
 FROM volunteer
-WHERE contact_number='$dbcontact'";
+WHERE email='$dbemail'";
 $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_assoc($result);
 $dbid= $row["volunteer_id"];
@@ -44,15 +59,12 @@ header("Location: volunteer_profile.php?id=$dbid");
 
 }
 
-
-
 ?>
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-    <meta charset="utf-8">
-    <title>Volunteer SignUp</title>
+  <head>
+
+    <title>Signup | Donor</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -65,96 +77,124 @@ header("Location: volunteer_profile.php?id=$dbid");
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
    <link rel="stylesheet" href="CSS/signup.css">
    <body>
-  <header>
-    <?php include 'header.php';?>
-              </header>
-
-<div class="card bg-dark text-white">
-    <img class="card-img" src="Image/mmee.jpg" alt="Card image">
-  <div class="card-img-overlay">
-<article class="card-body mx-auto" style="max-width: 550px;">
+     <div class="card bg-dark text-white">
+         <img class="card-img" src="Image/mmee.jpg" alt="Card image">
+       <div class="card-img-overlay">
+     <article class="card-body mx-auto" style="max-width: 450px;">
 
 
-    <h2 class="card-title text-left text-white ">Welcome to Volunteer Connection!</h2>
-<h3 class="card-title mt-3 text-center text-white ">Create a MedicAid ID</h3>
-<p class="text-center text-white">The first step to creating a Volunteer Connection account is to create your MedicAid ID. Please complete the form below.
-</p>
-    <p class="divider-text">
-        <span class=""></span>
+<div class="card bg-light">
+<article class="card-body mx-auto" style="max-width: 400px;">
+  <div class="container-fluid">
+    <h2 class="text-center text-dark text-capitalize pt-4">Welcome to Volunteer Connection!</h2>
+	<p class="text-center text-dark">Get started with your free account</p>
+	<p>
+
+	<a class="btn btn-lg btn-google btn-block btn-outline " href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> Sign in with Google</a>
+
+	</p>
+	<p class="divider-text text-dark">
+        <span class="bg-light">OR</span>
     </p>
-
-
-	<form action="volunteer_signup.php" id="signform" method="POST">
-    <div class="form-group input-group">
-        <div class="input-group-prepend">
-            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
-         </div>
-        <input name="name" class="form-control" placeholder="Full name" type="text" required="">
+	<form action="donor_signup.php" id="signform" method="POST">
+	<div class="form-group input-group">
+		<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+		 </div>
+        <input name="fullname" class="form-control" placeholder="Full name" type="text" required="">
     </div>
-
     <div class="form-group input-group">
-        <div class="input-group-prepend">
-            <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
-         </div>
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+		 </div>
         <input name="email" class="form-control" placeholder="Email address" type="email" required="">
     </div>
-
     <div class="form-group input-group">
-        <div class="input-group-prepend">
-            <span class="input-group-text"> <i class="fa fa-phone">  </i> </span>
-        </div>
-        <input name="contact" class="form-control" placeholder="Phone number" type="text"  required="">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-phone">  </i> </span>
+		</div>
+    	<input name="contact" class="form-control" placeholder="Phone number" type="text"  required="">
     </div>
-
-   <div class="form-group input-group">
-        <div class="input-group-prepend">
-            <span class="input-group-text"> <i class="fa fa-genderless"></i> </i> </span>
-        </div>
-        <select name="gender" class="form-control" required="">
-            <option selected=""> Select Gender</option>
-            <option> Male</option>
-            <option> Female</option>
-            <option> Other</option>
-        </select>
-    </div>
-
-
-
-
     <div class="form-group input-group">
-        <div class="input-group-prepend">
-            <span class="input-group-text">  <i class="fa fa-flag"></i> </span>
-        </div>
-        <select name="division" class="form-control" required="">
-          <option value="" disabled selected>Select Division</option>
-          <option>Barishal</option>
-          <option>Chittagong</option>
-          <option>Dhaka</option>ss
-          <option>Mymensingh</option>
-          <option>Khulna</option>
-          <option>Rajshahi</option>
-          <option>Rangpur</option>
-          <option>Sylhet</option>
-        </select>
-    </div>
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"    >  <i class="fa fa-venus-mars"></i> </span>
+		</div>
+		<select name="gender" class="form-control"  required="" >
+			<option value="" disabled selected> Select Gender</option>
+			<option>Male</option>
+			<option>Female</option>
+			<option>Other</option>
 
-
+		</select>
+	</div>
+  <div class="form-group input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text"> <i class="fa fa-calendar"></i> </span>
+  </div>
+      <input name="age" class="form-control" placeholder="Age" type="text" required="">
+  </div>
     <div class="form-group input-group">
-        <div class="input-group-prepend">
-            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-        </div>
-        <input name="password" class="form-control" placeholder="Create password" type="password" required=" ">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text" >  <i class="fa fa-medkit"></i> </span>
+		</div>
+		<select name="bgroup" class="form-control"  required="" >
+			<option value="" disabled selected> Select Blood Group</option>
+			<option> A+</option>
+			<option> A-</option>
+			<option> B+</option>
+			<option> B-</option>
+			<option> AB+</option>
+			<option> AB-</option>
+			<option> O+</option>
+			<option> O-</option>
+
+		</select>
+	</div>
+  <div class="form-group input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text">  <i class="fa fa-map-marker"></i> </span>
+  </div>
+  <select name="division" class="form-control"  required="" >
+    <option value="" disabled selected>Select Division</option>
+    <option>Barishal</option>
+    <option>Chittagong</option>
+    <option>Dhaka</option>ss
+    <option>Mymensingh</option>
+    <option>Khulna</option>
+    <option>Rajshahi</option>
+    <option>Rangpur</option>
+    <option>Sylhet</option>
+
+  </select>
+</div>
+  <div class="form-group input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text"> <i class="fa fa-location-arrow"></i> </span>
+  </div>
+      <input name="address" class="form-control" placeholder="Address" type="text" required="">
+  </div>
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+		</div>
+        <input name="password"class="form-control" placeholder="Create password" type="password" required=" ">
     </div>
 
     <div class="form-group">
-        <button type="submit" name="signup" form="signform" class="btn btn-primary btn-block">CREATE MY MEDICAID ID</button>
+        <button type="submit" name="signup" form="signform" class="btn btn-primary btn-block"> Create Account  </button>
     </div>
-    <h5><p class="text-center danger-text "><a href="under_13.php" >Under age 13? </a></p></h5>
-    <h5><p class="text-center text-white ">Already Have an account? <a href="volunteer_login.php" >Log In</a> </p></h5>
+  <p class="text-center danger-text "><a href="under_13.php" >Under age 13? </a></p>
+    <p class="text-center text-primary">Have an account? <a href="volunteer_login">Log In</a> </p>
 </form>
+</article>
+</div>
+
+</div>
+
+
 
 </article>
-
 </nav>
+</turna>
 </body>
 </html>
