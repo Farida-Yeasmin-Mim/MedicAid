@@ -407,7 +407,7 @@
         <br>
         <br>
         <br>
-        <h1 class="text-dark">See our Expert Volunteer</h1>
+        <h1 class="text-dark">See our Expert Volunteers</h1>
           <p class="text-dark">We are on a mission to mobilize the world's talent for good. Our expert security and medical teams are continually reviewing our ability to implement our projects safely.</p>
           <br>
           <button class="btn bg-primary text-white" onclick="window.location ='expert_volunteer.php'">Explore</button>
