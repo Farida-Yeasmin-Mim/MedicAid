@@ -198,12 +198,12 @@ include 'connection.php';
                   <h1 class="text-dark">Corona Update</h1>
                     <p class="text-dark">The COVID-19 pandemic in Bangladesh is part of the worldwide pandemic of coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The virus was confirmed to have spread to Bangladesh in March 2020. Since then, the pandemic has spread day by day over the whole nation and the number of affected people has been increasing.</p>
 
-                    <button class="btn bg-info text-white">See Update</button>
+                    <button class="btn bg-info text-white" onclick="window.location ='covid19_page.php'">See Update</button>
                     <div class="text-right">
                     <h1 class="text-dark">Plasma Donation</h1>
                       <p class="text-dark">If you have fully recovered from COVID-19, you may be able to help patients currently fighting the infection by donating your plasma. Because you fought the infection, your plasma now contains COVID-19 antibodies. These antibodies provided one way for your immune system to fight the virus when you were sick, so your plasma may be able to be used to help others fight off the disease.</p>
 
-                      <button class="btn bg-info text-white">See Donor List</button>
+                      <button class="btn bg-info text-white" onclick="window.location ='plasma_donor_information.php'">See Donor List</button>
                     </div>
               </div>
               </div>
@@ -229,12 +229,12 @@ include 'connection.php';
                         <div class="card-body">
                           <h4 class="card-title text-danger">Donations</h4>
                           <p class="card-text">
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            A donation is a gift for charity, humanitarian aid, or to benefit a cause. A donation may take various forms, including money, services, or goods such as clothing or food.
                           </p>
                         </div>
                         <div class="card-footer">
                           <div class="text-center">
-                          <button class="btn bg-danger text-white text-left">Get More Information!</button>
+                          <button class="btn bg-danger text-white text-left" onclick="window.location ='donation.php'">Get More Information About Donation!</button>
                           </div>
                         </div>
                       </div>
@@ -250,12 +250,12 @@ include 'connection.php';
                         <div class="card-body">
                           <h4 class="card-title">Appointment</h4>
                           <p class="card-text">
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Set a meeting in which you can discuss your problems and also advice is prescribed.
                           </p>
                         </div>
                         <div class="card-footer">
                           <div class="text-right">
-                          <button class="btn bg-primary text-white text-left">Get Appointment</button>
+                          <button class="btn bg-primary text-white text-left" onclick="window.location ='appointment.php'">Get Appointment</button>
                           </div>
                         </div>
                       </div>
@@ -272,12 +272,12 @@ include 'connection.php';
                         <div class="card-body">
                           <h4 class="card-title">Feedback</h4>
                           <p class="card-text">
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Feedback is about listening actively, taking the time to analyze, and then thinking of the best possible solution to perform better.
                           </p>
                         </div>
                         <div class="card-footer">
                           <div class="text-right">
-                          <button class="btn bg-warning text-white text-left">Send Feedback</button>
+                          <button class="btn bg-warning text-white text-left" onclick="window.location ='feedback.php'">Send Feedback</button>
                           </div>
                         </div>
                       </div>
@@ -318,6 +318,8 @@ include 'connection.php';
 
 
 
+
+            <!--Section: Registration-->
             <section>
               <div class="container-fluid">
                 <h1 class="text-center font-weight-bold text-primary text-capitalize pt-5">Ambulance Registration</h1>
@@ -339,7 +341,7 @@ include 'connection.php';
                         </div>
                         <div class="card-footer">
                           <div class="text-left">
-                          <button class="btn bg-primary text-white">Register As A Plasma Donor</button>
+                          <button class="btn bg-primary text-white" onclick="window.location ='plasma_form.php'">Register As A Plasma Donor</button>
                           </div>
                         </div>
                         <div class="card-body">
@@ -350,7 +352,7 @@ include 'connection.php';
                         </div>
                         <div class="card-footer">
                           <div class="text-right">
-                          <button class="btn bg-primary text-white ">Register Your Ambulance</button>
+                          <button class="btn bg-primary text-white " onclick="window.location ='ambulance_form.php'">Register Your Ambulance</button>
                           </div>
                         </div>
 
