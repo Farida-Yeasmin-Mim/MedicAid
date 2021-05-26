@@ -36,7 +36,7 @@
     <div class="row justify-content-center pb-5">
       <div class="col-md-7 heading-section heading-section-white text-center ftco-animate">
         <span class="subheading">Testimony</span>
-        <h2>Our Experts & Feedbacks</h2>
+        <h2>What our Expert's Say</h2>
       </div>
     </div>
     <div class="row ftco-animate">
