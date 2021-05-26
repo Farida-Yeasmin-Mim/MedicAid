@@ -86,5 +86,59 @@ background-size: cover;
 
 
                     </div>
+                    <section>
+                      <div class="container-fluid">
+
+                      <hr><br><br>
+                      <div class="blog">
+                        <div class="container">
+                          <div class="row mb-5">
+                            <div class="col-md-6 col-lg-6 col-sm-12">
+                              <div class="card">
+                                <div class="card-img">
+                                  <img src="Image/signplasma.jpg" class="img-fluid">
+                                </div>
+
+                                <div class="card-body">
+                                  <h4 class="card-title">Are You A Corona Recovery Patient?</h4>
+                                  <p class="card-text">
+
+                                    Signing up on your state registry means that someday you could save lives as a donor—by leaving behind the gift of life. When you register and you can update your status at any time.
+                                  </p>
+                                </div>
+                                <div class="card-footer">
+                                  <div class="text-center">
+                                  <button class="btn bg-primary text-white text-left"type="button" onclick="window.location =''">Register To Become A Plasma Donor</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-sm-12">
+                              <div class="card">
+                                <div class="card-img">
+                                  <img src="Image/covid19pi.png" class="img-fluid">
+                                </div>
+
+                                <div class="card-body">
+                                  <h4 class="card-title">Information</h4>
+                                  <p class="card-text">
+
+                                    The blood donation process from the time you arrive until the time you leave takes about an hour. The donation itself is only about 8-10 minutes on average.
+                                  </p>
+                                </div>
+                                <div class="card-footer">
+                                  <div class="text-center">
+                                  <button class="btn bg-primary text-white text-left"type="button" onclick="window.location =''">Read More To Get Information</button>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+
+                    </section>
   </body>
 </html>
