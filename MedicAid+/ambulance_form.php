@@ -121,21 +121,15 @@ header("Location: thankyou.php?id=$dbid");
 <article class="card-body mx-auto" style="max-width: 400px;">
   <div class="container-fluid">
     <h2 class="text-center text-dark text-capitalize pt-4">Registration Form </h2>
-    <p class="text-center text-dark">Only For Corona Recovery Patient To Become A Plasma Donor</p>
+    <p class="text-center text-dark">Ambulance</p>
 	<hr>
 
-	<form action="plasma_form.php" id="signform" method="POST">
+  <form action="ambulance_form.php" id="signform" method="POST">
 	<div class="form-group input-group">
 		<div class="input-group-prepend">
 		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
 		 </div>
-        <input name="fullname" class="form-control" placeholder="Full name" type="text" required="">
-    </div>
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
-		 </div>
-        <input name="email" class="form-control" placeholder="Email address" type="email" required="">
+        <input name="fullname" class="form-control" placeholder="Owner name" type="text" required="">
     </div>
     <div class="form-group input-group">
     	<div class="input-group-prepend">
@@ -143,41 +137,6 @@ header("Location: thankyou.php?id=$dbid");
 		</div>
     	<input name="contact" class="form-control" placeholder="Phone number" type="text"  required="">
     </div>
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"    >  <i class="fa fa-venus-mars"></i> </span>
-		</div>
-		<select name="gender" class="form-control"  required="" >
-			<option value="" disabled selected> Select Gender</option>
-			<option>Male</option>
-			<option>Female</option>
-			<option>Other</option>
-
-		</select>
-	</div>
-  <div class="form-group input-group">
-    <div class="input-group-prepend">
-      <span class="input-group-text"> <i class="fa fa-calendar"></i> </span>
-  </div>
-      <input name="age" class="form-control" placeholder="Age" type="text" required="">
-  </div>
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text" >  <i class="fa fa-medkit"></i> </span>
-		</div>
-		<select name="bgroup" class="form-control"  required="" >
-			<option value="" disabled selected> Select Blood Group</option>
-			<option> A+</option>
-			<option> A-</option>
-			<option> B+</option>
-			<option> B-</option>
-			<option> AB+</option>
-			<option> AB-</option>
-			<option> O+</option>
-			<option> O-</option>
-
-		</select>
-	</div>
   <div class="form-group input-group">
     <div class="input-group-prepend">
       <span class="input-group-text">  <i class="fa fa-map-marker"></i> </span>
@@ -197,16 +156,21 @@ header("Location: thankyou.php?id=$dbid");
 </div>
   <div class="form-group input-group">
     <div class="input-group-prepend">
-      <span class="input-group-text"> <i class="fa fa-location-arrow"></i> </span>
+      <span class="input-group-text"> <i class="fa fa-id-card"></i> </span>
   </div>
-      <input name="address" class="form-control" placeholder="Address" type="text" required="">
+      <input name="vehicle_no" class="form-control" placeholder="Vehicle Number" type="text" required="">
   </div>
-
-
-    <div class="form-group">
-        <button type="submit" name="signup" form="signform" class="btn btn-primary btn-block"> Register  </button>
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+		</div>
+        <input name="password"class="form-control" placeholder="Create password" type="password" required=" ">
     </div>
 
+    <div class="form-group">
+        <button type="submit" name="signup" form="signform" class="btn btn-primary btn-block"> Register Now  </button>
+    </div>
+    
 </form>
 </article>
 </div>
