@@ -77,6 +77,12 @@ header("Location: volunteer_profile.php?id=$dbid");
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
    <link rel="stylesheet" href="CSS/signup.css">
    <body>
+
+       <header>
+           <?php include 'header.php';?>
+       </header>
+
+
      <div class="card bg-dark text-white">
          <img class="card-img" src="Image/mmee.jpg" alt="Card image">
        <div class="card-img-overlay">
