@@ -361,14 +361,15 @@ if (isset($_POST['feedback'])) {
                           <img src="Image/regi.jpg" class="img-fluid">
                         </div>
                         <div class="card-body">
-                          <h4 class="card-title text-primary">Donations</h4>
+                          <h4 class="card-title text-primary">Register Now!</h4>
                           <p class="card-text">
                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                           </p>
                         </div>
                         <div class="card-footer">
                           <div class="text-center">
-                          <button class="btn bg-danger text-white text-left">Get More Information!</button>
+                            <button class="btn bg-danger text-white text-left"></button>
+                          <button class="btn bg-danger text-white text-left">Register Your Ambulance</button>
                           </div>
                         </div>
                       </div>
