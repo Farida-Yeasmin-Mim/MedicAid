@@ -96,11 +96,11 @@ background-size: cover;
                             <div class="col-md-6 col-lg-6 col-sm-12">
                               <div class="card">
                                 <div class="card-img">
-                                  <img src="Image/signplasma.jpg" class="img-fluid">
+                                  <img src="Image/ambulanceIndex.jpg" class="img-fluid">
                                 </div>
 
                                 <div class="card-body">
-                                  <h4 class="card-title">Are You A Corona Recovery Patient?</h4>
+                                  <h4 class="card-title">Ambulance</h4>
                                   <p class="card-text">
 
                                     Signing up on your state registry means that someday you could save lives as a donor—by leaving behind the gift of life. When you register and you can update your status at any time.
@@ -108,7 +108,7 @@ background-size: cover;
                                 </div>
                                 <div class="card-footer">
                                   <div class="text-center">
-                                  <button class="btn bg-primary text-white text-left"type="button" onclick="window.location =''">Register To Become A Plasma Donor</button>
+                                  <button class="btn bg-primary text-white text-left"type="button" onclick="window.location =''">View Available Ambulance List</button>
                                   </div>
                                 </div>
                               </div>
@@ -116,11 +116,11 @@ background-size: cover;
                             <div class="col-md-6 col-lg-6 col-sm-12">
                               <div class="card">
                                 <div class="card-img">
-                                  <img src="Image/covid19pi.png" class="img-fluid">
+                                  <img src="Image/volunteerIndex.jpg" class="img-fluid">
                                 </div>
 
                                 <div class="card-body">
-                                  <h4 class="card-title">Information</h4>
+                                  <h4 class="card-title">Volunteer</h4>
                                   <p class="card-text">
 
                                     The blood donation process from the time you arrive until the time you leave takes about an hour. The donation itself is only about 8-10 minutes on average.
@@ -128,7 +128,7 @@ background-size: cover;
                                 </div>
                                 <div class="card-footer">
                                   <div class="text-center">
-                                  <button class="btn bg-primary text-white text-left"type="button" onclick="window.location =''">Read More To Get Information</button>
+                                  <button class="btn bg-primary text-white text-left"type="button" onclick="window.location =''">Search For Volunteer List</button>
                                   </div>
 
                                 </div>
@@ -140,5 +140,10 @@ background-size: cover;
                       </div>
 
                     </section>
+
+                    <footer>
+                      <?php include 'footer2.php';?>
+
+                    </footer>
   </body>
 </html>
