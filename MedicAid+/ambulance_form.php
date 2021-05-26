@@ -7,6 +7,7 @@ if(isset($_POST['signup'])){
 $dbfname = mysqli_real_escape_string($conn, $_POST['fullname']);
 $dbcontact = mysqli_real_escape_string($conn, $_POST['contact']);
 $dbdivision = mysqli_real_escape_string($conn, $_POST['division']);
+$dbtype = mysqli_real_escape_string($conn, $_POST['type']);
 $dbaddress = mysqli_real_escape_string($conn, $_POST['vehicle_no']);
 
 
@@ -29,8 +30,8 @@ $dbbcontact= $row["contact_number"];
   }
 }
 }
- $sql="INSERT INTO ambulance(owner_name, contact_number, division, ambulance_number,status)
-VALUES ('$dbfname','$dbcontact','$dbdivision','$dbaddress','Active')";
+ $sql="INSERT INTO ambulance(owner_name, contact_number,type, division, ambulance_number,status)
+VALUES ('$dbfname','$dbcontact','$dbtype','$dbdivision','$dbaddress','Active')";
 mysqli_query($conn, $sql);
 
 $sql = "SELECT ambulance_id
@@ -109,6 +110,19 @@ header("Location: thankyou_ambulance.php?id=$dbid");
     <option>Sylhet</option>
 
   </select>
+</div>
+<div class="form-group input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text">  <i class="fa fa-tasks"></i> </span>
+</div>
+<select name="type" class="form-control"  required="" >
+  <option value="" disabled selected>Select Type</option>
+  <option>Ac Ambulance</option>
+  <option>Non-Ac Ambulance</option>
+  <option>Freezer Ambulance</option>
+  <option>ICU Ambulance</option>
+
+</select>
 </div>
   <div class="form-group input-group">
     <div class="input-group-prepend">
