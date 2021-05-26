@@ -13,7 +13,14 @@
   </head>
   <body>
 
+    <header>
+        <?php include 'header.php';?>
+    </header>
 
+<br>
+  <h2 class="text-center"> Watch this Video</h2>
+  <br>
+  <br>
 <div class="row justify-content-center">
 <iframe width="950" height="500" src="https://www.youtube.com/embed/5bSMlAuQqsg" allowfullscreen></iframe>
 </div>
