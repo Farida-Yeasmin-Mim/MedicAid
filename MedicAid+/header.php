@@ -79,6 +79,9 @@ if (isset($_POST['feedback'])) {
       <li class="nav-item active">
         <a class="nav-link" style="font-size:23px; font-weight:bold" href="feedback.php">Feedback</a>
       </li>
+      <li class="nav-item active">
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="feedback.php">Login</a>
+      </li>
 
     </ul>
 
