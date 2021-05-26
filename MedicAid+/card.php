@@ -4,9 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Credit Card</title>
+    <title>Donate</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -17,11 +16,16 @@
 </head>
 
 <body>
+
+  <header>
+      <?php include 'header.php';?>
+  </header>
+
     <div class="container-fluid">
 
         <div class="creditCardForm">
             <div class="heading">
-                <h1>Confirm Purchase</h1>
+                <h2 class="text-center">Confirm Your Donation</h2>
             </div>
             <div class="payment">
                 <form>
@@ -54,12 +58,11 @@
                             <option value="12">December</option>
                         </select>
                         <select>
-                            <option value="16"> 2016</option>
-                            <option value="17"> 2017</option>
-                            <option value="18"> 2018</option>
-                            <option value="19"> 2019</option>
-                            <option value="20"> 2020</option>
                             <option value="21"> 2021</option>
+                            <option value="22"> 2022</option>
+                            <option value="23"> 2023</option>
+                            <option value="24"> 2024</option>
+                            <option value="25"> 2025</option>
                         </select>
                     </div>
                     <div class="form-group" id="credit_cards">
@@ -74,6 +77,9 @@
             </div>
         </div>
 
+        <footer>
+            <?php include 'footer2.php';?>
+        </footer>
 
 </body>
 

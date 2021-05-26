@@ -69,6 +69,7 @@
   					<div class="donation-wrap">
 <br>
 <br>
+<br>
   						<div class="align-items-center bg-danger p-3 p-lg-3">
   							<h4 class="text-white text-center"> Donation Campaign are running </h4>
   						</div>
@@ -103,23 +104,15 @@
   													<option value=""></option>
   													<option value="">Blood Donate</option>
   													<option value="">Plasma Donate</option>
-  													<option value="">Disaster </option>
-  													<option value="">Gutter Cleaning</option>
-  													<option value="">Patio Cleaning</option>
+  													<option value="">Natural Disaster </option>
+                            <option value="">Covid-19 patient </option>
+  													<option value="">Other</option>
   												</select>
   											</div>
   										</div>
   									</div>
   								</div>
-  								<div class="col-md-12">
-  									<div class="form-group">
-  										<label for="name">Amount</label>
-  										<div class="input-wrap">
-  											<div class="icon"><span class="fa fa-money"></span></div>
-  											<input type="text" class="form-control" placeholder="$5">
-  										</div>
-  									</div>
-  								</div>
+
   								<div class="col-md-12">
   									<div class="form-group">
   										<label for="name">Payment Method</label>
@@ -129,7 +122,7 @@
   													<label>
   														<input type="radio" name="radio-input" checked>
   														<span class="checkmark"></span>
-  														<span class="fill-control-description">Credit Card</span>
+  														<span class="fill-control-description">Mater Card</span>
   													</label>
   												</div>
   											</div>
@@ -138,7 +131,7 @@
   													<label>
   														<input type="radio" name="radio-input">
   														<span class="checkmark"></span>
-  														<span class="fill-control-description">Paypal</span>
+  														<span class="fill-control-description">Visa Card</span>
   													</label>
   												</div>
   											</div>
@@ -148,7 +141,8 @@
   								</div>
   								<div class="col-md-12">
   									<div class="form-group">
-  										<input type="submit" value="Donate Now" class="btn btn-danger py-3 px-4">
+                      <button class="btn btn-danger" type="button" onclick="window.location ='card.php'"></i>Donate Now</a>
+                      </button>
   									</div>
   								</div>
   							</div>
