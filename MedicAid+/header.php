@@ -1,3 +1,41 @@
+<?php
+include 'connection.php';
+if (isset($_POST['search'])) {
+$dbsearch = strip_tags($_POST['srch']);
+if($dbsearch == NULL)
+{
+  echo "<script>
+alert('Invalid Search!');
+window.location.href='index.php';
+</script>";
+}
+$sql = "SELECT page_name FROM page WHERE page_name LIKE '%$dbsearch%'";
+$result = mysqli_query($conn,$sql);
+
+if($result == NULL)
+{
+  echo "<script>
+alert('Invalid Search!');
+window.location.href='index.php';
+</script>";
+}
+else
+{
+  $row = mysqli_fetch_assoc($result);
+  $page = $row["page_name"];
+  header("Location: $page");
+}
+
+
+if (isset($_POST['feedback'])) {
+  header("Location: donor_login.php");
+
+
+}
+
+
+}
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -44,7 +82,7 @@
 
     </ul>
 
-    <form id="searchform" method="POST" action="index.php" class="form-inline my-2 my-lg-0">
+    <form id="searchform" method="POST" action="header.php" class="form-inline my-2 my-lg-0">
       <input name="srch" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button name="search" class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
     </form>
