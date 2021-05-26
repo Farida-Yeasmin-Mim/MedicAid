@@ -74,14 +74,14 @@ if (isset($_POST['feedback'])) {
           <img src="Image/Plasma2.jpg" alt="Chicago" width="1100" height="500">
           <div class="carousel-caption">
             <h1 class="text-white display-6 font-weight-bold">Plasma Donation</h1>
-            <p class="text-white font-weight-bold">Thank you, Chicago!</p>
+            <p class="text-white font-weight-bold">A donation can spread joy!</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="Image/volunteer11.jpg" alt="New York" width="1100" height="500">
           <div class="carousel-caption">
             <h1 class="text-white display-6 font-weight-bold">Volunteer</h1>
-            <p class="text-white font-weight-bold">We love the Big Apple!</p>
+            <p class="text-white font-weight-bold">Helping others means helping yourself!</p>
           </div>
         </div>
       </div>
@@ -157,7 +157,7 @@ if (isset($_POST['feedback'])) {
                 <div class="card-body">
                   <h4 class="card-title">Blood Donation</h4>
                   <p class="card-text">
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Blood donation refers to a practice where people donate their blood to people so it helps them with their health problems. 
                   </p>
                 </div>
                 <div class="card-footer">
@@ -349,7 +349,7 @@ if (isset($_POST['feedback'])) {
 
             <section>
               <div class="container-fluid">
-                <h1 class="text-center font-weight-bold text-dark text-capitalize pt-5">Donation Campaign Are Running!</h1>
+                <h1 class="text-center font-weight-bold text-primary text-capitalize pt-5">Ambulance Registration</h1>
                 <hr class="w-100 ">
               <div class="blog">
                 <div class="container">
@@ -361,17 +361,28 @@ if (isset($_POST['feedback'])) {
                           <img src="Image/regi.jpg" class="img-fluid">
                         </div>
                         <div class="card-body">
-                          <h4 class="card-title text-primary">Register Now!</h4>
+                          <h4 class="card-title text-primary ">Plasma Donor Registration</h4>
                           <p class="card-text">
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            If you have fully recovered from COVID-19, you may be able to help patients currently fighting the infection by donating your plasma. Because you fought the infection, your plasma now contains COVID-19 antibodies.
                           </p>
                         </div>
                         <div class="card-footer">
-                          <div class="text-center">
-                            <button class="btn bg-danger text-white text-left"></button>
-                          <button class="btn bg-danger text-white text-left">Register Your Ambulance</button>
+                          <div class="text-left">
+                          <button class="btn bg-primary text-white">Register As A Plasma Donor</button>
                           </div>
                         </div>
+                        <div class="card-body">
+                          <h4 class="card-title text-primary text-right">Ambulance Registration</h4>
+                          <p class="card-text ">
+                            Ambulance services are one of the reliable ambulance services in Bangladesh. We specialize in the transportation of the critically ill patients by advanced life support ambulance. There are various types of ambulance.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <div class="text-right">
+                          <button class="btn bg-primary text-white ">Register Your Ambulance</button>
+                          </div>
+                        </div>
+
                       </div>
                     </div>
 
