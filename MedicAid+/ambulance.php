@@ -24,7 +24,7 @@
     <header>
       <?php include 'header.php';?>
     </header>
-    
+
     <main class="mt-5">
     <div class="container">
         <div class="row mb-5">
@@ -38,7 +38,7 @@
           <h1 class="text-danger">Emergency Ambulance!</h1>
             <p class="text-dark">An ambulance is a type of vehicle made to carry sick or injured people. Normally, ambulances go to people in emergencies to take people to hospital. </p>
 
-            <button class="btn bg-danger text-white" onclick="window.location ='blood_donor_information.php'">View Ambulance List</button>
+            <button class="btn bg-danger text-white" onclick="window.location ='ambulance_information.php'">View Ambulance List</button>
       </div>
       </div>
 
@@ -56,7 +56,7 @@
             <h1 class="text-primary">Register Ambulance</h1>
               <p class="text-dark">You can register your own ambulance to serve your hospitality. When you register and you can update your status at any time. </p>
               <br>
-              <button class="btn bg-primary text-white" onclick="window.location ='ambulance_signup.php'">Register Your Ambulance</button>
+              <button class="btn bg-primary text-white" onclick="window.location ='ambulance_form.php'">Register Your Ambulance</button>
         </div>
           <div class="col-lg-6 col-md-6 col-12">
             <img src="Image/creatacc1.jpg" class="img-fluid">
@@ -64,9 +64,11 @@
 
 
       </div>
+      <footer>
       <?php include 'footer2.php';?>
+    </footer>
 
-                </header>
+
 
 
   </body>
