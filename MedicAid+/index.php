@@ -346,6 +346,43 @@ if (isset($_POST['feedback'])) {
             <!--Section: Contact-->
 
 
+
+            <section>
+              <div class="container-fluid">
+                <h1 class="text-center font-weight-bold text-dark text-capitalize pt-5">Donation Campaign Are Running!</h1>
+                <hr class="w-100 ">
+              <div class="blog">
+                <div class="container">
+                  <div class="row mb-5">
+
+                    <div class="col-md-12 col-lg-12 col-sm-12">
+                      <div class="card">
+                        <div class="card-img">
+                          <img src="Image/regi.jpg" class="img-fluid">
+                        </div>
+                        <div class="card-body">
+                          <h4 class="card-title text-primary">Register Now!</h4>
+                          <p class="card-text">
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          </p>
+                        </div>
+                        <div class="card-footer">
+                          <div class="text-center">
+                            <button class="btn bg-danger text-white text-left"></button>
+                          <button class="btn bg-danger text-white text-left">Register Your Ambulance</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+            </section>
+
+
 <hr class="my-3">
             <!--Section: Best Features-->
             <section class="text-center bg-light" >
@@ -395,6 +432,8 @@ if (isset($_POST['feedback'])) {
                 <!--Grid row-->
 
             </section>
+
+
 
 
 
