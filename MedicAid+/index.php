@@ -165,7 +165,7 @@ include 'connection.php';
                 </div>
                 <div class="card-footer">
                   <div class="text-center">
-                  <button class="btn bg-primary text-white text-left">Volunteer</button>
+                  <button class="btn bg-primary text-white text-left" onclick="window.location ='volunteer.php'">Volunteer</button>
                   </div>
                 </div>
               </div>
