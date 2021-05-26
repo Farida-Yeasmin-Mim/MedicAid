@@ -92,22 +92,49 @@ if (isset($_POST['feedback'])) {
     </div>
 
 
-    <section>
-      <div class="container-fluid pt-5">
+  <section>
+      <div class="container-fluid pt-5 bg-light">
         <h1 class="text-center font-weight-bold text-dark text-capitalize ">About Us</h1>
         <hr class="w-25 pt-3">
-        <div class="row mb-5">
+        <div class="row mb-7">
         <div class="col-lg-3 col-md-3 col-12">
             <img src="Image/image_1.jpg" class="img-fluid">
         </div>
-        <div class="col-lg-6 col-md-6 col-12">
-            <p class="text-dark">Thousands of people just like you provide compassionate care to those in need. We roll up our sleeves and donate time, money and blood. We teach life-saving skills so our communities can be better prepared when the need arises and we do this every day because Medicare is needed each and every day.</p>
-            <button class="btn btn-info" type="button" onclick="window.location ='about.php'"></i>See More</a>
+        <div class="col-lg-7 col-md-6 col-12">
+            <p class="text-dark ">Thousands of people just like you provide compassionate care to those in need. We roll up our sleeves and donate time, money and blood. We teach life-saving skills so our communities can be better prepared when the need arises and we do this every day because Medicare is needed each and every day.</p>
+            <button class="btn btn-primary" type="button" onclick="window.location ='about.php'"></i>See More</a>
             </button>
         </div>
+
+
+
+  <div class="text-right text-md-right col-md-1">
+
+       <div class="text-top text-md-top">
+          <a href="https://www.facebook.com/yeasminmim"><span class="fa fa-facebook"></span></a>
+        </div>
+
+        <div class="text-top text-md-top">
+          <a href=""><span class="fa fa-twitter"></span></a>
+        </div>
+
+        <div class="text-top text-md-top">
+            <a href=""><strong class="fa fa-instagram text-danger"></strong></a>
+         </div>
+
+          <div class="text-top text-md-top">
+              <a href=""><span class="fa fa-google"></span></a>
+          </div>
+
+          <div class="text-top text-md-top">
+              <a href=""><span class="fa fa-linkedin"></span></a>
+         </div>
+   </div>
+
       </div>
     </div>
-    </section>
+    </div>
+  </section>
 
 
 
@@ -323,20 +350,11 @@ if (isset($_POST['feedback'])) {
 
                 <!-- Heading -->
                 <h1 class="mb-6 font-weight-bold text-dark">The MedicAid Mission At Work</h1>
-
-                <!--Grid row-->
                 <div class="row d-flex justify-content-center mb-4">
-                    <!--Grid column-->
-                    <div class="col-md-8">
-
-                        <!-- Description -->
-                        <p style="color:grey">Read the Latest News about How We Help People Across the Country and Around the World.</p>
+                  <div class="col-md-8">
+                    <p style="color:grey">Read the Latest News about How We Help People Across the Country and Around the World.</p>
                     </div>
-                    <!--Grid column-->
                 </div>
-                <!--Grid row-->
-
-
 
                 <!--Grid row-->
                 <div class="row">
