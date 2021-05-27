@@ -1,3 +1,15 @@
+<?php
+include 'connection.php';
+
+if (isset($_GET['id'])){
+   $dbid =  $_GET['id'];
+}
+else
+{
+  $dbid = 0;
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -38,7 +50,7 @@
           <h1 class="text-danger">Emergency Ambulance!</h1>
             <p class="text-dark">An ambulance is a type of vehicle made to carry sick or injured people. Normally, ambulances go to people in emergencies to take people to hospital. </p>
 
-            <button class="btn bg-danger text-white" onclick="window.location ='ambulance_information.php'">View Ambulance List</button>
+            <button class="btn bg-danger text-white" onclick="window.location ='ambulance_information.php<?php if($dbid!=0) echo "?id=$dbid" ?>'">View Ambulance List</button>
       </div>
       </div>
 
@@ -56,7 +68,7 @@
             <h1 class="text-primary">Register Ambulance</h1>
               <p class="text-dark">You can register your own ambulance to serve your hospitality. When you register and you can update your status at any time. </p>
               <br>
-              <button class="btn bg-primary text-white" onclick="window.location ='ambulance_form.php'">Register Your Ambulance</button>
+              <button class="btn bg-primary text-white" onclick="window.location ='ambulance_form.php<?php if($dbid!=0) echo "?id=$dbid" ?>'">Register Your Ambulance</button>
         </div>
           <div class="col-lg-6 col-md-6 col-12">
             <img src="Image/creatacc1.jpg" class="img-fluid">
