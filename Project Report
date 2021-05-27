@@ -20,11 +20,15 @@ Aim and purpose:
 
 Goals of the Project:
 
-The goal of the project is to develop a web application for blood banks to manage information about their donors and blood stock. The main objectives of this website development can be defined as follows:
+The goal of the project is to develop a web application for blood banks and plasma bank to manage information about their donors and stock. The main objectives of this website development can be defined as follows:
 1. To develop a system that provides functions to support donors to view and manage their information conveniently.
 2. To maintain records of blood donors, blood donation information and bloodstocks in a centralized database system.
 3. To inform donors of their blood result after their donation.
 4. To support searching, matching and requesting for blood convenient for administrators
+5. To be a volunteer to support every situation in need.
+6. By donating money to the people who need.
+
+
 
 Our primary goal is to solve all those problems and make the life easier to the users to get their requirements.
 
@@ -36,7 +40,7 @@ User Requirements:
 There are two internal users involved in this system. The user requirements are considered as follows:
 Donor
 1. To be able to view their donation records, including where and when they made donations, and the blood results for each, to learn of their donated blood quality
-2. To be able to view and update their personal information, including name, contact     address, and phone number, to keep their donor’s information record up to date with the blood bank. 
+2. To be able to view and update their personal information, including name, contact number and address to keep their donor’s information record up to date with the blood bank. 
 3. To be notified of the blood results of their previous donation by e-mail, to know the success of their donation. 
 
 Administrator
@@ -67,6 +71,14 @@ Features of the project:
 8) Work becomes very speedy.
 9) Easy to update information
 
+
+Features:
+--------------
+Online transfer of blood from one blood bank to another.
+Provide a list of Donors who are eligible for donations on a particular date with a contact number.
+Inventory management in blood bank for storage and issuance of blood.
+Patient Register/ Blood Sample Receiving Register, Donor Register, Blood Issue Register and Discarded Blood report.
+Donor Management- Donor Registration, Managing donor database, recording their physical and medical statistics.
 
 
 
@@ -225,13 +237,6 @@ Disadvantage:
 --------------
 Requires active internet connection
 
-Features:
---------------
-Online transfer of blood from one blood bank to another.
-Provide a list of Donors who are eligible for donations on a particular date with a contact number.
-Inventory management in blood bank for storage and issuance of blood.
-Patient Register/ Blood Sample Receiving Register, Donor Register, Blood Issue Register and Discarded Blood report.
-Donor Management- Donor Registration, Managing donor database, recording their physical and medical statistics.
 
 Front End
 ---------
