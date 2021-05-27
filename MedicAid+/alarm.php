@@ -32,56 +32,71 @@
     </div>
   </section>
 
-  <section class="ftco-hireme bg-white">
-    <div class="container">
-        <div class="col-lg-10 col-md-12 mx-auto text-center">
-          <h1 class="text-center font-weight-bold text-danger pt-4 mt-4">Join the MedicAid to Sound the Alarm. Save a Life.</h1>
-        </div>
-    </div>
-  </section>
-
 
   <div class="wrap-about text-center ">
     <div class="heading-section pr-md-5 pt-md-5 ">
-    <strong><h1 class="mb-4 text-dark">In a Home Fire, Can Your Family Safely Escape in Just 2 Minutes?</h1></strong>
-  <br>
-  <div class="row justify-content-center">
-  <iframe width="500" height="300" src="https://www.youtube.com/embed/jmEThU6sIjc" allowfullscreen></iframe>
-  </div>
+    <strong><h1 class="mb-10 text-dark">In a Home Fire, Can Your Family Safely Escape in Just 2 Minutes?</h1></strong><br><br>
   </div>
 </div>
 
-
-<br>
-<div class="col-md-20 heading-section ftco-animate p-7 p-lg-5">
-<strong>Q: Are individuals who received a COVID-19 vaccine eligible to give blood, platelets and plasma?</strong>
-<br>
-<strong>A:</strong> In most cases, there is no blood, platelet or plasma donation deferral time after receiving a COVID-19 vaccine. However, knowing the name of the vaccine manufacturer is important in determining donation eligibility.
-
-<br>
-<br>
-<strong>Q: Are individuals who received a COVID-19 vaccine eligible to give COVID-19 convalescent plasma?</strong><br>
-<strong>A:</strong> While the FDA allows people who have received a COVID-19 vaccine to donate dedicated COVID-19 convalescent plasma within six months of their infection of the virus, the Red Cross discontinued dedicated COVID-19 convalescent plasma donations on March 26 due to declining hospital demand and sufficient industry supply. The Red Cross tests all blood donations for COVID-19 antibodies. Plasma from routine blood and platelet donations that test positive for high-levels of antibodies, and meets other requirements, may be used as convalescent plasma to meet potential future needs of COVID-19 patients.
-
-<br>
-<br>
-<strong>Q: I’ve heard claims that the Red Cross refuses to accept convalescent plasma from individuals who have received a COVID-19 vaccine because it wipes out the antibodies. Is this true?</strong><br>
-<strong>A:</strong>  There are claims circulating that incorrectly state that the Red Cross will not accept convalescent plasma donations from those who have received the COVID-19 vaccine because “the vaccine wipes out those antibodies making the convalescent plasma ineffective in treating other COVID-19 patients.” This is not accurate.
-The FDA allows people who have received a COVID-19 vaccine to donate dedicated COVID-19 convalescent plasma within six months of their infection of the virus, based on data that antibodies from natural infection can decline after six months.
-The Red Cross discontinued dedicated COVID-19 convalescent plasma donations on March 26 due to declining hospital demand and sufficient industry supply. The Red Cross tests all blood donations for COVID-19 antibodies. Plasma from routine blood and platelet donations that test positive for high-levels of antibodies, and meets other requirements, may be used as convalescent plasma to meet potential future needs of COVID-19 patients.
-
-<br>
-<br>
-<strong>Q: Does giving blood after receiving a COVID-19 vaccine reduce a donor’s protection from the virus?</strong><br>
-<strong>A:</strong> Donating blood after receiving a COVID-19 vaccine does not reduce a donor’s protection from the virus. Similar to other vaccines such as measles, mumps or influenza, the COVID-19 vaccine is designed to generate an immune response to help protect an individual from illness. A donor’s immune response is not impacted by giving blood.
-
-<br>
-<br>
-<strong>Q: What is the difference between plasma donation and convalescent plasma donation?</strong><br>
-<strong>A:</strong> Plasma donation and COVID-19 convalescent plasma donation are different. Plasma has been collected and transfused since the 1940’s to help patients being treated for a number of medical reasons, including burns, shock, trauma and other injuries and illnesses.
-<br>
+<p>Home fires claim seven lives every day, but you can help change that.This spring, join our national movement and pledge to keep your family safe by taking 2 simple steps: Practice your 2-minute escape drill and test your smoke alarms monthly.</p>
 </div>
 
+
+<hr class="my-4">
+
+<section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb">
+  <div class="wrap-about text-center ">
+    <div class="heading-section pr-md-5">
+    <strong><h1 class="mb-10 text-dark">How You Can Help Keep Your Family Safe</h1></strong>
+    <p>Just 2 simple steps can help prepare your family to escape from a home fire.</p><br><br>
+    <h3>1. Practice a 2-Minute Fire Drill</h3><br>
+  </div>
+</div>
+
+  <div class="container">
+    <div class="row d-flex">
+      <div class="col-md-7 col-lg-5 d-flex">
+        <div class="row justify-content-center">
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/clT8AVoCdtQ" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-7">
+        <div class="py-md-5"
+          <div class="row justify-content-start">
+            <div class="col-md-15 heading-section ftco-animate">
+              <p>Use our worksheet to draw your home’s floor plan and plot your escape routes. <br>
+          <br>
+          <strong>1.</strong> Practice your 2-minute drill (from home to a safe meeting place) at least twice a year.<br><br>
+          <strong>2.</strong> Everyone in your household should know two ways to escape from each room in your home.<br><br>
+          <strong>3.</strong> In a real fire, remember to get out, stay out and call 911. Never go back inside for people, pets or things. </p><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row d-flex">
+      <div class="col-md-7 col-lg-5 d-flex">
+        <div class="row justify-content-center">
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/clT8AVoCdtQ" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-7">
+        <div class="py-md-5"
+          <div class="row justify-content-start">
+            <div class="col-md-15 heading-section ftco-animate">
+              <p>Use our worksheet to draw your home’s floor plan and plot your escape routes. <br>
+          <br>
+          <strong>1.</strong> Practice your 2-minute drill (from home to a safe meeting place) at least twice a year.<br><br>
+          <strong>2.</strong> Everyone in your household should know two ways to escape from each room in your home.<br><br>
+          <strong>3.</strong> In a real fire, remember to get out, stay out and call 911. Never go back inside for people, pets or things. </p><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 
 <Footer>
