@@ -73,10 +73,46 @@ background-size: cover;
                       <div class="col-lg-6 col-md-6 col-12">
                         <br>
 
-                        <h1 class="text-dark">Donor Details</h1>
+                        <h1 class="text-dark">Blood Donor Details</h1>
                           <p class="text-dark">Donation is a practice when people donate to others to help them with their critical conditions. View their details and you can also block user if they are not useful. </p>
 
                           <button class="btn bg-primary text-white" onclick="window.location ='report_user.php?id=<?php echo $dbid ?>'">View Donor Details</button>
+                    </div>
+                      <div class="col-lg-6 col-md-6 col-12">
+                        <img src="Image/admin_user.jpg" class="img-fluid">
+                    </div>
+
+
+                  </div>
+
+
+                  <div class="row mb-5">
+                    <div class="col-lg-6 col-md-6 col-12">
+                      <img src="Image/admin_user.jpg" class="img-fluid">
+                  </div>
+
+                  <div class="col-lg-6 col-md-6 col-12">
+                    <br>
+
+                    <h1 class="text-dark">Plasma Donor Details</h1>
+                      <p class="text-dark">User reviews aren’t just important, they are critical to users’ purchasing decisions. View all reviews and you can also report review if it is irrelevant.</p>
+
+                      <button class="btn bg-primary text-white" onclick="window.location ='report_plasma.php?id=<?php echo $dbid ?>'">View Donor Details</button>
+                </div>
+                </div>
+
+                  <div class="container-fluid">
+
+                  <hr>
+
+                    <div class="row mb-5">
+                      <div class="col-lg-6 col-md-6 col-12">
+                        <br>
+
+                        <h1 class="text-dark">Ambulance</h1>
+                          <p class="text-dark">Donation is a practice when people donate to others to help them with their critical conditions. View their details and you can also block user if they are not useful. </p>
+
+                          <button class="btn bg-primary text-white" onclick="window.location ='report_ambulance.php?id=<?php echo $dbid ?>'">View Ambulance Details</button>
                     </div>
                       <div class="col-lg-6 col-md-6 col-12">
                         <img src="Image/admin_user.jpg" class="img-fluid">
