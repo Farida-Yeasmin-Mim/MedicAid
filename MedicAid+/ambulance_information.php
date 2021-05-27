@@ -1,6 +1,13 @@
 <?php
   // Create database connection
   include 'connection.php';
+  if (isset($_GET['id'])){
+     $dbid =  $_GET['id'];
+  }
+  else
+  {
+    $dbid = 0;
+  }
   if (isset($_POST['search'])) {
     $dbsearch = strip_tags($_POST['srch']);
     $sql = "SELECT * FROM ambulance WHERE division LIKE '%$dbsearch%' AND status='Active'";
@@ -50,7 +57,7 @@ background-size: cover;
                   <h1 class="text-center text-dark text-capitalize pt-5">Ambulance Information</h1>
                   <hr class="w-25 pt-5">
 
-              <form class="example" method="POST" action="ambulance_information.php">
+              <form class="example" method="POST" action="ambulance_information.php<?php if($dbid!=0) echo "?id=$dbid" ?>">
   <input name="srch" type="text" placeholder="Search By Division.." name="search">
   <button name="search" type="submit"><i class="fa fa-search"></i></button>
 </form>

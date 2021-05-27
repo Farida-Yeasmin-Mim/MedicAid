@@ -143,6 +143,13 @@ $result = mysqli_query($conn, "SELECT * FROM donor WHERE donor_id='$dbid'");
 <link rel="stylesheet" href="CSS/bootstrap-grid.css">
 
 
+<style>
+body {
+background-image: url('Image/up_bg.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
 </style>
 </head>
 <body>
@@ -150,6 +157,8 @@ $result = mysqli_query($conn, "SELECT * FROM donor WHERE donor_id='$dbid'");
     <?php include 'header2.php';?>
 
               </header>
+              <br>
+              <button class="btn bg-primary text-white" onclick="window.location ='donor_profile.php?id=<?php echo $dbid ?>'">Back To Profile</button>
 
               <div class="container-fluid">
                 <h1 class="text-center text-dark text-capitalize pt-5">Edit Profile</h1>

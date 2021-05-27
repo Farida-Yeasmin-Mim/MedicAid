@@ -1,6 +1,15 @@
 <?php
   // Create database connection
   include 'connection.php';
+  if (isset($_GET['id'])){
+     $dbid =  $_GET['id'];
+  }
+  else
+  {
+    $dbid = 0;
+  }
+
+
   if (isset($_POST['search'])) {
     $dbsearch = strip_tags($_POST['srch']);
     $sql = "SELECT * FROM plasma WHERE blood_group LIKE '%$dbsearch%' OR division LIKE '%$dbsearch%'";
@@ -51,7 +60,7 @@ background-size: cover;
                   <h3 class="text-center">Corona Recovery Patients List</h3>
                   <hr class="w-25 pt-5">
 
-              <form class="example" method="POST" action="plasma_donor_information.php">
+              <form class="example" method="POST" action="plasma_donor_information.php<?php if($dbid!=0) echo "?id=$dbid" ?>">
   <input name="srch" type="text" placeholder="Search By Blood Group or Division..." name="search">
   <button name="search" type="submit"><i class="fa fa-search"></i></button>
 </form>

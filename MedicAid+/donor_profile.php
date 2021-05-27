@@ -1,5 +1,10 @@
 <!<?php
 include 'connection.php';
+
+if ($_GET['id']==NULL){
+   header('location:please_login_donor.php');
+}
+
 $dbid =  $_GET['id'];
 $sql = "SELECT full_name,email,contact_number,gender,age,blood_group,division,address,blood_status,plasma_status
 FROM donor
@@ -179,41 +184,7 @@ $dbps= $row["plasma_status"];
                 </div>
             </form>
         </div>
-        <?php
 
-        $sql = "SELECT plasma_status
-        FROM donor
-        WHERE donor_id='$dbid'";
-        $result = mysqli_query($conn,$sql);
-        $row = mysqli_fetch_assoc($result);
-        $plasma= $row["plasma_status"];
-        if($plasma=='Active')
-        {
-            ?>
-        <section>
-          <div class="container">
-          <div class="container-fluid">
-
-            <div class="row mb-5">
-              <div class="col-lg-6 col-md-6 col-12">
-                <br>
-                <br>
-
-                <h1 class="text-dark">Are you a corona recovery patient?</h1>
-                  <p class="text-dark">Donation is a practice when people donate to others to help them with their critical conditions. To ensure safety, these are some of the requirements donors must meet to be eligible.To see a list of eligibility information,search donating requirements. </p>
-
-                  <button class="btn bg-primary text-white" onclick="window.location ='plasma_form.php?id=<?php echo $dbid ?>'">Register To Become A Plasma Donor</button>
-
-            </div>
-              <div class="col-lg-6 col-md-6 col-12">
-                <img src="Image/plasmaindex.jpg" class="img-fluid">
-            </div>
-
-
-          </div>
-          <hr>
-        </section>
-        <?php } ?>
 
   </body>
 </html>
