@@ -154,10 +154,10 @@
   				<div class="col-md-7 wrap-about py-5">
   					<div class="heading-section pr-md-5 pt-md-5">
 <br>
-<br>
+
     					<strong><h1 class="mb-4 text-danger">We are here to help everyone in need</h1></strong>
 <br>
-              <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+              <p>The best way to not feel hopeless is to get up and do something. Don’t wait for good things to happen to you. If you go out and make some good things happen, you will fill the world with hope, you will fill yourself with hope. On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
   					</div>
   					<div class="row my-md-5">
               	<p><a href="volunteer.php" class="btn btn-danger btn-outline-light">Become A Volunteer</a></p>
@@ -214,7 +214,7 @@
                 <div class="card-body bg-info">
                   <h4 class="card-title text-white">Get involved</h4>
                   <p class="card-text text-white">
-                    We need volunteers to help us with this life-saving mission. 
+                    We need volunteers to help us with this life-saving mission.
                   </p>
                 </div>
                 <div class="card-footer bg-info ">
@@ -247,7 +247,7 @@
               </div>
   						<div class="text p-3">
   							<h3 class="text-white"><a href="#">Save the poor people by donate blood</a></h3>
-  							<p>Far far away, behind the word mountains, far from the countries Vokalia</p>
+  							<p>  Donate to save life  as much as you can. Save the one who need.</p>
 
               	<div class="goal mb-4">
   								<p><strong class="text-danger">$5,800</strong> to go</p>
@@ -268,7 +268,7 @@
               </div>
   						<div class="text p-3">
   							<h3 class="text-black"><a href="#">Save the poor covid-19 patients from death</a></h3>
-  							<p>Far far away, behind the word mountains, far from the countries Vokalia</p>
+  							<p> Donate to save life  as much as you can. Save the one who need.</p>
                 <div class="goal mb-4">
   								<p><strong class="text-danger">$4,500</strong> to go</p>
   								<div class="progress" style="height:20px">
@@ -287,7 +287,7 @@
               </div>
   						<div class="text p-3">
   							<h3><a href="#">Save the people affected by natural disasters</a></h3>
-  							<p>Far far away, behind the word mountains, far from the countries Vokalia</p>
+  							<p>  Donate to save life  as much as you can. Save the one who need.</p>
                 <div class="goal mb-4">
   								<p><strong class="text-danger">$3,800</strong> to go</p>
   								<div class="progress" style="height:20px">
@@ -306,7 +306,7 @@
               </div>
   						<div class="text p-3">
   							<h3><a href="#">Save the poor children from hunger</a></h3>
-  							<p>Far far away, behind the word mountains, far from the countries Vokalia</p>
+  							<p>  Donate to save life  as much as you can. Save the one who need.</p>
                 <div class="goal mb-4">
                   <p><strong class="text-danger">$4,000</strong> to go</p>
                   <div class="progress" style="height:20px">
