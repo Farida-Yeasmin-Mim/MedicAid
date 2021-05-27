@@ -141,7 +141,7 @@
   								</div>
   								<div class="col-md-12">
   									<div class="form-group">
-                      <button class="btn btn-danger" type="button" onclick="window.location ='card.php'"></i>Donate Now</a>
+                      <button class="btn btn-danger" type="button" onclick="window.location ='donation_form.php'"></i>Donate Now</a>
                       </button>
   									</div>
   								</div>
