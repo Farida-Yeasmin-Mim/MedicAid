@@ -45,8 +45,8 @@ window.location.href='donor_signup.php';
 
 }
 }
- $sql="INSERT INTO donor(full_name, email, contact_number, gender, age, blood_group, division, address, password,blood_status,plasma_status,platelet_status)
-VALUES ('$dbfname','$dbemail','$dbcontact','$dbgender','$dbage','$dbbgroup','$dbdivision','$dbaddress','$dbpassword','Yes','Yes','Yes')";
+ $sql="INSERT INTO donor(full_name, email, contact_number, gender, age, blood_group, division, address, password,blood_status,plasma_status)
+VALUES ('$dbfname','$dbemail','$dbcontact','$dbgender','$dbage','$dbbgroup','$dbdivision','$dbaddress','$dbpassword','Yes','No')";
 mysqli_query($conn, $sql);
 
 $sql = "SELECT donor_id
@@ -84,9 +84,9 @@ header("Location: donor_profile.php?id=$dbid");
            <?php include 'header.php';?>
        </header>
 
-       
+
      <div class="card bg-dark text-white">
-         <img class="card-img" src="Image/signup.jpg" alt="Card image">
+         <img class="card-img" src="Image/ambulancesigncover.jpg" alt="Card image">
        <div class="card-img-overlay">
      <article class="card-body mx-auto" style="max-width: 450px;">
 
@@ -94,16 +94,9 @@ header("Location: donor_profile.php?id=$dbid");
 <div class="card bg-light">
 <article class="card-body mx-auto" style="max-width: 400px;">
   <div class="container-fluid">
-    <h2 class="text-center text-dark text-capitalize pt-4">Blood Donor Sign Up</h2>
+    <h2 class="text-center text-dark text-capitalize pt-4">Sign Up | Donor</h2>
 	<p class="text-center text-dark">Get started with your free account</p>
-	<p>
 
-	<a class="btn btn-lg btn-google btn-block btn-outline " href="#"><img src="https://img.icons8.com/color/16/000000/google-logo.png"> Sign in with Google</a>
-
-	</p>
-	<p class="divider-text text-dark">
-        <span class="bg-light">OR</span>
-    </p>
 	<form action="donor_signup.php" id="signform" method="POST">
 	<div class="form-group input-group">
 		<div class="input-group-prepend">
@@ -191,7 +184,7 @@ header("Location: donor_profile.php?id=$dbid");
     <div class="form-group">
         <button type="submit" name="signup" form="signform" class="btn btn-primary btn-block"> Create Account  </button>
     </div>
-    <p class="text-center text-primary">Have an account? <a href="">Log In</a> </p>
+    <p class="text-center text-primary">Have an account? <a href="donor_login.php">Log In</a> </p>
 </form>
 </article>
 </div>

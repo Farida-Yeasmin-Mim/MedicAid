@@ -100,20 +100,6 @@ if (isset($_POST['ps_edit']))
   header("Location: edit_donor_profile.php?id=$dbid");
 }
 
-if (isset($_POST['pts_edit']))
-{
-  $dbs = strip_tags($_POST['pts']);
-  $sql = "UPDATE donor
-  SET platelet_status='$dbs'
-  WHERE donor_id='$dbid' ";
-  // execute query
-  mysqli_query($conn, $sql);
-
-
-
-  header("Location: edit_donor_profile.php?id=$dbid");
-}
-
 
 if (isset($_POST['delete_user']))
 {
@@ -130,7 +116,6 @@ if (isset($_POST['delete_user']))
          WHERE User_Name=old.User_Name;
          end $$
   DEMIMITER;*/
-
 
 
   header("Location: user_login.php");
@@ -217,6 +202,7 @@ $result = mysqli_query($conn, "SELECT * FROM donor WHERE donor_id='$dbid'");
     echo "<button type='submit' name='bs_edit' class='btn btn-info'>Set Blood Donation Status</button>";
     echo "<br><br>";
 
+    echo "<h5>Are You A COVID19 Recoverd Patient? <br><br> If 'Yes' Then You Can Donate Your Plasma To Save Lives!  <br><br></h5>";
     echo "<h5>Plasma Donation Status: ".$row['plasma_status']." </h5>";
     echo "<select name='ps' class='form-control' >";
     echo	"<option value='' disabled selected> Select Status</option>";

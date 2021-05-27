@@ -6,7 +6,7 @@ FROM donor
 WHERE donor_id='$dbid'";
 $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_assoc($result);
-$dbname= $row["full_name"];
+$dbfname= $row["full_name"];
 $dbemail= $row["email"];
 $dbcontact= $row["contact_number"];
 $dbgender= $row["gender"];
@@ -55,7 +55,7 @@ $dbps= $row["plasma_status"];
                         <div class="profile-head">
                           <br> <br>
                                     <h2>
-                                        <?php echo $dbname ?>
+                                        <?php echo $dbfname ?>
                                     </h2>
                                     <h5>
                                         Blood Group: <?php echo $dbbg ?>
@@ -75,6 +75,8 @@ $dbps= $row["plasma_status"];
                     <div class="col-md-2">
                       <br><br>
                         <a class="btn btn-primary" href="edit_donor_profile.php?id=<?php echo $dbid ?>" role="button">Edit Profile</a>
+                        <br><br>
+                        <a class="btn btn-primary" href="donor_login.php" role="button">Log Out</a>
 
                     </div>
                 </div>
@@ -90,7 +92,7 @@ $dbps= $row["plasma_status"];
                                                 <label>Name</label>
                                             </div>
                                             <div class="col-md-6">
-                                                <p><?php echo $dbname ?></p>
+                                                <p><?php echo $dbfname ?></p>
                                             </div>
                                         </div>
                                         <div class="row">

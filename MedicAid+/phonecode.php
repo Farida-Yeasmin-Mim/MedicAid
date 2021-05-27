@@ -12,7 +12,7 @@
   <script src="https://apis.google.com/js/platform.js" async defer></script>
   <style>
 body {
-  background-image: url('Image/logg.jpg');
+  background-image: url('Image/up_bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

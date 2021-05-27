@@ -83,7 +83,7 @@ body {
   <div class="form-group">
     <label for="pwd">Password:</label>
     <input type="password" name="password" class="form-control" placeholder="**********" id="pwd" required="">
-    <a href="forget_pass.php">Forgotten Password?</a>
+    <a href="phonecode.php">Forgotten Password?</a>
   </div>
 
   <div class="col-md-12 text-center">
