@@ -72,7 +72,7 @@ body {
                 </header>
 
     <div class="container-fluid ">
-      <h1 class="text-center text-dark text-capitalize pt-5">Login</h1>
+      <h1 class="text-center text-dark text-capitalize pt-5">User Login</h1>
       <hr class="w-25 pt-4">
       <div class="w-25 mx-auto">
         <form id="loginform" method="POST" action="user_login.php">
