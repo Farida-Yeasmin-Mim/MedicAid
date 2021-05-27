@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Vaccines and Blood</title>
+    <title>Hurricane Season</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -24,10 +24,10 @@
 
   <div class="wrap-about text-center ">
     <div class="heading-section pr-md-5 pt-md-5 ">
-    <strong><h1 class="mb-4 text-dark">Answers to Common Questions About COVID-19 Vaccines and Blood, Platelet, Plasma Donation Eligibility</h1></strong>
+    <strong><h1 class="mb-4 text-dark">Experts Predict Busy 2021 Hurricane Season, Get Ready Now</h1></strong>
   <br>
     <div class="row justify-content-center">
-      <img src="Image/vaccine.png" alt="Chicago" width="800" height="300">
+      <img src="Image/hurricane.png" alt="Chicago" width="800" height="300">
     </div>
   </div>
 </div>
@@ -35,32 +35,38 @@
 
 <br>
 <div class="col-md-20 heading-section ftco-animate p-7 p-lg-5">
-<strong>Q: Are individuals who received a COVID-19 vaccine eligible to give blood, platelets and plasma?</strong>
+  <p>The National Oceanic and Atmospheric Administration (NOAA) predicts another above-normal Atlantic hurricane season this year,
+    and the American Red Cross is urging people in hurricane prone areas to get ready now after back-to-back years of record-breaking hurricane seasons.<br><br>
+
+While experts do not anticipate 2020’s historic storms, NOAA reports this year there could be 13 to 20 named storms with winds of 39 mph or higher.
+Six to ten of these could become hurricanes with winds of 74 mph or higher, including 3 to 5 major hurricanes with winds of 111 mph or higher.
+2020’s hurricane season set records with 30 named storms and billions of dollars in damages. <br><br>
+
+The Atlantic hurricane season runs from June 1 to November 30. However, two tropical storms affected the southeastern states last May,
+so it’s critical for people who live in hurricane prone areas to make their preparedness plans now.<br><br>
+
+Last year, extreme weather events created the greatest number of billion-dollar disasters to strike the U.S. in a single year. Compounded by the pandemic,
+disasters took an enormous toll on families who spent more nights in emergency lodging in 2020 —  more than 1.3 million —  than any other year over
+the past decade.</p>
 <br>
-<strong>A:</strong> In most cases, there is no blood, platelet or plasma donation deferral time after receiving a COVID-19 vaccine. However, knowing the name of the vaccine manufacturer is important in determining donation eligibility.
+
+<strong>GET READY NOW </strong>
+It only takes one storm to devastate a community. Preparing for hurricane season doesn’t have to be hard, just follow these steps to help make sure your family is ready to either evacuate or hunker down if a storm threatens your neighborhood.
+<br>
+<br>
+
+
+<strong>1. If you already have an emergency plan, update it and review with family members so everyone knows what to do if an emergency occurs.</strong><br>
 
 <br>
-<br>
-<strong>Q: Are individuals who received a COVID-19 vaccine eligible to give COVID-19 convalescent plasma?</strong><br>
-<strong>A:</strong> While the FDA allows people who have received a COVID-19 vaccine to donate dedicated COVID-19 convalescent plasma within six months of their infection of the virus, the Red Cross discontinued dedicated COVID-19 convalescent plasma donations on March 26 due to declining hospital demand and sufficient industry supply. The Red Cross tests all blood donations for COVID-19 antibodies. Plasma from routine blood and platelet donations that test positive for high-levels of antibodies, and meets other requirements, may be used as convalescent plasma to meet potential future needs of COVID-19 patients.
+<strong>2. If you already have a disaster kit, now is the time make sure the food and water is still okay to consume and that copies of important documents are up to date.</strong><br>
 
 <br>
-<br>
-<strong>Q: I’ve heard claims that the Red Cross refuses to accept convalescent plasma from individuals who have received a COVID-19 vaccine because it wipes out the antibodies. Is this true?</strong><br>
-<strong>A:</strong>  There are claims circulating that incorrectly state that the Red Cross will not accept convalescent plasma donations from those who have received the COVID-19 vaccine because “the vaccine wipes out those antibodies making the convalescent plasma ineffective in treating other COVID-19 patients.” This is not accurate.
-The FDA allows people who have received a COVID-19 vaccine to donate dedicated COVID-19 convalescent plasma within six months of their infection of the virus, based on data that antibodies from natural infection can decline after six months.
-The Red Cross discontinued dedicated COVID-19 convalescent plasma donations on March 26 due to declining hospital demand and sufficient industry supply. The Red Cross tests all blood donations for COVID-19 antibodies. Plasma from routine blood and platelet donations that test positive for high-levels of antibodies, and meets other requirements, may be used as convalescent plasma to meet potential future needs of COVID-19 patients.
+<strong>3. Find out how local officials will contact you during a disaster and how you will get important information, such as evacuation orders.</strong><br>
 
 <br>
-<br>
-<strong>Q: Does giving blood after receiving a COVID-19 vaccine reduce a donor’s protection from the virus?</strong><br>
-<strong>A:</strong> Donating blood after receiving a COVID-19 vaccine does not reduce a donor’s protection from the virus. Similar to other vaccines such as measles, mumps or influenza, the COVID-19 vaccine is designed to generate an immune response to help protect an individual from illness. A donor’s immune response is not impacted by giving blood.
+<strong>4. Download the free Red Cross Emergency app to help keep you and your loved ones safe with real-time alerts, open Red Cross shelter locations and safety advice on hurricanes and other emergencies.</strong><br>
 
-<br>
-<br>
-<strong>Q: What is the difference between plasma donation and convalescent plasma donation?</strong><br>
-<strong>A:</strong> Plasma donation and COVID-19 convalescent plasma donation are different. Plasma has been collected and transfused since the 1940’s to help patients being treated for a number of medical reasons, including burns, shock, trauma and other injuries and illnesses.
-<br>
 </div>
 
 
