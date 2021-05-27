@@ -1,38 +1,48 @@
 <?php
 include 'connection.php';
 
-if (!empty($_GET['id'])){
+
+if (isset($_GET['id'])){
    $dbid =  $_GET['id'];
-   $sql = "SELECT full_name, email, contact_number, gender, age, blood_group, division, address FROM donor WHERE donor_id=$dbid";
-   $result = mysqli_query($conn,$sql);
-   $row = mysqli_fetch_assoc($result);
-   $name= $row["full_name"] ;
-   $email= $row["email"] ;
-   $contact= $row["contact_number"] ;
-   $gender= $row["gender"] ;
-   $age= $row["age"] ;
-   $blood_group= $row["blood_group"] ;
-   $division= $row["division"] ;
-   $address= $row["address"] ;
-
-   $sql="INSERT INTO plasma(full_name, email, contact_number, gender, age, blood_group, division, address)
-  VALUES ('$name','$email','$contact','$gender','$age','$blood_group','$division','$address')";
-  mysqli_query($conn, $sql);
-
-  $sql = "UPDATE donor
-  SET plasma_status='Active'
-  WHERE donor_id='$dbid' ";
-  // execute query
-  mysqli_query($conn, $sql);
-
-  $sql = "SELECT plasma_id FROM plasma WHERE contact_number='$contact' ";
-  $result = mysqli_query($conn,$sql);
-  $row = mysqli_fetch_assoc($result);
-  $dbp= $row["plasma_id"] ;
-
-  header("Location: thankyou2.php?id=$dbid&p=$dbp");
-
 }
+else
+{
+  $dbid = 0;
+}
+
+
+// if (!empty($_GET['id'])){
+//    $dbid =  $_GET['id'];
+//    $sql = "SELECT full_name, email, contact_number, gender, age, blood_group, division, address FROM donor WHERE donor_id=$dbid";
+//    $result = mysqli_query($conn,$sql);
+//    $row = mysqli_fetch_assoc($result);
+//    $name= $row["full_name"] ;
+//    $email= $row["email"] ;
+//    $contact= $row["contact_number"] ;
+//    $gender= $row["gender"] ;
+//    $age= $row["age"] ;
+//    $blood_group= $row["blood_group"] ;
+//    $division= $row["division"] ;
+//    $address= $row["address"] ;
+//
+//    $sql="INSERT INTO plasma(full_name, email, contact_number, gender, age, blood_group, division, address)
+//   VALUES ('$name','$email','$contact','$gender','$age','$blood_group','$division','$address')";
+//   mysqli_query($conn, $sql);
+//
+//   $sql = "UPDATE donor
+//   SET plasma_status='Active'
+//   WHERE donor_id='$dbid' ";
+//   // execute query
+//   mysqli_query($conn, $sql);
+//
+//   $sql = "SELECT plasma_id FROM plasma WHERE contact_number='$contact' ";
+//   $result = mysqli_query($conn,$sql);
+//   $row = mysqli_fetch_assoc($result);
+//   $dbp= $row["plasma_id"] ;
+//
+//   header("Location: thankyou_donor.php?id=$dbid&p=$dbp");
+//
+// }
 
 
 if(isset($_POST['signup'])){
@@ -58,8 +68,8 @@ $dbbcontact= $row["contact_number"];
 // Check if the username they entered was correct
 if ($dbbemail == $dbemail) {
   echo "<script>
-alert('Same User Name Exist! Try Another User Name!');
-window.location.href='plasma_form.php';
+alert('Same User Email Exist! Try Email!');
+window.location.href=plasma_form.php';
 </script>";
   exit();
 
@@ -89,7 +99,7 @@ WHERE email='$dbemail'";
 $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_assoc($result);
 $dbid= $row["plasma_id"];
-header("Location: thankyou.php?id=$dbid");
+header("Location: thankyou_plasma.php?id=$dbid");
 
 }
 
