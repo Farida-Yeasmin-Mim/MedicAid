@@ -89,7 +89,7 @@ if (isset($_POST['feedback'])) {
         <a class="nav-link" style="font-size:23px; font-weight:bold" href="feedback.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Feedback</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="login_as.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Login</a>
+        <a name="logi" class="nav-link" style="font-size:23px; font-weight:bold" href="login_as.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Login</a>
       </li>
 
     </ul>
