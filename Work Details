@@ -122,29 +122,45 @@ advantages and disadvantages, features, front-end and back-end, sequence diagram
 Farida Yeasmin Mim (1911653642):
 -------------------------------------------
 
----index.php/html/css  page: 
+
+---index.php/css  page: 
 About Us Section
 Appointment
 Covid-19 update 
 MedicAid mission work design
 
 
----contactUs.php/html/css page:
+---contactUs.php/css page:
 Full Page design
 
 
 ---Feedback.php/css page:
 Feedback for MedicAid
 
+---Orientation.php page:
+Full page design
 
+---disaster.php page:
+Full page design
 
+---pregnancy.php page:
+Full page design
+
+---alarm.php page:
+Full page design
+
+---vaccine_blood.php page:
+Full page design
+
+---hurricane.php page:
+Full page design
 
 
 ---about.php/css page:
 Full page design
 
 
----volunteer.php/html/css page:
+---volunteer.php/css page:
 Full page design
 1)carousel design and picture editing/adding
 2)Volunteering with MedicAid by the numbers design
@@ -152,17 +168,17 @@ Full page design
 3)Important Notice Regarding Covid-19 (carousel design)
 4)Volunteer Login
 5)Volunteer Signup
-6)Ne volunteer applicants
+6)New volunteer applicants
 7)More related links
 8)Expert volunteer
-9)Volunteer Feedback
 
 
----volunteer_login.php/html page:
+
+---volunteer_login.php page:
 full page design
 
 
----volunteer_signup.php/html page:
+---volunteer_signup.php page:
 full page design
 
 
@@ -220,8 +236,13 @@ Added some survey questions
 
 
 ---project report:
+Introduction
+Abstract
+goal
+user reuirements
 Front end
 Back end
+Modules of project
 Features of the project
 
 
