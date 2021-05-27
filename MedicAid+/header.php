@@ -100,7 +100,7 @@ if (isset($_POST['feedback'])) {
     </form>
   </div>
 </nav>
-    </form>
+  </form>
 
   </div>
 </nav>
