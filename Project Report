@@ -107,22 +107,30 @@ Several different surveys have been completed using different methods. Below the
 
 MODULES OF MedicAid:
 
-Online Blood Bank management system is to provide services for the people who are in need of blood by getting help from the donors who are interested in donating blood for the people. There are seven main modules in this system.
+MedicAid is to provide services for the people who are in need of blood, plasma by getting help from the donors who are interested in donating for the people. People who need ambulance, medicAid give this service too. Even MedicAid volunteers are always there to help anyone in need.  
+The main modules of this system are:
 
-Admin
-
-Donors 
-
-Donor Registration
-
-Modifying Donor Information
-
-Acceptors
-
+Admin Login
+Admin Profile
+Modify Reviews
+View Blood lists
+Modify donor details (Blood/plasma)
+Modify ambulance details 
+Donor signup
+Donor Login
 Donor Search
+View Donor Profile info
+Modify Donor profile info
+View all donor information
+Volunteer Login
+Volunteer Signup
+View volunteer Profile info
+Modify volunteer profile info
+Ambulance search
+Appointment form
+Donation form
 
-Life Saving Contacts
-Volunteer
+
 
 
 
@@ -130,13 +138,18 @@ Admin:
 
 Admin can manage both donors & acceptors. He can add or remove any user from the system. Each member in a donor & acceptor is given a user id and password, which identifies him uniquely. From admin module use can change donor details, delete donor or change the password.
 
-· Change Password
+Admin login
+Admin profile
+View Reviews
+Delete Bad Reviews
+View Blood lists
+Modify donor details (Blood/plasma)
+Delete donor details (Blood/plasma)
+Modify ambulance details (Blood/plasma)
+Delete ambulance details
+Logout
+ 
 
-· Modify donor details
-
-· delete donor details
-
-· Logout
 
 Whenever a user wants to change his / her password he can select the change password option. The system displays the form, which asks him for his old password and new password. The system then compares the old password with the existing password in the database and if they match then the password is set to the new password in the database.
 
@@ -145,6 +158,15 @@ Whenever a user wants to change his / her password he can select the change pass
 Donors
 
 From this module user can create their account, when user create his account the user get a user id and password, which identifies him uniquely. From this module user can search donor for blood and can also refer his friend to become a donor. Donor can also get information like when he donated blood or when he will be able to donate blood.
+
+
+Donor signup
+Donor Login
+View Donor Profile
+Modify Donor profile
+View all donor information
+logout
+
 
 Donor Registration:
 
