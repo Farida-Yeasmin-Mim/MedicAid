@@ -54,7 +54,7 @@ window.location.href='index.php?id=$dbid';
           <hr class="w-25 ">
             <div class="text-center">
           <button class="btn bg-info text-white text-left"type="button" onclick="window.location ='user_login.php'">User</button>
-          <button class="btn bg-info text-white text-left"type="button" onclick="window.location ='donor_login.php'">Donor</button>
+          <button name="donor_log" class="btn bg-info text-white text-left"type="button" onclick="window.location ='donor_login.php'">Donor</button>
           <button class="btn bg-info text-white text-left"type="button" onclick="window.location ='volunteer_login.php'">Volunteer</button>
           <button class="btn bg-info text-white text-left"type="button" onclick="window.location ='admin_login.php'">Admin</button>
 
