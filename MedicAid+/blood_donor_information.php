@@ -1,6 +1,8 @@
 <?php
   // Create database connection
   include 'connection.php';
+
+
   if (isset($_GET['id'])){
      $dbid =  $_GET['id'];
   }
@@ -8,10 +10,10 @@
   {
     $dbid = 0;
   }
-
   if ($_GET['id']==NULL){
      header('location:please_login.php');
-  }
+   }
+
     $dbid =  $_GET['id'];
   if (isset($_POST['search'])) {
     $dbsearch = strip_tags($_POST['srch']);
