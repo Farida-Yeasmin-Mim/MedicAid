@@ -47,10 +47,10 @@ Functional Requirements
 6.Map
 
 Non functional Requirements
-1. Availability
-2. Security
-3. Performance
-4. Reliability
+1. Availability: Project will be accessible to users in Bangladesh.
+2. Security: Ensures privacy.
+3. Performance: System should be able to handle multiple users at a time using the web browser.
+4. Reliability: To avoid data inconsistency, the database should follow transaction processing.
 
 Advantages
 -----------
