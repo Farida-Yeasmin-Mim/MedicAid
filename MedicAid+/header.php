@@ -1,5 +1,14 @@
 <?php
 include 'connection.php';
+
+if (isset($_GET['id'])){
+   $dbid =  $_GET['id'];
+}
+else
+{
+  $dbid = 0;
+}
+
 if (isset($_POST['search'])) {
 $dbsearch = strip_tags($_POST['srch']);
 if($dbsearch == NULL)
@@ -62,25 +71,25 @@ if (isset($_POST['feedback'])) {
 
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="index.php">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="index.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="donation.php">Donation</a>
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="donation.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Donation</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="volunteer.php">Volunteer</a>
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="volunteer.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Volunteer</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="ambulance.php">Ambulance</a>
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="ambulance.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Ambulance</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="appointment.php">Appointment</a>
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="appointment.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Appointment</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="feedback.php">Feedback</a>
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="feedback.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Feedback</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="login_as.php">Login</a>
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="login_as.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Login</a>
       </li>
 
     </ul>
