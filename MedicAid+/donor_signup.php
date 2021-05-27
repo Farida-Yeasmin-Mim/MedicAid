@@ -46,7 +46,7 @@ window.location.href='donor_signup.php';
 }
 }
  $sql="INSERT INTO donor(full_name, email, contact_number, gender, age, blood_group, division, address, password,blood_status,plasma_status)
-VALUES ('$dbfname','$dbemail','$dbcontact','$dbgender','$dbage','$dbbgroup','$dbdivision','$dbaddress','$dbpassword','Yes','No')";
+VALUES ('$dbfname','$dbemail','$dbcontact','$dbgender','$dbage','$dbbgroup','$dbdivision','$dbaddress','$dbpassword','Active','Inactive')";
 mysqli_query($conn, $sql);
 
 $sql = "SELECT donor_id
