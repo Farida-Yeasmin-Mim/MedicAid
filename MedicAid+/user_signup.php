@@ -1,4 +1,7 @@
 <?php
+
+require_once "config.php";
+$loginURL = $gClient->createAuthUrl();
 include 'connection.php';
 
 if(isset($_POST['signup'])){
