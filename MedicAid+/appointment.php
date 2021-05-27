@@ -106,14 +106,23 @@
 	        	<div class="appointment-wrap bg-info p-5 d-flex align-items-center">
 		        	<form action="#" class="appointment-form ftco-animate">
 		        		<h3>Free Consultation</h3>
+
 		    				<div class="">
 			    				<div class="form-group">
-			    					<input type="text" class="form-control" placeholder="First Name">
-			    				</div>
-			    				<div class="form-group">
-			    					<input type="text" class="form-control" placeholder="Last Name">
+			    					<input type="text" class="form-control" placeholder="Full Name">
 			    				</div>
 		    				</div>
+
+              <div class="">
+              <div class="form-group">
+                    <input type="email" name="email" id="form2" class="form-control"  placeholder="Email" required="">
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Phone">
+              </div>
+              </div>
+
 		    				<div class="">
 		    					<div class="form-group">
 			    					<div class="form-field">
@@ -128,9 +137,6 @@
 	                      </select>
 	                    </div>
 			              </div>
-			    				</div>
-		    					<div class="form-group">
-			    					<input type="text" class="form-control" placeholder="Phone">
 			    				</div>
 		    				</div>
 
