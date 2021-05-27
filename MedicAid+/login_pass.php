@@ -34,9 +34,20 @@ exit();
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://apis.google.com/js/platform.js" async defer></script>
 
-    <title>About</title>
+  <style>
+body {
+  background-image: url('Image/logg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
   </head>
   <body>
+
+    <header>
+      <?php include 'header.php';?>
+      </header>
     <div class="container-fluid ">
       <h1 class="text-center text-dark text-capitalize pt-5">Login</h1>
       <hr class="w-25 pt-4">
