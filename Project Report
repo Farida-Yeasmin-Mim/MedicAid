@@ -26,11 +26,13 @@ Goals of the Project:
 
 The goal of the project is to develop a web application for blood banks and plasma bank to manage information about their donors and stock. The main objectives of this website development can be defined as follows:
 1. To develop a system that provides functions to support donors to view and manage their information conveniently.
-2. To maintain records of blood donors, blood donation information and bloodstocks in a centralized database system.
+2. To maintain records of blood donors, plasma donors, blood donation information and plasma donation information in a centralized database system.
 3. To inform donors of their blood result after their donation.
 4. To support searching, matching and requesting for blood convenient for administrators
 5. To be a volunteer to support every situation in need.
-6. By donating money to the people who need.
+6. Make donation for the people who need.
+7. Emergency ambulance availability.
+
 
 
 
