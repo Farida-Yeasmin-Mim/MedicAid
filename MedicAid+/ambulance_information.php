@@ -3,9 +3,7 @@
   include 'connection.php';
 
 
-  if ($_GET['id']==NULL){
-     header('location:please_login.php');
-  }
+
 
   if (isset($_GET['id'])){
      $dbid =  $_GET['id'];
@@ -14,6 +12,11 @@
   {
     $dbid = 0;
   }
+  if ($_GET['id']==NULL){
+     header('location:please_login.php');
+   }
+
+
   if (isset($_POST['search'])) {
     $dbsearch = strip_tags($_POST['srch']);
     $sql = "SELECT * FROM ambulance WHERE division LIKE '%$dbsearch%' AND status='Active'";
