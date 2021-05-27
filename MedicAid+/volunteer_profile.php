@@ -12,7 +12,7 @@ FROM volunteer
 WHERE volunteer_id='$dbid'";
 $result = mysqli_query($conn,$sql);
 $row = mysqli_fetch_assoc($result);
-$dbname= $row["name"];
+$dfname= $row["name"];
 ?>>
 
 
@@ -48,7 +48,6 @@ background-size: cover;
                 <!--Main layout-->
                 <main class="mt-5 ">
                 <div class="container">
-
                   <div class="container-fluid">
                     <div class="row mb-5 ">
                       <div class="col-lg-6 col-md-6 col-12">
@@ -58,11 +57,12 @@ background-size: cover;
                     <div class="col-lg-6 col-md-6 col-12">
                       <br><br>
 
-                      <h1 class="text-dark">Hey <?php echo $dbname ?>!</h1>
+                      <h1 class="text-dark">Hey <?php echo $dfname ?>!</h1>
                         <p class="text-dark">View all your information and you can also change it.</p>
                         <br>
 
-                        <button class="btn bg-primary text-white" onclick="window.location ='edit_ambulance_profile.php?id=<?php echo $dbid ?>'">Edit Profile</button>
+                        <button class="btn bg-primary text-white" onclick="window.location ='edit_volunteer_profile.php?id=<?php echo $dbid ?>'">Edit Profile</button>
+                        <button class="btn bg-primary text-white" onclick="window.location ='volunteer_login.php'">Logout</button>
                   </div>
                   </div>
 
