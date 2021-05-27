@@ -1,3 +1,15 @@
+<?php
+include 'connection.php';
+
+if (isset($_GET['id'])){
+   $dbid =  $_GET['id'];
+}
+else
+{
+  $dbid = 0;
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -38,7 +50,7 @@
           <h1 class="text-dark">Blood Donation</h1>
             <p class="text-dark">A specific injury or sickness can cause lost blood in the influenced, along these lines, representing the danger of death if the blood level isn’t taken back to the ordinary. Blood is an essential flood that moves oxygen to other indispensable body parts. With the loss of blood from the body doesn’t get vital oxygen bringing about death. In such a case emerges the requirement for deliberate blood gift from another person, regardless of whether known or obscure to the person.</p>
 
-            <button class="btn bg-primary text-white" onclick="window.location ='blood_donor_information.php'">View Donor List</button>
+            <button class="btn bg-primary text-white" onclick="window.location ='blood_donor_information.php<?php if($dbid!=0) echo "?id=$dbid" ?>'">View Donor List</button>
       </div>
       </div>
 
@@ -63,7 +75,7 @@
                     </p>
                   </div>
                   <div class="card-footer">
-                    <a href="donor_signup.php" class="card-link">Sign Up For Free Now!</a>
+                    <a href="donor_signup.php<?php if($dbid!=0) echo "?id=$dbid" ?>" class="card-link">Sign Up For Free Now!</a>
                   </div>
                 </div>
               </div>
@@ -81,7 +93,7 @@
                     </p>
                   </div>
                   <div class="card-footer">
-                    <a href="information.php" class="card-link">Read More To Get Information!</a>
+                    <a href="information.php<?php if($dbid!=0) echo "?id=$dbid" ?>" class="card-link">Read More To Get Information!</a>
                   </div>
                 </div>
               </div>
@@ -103,7 +115,7 @@
             <h1 class="text-dark">Are you  eligible to donate blood?</h1>
               <p class="text-dark">Donation is a practice when people donate to others to help them with their critical conditions. To ensure safety, these are some of the requirements donors must meet to be eligible.To see a list of eligibility information,search donating requirements. </p>
 
-              <button class="btn bg-primary text-white" onclick="window.location ='donating_requirements.php'">Eligibility Criteria</button>
+              <button class="btn bg-primary text-white" onclick="window.location ='donating_requirements.php<?php if($dbid!=0) echo "?id=$dbid" ?>'">Eligibility Criteria</button>
         </div>
           <div class="col-lg-6 col-md-6 col-12">
             <img src="Image/bloodreq.jpg" class="img-fluid">
