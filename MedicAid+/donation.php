@@ -201,7 +201,7 @@
                   </p>
                 </div>
                 <div class="card-footer bg-success">
-                <p><a href="donation.php" class="btn btn-warning py-2 px-3">Read more</a></p>
+                <p><a href="donation_form.php" class="btn btn-warning py-2 px-3">Read more</a></p>
                 </div>
               </div>
             </div>
@@ -255,7 +255,7 @@
   									<div class="progress-bar progress-bar-striped bg-success" style="width:50%; height:20px">50%</div>
   								</div>
   							</div>
-  							<p><a href="#" class="btn btn-primary">Donate Now</a></p>
+  							<p><a href="donation_form.php" class="btn btn-primary">Donate Now</a></p>
   						</div>
   					</div>
   				</div>
@@ -275,7 +275,7 @@
   									<div class="progress-bar progress-bar-striped bg-success" style="width:82%; height:20px">82%</div>
   								</div>
   							</div>
-  							<p><a href="#" class="btn btn-primary">Donate Now</a></p>
+  							<p><a href="donation_form.php" class="btn btn-primary">Donate Now</a></p>
   						</div>
   					</div>
   				</div>
@@ -294,7 +294,7 @@
   									<div class="progress-bar progress-bar-striped bg-success" style="width:95%; height:20px">95%</div>
   								</div>
   							</div>
-  							<p><a href="#" class="btn btn-primary">Donate Now</a></p>
+  							<p><a href="donation_form.php" class="btn btn-primary">Donate Now</a></p>
   						</div>
   					</div>
   				</div>
@@ -313,7 +313,7 @@
                     <div class="progress-bar progress-bar-striped bg-success" style="width:75%; height:20px">75%</div>
                   </div>
                 </div>
-                <p><a href="#" class="btn btn-primary">Donate Now</a></p>
+                <p><a href="donation_form.php" class="btn btn-primary">Donate Now</a></p>
   						</div>
   					</div>
   				</div>
