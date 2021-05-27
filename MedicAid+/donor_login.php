@@ -89,13 +89,18 @@ body {
   <div class="col-md-12 text-center">
       <hr>
   <button name="log_in" class="btn btn-info w-50"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</button>
+  <hr>
+  <p  class="text-center text-primary">Don't have any account? <a name="sign_up" href="donor_signup.php">Sign-Up</a> </p>
 
-  <button type="submit" class="btn btn-secondary "><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</button>
 
 
 </div>
 
+
 </form>
+
+
+
 
 
       </div>
