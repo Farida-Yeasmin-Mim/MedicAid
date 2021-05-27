@@ -75,26 +75,45 @@
       </div>
     </div>
 
+
+    <div class="wrap-about text-center ">
+      <div class="heading-section pr-md-5">
+      <h3>2.Test Your Smoke Alarms Monthly</h3><br>
+     </div>
+    </div>
+
     <div class="row d-flex">
-      <div class="col-md-7 col-lg-5 d-flex">
-        <div class="row justify-content-center">
-        <iframe width="400" height="300" src="https://www.youtube.com/embed/clT8AVoCdtQ" allowfullscreen></iframe>
-        </div>
-      </div>
       <div class="col-md-6 col-lg-7">
         <div class="py-md-5"
           <div class="row justify-content-start">
             <div class="col-md-15 heading-section ftco-animate">
-              <p>Use our worksheet to draw your home’s floor plan and plot your escape routes. <br>
+              <p>Test your smoke alarms monthly by pressing the test button.  <br>
           <br>
-          <strong>1.</strong> Practice your 2-minute drill (from home to a safe meeting place) at least twice a year.<br><br>
-          <strong>2.</strong> Everyone in your household should know two ways to escape from each room in your home.<br><br>
-          <strong>3.</strong> In a real fire, remember to get out, stay out and call 911. Never go back inside for people, pets or things. </p><br>
+          <strong>1.</strong> You should hear three beeps, letting you know the alarm is working. <br><br>
+          <strong>2.</strong> Don't hear the beeps? Then it's time to change the batteries, if your model requires them.<br><br>
+          <strong>3.</strong> If your smoke alarm is 10 years old, it's time to get a new alarm because the sensor becomes less sensitive over time.  </p><br>
           </div>
+        </div>
+      </div>
+      <div class="col-md-7 col-lg-5">
+        <div class="row justify-content-center">
+        <iframe width="400" height="300" src="https://www.youtube.com/embed/JvjLPSja6xU" allowfullscreen></iframe>
         </div>
       </div>
     </div>
 
+  </div>
+</section>
+
+
+<section class="ftco-hireme bg-info">
+  <div class="container">
+      <div class="col-lg-8 col-md-12 mx-auto text-center">
+        <h2 class="text-center font-weight-bold text-white pt-4 mt-4">Donation Campaign are running !!</h2>
+      </div>
+      <div class="col-lg-5 col-md-12 pl-lg-4 py-md-4 mx-auto text-center">
+        <p class="mb-0"><a href="donation.php" class="btn btn-danger py-3 px-4">Donate Now</a></p>
+      </div>
   </div>
 </section>
 
