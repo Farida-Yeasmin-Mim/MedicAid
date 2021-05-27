@@ -24,48 +24,61 @@
 
   <div class="wrap-about text-center ">
     <div class="heading-section pr-md-5 pt-md-5 ">
-    <h1 class="mb-4 text-dark">When disasters happen, MedicAid volunteers spring into action</h1>
-
+    <strong><h1 class="mb-4 text-dark">Answers to Common Questions About COVID-19 Vaccines and Blood, Platelet, Plasma Donation Eligibility</h1></strong>
+  <br>
     <div class="row justify-content-center">
-    <iframe width="500" height="300" src="https://www.youtube.com/embed/-yamNDUbsn0" allowfullscreen></iframe>
+      <img src="Image/vaccine.png" alt="Chicago" width="800" height="300">
     </div>
-<br>
-      <p style="color: grey">When disaster strikes, people’s lives change in an instant. Often, they lose everything they hold dear —
-        their home, family photos, clothes, furniture — everything. When the worst happens, American Red Cross volunteers are there to help.<br>
-<br>
-
-
-<h5 style="color: black">1881 MICHIGAN FOREST FIRE</h5>
-<p style="color: grey">Months after Clara Barton founded the American Red Cross, the organization launched its first disaster response —
-  donating money, clothes and furniture to victims of the devastating forest fires in Michigan. The fire claimed almost 300 lives and
-  left thousands homeless. Red Cross chapters collected food and supplies, which were shipped to Michigan to help assist the 14,000 people
-  in need.</p>
-
-<br>
-
-<h5 style="color: black">1889 JOHNSTOWN FLOOD In 1889</h5>
-<p style="color: grey">a dam collapsed near Johnstown, Pennsylvania, sending millions of gallons of water toward the town of 30,000 people. More than 2,000 people died, hundreds were missing and tens of thousands were left homeless. To help, Clara Barton and a team of doctors, nurses and relief workers set up hospital tents, feeding stations and our first sheltering operation with “Red Cross hotels” to house the people whose homes were destroyed. Clara Barton and her team of 50 volunteers remained in Johnstown for months, helping the survivors get back on their feet.</p>
-<br>
-
-<h5 style="color: black">1889 JOHNSTOWN FLOOD In 1889</h5>
-<p style="color: grey">SC Before hurricanes were named, the Red Cross launched its first major hurricane response when a powerful storm struck the Sea Islands in South Carolina in August 1893, claiming the lives of thousands of residents. As bad as the damage was, starvation was a chief concern. Red Cross volunteers, led by President Clara Barton, helped feed thousands of people until the next year’s spring crops were harvested. She set up a warehouse to stock clothing and food to support those in need. For nearly a year, the Red Cross stood with survivors who lost everything, helping them rebuild their homes and livelihoods
-  by providing seeds for new crops and creating local sewing groups for people to create and sell clothes.<p>
-<br>
-
-<h5 style="color: black">1927 MISSISSIPPI RIVER FLOOD</h5>
- <p style="color: grey">The Red Cross was called into action along the Mississippi River during the Great Flood of 1927,
-   which covered about 16 million acres in Louisiana, Mississippi, Arkansas, Tennessee, Missouri, Illinois and Kentucky.
-   The Red Cross helped with transportation, sheltering, feeding and clothing, as well as furnishing nursing and medical care.<p>
-
-<br>
-
-<h5 style="color: black">1969 HURRICANE CAMILLE</h5>
- <p style="color: grey">On August 17, 1969, Hurricane Camille made landfall on the Gulf Coast of Louisiana, Mississippi and Alabama as a deadly Category 5 storm, causing extensive damage and unprecedented flash flooding. At the time, it was the most damaging storm on record in the U.S. During the height of the response, the Red Cross fed and sheltered nearly 260,000 disaster victims and relief workers. In coordination with federal and state authorities, the Red Cross assisted families with their long-term recovery and returning to their daily lives.</p>
-    </div>
-
   </div>
+</div>
 
 
+<br>
+<div class="col-md-20 heading-section ftco-animate p-7 p-lg-5">
+<strong>Q: Are individuals who received a COVID-19 vaccine eligible to give blood, platelets and plasma?</strong>
+<br>
+<strong>A:</strong> In most cases, there is no blood, platelet or plasma donation deferral time after receiving a COVID-19 vaccine. However, knowing the name of the vaccine manufacturer is important in determining donation eligibility.
+
+<br>
+<br>
+<strong>Q: Are individuals who received a COVID-19 vaccine eligible to give COVID-19 convalescent plasma?</strong><br>
+<strong>A:</strong> While the FDA allows people who have received a COVID-19 vaccine to donate dedicated COVID-19 convalescent plasma within six months of their infection of the virus, the Red Cross discontinued dedicated COVID-19 convalescent plasma donations on March 26 due to declining hospital demand and sufficient industry supply. The Red Cross tests all blood donations for COVID-19 antibodies. Plasma from routine blood and platelet donations that test positive for high-levels of antibodies, and meets other requirements, may be used as convalescent plasma to meet potential future needs of COVID-19 patients.
+
+<br>
+<br>
+<strong>Q: I’ve heard claims that the Red Cross refuses to accept convalescent plasma from individuals who have received a COVID-19 vaccine because it wipes out the antibodies. Is this true?</strong><br>
+<strong>A:</strong>  There are claims circulating that incorrectly state that the Red Cross will not accept convalescent plasma donations from those who have received the COVID-19 vaccine because “the vaccine wipes out those antibodies making the convalescent plasma ineffective in treating other COVID-19 patients.” This is not accurate.
+The FDA allows people who have received a COVID-19 vaccine to donate dedicated COVID-19 convalescent plasma within six months of their infection of the virus, based on data that antibodies from natural infection can decline after six months.
+The Red Cross discontinued dedicated COVID-19 convalescent plasma donations on March 26 due to declining hospital demand and sufficient industry supply. The Red Cross tests all blood donations for COVID-19 antibodies. Plasma from routine blood and platelet donations that test positive for high-levels of antibodies, and meets other requirements, may be used as convalescent plasma to meet potential future needs of COVID-19 patients.
+
+<br>
+<br>
+<strong>Q: Does giving blood after receiving a COVID-19 vaccine reduce a donor’s protection from the virus?</strong><br>
+<strong>A:</strong> Donating blood after receiving a COVID-19 vaccine does not reduce a donor’s protection from the virus. Similar to other vaccines such as measles, mumps or influenza, the COVID-19 vaccine is designed to generate an immune response to help protect an individual from illness. A donor’s immune response is not impacted by giving blood.
+
+<br>
+<br>
+<strong>Q: What is the difference between plasma donation and convalescent plasma donation?</strong><br>
+<strong>A:</strong> Plasma donation and COVID-19 convalescent plasma donation are different. Plasma has been collected and transfused since the 1940’s to help patients being treated for a number of medical reasons, including burns, shock, trauma and other injuries and illnesses.
+<br>
+</div>
+
+
+<section class="ftco-hireme bg-info">
+  <div class="container">
+      <div class="col-lg-8 col-md-12 mx-auto text-center">
+        <h2 class="text-center font-weight-bold text-white pt-4 mt-4">Donation Campaign are running !!</h2>
+      </div>
+      <div class="col-lg-5 col-md-12 pl-lg-4 py-md-4 mx-auto text-center">
+        <p class="mb-0"><a href="donation.php" class="btn btn-light py-3 px-4">Donate Now</a></p>
+      </div>
+  </div>
+</section>
+
+
+<Footer>
+  <?php include 'footer.php';?>
+</Footer>
 
 </body>
 </html>
