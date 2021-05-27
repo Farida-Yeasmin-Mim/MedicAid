@@ -64,7 +64,7 @@ header("Location: volunteer_profile.php?id=$dbid");
 <html lang="en" dir="ltr">
   <head>
 
-    <title>Signup | Donor</title>
+    <title>Signup | Volunteer</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -190,7 +190,7 @@ header("Location: volunteer_profile.php?id=$dbid");
         <button type="submit" name="signup" form="signform" class="btn btn-primary btn-block"> Create Account  </button>
     </div>
   <p class="text-center danger-text "><a href="under_13.php" >Under age 13? </a></p>
-    <p class="text-center text-primary">Have an account? <a href="volunteer_login">Log In</a> </p>
+    <p class="text-center text-primary">Already have an account? <a href="volunteer_login.php">Log In</a> </p>
 </form>
 </article>
 </div>
