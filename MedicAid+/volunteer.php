@@ -139,9 +139,8 @@
               </div>
               <div class="meta mb-3">
                 <div><a href="#">November 1, 2018</a></div>
-                <div><a href="#">Admin</a></div>
                 <div>
-                  <a href="review.php"><span class="fa fa-comment"></span> 3</a>
+                  <a href="feedback.php"><span class="fa fa-comment"></span> 3</a>
                 </div>
               </div>
               <div class="embed-responsive embed-responsive-16by9">
@@ -159,7 +158,6 @@
               </div>
               <div class="meta mb-3">
                 <div><a href="#">August 21, 2019</a></div>
-                <div><a href="#">Admin</a></div>
                 <div>
                   <a href="review.php"><span class="fa fa-comment"></span> 3</a>
                 </div>
@@ -180,7 +178,6 @@
               </div>
               <div class="meta mb-3">
                 <div><a href="#">June 3, 2021</a></div>
-                <div><a href="#">Admin</a></div>
                 <div>
                   <a href="review.php"><span class="fa fa-comment"></span> 3</a>
                 </div>
