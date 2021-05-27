@@ -194,14 +194,14 @@
               <div class="text d-block text-center bg-light">
               	<div class="meta mb-3 ">
                   <div><a href="#">November 1, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
+
                   <div>
                     <a href="review.php"><span class="fa fa-comment"></span> 3</a>
                   </div>
                 </div>
                 <h3 class="heading"><a href="#">Lifesaving Blood</a></h3>
                 <p>Learn about our blood donation processes, requirements, hosting opportunities and more..</p>
-                <p><a href="blog-single.html" class="btn btn-danger py-2 px-3">Read more</a></p>
+                <p><a href="blood.php" class="btn btn-danger py-2 px-3">Read more</a></p>
               </div>
             </div>
         	</div>
@@ -215,14 +215,14 @@
               <div class="text d-block text-center bg-light">
               	<div class="meta mb-3">
                   <div><a href="#">August 21, 2019</a></div>
-                  <div><a href="#">Admin</a></div>
+
                   <div>
                     <a href="https://www.facebook.com/yeasminmim"><span class="fa fa-comment"></span> 3</a>
                   </div>
                 </div>
                 <h3 class="heading"><a href="#">International Services</a></h3>
                 <p>Learn how we deliver aid and support programs around the world.</p>
-                <p><a href="blog-single.html" class="btn btn-danger py-2 px-3">Read more</a></p>
+                <p><a href="index.php" class="btn btn-danger py-2 px-3">Read more</a></p>
               </div>
             </div>
         	</div>
@@ -236,14 +236,14 @@
               <div class="text d-block text-center bg-light">
               	<div class="meta mb-3">
                   <div><a href="#">June 3, 2021</a></div>
-                  <div><a href="#">Admin</a></div>
+
                   <div>
                     <a href="https://www.facebook.com/yeasminmim"><span class="fa fa-comment"></span> 3</a>
                   </div>
                 </div>
-                <h3 class="heading"><a href="#">Nursing & Health</a></h3>
-                <p>Learn how nurses and other health professionals are vital to the work of the MedicAid</p>
-                <p><a href="blog-single.html" class="btn btn-danger py-2 px-3">Read more</a></p>
+                <h3 class="heading"><a href="#">Volunteering & Health</a></h3>
+                <p>Learn how health professionals are vital to the work of the MedicAid</p>
+                <p><a href="volunteer.php" class="btn btn-danger py-2 px-3">Read more</a></p>
               </div>
             </div>
         	</div>
