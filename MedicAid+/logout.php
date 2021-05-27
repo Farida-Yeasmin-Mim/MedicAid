@@ -36,7 +36,7 @@ $dbid =  $_GET['id'];
         <!-- Heading -->
         <div class="container-fluid">
 
-          <h2 class="text-center font-weight-bold text-dark text-capitalize pt-5 mt-5">Logout First!</h2>
+          <h2 class="text-center font-weight-bold text-dark text-capitalize pt-5 mt-5">Logout First To Register On Another Session!</h2>
           <hr class="w-25">
 
 
@@ -48,10 +48,7 @@ $dbid =  $_GET['id'];
                 <!-- Form contact -->
 
                     <div class="text-center mt-4">
-                      <button class="btn btn-info" type="button" onclick="window.location ='user_login.php'"> <i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
-                      </button>
-
-                      <button class="btn btn-primary" type="button" onclick="window.location ='user_signup.php'"> <i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up For Free</a>
+                      <button class="btn btn-info" type="button" onclick="window.location ='index.php'"> <i class="fa fa-sign-in" aria-hidden="true"></i> Logout</a>
                       </button>
 
                     </div>
