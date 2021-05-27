@@ -1,0 +1,222 @@
+Introduction: 
+MedicAid+ is a PHP-based website. The goal of this project was to create a blood management information system that would aid in the maintenance of blood donor 
+records and make it easier or more controlled to distribute blood around the country based on hospital demand.
+
+The application is reduced as much as possible to avoid errors while entering the data. It also provides error message while entering invalid data. No formal knowledge is needed for the user to use this system. Thus, by this all it proves it is user-friendly. MedicAid, as described above, can lead to error free, secure, reliable and fast management system. It can assist the user to concentrate on their other activities rather to concentrate on the record keeping. Thus, it will help organization in better utilization of resources.
+
+Every organization, whether big or small, has challenges to overcome and managing the information of Donor, Blood Bank, Blood, Plasma, Patient, Blood Group, Ambulance. Every Blood Bank Management System has different Blood Bank needs. Therefore, we design exclusive systems that are adapted to your managerial requirements. These systems will ultimately allow you to better manage resources.
+
+The inspiration of this project is to improve blood banks in Pakistan and to develop a 
+blood bank information system which focuses on making an online system that is 
+accessible for both donors and administrators. Donors can directly receive 
+information regarding their previous blood donations, including their blood results 
+and donation history, in order to easily schedule their next donations. They can 
+also update the personal information through the system, without having to contact
+the blood bank registry
+The inspiration of this project is to improve blood banks in Bangladesh and to develop a blood bank information system which focuses on making an online system that is accessible for both donors and administrators. Donors can directly receive information regarding their previous blood donations, including their blood results and donation history, in order to easily schedule their next donations. They can also update the personal information through the system, without having to contact the administrator.
+
+
+
+
+Aim and purpose:
+
+
+
+
+
+Goals of the Project:
+
+The goal of the project is to develop a web application for blood banks to manage information about their donors and blood stock. The main objectives of this website development can be defined as follows:
+1. To develop a system that provides functions to support donors to view and manage their information conveniently.
+2. To maintain records of blood donors, blood donation information and bloodstocks in a centralized database system.
+3. To inform donors of their blood result after their donation.
+4. To support searching, matching and requesting for blood convenient for administrators
+
+Our primary goal is to solve all those problems and make the life easier to the users to get their requirements.
+
+
+
+
+
+User Requirements:
+There are two internal users involved in this system. The user requirements are considered as follows:
+Donor
+1. To be able to view their donation records, including where and when they made donations, and the blood results for each, to learn of their donated blood quality
+2. To be able to view and update their personal information, including name, contact     address, and phone number, to keep their donor’s information record up to date with the blood bank. 
+3. To be notified of the blood results of their previous donation by e-mail, to know the success of their donation. 
+
+Administrator
+1. To be able to create, update, delete, and query donor’s records in order to manage donor information.
+2. To be able to create, update, delete, and retrieve donation records to manage information about donations made.
+3. To be able to deposit donated blood into inventory when donations are made.
+4. To be able to withdraw blood from the inventory and keep a record of bloodstocks to always keep count of the blood bags. 
+5. To be able to create, update, delete, and retrieve request records from hospitals to manage hospital requests for blood.
+6. To be able to create, update, delete, and query hospital’s records in order to manage hospital information.
+7. To be able to send e-mails to donors for their user account and blood results through the system. 
+8. To be able to send e-mail responding to hospitals for their blood request through the system.
+
+
+
+
+
+
+
+
+Features of the project:
+1) Creating & Changing Issues at ease
+2) User Accounts to control the access and maintain security
+3) Attachments & Additional Comments for more information
+4) It contains better storage capacity.
+5) Easy & fast retrieval of information.
+6) Decrease the load of the person involve in existing manual system.
+7) Access of any information individually.
+8) Work becomes very speedy.
+9) Easy to update information
+
+
+
+
+
+
+
+Stakeholders:
+Owners
+Employee
+Donors
+Users
+Patients
+Ambulance owners
+Volunteers
+Medical receptionists
+Competitors
+Sponsors
+
+
+Functional Requirements
+1. Login/ Signup
+2. Donor profile/ registration
+3. Stock Management
+4.Donating Criteria
+5.Contact us
+6. Covid-19 tracker
+6.Map
+
+Non functional Requirements
+1. Availability: Project will be accessible to users in Bangladesh.
+2. Security: Ensures privacy.
+3. Performance: System should be able to handle multiple users at a time using the web browser.
+4. Reliability: To avoid data inconsistency, the database should follow transaction processing.
+
+Advantages
+-----------
+Recipients can get blood easily.
+In case of emergency, if the blood group is rare, he/she can find for the certain blood group donor.
+Donors can also donate blood easily by signing up.
+
+Disadvantage:
+--------------
+Requires active internet connection
+
+Features:
+--------------
+Online transfer of blood from one blood bank to another.
+Provide a list of Donors who are eligible for donations on a particular date with a contact number.
+Inventory management in blood bank for storage and issuance of blood.
+Patient Register/ Blood Sample Receiving Register, Donor Register, Blood Issue Register and Discarded Blood report.
+Donor Management- Donor Registration, Managing donor database, recording their physical and medical statistics.
+
+Front End
+---------
+Main page
+About page
+User Sign-in page 
+User Log-in page
+User profile page 
+Admin log-in page
+Admin profile
+Donation page
+Volunteer page
+Volunteer sign-up page
+Volunteer log-in page
+Volunteer orientation
+Volunteer profile page
+Expert volunteers
+Under age 13 page
+Ambulance page
+Ambulance information page
+Ambulance sign-in page
+Ambulance log-in page
+Ambulance profile page
+Appointment page
+Donation page
+Donation form page
+Bangladesh covid-19 info page
+Blood donor information
+Contact us page
+Covid-19 page
+Disaster page
+Pregnancy page
+Donating requirements page
+Donor login
+Donor signup
+Donor profile
+Feedback page
+Footer & footer2 pages
+Header & header2 pages
+Information, information 1,2,3 pages
+Plasma donor information page
+Thank you pages
+
+
+
+Back End
+-------------
+1. Account Creating, Password Recover:
+a. Sign up form, verification by mobile or email.
+b. Login form: user, admin, volunteer, donor, ambulance
+c. Delete profile
+d. Edit profile
+e. Forgot Password
+f. Appointment form
+g. Donation form
+
+
+
+Tools and Technologies:
+
+----------
+
+Bootstrap 4
+PHP
+HTML
+CSS
+Sublime Text/Atom
+Database: phpMyAdmin
+Selenium
+
+
+user story
+-----------
+1. Sign up
+
+Use case diagram
+----------------
+
+Sequence diagram
+------------------
+Class diagram
+--------------
+
+Screenshot
+----------
+
+Test Cases
+-----------
+
+Testing
+-------
+1. Validation Testing
+2. Defect Testing
+
+
+
