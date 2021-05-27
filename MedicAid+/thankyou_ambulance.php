@@ -42,7 +42,7 @@ if (!empty($_GET['id'])){
           <p class="text-center"> This token number will help you to update your status! </p>
           <hr class="w-25 ">
             <div class="text-center">
-          <button class="btn bg-info text-white text-left"type="button" onclick="window.location ='ambulance_information.php'">See Plasma Donor List</button>
+          <button class="btn bg-info text-white text-left"type="button" onclick="window.location ='ambulance_information.php?id=<?php echo $dbid ?>'">See Plasma Donor List</button>
         </div>
 
 
