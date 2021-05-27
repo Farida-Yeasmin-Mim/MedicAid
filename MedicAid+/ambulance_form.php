@@ -1,6 +1,11 @@
 <?php
 include 'connection.php';
 
+if ($_GET['id']==NULL){
+   header('location:logout.php');
+}
+
+$dbid =  $_GET['id'];
 
 if(isset($_POST['signup'])){
 
