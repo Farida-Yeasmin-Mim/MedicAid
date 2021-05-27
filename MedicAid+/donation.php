@@ -180,7 +180,7 @@
                 <div class="card-body bg-primary">
                   <h4 class="card-title text-white">Blood Donation</h4>
                   <p class="card-text text-white">
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Blood is an essential flood that moves oxygen to other indispensable body parts.
                   </p>
                 </div>
                 <div class="card-footer bg-primary">
@@ -197,7 +197,7 @@
                 <div class="card-body bg-success">
                   <h4 class="card-title text-white">Start donating</h4>
                   <p class="card-text text-white">
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Donate to save life  as much as you can. Save the one who need.
                   </p>
                 </div>
                 <div class="card-footer bg-success">
@@ -214,7 +214,7 @@
                 <div class="card-body bg-info">
                   <h4 class="card-title text-white">Get involved</h4>
                   <p class="card-text text-white">
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    We need volunteers to help us with this life-saving mission. 
                   </p>
                 </div>
                 <div class="card-footer bg-info ">
