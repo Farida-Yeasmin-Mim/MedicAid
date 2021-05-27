@@ -410,7 +410,7 @@ else
                     <!--Grid column-->
                     <div class="col-md-3 mb-5">
                         <i class="fa fa-bell fa-4x"></i>
-                        <h5><a href="orientation.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Experts Predict Busy 2021 Hurricane Season, Get Ready Now>></a></h5>
+                        <h5><a href="hurricane.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Experts Predict Busy 2021 Hurricane Season, Get Ready Now>></a></h5>
                     </div>
                     <!--Grid column-->
 
