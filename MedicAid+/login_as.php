@@ -1,6 +1,21 @@
 <?php
 include 'connection.php';
 
+if (isset($_GET['id'])){
+   $dbid =  $_GET['id'];
+}
+else
+{
+  $dbid = 0;
+}
+if ($dbid!=0) {
+  echo "<script>
+alert('You are already logged in!');
+window.location.href='index.php?id=$dbid';
+</script>";
+  exit();
+
+  }
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -42,7 +57,7 @@ include 'connection.php';
           <button class="btn bg-info text-white text-left"type="button" onclick="window.location ='donor_login.php'">Donor</button>
           <button class="btn bg-info text-white text-left"type="button" onclick="window.location ='admin_login.php'">Admin</button>
         </div>
-        
+
 
 
 
