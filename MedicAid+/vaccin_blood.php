@@ -70,7 +70,7 @@ The Red Cross discontinued dedicated COVID-19 convalescent plasma donations on M
         <h2 class="text-center font-weight-bold text-white pt-4 mt-4">Donation Campaign are running !!</h2>
       </div>
       <div class="col-lg-5 col-md-12 pl-lg-4 py-md-4 mx-auto text-center">
-        <p class="mb-0"><a href="donation.php" class="btn btn-light py-3 px-4">Donate Now</a></p>
+        <p class="mb-0"><a href="donation.php" class="btn btn-danger py-3 px-4">Donate Now</a></p>
       </div>
   </div>
 </section>
