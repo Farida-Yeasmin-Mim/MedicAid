@@ -1,5 +1,10 @@
-Introduction: MedicAid+ is a PHP-based website. The goal of this project was to create a blood management information system that would aid in the maintenance of blood donor 
-records and make it easier or more controlled to distribute blood around the country based on hospital demand. Our project offers
+Introduction: 
+MedicAid+ is a PHP-based website. The goal of this project was to create a blood management information system that would aid in the maintenance of blood donor 
+records and make it easier or more controlled to distribute blood around the country based on hospital demand.
+
+The application is reduced as much as possible to avoid errors while entering the data. It also provides error message while entering invalid data. No formal knowledge is needed for the user to use this system. Thus, by this all it proves it is user-friendly. MedicAid, as described above, can lead to error free, secure, reliable and fast management system. It can assist the user to concentrate on their other activities rather to concentrate on the record keeping. Thus, it will help organization in better utilization of resources.
+
+Every organization, whether big or small, has challenges to overcome and managing the information of Donor, Blood Bank, Blood, Plasma, Patient, Blood Group, Ambulance. Every Blood Bank Management System has different Blood Bank needs. Therefore we design exclusive systems that are adapted to your managerial requirements. These systems will ultimately allow you to better manage resources.
 
 
 
