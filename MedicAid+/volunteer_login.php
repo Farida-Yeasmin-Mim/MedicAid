@@ -1,5 +1,6 @@
 <?php
-
+  require_once "config.php";
+  $loginURL = $gClient->createAuthUrl();
   include 'connection.php';
 
   if (isset($_POST['log_in'])) {
@@ -89,8 +90,8 @@ body {
   <div class="col-md-12 text-center">
   <button name="log_in" class="btn btn-primary w-50"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</button>
   <hr>
-  <button type="submit" class="btn btn-danger "><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</button>
-
+  <button type="submit" class="btn btn-info "><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</button>
+<button type="button" onclick="window.location = '<?php echo $loginURL ?>';" class="btn btn-danger"><i class="fa fa-google"></i> Login With Google</button>
 
 </div>
 
