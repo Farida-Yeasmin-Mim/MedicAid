@@ -1,5 +1,14 @@
 <?php
 include 'connection.php';
+
+if (isset($_GET['id'])){
+   $dbid =  $_GET['id'];
+}
+else
+{
+  $dbid = 0;
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -70,7 +79,7 @@ include 'connection.php';
         <div class="col-lg-7 col-md-6 col-12">
             <p class="text-dark ">Thousands of people just like you provide compassionate care to those in need. We roll up our sleeves and donate time, money and blood. We teach life-saving skills so our communities can be better prepared when the need arises and we do this every day because Medicare is needed each and every day.</p>
 <br>
-            <button class="btn btn-primary" type="button" onclick="window.location ='about.php'"></i>See More</a>
+            <button class="btn btn-primary" type="button" onclick="window.location ='about.php<?php if($dbid!=0) echo "?id=$dbid" ?>'"></i>See More</a>
             </button>
         </div>
 
@@ -127,7 +136,7 @@ include 'connection.php';
                 </div>
                 <div class="card-footer">
                   <div class="text-center">
-                  <button class="btn bg-primary text-white text-left" onclick="window.location ='blood.php'">Blood Donation</button>
+                  <button class="btn bg-primary text-white text-left" onclick="window.location ='blood.php<?php if($dbid!=0) echo "?id=$dbid" ?>'">Blood Donation</button>
                   </div>
                 </div>
               </div>
@@ -146,7 +155,7 @@ include 'connection.php';
                 </div>
                 <div class="card-footer">
                   <div class="text-center">
-                  <button class="btn bg-primary text-white text-left" onclick="window.location ='ambulance.php'">Ambulance</button>
+                  <button class="btn bg-primary text-white text-left" onclick="window.location ='ambulance.php<?php if($dbid!=0) echo "?id=$dbid" ?>'">Ambulance</button>
                   </div>
                 </div>
               </div>
@@ -165,7 +174,7 @@ include 'connection.php';
                 </div>
                 <div class="card-footer">
                   <div class="text-center">
-                  <button class="btn bg-primary text-white text-left" onclick="window.location ='volunteer.php'">Volunteer</button>
+                  <button class="btn bg-primary text-white text-left" onclick="window.location ='volunteer.php<?php if($dbid!=0) echo "?id=$dbid" ?>'">Volunteer</button>
                   </div>
                 </div>
               </div>
@@ -198,12 +207,12 @@ include 'connection.php';
                   <h1 class="text-dark">Corona Update</h1>
                     <p class="text-dark">The COVID-19 pandemic in Bangladesh is part of the worldwide pandemic of coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The virus was confirmed to have spread to Bangladesh in March 2020. Since then, the pandemic has spread day by day over the whole nation and the number of affected people has been increasing.</p>
 
-                    <button class="btn bg-info text-white" onclick="window.location ='covid19_page.php'">See Update</button>
+                    <button class="btn bg-info text-white" onclick="window.location ='covid19_page.php<?php if($dbid!=0) echo "?id=$dbid" ?>'">See Update</button>
                     <div class="text-right">
                     <h1 class="text-dark">Plasma Donation</h1>
                       <p class="text-dark">If you have fully recovered from COVID-19, you may be able to help patients currently fighting the infection by donating your plasma. Because you fought the infection, your plasma now contains COVID-19 antibodies. These antibodies provided one way for your immune system to fight the virus when you were sick, so your plasma may be able to be used to help others fight off the disease.</p>
 
-                      <button class="btn bg-info text-white" onclick="window.location ='plasma_donor_information.php'">See Donor List</button>
+                      <button class="btn bg-info text-white" onclick="window.location ='plasma_donor_information.php<?php if($dbid!=0) echo "?id=$dbid" ?>'">See Donor List</button>
                     </div>
               </div>
               </div>
@@ -234,7 +243,7 @@ include 'connection.php';
                         </div>
                         <div class="card-footer">
                           <div class="text-center">
-                          <button class="btn bg-danger text-white text-left" onclick="window.location ='donation.php'">Get More Information About Donation!</button>
+                          <button class="btn bg-danger text-white text-left" onclick="window.location ='donation.php<?php if($dbid!=0) echo "?id=$dbid" ?>'">Get More Information About Donation!</button>
                           </div>
                         </div>
                       </div>
@@ -255,7 +264,7 @@ include 'connection.php';
                         </div>
                         <div class="card-footer">
                           <div class="text-right">
-                          <button class="btn bg-primary text-white text-left" onclick="window.location ='appointment.php'">Get Appointment</button>
+                          <button class="btn bg-primary text-white text-left" onclick="window.location ='appointment.php<?php if($dbid!=0) echo "?id=$dbid" ?>'">Get Appointment</button>
                           </div>
                         </div>
                       </div>
@@ -277,7 +286,7 @@ include 'connection.php';
                         </div>
                         <div class="card-footer">
                           <div class="text-right">
-                          <button class="btn bg-warning text-white text-left" onclick="window.location ='feedback.php'">Send Feedback</button>
+                          <button class="btn bg-warning text-white text-left" onclick="window.location ='feedback.php<?php if($dbid!=0) echo "?id=$dbid" ?>'">Send Feedback</button>
                           </div>
                         </div>
                       </div>
@@ -303,10 +312,10 @@ include 'connection.php';
                 <div class="row" >
                     <div class="col-lg-10 col-md-12 pl-lg-5 py-md-5 mx-auto">
                             <div class="text-center mt-4">
-                              <button class="btn btn-danger" type="button" onclick="window.location ='Bangladesh_covid_info.php'"></i>Bangladesh Covid-19 Info-></a>
+                              <button class="btn btn-danger" type="button" onclick="window.location ='Bangladesh_covid_info.php<?php if($dbid!=0) echo "?id=$dbid" ?>'"></i>Bangladesh Covid-19 Info-></a>
                               </button>
 
-                              <button class="btn btn-danger" type="button" onclick="window.location ='covid19.php'"> </i>Covid-19 world update-></a>
+                              <button class="btn btn-danger" type="button" onclick="window.location ='covid19.php<?php if($dbid!=0) echo "?id=$dbid" ?>'"> </i>Covid-19 world update-></a>
                               </button>
                             </div>
                     </div>
@@ -341,7 +350,7 @@ include 'connection.php';
                         </div>
                         <div class="card-footer">
                           <div class="text-left">
-                          <button class="btn bg-primary text-white" onclick="window.location ='plasma_form.php'">Register As A Plasma Donor</button>
+                          <button class="btn bg-primary text-white" onclick="window.location ='plasma_form.php<?php if($dbid!=0) echo "?id=$dbid" ?>'">Register As A Plasma Donor</button>
                           </div>
                         </div>
                         <div class="card-body">
@@ -352,7 +361,7 @@ include 'connection.php';
                         </div>
                         <div class="card-footer">
                           <div class="text-right">
-                          <button class="btn bg-primary text-white " onclick="window.location ='ambulance_form.php'">Register Your Ambulance</button>
+                          <button class="btn bg-primary text-white " onclick="window.location ='ambulance_form.php<?php if($dbid!=0) echo "?id=$dbid" ?>'">Register Your Ambulance</button>
                           </div>
                         </div>
 
@@ -386,14 +395,14 @@ include 'connection.php';
                     <!--Grid column-->
                     <div class="col-md-3 mb-2">
                         <i class="fa fa-ambulance fa-4x "></i>
-                        <h5><a href="disaster.php">When disasters happen, Red Cross volunteers spring into action>></a></h5>
+                        <h5><a href="disaster.php<?php if($dbid!=0) echo "?id=$dbid" ?>">When disasters happen, Red Cross volunteers spring into action>></a></h5>
                     </div>
                     <!--Grid column-->
 
                     <!--Grid column-->
                     <div class="col-md-3 mb-1">
                         <i class="fa fa-tint fa-4x" style="color:red"></i>
-                        <h5><a href="pregnancy.php">James and Kimberly Van Der Beek urge Americans to donate blood following pregnancy losses>></a></h5>
+                        <h5><a href="pregnancy.php<?php if($dbid!=0) echo "?id=$dbid" ?>">James and Kimberly Van Der Beek urge Americans to donate blood following pregnancy losses>></a></h5>
 
                     </div>
                     <!--Grid column-->
@@ -401,14 +410,14 @@ include 'connection.php';
                     <!--Grid column-->
                     <div class="col-md-3 mb-5">
                         <i class="fa fa-bell fa-4x"></i>
-                        <h5><a href="orientation.php">Experts Predict Busy 2021 Hurricane Season, Get Ready Now>></a></h5>
+                        <h5><a href="orientation.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Experts Predict Busy 2021 Hurricane Season, Get Ready Now>></a></h5>
                     </div>
                     <!--Grid column-->
 
                     <!--Grid column-->
                     <div class="col-md-3 mb-1">
                         <i class="fa fa-medkit fa-4x " style="color:red"></i>
-                        <h5><a href="orientation.php">Battlefield Lessons Lead to New Education Initiatives>></a></h5>
+                        <h5><a href="orientation.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Battlefield Lessons Lead to New Education Initiatives>></a></h5>
                     </div>
                     <!--Grid column-->
 
