@@ -41,19 +41,6 @@ if (isset($_POST['pass_edit']))
   header("Location: edit_volunteer_profile.php?id=$dbid");
 }
 
-if (isset($_POST['add_edit']))
-{
-  $dbadd = strip_tags($_POST['address']);
-  $sql = "UPDATE volunteer
-  SET email='$dbEmail'
-  WHERE volunteer_id='$dbid' ";
-  // execute query
-  mysqli_query($conn, $sql);
-
-
-
-  header("Location: edit_volunteer_profile.php?id=$dbid");
-}
 
 if (isset($_POST['div_edit']))
 {
@@ -73,7 +60,7 @@ if (isset($_POST['bs_edit']))
 {
   $dbs = strip_tags($_POST['bs']);
   $sql = "UPDATE volunteer
-  SET gender='$dbgender'
+  SET status='$dbs'
   WHERE volunteer_id='$dbid' ";
   // execute query
   mysqli_query($conn, $sql);
@@ -84,27 +71,6 @@ if (isset($_POST['bs_edit']))
 }
 
 
-
-if (isset($_POST['delete_user']))
-{
-  $sql = "DELETE
-  FROM user
-  WHERE User_Name='$username' ";
-  // execute query
-  mysqli_query($conn, $sql);
-  /*DELIMITER $$
-         CREATE TRIGGER after_delete
-         after delete on user for each row
-         begin
-         DELETE FROM contestant
-         WHERE User_Name=old.User_Name;
-         end $$
-  DEMIMITER;*/
-
-
-
-  header("Location: user_login.php");
-}
 
 
 $result = mysqli_query($conn, "SELECT * FROM volunteer WHERE volunteer_id='$dbid'");
@@ -135,6 +101,8 @@ $result = mysqli_query($conn, "SELECT * FROM volunteer WHERE volunteer_id='$dbid
     <?php include 'header2.php';?>
     </header>
 
+    <br>
+    <button class="btn bg-primary text-white" onclick="window.location ='volunteer_profile.php?id=<?php echo $dbid ?>'">Back To Profile</button>
               <div class="container-fluid">
                 <h1 class="text-center text-dark text-capitalize pt-5">Edit Your Profile</h1>
                 <hr class="w-25 pt-5">
@@ -152,13 +120,6 @@ $result = mysqli_query($conn, "SELECT * FROM volunteer WHERE volunteer_id='$dbid
         echo "<br>";
         echo "<button type='submit' name='pass_edit' class='btn btn-info'>Set Password</button>";
         echo "<br><br>";
-        echo "<h5>Email Address: ".$row['email']." </h5>";
-        echo "<input name='email' class='form-control' placeholder='Enter New Email Address' type='text'>";
-        echo "<br>";
-        echo "<button type='submit' name='add_edit' class='btn btn-info'>Set Number</button>";
-        echo "<br><br>";
-
-
         echo "<h5>Division: ".$row['division']." </h5>";
         echo "<select name='division' class='form-control' >";
     		echo	"<option value='' disabled selected> Select Division</option>";
@@ -176,15 +137,15 @@ $result = mysqli_query($conn, "SELECT * FROM volunteer WHERE volunteer_id='$dbid
         echo "<br><br>";
 
 
-        echo "<h5>Gender: ".$row['gender']." </h5>";
-        echo "<select name='gender' class='form-control' >";
-    		echo	"<option value='' disabled selected> Select Gender</option>";
-        echo  "<option>Male</option>";
-        echo  "<option>Femail</option>";
+        echo "<h5>Status: ".$row['status']." </h5>";
+        echo "<select name='bs' class='form-control' >";
+    		echo	"<option value='' disabled selected> Select Status</option>";
+        echo  "<option>Active</option>";
+        echo  "<option>Inactive</option>";
         echo  "<option>Other</option>";
         echo  "</select>";
         echo "<br>";
-    echo "<button type='submit' name='gender_edit' class='btn btn-info'>Set Gender</button>";
+    echo "<button type='submit' name='bs_edit' class='btn btn-info'>Set Status</button>";
     echo "<br><br>";
 
 echo "</form>";
