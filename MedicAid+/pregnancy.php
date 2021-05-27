@@ -69,7 +69,9 @@ At a time when health information has never been more important, the Red Cross i
 
   </div>
 
-
+  <Footer>
+    <?php include 'footer.php';?>
+  </Footer>
 
 </body>
 </html>
