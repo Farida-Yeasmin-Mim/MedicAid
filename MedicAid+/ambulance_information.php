@@ -1,6 +1,12 @@
 <?php
   // Create database connection
   include 'connection.php';
+
+
+  if ($_GET['id']==NULL){
+     header('location:please_login.php');
+  }
+
   if (isset($_GET['id'])){
      $dbid =  $_GET['id'];
   }
