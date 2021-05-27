@@ -80,16 +80,117 @@ Survey/Questionnaire:
 
 Several different surveys have been completed using different methods. Below there is a basic template which is used on survey.
 
-* How old are you?
-* What is your profession?
-* How often do you need to use health care services?
-* In your family how many people need to use health care services?
-* Do you or your family face any difficulties while using health care services?
-* Which features you think you will need most in the health care services?
-* How satisfied are you with the available workflows in those services?
-* Have you used a health care related websites before?
-* Do you get your desired health care services from those websites?
-* What features you think it should be include in those websites?
+•	How old are you?
+•	What is your profession?
+•	How often do you need to use health care services?
+•	In your family how many people need to use health care services?
+•	Do you or your family face any difficulties while using health care            services?
+•	Which features you think you will need most in the health care services?
+•	How satisfied are you with the available workflows in those services?
+•	Have you used a health care related websites before?
+•	Do you get your desired health care services from those websites?
+•	What features you think it should be include in those websites?
+
+
+
+MODULES OF MedicAid:
+
+Online Blood Bank management system is to provide services for the people who are in need of blood by getting help from the donors who are interested in donating blood for the people. There are seven main modules in this system.
+
+Admin
+
+Donors 
+
+Donor Registration
+
+Modifying Donor Information
+
+Acceptors
+
+Donor Search
+
+Life Saving Contacts
+Volunteer
+
+
+
+Admin:
+
+Admin can manage both donors & acceptors. He can add or remove any user from the system. Each member in a donor & acceptor is given a user id and password, which identifies him uniquely. From admin module use can change donor details, delete donor or change the password.
+
+· Change Password
+
+· Modify donor details
+
+· delete donor details
+
+· Logout
+
+Whenever a user wants to change his / her password he can select the change password option. The system displays the form, which asks him for his old password and new password. The system then compares the old password with the existing password in the database and if they match then the password is set to the new password in the database.
+
+
+
+Donors
+
+From this module user can create their account, when user create his account the user get a user id and password, which identifies him uniquely. From this module user can search donor for blood and can also refer his friend to become a donor. Donor can also get information like when he donated blood or when he will be able to donate blood.
+
+Donor Registration:
+
+In this module, people who are interested in donating blood get registered in my site and give his overall details related to him, i.e. he fills in a registration form by giving the total details such as name, address, city, sex, wt, dob, blood group, telephone numbers, e-mail address, etc. He was also given two fields’ username and password to fill such that he was a registered donor and he can enter the login form with his username and password and can modify his details if needed.
+
+
+
+Modifying Donor Information:
+
+The registered donor only is able to modify his details; no other person can modify his details as there was a login form which restricts others from entering the username and password providing high security for the details given by the donor. If at all the donor wants to modify his details, he was forced to give his username and password to enter in. After giving the username and password it checks for the donor whether he is an existing donor or not and if the username and password matches, he can then able to modify his total details. If the username and password do not exist then he gets a message as ‘Wrong ID and Password Entered, Try Again’.
+
+
+
+Following links are available on donor and acceptor module.
+
+· Why donate blood
+
+· Who needs blood
+
+· Find A Donor.
+
+· Refer A Friend.
+
+· Change password.
+
+· Logout
+
+Acceptors
+
+This module helps user to find blood group. When user click on find a blood group system ask him to enter blood group he want to search. After entering the blood group, system search for the availability of the blood group and give him the list of the donors who has the same blood group. Whenever a user wants to change password he can select the change password option. Then system ask the user to enter old username and password then system check the credentials and change the password. Clicking on logout button user can log out from the system.
+
+· Find A Donor.
+
+· Refer A Friend.
+
+· Change password.
+
+· Find a Blood group.
+
+· Logout
+
+
+
+Donor Search:
+
+
+
+The people who are in need of blood can search in our site for getting the details of donors having the same blood group and with in the same city. They can directly click on the link search a donor and can select a city name as well as the blood group which he needs. He then gets the details of the donors who exist with in the city and the same blood group that he has selected. If no match was are found for the city and group selected by him he gets a message ‘SORRY DONORS ARE NOT AVAILABE WITH THE FOLLOWING BLOOD GROUP AND AREA’.
+
+
+
+Life Saving Contacts:
+
+
+
+If at all the people in search of a donor doesn’t get any match for their area and group then they will be provided a service i.e. he will be given a Contact Person details for their near by cities who have the details of many other donors with him. The people in search can call him and can get the details of the donors and can be provided services in this manner. But this life saving contact persons can be available only for a limited number of cities but not for all. These contact persons are the authorized persons of my blood bank.
+
+
 
 
 
