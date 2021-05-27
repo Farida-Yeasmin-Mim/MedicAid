@@ -140,7 +140,7 @@
               <div class="meta mb-3">
                 <div><a href="#">November 1, 2018</a></div>
                 <div>
-                  <a href="feedback.php"><span class="fa fa-comment"></span> 3</a>
+                  <a href="feedback.php"><span class="fa fa-comment"></span> Comment</a>
                 </div>
               </div>
               <div class="embed-responsive embed-responsive-16by9">
@@ -159,7 +159,7 @@
               <div class="meta mb-3">
                 <div><a href="#">August 21, 2019</a></div>
                 <div>
-                  <a href="review.php"><span class="fa fa-comment"></span> 3</a>
+                  <a href="feedback.php"><span class="fa fa-comment"></span> Comment</a>
                 </div>
               </div>
               <div class="embed-responsive embed-responsive-16by9">
@@ -179,7 +179,7 @@
               <div class="meta mb-3">
                 <div><a href="#">June 3, 2021</a></div>
                 <div>
-                  <a href="review.php"><span class="fa fa-comment"></span> 3</a>
+                  <a href="feedback.php"><span class="fa fa-comment"></span> Comment</a>
                 </div>
               </div>
               <div class="embed-responsive embed-responsive-16by9">
@@ -267,7 +267,7 @@
               <div class="mask rgba-white-slight"></div>
           </div>
           <div class="text d-block">
-            <h3 class="heading"><a href="#">Find Your Volunteer Opportunity</a></h3>
+            <h3 class="heading"><a href="volunteer_signup.php">Find Your Volunteer Opportunity</a></h3>
             <p>Our need for volunteers is constant and continues to evolve as we navigate this Coronavirus health crisis. </p>
             <p><a href="volunteer_signup.php" class="btn btn-danger py-2 px-3">Read more</a></p>
           </div>
@@ -281,7 +281,7 @@
               <div class="mask rgba-white-slight"></div>
           </div>
           <div class="text d-block">
-            <h3 class="heading"><a href="#">Become a Disaster Preparedness Volunteer</a></h3>
+            <h3 class="heading"><a href="volunteer_signup.php">Become a Disaster Preparedness Volunteer</a></h3>
             <p>Our Disaster Preparedness Volunteers teach people how to reduce the risk of disaster, prepare to respond and cope with disasters.</p>
             <p><a href="volunteer_signup.php" class="btn btn-danger py-2 px-3">Read more</a></p>
           </div>
@@ -295,9 +295,9 @@
               <div class="mask rgba-white-slight"></div>
           </div>
           <div class="text d-block">
-            <h3 class="heading"><a href="#">Volunteer to Sound the Alarm</a></h3>
+            <h3 class="heading"><a href="alarm.php">Volunteer to Sound the Alarm</a></h3>
             <p>MedicAid is adapting Sound the Alarm activities to protect the people we serve and our volunteers. </p>
-            <p><a href="volunteer_signup.php" class="btn btn-danger py-2 px-3">Read more</a></p>
+            <p><a href="alarm.php" class="btn btn-danger py-2 px-3">Read more</a></p>
           </div>
         </div>
       </div>
