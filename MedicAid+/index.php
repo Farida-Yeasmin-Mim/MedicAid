@@ -417,7 +417,7 @@ else
                     <!--Grid column-->
                     <div class="col-md-3 mb-1">
                         <i class="fa fa-medkit fa-4x " style="color:red"></i>
-                        <h5><a href="orientation.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Battlefield Lessons Lead to New Education Initiatives>></a></h5>
+                        <h5><a href="vaccin_blood.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Answers to Common Questions About COVID-19 Vaccines and Blood, Platelet, Plasma Donation Eligibility>></a></h5>
                     </div>
                     <!--Grid column-->
 
