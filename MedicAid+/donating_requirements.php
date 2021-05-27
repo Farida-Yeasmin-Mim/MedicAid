@@ -1,3 +1,15 @@
+<?php
+include 'connection.php';
+
+if (isset($_GET['id'])){
+   $dbid =  $_GET['id'];
+}
+else
+{
+  $dbid = 0;
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
