@@ -1,6 +1,11 @@
 <?php
   // Create database connection
   include 'connection.php';
+
+  if ($_GET['id']==NULL){
+     header('location:please_login.php');
+  }
+    $dbid =  $_GET['id'];
   if (isset($_POST['search'])) {
     $dbsearch = strip_tags($_POST['srch']);
     $sql = "SELECT * FROM donor WHERE blood_group LIKE '%$dbsearch%' AND blood_status='Active'";
@@ -41,7 +46,7 @@ background-size: cover;
 </style>
 </head>
 <body>
-  
+
   <header>
     <?php include 'header2.php';?>
   </header>
