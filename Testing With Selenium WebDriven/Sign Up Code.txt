@@ -1,0 +1,58 @@
+<?php
+/*
+Copyright 2011 3e software house & interactive agency
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+
+require_once "phpwebdriver/WebDriver.php";
+
+$webdriver = new WebDriver("localhost", "4444");
+$webdriver->connect("firefox");                            
+$webdriver->get("http://localhost/Project/CSE327_Project/MedicAid+/");
+
+$element = $webdriver->findElementBy(LocatorStrategy::name, "srch"); 
+if ($element) { 
+$element->sendKeys(array("user" ) ); 
+$element = $webdriver->findElementBy(LocatorStrategy::name, "logi"); 
+$element->click();
+$element = $webdriver->findElementBy(LocatorStrategy::name, "donor_log"); 
+$element->click();
+$element = $webdriver->findElementBy(LocatorStrategy::name, "sign_up"); 
+$element->click();
+$element = $webdriver->findElementBy(LocatorStrategy::name, "fullname"); 
+$element->sendKeys(array("Kazi Ramisa Rifa" ) ); 
+$element = $webdriver->findElementBy(LocatorStrategy::name, "email");
+$element->sendKeys(array("kazi.rifa@gmail.com" ) ); 
+$element = $webdriver->findElementBy(LocatorStrategy::name, "contact");
+$element->sendKeys(array("01978892638" ) ); 
+$element = $webdriver->findElementBy(LocatorStrategy::name, "gender");
+$element->sendKeys(array("Female" ) ); 
+$element = $webdriver->findElementBy(LocatorStrategy::name, "age");
+$element->sendKeys(array("21" ) ); 
+$element = $webdriver->findElementBy(LocatorStrategy::name, "bgroup");
+$element->sendKeys(array("A+" ) ); 
+$element = $webdriver->findElementBy(LocatorStrategy::name, "division"); 
+$element->sendKeys(array("Dhaka" ) ); 
+$element = $webdriver->findElementBy(LocatorStrategy::name, "address"); 
+$element->sendKeys(array("Banani" ) );
+$element = $webdriver->findElementBy(LocatorStrategy::name, "password"); 
+$element->sendKeys(array("abcd1234" ) );
+$element = $webdriver->findElementBy(LocatorStrategy::name, "signup"); 
+$element->click();
+} 
+
+//$webdriver->close();
+
+?>
