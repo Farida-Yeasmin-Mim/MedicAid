@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Signup form</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -16,24 +16,24 @@
 
 
 </head>
-   
 
 
 
-    
+
+
 <body>
-   
+
 <div class="card bg-dark text-white">
     <img class="card-img" src="Image/signup.jpg" alt="Card image">
   <div class="card-img-overlay">
 <article class="card-body mx-auto" style="max-width: 450px;">
-    
-      
+
+
 
 
 <div class="card-body text-center">
     <img src="Image/Main Logo.jpg" alt="Logo" style="width:200px"></a>
-<p class="h5 text-dark ">"Health Comes First" </p> 
+<p class="h5 text-dark ">"Health Comes First" </p>
 
 
 
@@ -42,7 +42,7 @@
     <p class="text-center text-dark">Get started with your free account</p>
     <p>
 
-    
+
 
     </p>
     <p class="divider-text">
@@ -59,7 +59,7 @@
             <span class="input-group-text"> <i class="fa fa-user"></i> </span>
          </div>
         <input name="" class="form-control" placeholder="Full name" type="text" required="">
-    </div> 
+    </div>
 
 
 
@@ -71,24 +71,24 @@
             <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
          </div>
         <input name="" class="form-control" placeholder="Email address" type="email" required="">
-    </div> 
+    </div>
 
 <div class="form-group input-group">
         <div class="input-group-prepend">
-            <span class="input-group-text"    > <i class="fas fa-genderless"></i> </i> </span> 
+            <span class="input-group-text"    > <i class="fas fa-genderless"></i> </i> </span>
         </div>
         <select class="form-control" required="">
             <option selected=""> Select Gender</option>
             <option> Male</option>
             <option> Female</option>
             <option> Other</option>
-            
+
 
         </select>
-    </div> 
+    </div>
 
 
-    
+
 
 
 
@@ -101,10 +101,10 @@
         </div>
         <select class="custom-select" style="max-width: 120px;" required="" >
             <option selected="">+880</option>
-            
+
         </select>
         <input name="" class="form-control" placeholder="Phone number" type="text"  required="">
-    </div> 
+    </div>
 
 
 
@@ -114,7 +114,7 @@
 
     <div class="form-group input-group">
         <div class="input-group-prepend">
-            <span class="input-group-text"    >  <i class="fa fa-medkit"></i> </span> 
+            <span class="input-group-text"    >  <i class="fa fa-medkit"></i> </span>
         </div>
         <select class="form-control" required="">
             <option selected=""> Select Blood Group</option>
@@ -128,7 +128,7 @@
             <option> O-</option>
 
         </select>
-    </div> 
+    </div>
 
 
 
@@ -153,7 +153,7 @@
             <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
         </div>
         <input class="form-control" placeholder="Create password" type="password" required=" ">
-    </div> 
+    </div>
 
 
 
@@ -164,15 +164,15 @@
             <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
         </div>
         <input class="form-control" placeholder="Repeat password" type="password">
-    </div>  
+    </div>
 
 
 
 
     <div class="form-group">
         <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
-    </div>      
-    <p class="text-center text-dark ">Have an account? <a href="" >Log In</a> </p>                                                                 
+    </div>
+    <p class="text-center text-dark ">Have an account? <a href="" >Log In</a> </p>
 </form>
 
 
@@ -184,5 +184,3 @@
 </nav>
 </body>
 </html>
-
-
