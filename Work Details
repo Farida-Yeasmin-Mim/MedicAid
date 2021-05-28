@@ -1,16 +1,135 @@
 Kazi Ramisa Rifa (1911019642):
 -----------------------------------------
 
+-full back-end 
+
+-testing with selenium
+
+-stackeholders
+
+-use case diagram 
+
+-sequence diagram 
+
 -index.php/html/css  page: 
 medicaid+ logo design,
 header design,
 carousel design and picture editing,
-about us design
+Features Option(Blood Donation, Ambulance, Volunteer) design
+Covid19 Imformation design
+More Features Option(Donation, Feedback, Appointment) design
+Registration design
 header css adding
 carousel css adding
 
 -header.php/html/css page:
 header design and link adding
+full page design
+
+-admin_login.php
+full page design
+
+-admin_profile.php
+full page design
+
+-ambulance_form.php
+full page design
+
+-ambulance_information.php
+full page design
+
+-ambulance.php
+full page design
+
+-blood_donor_information.php
+full page design
+
+-blood.php
+full page design
+
+-covid19_page.php
+full page design
+
+-donor_login.php
+full page design
+
+-donor_profile.php
+full page design
+
+-donor_signup.php
+full page design
+
+-edit_donor_profle.php
+full page design
+
+-edit_volunteer_profile.php
+full page design
+
+-feedback.php
+design update 
+
+-forget_pass.php
+full page design
+
+-header2.php
+full page design
+
+-login_as.php
+full page design
+
+-login_pass.php
+full page design
+
+-phonecode.php
+full page design
+
+-plasma_donor_information.php
+full page design
+
+-plasma_form.php
+full page design
+
+-plasma.php
+full page design
+
+-please_login_admin.php
+full page design
+
+-please_login_donor.php
+full page design
+
+-please_login_donor.php
+full page design
+
+-report_ambulance.php
+full page design
+
+-report_plasma.php
+full page design
+
+-report_review.php
+full page design
+
+-review.php
+full page design
+
+-thankyou_ambulance.php
+full page design
+
+-thankyou_plasma.php
+full page design
+
+-user_login.php
+full page design
+
+-user_signup.php
+full page design
+
+-user_login.php
+full page design
+
+-user_profile.php
+full page design
 
 -donating_requirements.php/html page:
 full page design
@@ -31,36 +150,30 @@ created for login with google API system
 -config.php page:
 created for login with google API system
 
--database creation
-user table
-donor table
-volunteer table
+-database table creation
+admin
+ambulance
+donor
+feedback
+page
+plasma
+user
+volunteer
 
 -connection.php page:
 connecting to database
 
--user_profile.php/html page:
-information showing
-
 -Number Authentication:
 phone code sending system for login varification
 
--blood_donor_signup.php/html:
-update design
-saving data to database
-
 -Survey questions:
 some survey question adding 
-
--stakeholders:
-
--testing:
-google api works
 
 -bug fixed:
 blood_donor_signup.php/html page 
 can't sign up without filling the form
 can't sign up with used email
+
 
 
 
