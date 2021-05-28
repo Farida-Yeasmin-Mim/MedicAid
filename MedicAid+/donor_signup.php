@@ -1,6 +1,7 @@
 <?php
 include 'connection.php';
 
+
 if(isset($_POST['signup'])){
 
 $dbfname = mysqli_real_escape_string($conn, $_POST['fullname']);
@@ -159,7 +160,7 @@ header("Location: donor_profile.php?id=$dbid");
     <option value="" disabled selected>Select Division</option>
     <option>Barishal</option>
     <option>Chittagong</option>
-    <option>Dhaka</option>ss
+    <option>Dhaka</option>
     <option>Mymensingh</option>
     <option>Khulna</option>
     <option>Rajshahi</option>

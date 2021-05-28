@@ -1,7 +1,7 @@
 <?php
 include 'connection.php';
 
-if ($_GET['id']!=NULL){
+if (!empty($_GET['id'])){
   $dbid =  $_GET['id'];
    header("location:logout.php?id=$dbid");
 }

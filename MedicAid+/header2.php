@@ -21,21 +21,30 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="index.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Donation</a>
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="blood.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Donation</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Volunteer</a>
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="volunteer.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Volunteer</a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="#">Ambulance</a>
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="ambulance.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Ambulance</a>
       </li>
-    </ul>
+      <li class="nav-item active">
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="appointment.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Appointment</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" style="font-size:23px; font-weight:bold" href="feedback.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Feedback</a>
+      </li>
+      <li class="nav-item active">
+        <a name="logi" class="nav-link" style="font-size:23px; font-weight:bold" href="login_as.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Login</a>
+      </li>
 
+    </ul>
     <form class="form-inline my-2 my-lg-0">
       <div class="ml-auto">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">

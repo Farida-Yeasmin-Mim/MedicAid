@@ -89,6 +89,38 @@ if (isset($_POST['bs_edit']))
 if (isset($_POST['ps_edit']))
 {
   $dbs = strip_tags($_POST['ps']);
+  if($dbs=="Active")
+  {
+       $sql = "SELECT full_name, email, contact_number, gender, age, blood_group, division, address FROM donor WHERE donor_id=$dbid";
+       $result = mysqli_query($conn,$sql);
+       $row = mysqli_fetch_assoc($result);
+       $name= $row["full_name"] ;
+       $email= $row["email"] ;
+       $contact= $row["contact_number"] ;
+       $gender= $row["gender"] ;
+       $age= $row["age"] ;
+       $blood_group= $row["blood_group"] ;
+       $division= $row["division"] ;
+       $address= $row["address"] ;
+
+       $sql="INSERT INTO plasma(full_name, email, contact_number, gender, age, blood_group, division, address)
+      VALUES ('$name','$email','$contact','$gender','$age','$blood_group','$division','$address')";
+      mysqli_query($conn, $sql);
+
+
+  }
+  else
+  {
+    $sql = "SELECT email FROM donor WHERE donor_id=$dbid";
+    $result = mysqli_query($conn,$sql);
+    $row = mysqli_fetch_assoc($result);
+    $email= $row["email"] ;
+
+    $sql = "DELETE FROM plasma WHERE full_name='$email' ;";
+    // execute query
+    mysqli_query($conn, $sql);
+
+  }
   $sql = "UPDATE donor
   SET plasma_status='$dbs'
   WHERE donor_id='$dbid' ";

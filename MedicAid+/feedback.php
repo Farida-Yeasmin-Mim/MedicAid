@@ -1,9 +1,16 @@
 <?php
 include 'connection.php';
+if (isset($_GET['id'])){
+   $dbid =  $_GET['id'];
+}
+else
+{
+  $dbid = 0;
+}
 
 if (isset($_POST['feedback'])) {
   // Set variables to represent data from database
-  $dbUsname = strip_tags($_POST['name']);
+  $dbUsname = strip_tags($_POST['fname']);
 $dbEmail = strip_tags($_POST['email']);
 $dbmess = strip_tags($_POST['message']);
 $sql = "INSERT INTO feedback (name, email, message)
@@ -57,9 +64,9 @@ window.location.href='index.php';
             <!--Grid column-->
             <div class="col-lg-5 col-md-12 mx-auto">
                 <!-- Form contact -->
-                <form id="feed" class="p-5 grey-text " method="POST" action="feedback.php">
+                <form id="feed" class="p-5 grey-text " method="POST" action="feedback.php<?php if($dbid!=0) echo "?id=$dbid" ?>">
                     <div class="md-form form-sm"> Your name <i class="fa fa-user prefix"> </i>
-                        <input type="text" name="name" id="form3" class="form-control form-control-sm" required="">
+                        <input type="text" name="fname" id="form3" class="form-control form-control-sm" required="">
 
                     </div>
                     <br>

@@ -13,18 +13,6 @@ WHERE ambulance_id='$dbid' ";
 // execute query
 mysqli_query($conn, $sql);
 
-/*$sql= "DELIMITER $$
-       CREATE TRIGGER after_update
-       after update on user for each row
-       begin
-       if old.User_Name <> new.User_Name then
-       UPDATE contestant
-       SET User_Name=new.User_Name
-       WHERE User_Name=old.User_Name;
-       end if;
-       end $$
-DEMIMITER;";
-    mysqli_query($conn, $sql);*/
 
 header("Location: edit_ambulance_profile.php?id=$dbid ");
 }

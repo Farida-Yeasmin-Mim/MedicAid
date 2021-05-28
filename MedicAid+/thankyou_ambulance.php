@@ -38,8 +38,8 @@ if (!empty($_GET['id'])){
           <br>
           <br>
           <h1 class="text-center font-weight-bold text-dark text-capitalize ">Registration Completed!</h1>
-          <h2 class="text-center font-weight-bold text-danger text-capitalize ">Remember Your Token Number: <?php echo $dbid ?></h2>
-          <p class="text-center"> This token number will help you to update your status! </p>
+          <h2 class="text-center font-weight-bold text-danger text-capitalize ">Thank You So Much!</h2>
+
           <hr class="w-25 ">
             <div class="text-center">
           <button class="btn bg-info text-white text-left"type="button" onclick="window.location ='ambulance_information.php?id=<?php echo $dbid ?>'">See Plasma Donor List</button>
