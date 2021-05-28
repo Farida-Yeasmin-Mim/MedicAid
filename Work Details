@@ -363,15 +363,9 @@ added stakeholders
 
 
 ---project report:
-Introduction
-Abstract
-goal
-user reuirements
-Front end
-Back end
-Modules of project
-Features of the project
-
+Introduction,Abstract,purpose, goal,user reuirements,Front end,Back end,Modules of project,Funtional requirements
+Features of the project,Elicitation Techniqes, Modules of MedicAis, Methodology of requirements
+Diagrams
 
 ---bug fixed: 
 donation.php page
