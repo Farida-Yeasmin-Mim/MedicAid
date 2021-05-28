@@ -141,32 +141,7 @@ window.location.href='donation.php';
   									</div>
   								</div>
 
-  								<div class="col-md-12">
-  									<div class="form-group">
-  										<label for="name">Payment Method</label>
-  										<div class="d-lg-flex">
-  											<div class="form-radio mr-3">
-  												<div class="radio">
-  													<label>
-  														<input type="radio" name="radio-input" checked>
-  														<span class="checkmark"></span>
-  														<span class="fill-control-description">Mater Card</span>
-  													</label>
-  												</div>
-  											</div>
-  											<div class="form-radio mr-3">
-  												<div class="radio">
-  													<label>
-  														<input type="radio" name="radio-input">
-  														<span class="checkmark"></span>
-  														<span class="fill-control-description">Visa Card</span>
-  													</label>
-  												</div>
-  											</div>
-
-  										</div>
-  									</div>
-  								</div>
+  				
   								<div class="col-md-12">
   									<div class="form-group">
                           <button class="btn btn-danger" name="donation" form="feed">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
