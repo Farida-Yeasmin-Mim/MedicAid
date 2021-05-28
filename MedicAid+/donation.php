@@ -1,3 +1,30 @@
+<?php
+include 'connection.php';
+if (isset($_GET['id'])){
+   $dbid =  $_GET['id'];
+}
+else
+{
+  $dbid = 0;
+}
+
+if (isset($_POST['feedback'])) {
+  // Set variables to represent data from database
+  $dbUsname = strip_tags($_POST['fname']);
+$dbEmail = strip_tags($_POST['email']);
+$dbcontact = strip_tags($_POST['contact']);
+$dbcause = strip_tags($_POST['cause']);
+$sql = "INSERT INTO donation (name, email, contact, cause)
+VALUES ('$dbUsname', '$dbEmail', '$dbcontact', '$dbcause');";
+mysqli_query($conn, $sql);
+echo "<script>
+alert('Thank you For Your Response!');
+window.location.href='donation.php';
+</script>";
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -81,7 +108,7 @@
   										<label for="name">Full Name</label>
   										<div class="input-wrap">
   											<div class="icon"><span class="fa fa-user"></span></div>
-  											<input type="text" class="form-control" placeholder="">
+                          <input type="text" name="fname" id="form3" class="form-control form-control-sm" required="">
   										</div>
   									</div>
   								</div>
@@ -90,25 +117,25 @@
   										<label for="name">Email Address</label>
   										<div class="input-wrap">
   											<div class="icon"><span class="fa fa-paper-plane"></span></div>
-  											<input type="email" class="form-control" placeholder="">
+                        <input type="email" name="email" id="form2" class="form-control form-control-sm" required="">
+  										</div>
+  									</div>
+  								</div>
+                  <div class="col-md-12">
+  									<div class="form-group">
+  										<label for="name">Contact Number</label>
+  										<div class="input-wrap">
+  											<div class="icon"><span class="fa fa-phone"></span></div>
+                        <input type="contact" name="contact" id="form2" class="form-control form-control-sm" required="">
   										</div>
   									</div>
   								</div>
   								<div class="col-md-12">
   									<div class="form-group">
-  										<label for="name">Select Causes</label>
-  										<div class="form-field">
-  											<div class="select-wrap">
-  												<div class="icon"><span class="fa fa-chevron-down"></span></div>
-  												<select name="" id="" class="form-control">
-  													<option value=""></option>
-  													<option value="">Blood Donate</option>
-  													<option value="">Plasma Donate</option>
-  													<option value="">Natural Disaster </option>
-                            <option value="">Covid-19 patient </option>
-  													<option value="">Other</option>
-  												</select>
-  											</div>
+  										<label for="name">Donation Causes</label>
+                      <div class="input-wrap">
+  											<div class="icon"><span class="fa fa-pencil prefix"></span></div>
+                        <textarea type="text" name="message" id="form8" class="md-textarea form-control form-control-sm" rows="4" required=""></textarea>
   										</div>
   									</div>
   								</div>
@@ -141,7 +168,7 @@
   								</div>
   								<div class="col-md-12">
   									<div class="form-group">
-                      <button class="btn btn-danger" type="button" onclick="window.location ='donation_form.php'"></i>Donate Now</a>
+                      <button class="btn btn-danger" type="button" onclick="window.location ='"></i>Donate Now</a>
                       </button>
   									</div>
   								</div>
