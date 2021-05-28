@@ -34,7 +34,10 @@
 	    				<div class="row justify-content-start pb-3">
 			          <div class="col-md-15 heading-section ftco-animate p-4 p-lg-5">
 			            <h2 class="mb-4">We Are <span>MedicAid</span> A Medical Clinic</h1>
-			            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+			            <p>A medical clinic is a type of facility that's focused on outpatient services. Being an outpatient means that you can go home
+                    after you receive care. Medical clinics can be operated publicly, privately, or by the government. It is a paradisematic country, 
+                    in which roasted parts of sentences fly into your mouth. It is a paradisematic country, in which roasted parts of sentences fly
+                    into your mouth.</p>
 			            <p><a href="appointment.php" class="btn btn-primary py-3 px-4">Make an appointment</a> <a href="feedback.php" class="btn btn-danger py-3 px-4">Contact us</a></p>
 			          </div>
 			        </div>
