@@ -101,7 +101,8 @@ window.location.href='donation.php';
   							<h4 class="text-white text-center"> Donation Campaign are running </h4>
   						</div>
 
-  						<form action="#" class="appointment">
+
+              <form id="feed" class="p-2 grey-text " method="POST" action="donation.php<?php if($dbid!=0) echo "?id=$dbid" ?>">
   							<div class="row bg-secondary text-white">
   								<div class="col-md-12">
   									<div class="form-group">
@@ -135,7 +136,7 @@ window.location.href='donation.php';
   										<label for="name">Donation Causes</label>
                       <div class="input-wrap">
   											<div class="icon"><span class="fa fa-pencil prefix"></span></div>
-                        <textarea type="text" name="message" id="form8" class="md-textarea form-control form-control-sm" rows="4" required=""></textarea>
+                        <textarea type="text" name="cause" id="form8" class="md-textarea form-control form-control-sm" rows="4" required=""></textarea>
   										</div>
   									</div>
   								</div>
@@ -168,7 +169,7 @@ window.location.href='donation.php';
   								</div>
   								<div class="col-md-12">
   									<div class="form-group">
-                      <button class="btn btn-danger" type="button" onclick="window.location ='"></i>Donate Now</a>
+                          <button class="btn btn-primary" name="donation" form="feed">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
                       </button>
   									</div>
   								</div>
