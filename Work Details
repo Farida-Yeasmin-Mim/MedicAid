@@ -274,6 +274,8 @@ Full page design
 ---about.php/css page:
 Full page design
 
+---header.php/html/css page:
+updated header design and link adding
 
 ---volunteer.php/css page:
 Full page design
@@ -304,6 +306,8 @@ full page design
 ---edit_volunteer_profile.php page:
 full page design
 
+---volunteer_information.php page:
+full page design
 
 ---under_13.php/html page:
 full page design
@@ -344,6 +348,8 @@ Full page design
 
 ---database creation
 volunteer table
+donation
+appointment
 
 
 ---Survey questions:
@@ -351,6 +357,7 @@ Added some survey questions
 
 
 ---stakeholders:
+added stakeholders
 
 
 ---project report:
@@ -362,11 +369,6 @@ Front end
 Back end
 Modules of project
 Features of the project
-
-
-
----testing:
-
 
 
 ---bug fixed: 

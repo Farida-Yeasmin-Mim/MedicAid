@@ -169,7 +169,7 @@ window.location.href='donation.php';
   								</div>
   								<div class="col-md-12">
   									<div class="form-group">
-                          <button class="btn btn-primary" name="donation" form="feed">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+                          <button class="btn btn-danger" name="donation" form="feed">Send <i class="fa fa-paper-plane-o ml-1"></i></button>
                       </button>
   									</div>
   								</div>
