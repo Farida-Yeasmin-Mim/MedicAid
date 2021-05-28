@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Pregnancy</title>
+    <title>James and Kimberly's Story</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -80,7 +80,7 @@ At a time when health information has never been more important, the Red Cross i
     </div>
   </section>
 
-  
+
   <Footer>
     <?php include 'footer.php';?>
   </Footer>
