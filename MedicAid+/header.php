@@ -74,11 +74,7 @@ if (isset($_POST['feedback'])) {
         <a class="nav-link" style="font-size:20px; font-weight:bold" href="index.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-<<<<<<< Updated upstream
-        <a class="nav-link" style="font-size:23px; font-weight:bold" href="blood.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Donation</a>
-=======
-        <a class="nav-link" style="font-size:20px; font-weight:bold" href="donation.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Donation</a>
->>>>>>> Stashed changes
+        <a class="nav-link" style="font-size:20px; font-weight:bold" href="blood.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Donation</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" style="font-size:20px; font-weight:bold" href="volunteer.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Volunteer</a>
@@ -90,11 +86,7 @@ if (isset($_POST['feedback'])) {
         <a class="nav-link" style="font-size:20px; font-weight:bold" href="appointment.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Appointment</a>
       </li>
       <li class="nav-item active">
-<<<<<<< Updated upstream
-        <a name="feed" class="nav-link" style="font-size:23px; font-weight:bold" href="feedback.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Feedback</a>
-=======
-        <a class="nav-link" style="font-size:20px; font-weight:bold" href="feedback.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Feedback</a>
->>>>>>> Stashed changes
+        <a name="feed" class="nav-link" style="font-size:20px; font-weight:bold" href="feedback.php<?php if($dbid!=0) echo "?id=$dbid" ?>">Feedback</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" style="font-size:20px; font-weight:bold" href="contactus.php<?php if($dbid!=0) echo "?id=$dbid" ?>">ContactUs</a>
